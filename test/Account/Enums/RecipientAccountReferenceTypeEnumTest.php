@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Enums;
+namespace FulfilioNet\eBaySDK\Test\Account\Enums;
 
-use DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum;
+use FulfilioNet\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum;
 
 class RecipientAccountReferenceTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RecipientAccountReferenceTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Enums\RecipientAccountReferenceTypeEnum', $this->obj);
     }
 }

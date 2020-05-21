@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string[] $globalId
  */
-class SiteFilter extends \DTS\eBaySDK\Types\BaseType
+class SiteFilter extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

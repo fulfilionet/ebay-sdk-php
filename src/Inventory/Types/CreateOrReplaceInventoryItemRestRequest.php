@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace FulfilioNet\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $sku
  */
-class CreateOrReplaceInventoryItemRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryItem
+class CreateOrReplaceInventoryItemRestRequest extends \FulfilioNet\eBaySDK\Inventory\Types\InventoryItem
 {
     /**
      * @var array Properties belonging to objects of this class.

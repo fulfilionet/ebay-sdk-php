@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace FulfilioNet\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\ValueConstraint;
+use FulfilioNet\eBaySDK\Catalog\Types\ValueConstraint;
 
 class ValueConstraintTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ValueConstraintTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ValueConstraint', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Catalog\Types\ValueConstraint', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

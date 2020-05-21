@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $StartingDisputeID
  * @property string $EndingDisputeID
- * @property \DTS\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray
+ * @property \FulfilioNet\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
- * @property \DTS\eBaySDK\Trading\Types\DisputeFilterCountType[] $DisputeFilterCount
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \FulfilioNet\eBaySDK\Trading\Types\DisputeFilterCountType[] $DisputeFilterCount
+ * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserDisputesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'elementName' => 'EndingDisputeID'
         ],
         'DisputeArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeArrayType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DisputeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DisputeArray'
@@ -57,13 +57,13 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'elementName' => 'PageNumber'
         ],
         'DisputeFilterCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeFilterCountType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DisputeFilterCountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DisputeFilterCount'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

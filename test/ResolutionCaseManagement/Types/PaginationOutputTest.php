@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput;
+use FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput;
 
 class PaginationOutputTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaginationOutputTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\PaginationOutput', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace FulfilioNet\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \FulfilioNet\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $freightShipping
  * @property boolean $globalShipping
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $handlingTime
+ * @property \FulfilioNet\eBaySDK\Account\Types\TimeDuration $handlingTime
  * @property boolean $localPickup
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \FulfilioNet\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
  * @property boolean $pickupDropOff
- * @property \DTS\eBaySDK\Account\Types\ShippingOption[] $shippingOptions
- * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
+ * @property \FulfilioNet\eBaySDK\Account\Types\ShippingOption[] $shippingOptions
+ * @property \FulfilioNet\eBaySDK\Account\Types\RegionSet $shipToLocations
  */
-class FulfillmentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
+class FulfillmentPolicyRequest extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
@@ -55,7 +55,7 @@ class FulfillmentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'globalShipping'
         ],
         'handlingTime' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'handlingTime'
@@ -85,13 +85,13 @@ class FulfillmentPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'pickupDropOff'
         ],
         'shippingOptions' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ShippingOption',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\ShippingOption',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shippingOptions'
         ],
         'shipToLocations' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RegionSet',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\RegionSet',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocations'

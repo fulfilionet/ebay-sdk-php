@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace FulfilioNet\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum;
+use FulfilioNet\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum;
 
 class CaseSearchFieldGroupEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CaseSearchFieldGroupEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Enums\CaseSearchFieldGroupEnum', $this->obj);
     }
 }

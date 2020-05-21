@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef $appealRef
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef $moneyMovementRef
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealRef $appealRef
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef $moneyMovementRef
  * @property string $onholdReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType $onholdReasonDetail
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType $onholdReasonDetail
  */
-class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appealRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
+            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealRef'
         ],
         'moneyMovementRef' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
+            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'moneyMovementRef'
@@ -42,7 +42,7 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'onholdReason'
         ],
         'onholdReasonDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
+            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'onholdReasonDetail'

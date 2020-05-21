@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Metadata\Types;
+namespace FulfilioNet\eBaySDK\Test\Metadata\Types;
 
-use DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicyResponse;
+use FulfilioNet\eBaySDK\Metadata\Types\NegotiatedPricePolicyResponse;
 
 class NegotiatedPricePolicyResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class NegotiatedPricePolicyResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicyResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Metadata\Types\NegotiatedPricePolicyResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

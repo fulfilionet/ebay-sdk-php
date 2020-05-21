@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
- * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
+ * @property \FulfilioNet\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
+ * @property \FulfilioNet\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  * @property boolean $IncludeFinalValueFees
  */
-class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetOrderTransactionsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ItemTransactionIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemTransactionIDArray'
         ],
         'OrderIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\OrderIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderIDArray'

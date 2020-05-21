@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnDetailType $detail
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnDetailType $detail
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
  */
-class GetDetailResponse extends \DTS\eBaySDK\Types\BaseType
+class GetDetailResponse extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'detail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnDetailType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'detail'
         ],
         'summary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'summary'

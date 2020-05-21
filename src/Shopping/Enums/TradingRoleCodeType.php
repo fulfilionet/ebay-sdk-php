@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Enums;
+namespace FulfilioNet\eBaySDK\Shopping\Enums;
 
 class TradingRoleCodeType
 {

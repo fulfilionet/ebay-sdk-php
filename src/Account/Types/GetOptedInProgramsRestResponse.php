@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace FulfilioNet\eBaySDK\Account\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use FulfilioNet\eBaySDK\StatusCodeTrait;
+use FulfilioNet\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property \FulfilioNet\eBaySDK\Account\Types\ErrorDetailV3[] $errors
+ * @property \FulfilioNet\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
  */
-class GetOptedInProgramsRestResponse extends \DTS\eBaySDK\Account\Types\Programs
+class GetOptedInProgramsRestResponse extends \FulfilioNet\eBaySDK\Account\Types\Programs
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetOptedInProgramsRestResponse extends \DTS\eBaySDK\Account\Types\Programs
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

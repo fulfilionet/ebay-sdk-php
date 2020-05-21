@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $categoryId
- * @property \DTS\eBaySDK\ProductMetadata\Types\Properties[] $properties
+ * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\Properties[] $properties
  */
-class GetCompatibilitySearchNamesResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchNamesResponse extends \FulfilioNet\eBaySDK\ProductMetadata\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class GetCompatibilitySearchNamesResponse extends \DTS\eBaySDK\ProductMetadata\T
             'elementName' => 'categoryId'
         ],
         'properties' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Properties',
+            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\Properties',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'properties'

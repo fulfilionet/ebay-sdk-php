@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\FileTransfer\Types;
+namespace FulfilioNet\eBaySDK\Test\FileTransfer\Types;
 
-use DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse;
+use FulfilioNet\eBaySDK\FileTransfer\Types\DownloadFileResponse;
 
 class DownloadFileResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DownloadFileResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\FileTransfer\Types\DownloadFileResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\FileTransfer\Types\BaseServiceResponse', $this->obj);
     }
 }

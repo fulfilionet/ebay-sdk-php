@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType $NumberOfPolicyViolations
- * @property \DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType[] $PolicyViolationDuration
+ * @property \FulfilioNet\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType $NumberOfPolicyViolations
+ * @property \FulfilioNet\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType[] $PolicyViolationDuration
  */
-class MaximumBuyerPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseType
+class MaximumBuyerPolicyViolationsDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'NumberOfPolicyViolations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NumberOfPolicyViolations'
         ],
         'PolicyViolationDuration' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PolicyViolationDuration'

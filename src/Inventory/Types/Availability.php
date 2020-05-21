@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace FulfilioNet\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability[] $pickupAtLocationAvailability
- * @property \DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
+ * @property \FulfilioNet\eBaySDK\Inventory\Types\PickupAtLocationAvailability[] $pickupAtLocationAvailability
+ * @property \FulfilioNet\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
  */
-class Availability extends \DTS\eBaySDK\Types\BaseType
+class Availability extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'pickupAtLocationAvailability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability',
+            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\PickupAtLocationAvailability',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'pickupAtLocationAvailability'
         ],
         'shipToLocationAvailability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability',
+            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ShipToLocationAvailability',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocationAvailability'

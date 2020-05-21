@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType;
+use FulfilioNet\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType;
 
 class AutomatedLeaveFeedbackEventCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AutomatedLeaveFeedbackEventCodeTypeTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType', $this->obj);
     }
 }

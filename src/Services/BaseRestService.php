@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Services;
+namespace FulfilioNet\eBaySDK\Services;
 
-use DTS\eBaySDK\Parser\JsonParser;
-use DTS\eBaySDK\ConfigurationResolver;
-use DTS\eBaySDK\UriResolver;
-use \DTS\eBaySDK as Functions;
+use FulfilioNet\eBaySDK\Parser\JsonParser;
+use FulfilioNet\eBaySDK\ConfigurationResolver;
+use FulfilioNet\eBaySDK\UriResolver;
+use \FulfilioNet\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -29,12 +29,12 @@ abstract class BaseRestService
     const HDR_RESPONSE_ENCODING = 'Accept-Encoding';
 
     /**
-     * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
+     * @var \FulfilioNet\eBaySDK\ConfigurationResolver Resolves configuration options.
      */
     private $resolver;
 
     /**
-     * @var \DTS\eBaySDK\UriResolver Resolves uri parameters.
+     * @var \FulfilioNet\eBaySDK\UriResolver Resolves uri parameters.
      */
     private $uriResolver;
 
@@ -67,12 +67,12 @@ abstract class BaseRestService
             ],
             'debug' => [
                 'valid'   => ['bool', 'array'],
-                'fn'      => 'DTS\eBaySDK\applyDebug',
+                'fn'      => 'FulfilioNet\eBaySDK\applyDebug',
                 'default' => false
             ],
             'httpHandler' => [
                 'valid'   => ['callable'],
-                'default' => 'DTS\eBaySDK\defaultHttpHandler'
+                'default' => 'FulfilioNet\eBaySDK\defaultHttpHandler'
             ],
             'httpOptions' => [
                 'valid'   => ['array'],
@@ -127,11 +127,11 @@ abstract class BaseRestService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param \FulfilioNet\eBaySDK\Types\BaseType $request Request object containing the request information.
      *
      * @return \GuzzleHttp\Promise\PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
-    protected function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request = null)
+    protected function callOperationAsync($name, \FulfilioNet\eBaySDK\Types\BaseType $request = null)
     {
         $operation = static::$operations[$name];
 

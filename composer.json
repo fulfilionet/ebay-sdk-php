@@ -1,8 +1,8 @@
 {
-    "name": "dts/ebay-sdk-php",
+    "name": "fulfilionet/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
-    "homepage": "http://devbay.net/",
+    "homepage": "https://www.fulfilio.com.au/",
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
     "authors": [
@@ -10,10 +10,15 @@
             "name": "David T. Sadler",
             "email": "davidtsadler@googlemail.com",
             "homepage": "http://davidtsadler.com"
+        },
+        {
+          "name": "Jason Jewel",
+          "email": "jjewe2009@gmail.com",
+          "homepage": "http://jjewel.dev"
         }
     ],
     "support": {
-        "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
+        "issues": "https://github.com/fulfilionet/ebay-sdk-php/issues"
     },
     "require": {
         "php": ">=7.0",
@@ -27,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DTS\\eBaySDK\\": "src/"
+            "FulfilioNet\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "DTS\\eBaySDK\\Test\\": "test/"
+            "FulfilioNet\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }

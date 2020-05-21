@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace FulfilioNet\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Amount $amount
+ * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $amount
  * @property string $feeType
- * @property \DTS\eBaySDK\Inventory\Types\Amount $promotionalDiscount
+ * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $promotionalDiscount
  */
-class Fee extends \DTS\eBaySDK\Types\BaseType
+class Fee extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'
@@ -35,7 +35,7 @@ class Fee extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'feeType'
         ],
         'promotionalDiscount' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'promotionalDiscount'

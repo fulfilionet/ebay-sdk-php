@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace FulfilioNet\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\SortOrder;
+use FulfilioNet\eBaySDK\Product\Types\SortOrder;
 
 class SortOrderTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SortOrderTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\SortOrder', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Product\Types\SortOrder', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

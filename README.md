@@ -1,10 +1,10 @@
 # EBAY-SDK-PHP
 
-[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-php.svg?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-php)
+[![Build Status](https://travis-ci.org/fulfilionet/ebay-sdk-php.svg?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-php)
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/api-documentation) in their PHP code, and build software using services such as [Finding](http://developer.ebay.com/Devzone/finding/Concepts/FindingAPIGuide.html), [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html), [Shopping](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html), etc. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/getting-started/installation.html) and by following the [Basic Usage Guide](http://devbay.net/sdk/guides/getting-started/basic-usage.html).
 
-This is a personal project that has been developed by me, [David T. Sadler](http://twitter.com/davidtsadler). I decided to create this project to make up for the lack of an official SDK for PHP. It is in no way endorsed, sponsored or maintained by eBay.
+This is a personal project that has been developed by, [David T. Sadler](http://twitter.com/davidtsadler). I decided to create this project to make up for the lack of an official SDK for PHP. It is in no way endorsed, sponsored or maintained by eBay.
 
 ## Features
 
@@ -58,8 +58,8 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
 
 require 'vendor/autoload.php';
 
-use \DTS\eBaySDK\Shopping\Services;
-use \DTS\eBaySDK\Shopping\Types;
+use \FulfilioNet\eBaySDK\Shopping\Services;
+use \FulfilioNet\eBaySDK\Shopping\Types;
 
 // Create the service object.
 $service = new Services\ShoppingService();

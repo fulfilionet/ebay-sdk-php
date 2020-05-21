@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Marketing\Services;
+namespace FulfilioNet\eBaySDK\Marketing\Services;
 
 /**
  * Base class for the Marketing service.
  */
-class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class MarketingBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class MarketingBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
+                'default' => \FulfilioNet\eBaySDK\Marketing\Services\MarketingService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

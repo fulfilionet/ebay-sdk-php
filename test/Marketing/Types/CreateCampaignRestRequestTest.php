@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest;
+use FulfilioNet\eBaySDK\Marketing\Types\CreateCampaignRestRequest;
 
 class CreateCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateCampaignRestRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CreateCampaignRestRequest', $this->obj);
     }
 
     public function testExtendsCreateCampaignRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateCampaignRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CreateCampaignRequest', $this->obj);
     }
 }

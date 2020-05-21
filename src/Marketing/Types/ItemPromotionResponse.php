@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
- * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
+ * @property \FulfilioNet\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \FulfilioNet\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
+ * @property \FulfilioNet\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionId
  * @property string $promotionImageUrl
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
+class ItemPromotionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'discountRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
+            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DiscountRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'discountRules'
@@ -49,7 +49,7 @@ class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'inventoryCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
+            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\InventoryCriterion',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventoryCriterion'

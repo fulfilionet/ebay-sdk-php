@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Money $amount
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Money $amount
  * @property string $comments
  */
-class OfferPartialRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class OfferPartialRefundRequest extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'
         ],
         'amount' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Money',
+            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Money',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace FulfilioNet\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\SellerShippingProfileType $SellerShippingProfile
- * @property \DTS\eBaySDK\MerchantData\Types\SellerReturnProfileType $SellerReturnProfile
- * @property \DTS\eBaySDK\MerchantData\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerShippingProfileType $SellerShippingProfile
+ * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerReturnProfileType $SellerReturnProfile
+ * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerPaymentProfileType $SellerPaymentProfile
  */
-class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
+class SellerProfilesType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellerShippingProfile' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerShippingProfileType',
+            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerShippingProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerShippingProfile'
         ],
         'SellerReturnProfile' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerReturnProfileType',
+            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerReturnProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnProfile'
         ],
         'SellerPaymentProfile' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerPaymentProfileType',
+            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerPaymentProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentProfile'

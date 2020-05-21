@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ApiAccessRuleType[] $ApiAccessRule
+ * @property \FulfilioNet\eBaySDK\Trading\Types\ApiAccessRuleType[] $ApiAccessRule
  */
-class GetApiAccessRulesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetApiAccessRulesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ApiAccessRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ApiAccessRuleType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ApiAccessRuleType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ApiAccessRule'

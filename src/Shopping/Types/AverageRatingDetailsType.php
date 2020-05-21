@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace FulfilioNet\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType $RatingDetail
+ * @property \FulfilioNet\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType $RatingDetail
  * @property double $Rating
  * @property integer $RatingCount
  */
-class AverageRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
+class AverageRatingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

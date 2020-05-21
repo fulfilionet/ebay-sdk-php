@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $userId
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $role
+ * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $role
  */
-class ReturnUserType extends \DTS\eBaySDK\Types\BaseType
+class ReturnUserType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

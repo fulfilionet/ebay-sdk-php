@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Enums;
+namespace FulfilioNet\eBaySDK\Test\BulkDataExchange\Enums;
 
-use DTS\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus;
+use FulfilioNet\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus;
 
 class RecurringJobStatusTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RecurringJobStatusTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus', $this->obj);
     }
 }

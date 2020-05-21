@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $Status
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $Status
  * @property boolean $IncludeMemberMessages
  * @property \DateTime $StartCreationTime
  * @property \DateTime $EndCreationTime
  */
-class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetAdFormatLeadsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup[] $categoryGroup
+ * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup[] $categoryGroup
  */
-class CategoryGroups extends \DTS\eBaySDK\Types\BaseType
+class CategoryGroups extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryGroup' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup',
+            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryGroup'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Enums;
+namespace FulfilioNet\eBaySDK\Test\Shopping\Enums;
 
-use DTS\eBaySDK\Shopping\Enums\ListingStatusCodeType;
+use FulfilioNet\eBaySDK\Shopping\Enums\ListingStatusCodeType;
 
 class ListingStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ListingStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\ListingStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Enums\ListingStatusCodeType', $this->obj);
     }
 }

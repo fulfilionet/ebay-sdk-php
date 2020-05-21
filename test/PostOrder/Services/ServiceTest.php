@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\PostOrder\Services;
+namespace FulfilioNet\eBaySDK\Test\PostOrder\Services;
 
-use DTS\eBaySDK\PostOrder\Services\PostOrderBaseService;
-use DTS\eBaySDK\PostOrder\Services\PostOrderService;
-use DTS\eBaySDK\Test\PostOrder\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use FulfilioNet\eBaySDK\PostOrder\Services\PostOrderBaseService;
+use FulfilioNet\eBaySDK\PostOrder\Services\PostOrderService;
+use FulfilioNet\eBaySDK\Test\PostOrder\Mocks\Service;
+use FulfilioNet\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

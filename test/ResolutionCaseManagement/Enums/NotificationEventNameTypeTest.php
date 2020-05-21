@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType;
+use FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType;
 
 class NotificationEventNameTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class NotificationEventNameTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType', $this->obj);
     }
 }

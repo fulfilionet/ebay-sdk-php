@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\VariationsType;
+use FulfilioNet\eBaySDK\Shopping\Types\VariationsType;
 
 class VariationsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VariationsTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\VariationsType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\VariationsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

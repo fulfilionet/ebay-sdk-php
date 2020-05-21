@@ -49,7 +49,7 @@ Each release of the SDK comes with a `phar <http://php.net/manual/en/book.phar.p
 Installing via Zip
 ------------------
 
-You can download a zip archive from the `SDK releases <https://github.com/davidtsadler/ebay-sdk-php/releases>`_ which contains all the classes and dependencies you need to run the SDK. Unzip the archive into a directory of your choice and include the provided autoloader in your project's code.
+You can download a zip archive from the `SDK releases <https://github.com/fulfilionet/ebay-sdk-php/releases>`_ which contains all the classes and dependencies you need to run the SDK. Unzip the archive into a directory of your choice and include the provided autoloader in your project's code.
 
 .. code-block:: php
 

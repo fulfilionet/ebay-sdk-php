@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryType[] $Category
+ * @property \FulfilioNet\eBaySDK\Trading\Types\CategoryType[] $Category
  */
-class CategoryArrayType extends \DTS\eBaySDK\Types\BaseType
+class CategoryArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Category' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Category'

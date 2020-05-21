@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace FulfilioNet\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse;
+use FulfilioNet\eBaySDK\Account\Types\GetOptedInProgramsRestResponse;
 
 class GetOptedInProgramsRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetOptedInProgramsRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\GetOptedInProgramsRestResponse', $this->obj);
     }
 
     public function testExtendsPrograms()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\Programs', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\Programs', $this->obj);
     }
 }

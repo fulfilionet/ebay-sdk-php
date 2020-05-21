@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType $CombinedPaymentOption
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType $CombinedPaymentOption
  */
-class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class CombinedPaymentPreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

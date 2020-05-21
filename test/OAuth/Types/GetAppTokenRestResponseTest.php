@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\OAuth\Types;
+namespace FulfilioNet\eBaySDK\Test\OAuth\Types;
 
-use DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse;
+use FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestResponse;
 
 class GetAppTokenRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class GetAppTokenRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testProperties()

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Services;
+namespace FulfilioNet\eBaySDK\Product\Services;
 
-class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
+class ProductService extends \FulfilioNet\eBaySDK\Product\Services\ProductBaseService
 {
     const API_VERSION = '1.4.0';
 
@@ -23,156 +23,156 @@ class ProductService extends \DTS\eBaySDK\Product\Services\ProductBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindProductsResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindProductsRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\FindProductsResponse
      */
-    public function findProducts(\DTS\eBaySDK\Product\Types\FindProductsRequest $request)
+    public function findProducts(\FulfilioNet\eBaySDK\Product\Types\FindProductsRequest $request)
     {
         return $this->findProductsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindProductsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findProductsAsync(\DTS\eBaySDK\Product\Types\FindProductsRequest $request)
+    public function findProductsAsync(\FulfilioNet\eBaySDK\Product\Types\FindProductsRequest $request)
     {
         return $this->callOperationAsync(
             'findProducts',
             $request,
-            '\DTS\eBaySDK\Product\Types\FindProductsResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\FindProductsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindProductsResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\FindProductsResponse
      */
-    public function findProductsByCompatibility(\DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
+    public function findProductsByCompatibility(\FulfilioNet\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
     {
         return $this->findProductsByCompatibilityAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findProductsByCompatibilityAsync(\DTS\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
+    public function findProductsByCompatibilityAsync(\FulfilioNet\eBaySDK\Product\Types\FindProductsByCompatibilityRequest $request)
     {
         return $this->callOperationAsync(
             'findProductsByCompatibility',
             $request,
-            '\DTS\eBaySDK\Product\Types\FindProductsResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\FindProductsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductDetailsResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductDetailsRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\GetProductDetailsResponse
      */
-    public function getProductDetails(\DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request)
+    public function getProductDetails(\FulfilioNet\eBaySDK\Product\Types\GetProductDetailsRequest $request)
     {
         return $this->getProductDetailsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductDetailsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductDetailsAsync(\DTS\eBaySDK\Product\Types\GetProductDetailsRequest $request)
+    public function getProductDetailsAsync(\FulfilioNet\eBaySDK\Product\Types\GetProductDetailsRequest $request)
     {
         return $this->callOperationAsync(
             'getProductDetails',
             $request,
-            '\DTS\eBaySDK\Product\Types\GetProductDetailsResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\GetProductDetailsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductCompatiblitiesResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\GetProductCompatiblitiesResponse
      */
-    public function getProductCompatibilities(\DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
+    public function getProductCompatibilities(\FulfilioNet\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
     {
         return $this->getProductCompatibilitiesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductCompatibilitiesAsync(\DTS\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
+    public function getProductCompatibilitiesAsync(\FulfilioNet\eBaySDK\Product\Types\GetProductCompatibilitiesRequest $request)
     {
         return $this->callOperationAsync(
             'getProductCompatibilities',
             $request,
-            '\DTS\eBaySDK\Product\Types\GetProductCompatiblitiesResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\GetProductCompatiblitiesResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
-     * @return \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse
      */
-    public function findCompatibilitiesBySpecification(\DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
+    public function findCompatibilitiesBySpecification(\FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
     {
         return $this->findCompatibilitiesBySpecificationAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findCompatibilitiesBySpecificationAsync(\DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
+    public function findCompatibilitiesBySpecificationAsync(\FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationRequest $request)
     {
         return $this->callOperationAsync(
             'findCompatibilitiesBySpecification',
             $request,
-            '\DTS\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\FindCompatibilitiesBySpecificationResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\AddProductsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\AddProductsResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\AddProductsRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\AddProductsResponse
      */
-    public function addProducts(\DTS\eBaySDK\Product\Types\AddProductsRequest $request)
+    public function addProducts(\FulfilioNet\eBaySDK\Product\Types\AddProductsRequest $request)
     {
         return $this->addProductsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\AddProductsRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\AddProductsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function addProductsAsync(\DTS\eBaySDK\Product\Types\AddProductsRequest $request)
+    public function addProductsAsync(\FulfilioNet\eBaySDK\Product\Types\AddProductsRequest $request)
     {
         return $this->callOperationAsync(
             'addProducts',
             $request,
-            '\DTS\eBaySDK\Product\Types\AddProductsResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\AddProductsResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
-     * @return \DTS\eBaySDK\Product\Types\GetProductSubmissionsResponse
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
+     * @return \FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsResponse
      */
-    public function getProductSubmissions(\DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
+    public function getProductSubmissions(\FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
     {
         return $this->getProductSubmissionsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
+     * @param \FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getProductSubmissionsAsync(\DTS\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
+    public function getProductSubmissionsAsync(\FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsRequest $request)
     {
         return $this->callOperationAsync(
             'getProductSubmissions',
             $request,
-            '\DTS\eBaySDK\Product\Types\GetProductSubmissionsResponse'
+            '\FulfilioNet\eBaySDK\Product\Types\GetProductSubmissionsResponse'
         );
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $EventEnable
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\EnableCodeType $EventEnable
  */
-class NotificationEnableType extends \DTS\eBaySDK\Types\BaseType
+class NotificationEnableType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

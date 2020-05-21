@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Enums;
+namespace FulfilioNet\eBaySDK\Test\HalfFinding\Enums;
 
-use DTS\eBaySDK\HalfFinding\Enums\Type;
+use FulfilioNet\eBaySDK\HalfFinding\Enums\Type;
 
 class TypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\Type', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Enums\Type', $this->obj);
     }
 }

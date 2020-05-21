@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Types;
+namespace FulfilioNet\eBaySDK\Test\Order\Types;
 
-use DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse;
+use FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse;
 
 class UpdateGuestLineItemShippingAddressRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateGuestLineItemShippingAddressRestResponseTest extends \PHPUnit_Framew
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse', $this->obj);
     }
 
     public function testExtendsCheckoutSessionResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\CheckoutSessionResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Order\Types\CheckoutSessionResponse', $this->obj);
     }
 }

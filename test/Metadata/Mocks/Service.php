@@ -1,15 +1,15 @@
 <?php
-namespace DTS\eBaySDK\Test\Metadata\Mocks;
+namespace FulfilioNet\eBaySDK\Test\Metadata\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use FulfilioNet\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\Metadata\Services\MetadataBaseService
+class Service extends \FulfilioNet\eBaySDK\Metadata\Services\MetadataBaseService
 {
     protected static $operations = [
         'testOperation' => [
             'method' => 'GET',
             'resource' => 'item/{item_id}',
-            'responseClass' => '\DTS\eBaySDK\Test\Mocks\ComplexClass',
+            'responseClass' => '\FulfilioNet\eBaySDK\Test\Mocks\ComplexClass',
             'params' => [
             ]
         ]

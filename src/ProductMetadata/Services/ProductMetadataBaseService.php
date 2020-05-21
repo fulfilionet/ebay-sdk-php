@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\ProductMetadata\Services;
+namespace FulfilioNet\eBaySDK\ProductMetadata\Services;
 
 /**
  * Base class for the ProductMetadata service.
  */
-class ProductMetadataBaseService extends \DTS\eBaySDK\Services\BaseService
+class ProductMetadataBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class ProductMetadataBaseService extends \DTS\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION
+                'default' => \FulfilioNet\eBaySDK\ProductMetadata\Services\ProductMetadataService::API_VERSION
             ],
             'globalId' => [
                 'valid' => ['string']

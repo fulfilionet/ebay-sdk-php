@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Enums;
+namespace FulfilioNet\eBaySDK\Feedback\Enums;
 
 class AckValue
 {
