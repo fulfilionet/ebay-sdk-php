@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property string $CorrelationID
- * @property \FulfilioNet\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
  * @property string $Message
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \FulfilioNet\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  */
-class AddItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class AddItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -73,7 +73,7 @@ class AddItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CorrelationID'
         ],
         'Errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ErrorType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'
@@ -91,7 +91,7 @@ class AddItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DiscountReason'
         ],
         'ListingRecommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

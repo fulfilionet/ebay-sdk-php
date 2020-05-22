@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest;
+use DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest;
 
 class GetConsolidationJobStatusRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetConsolidationJobStatusRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest', $this->obj);
     }
 }

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Enums;
+namespace DTS\eBaySDK\ProductMetadata\Enums;
 
 class DatasetValue
 {

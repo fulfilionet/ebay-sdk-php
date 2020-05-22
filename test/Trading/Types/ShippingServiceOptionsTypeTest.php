@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\ShippingServiceOptionsType;
+use DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType;
 
 class ShippingServiceOptionsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingServiceOptionsTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\ShippingServiceOptionsType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

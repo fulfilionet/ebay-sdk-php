@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\TokenStatusType $TokenStatus
+ * @property \DTS\eBaySDK\Trading\Types\TokenStatusType $TokenStatus
  */
-class GetTokenStatusResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetTokenStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'TokenStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TokenStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TokenStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TokenStatus'

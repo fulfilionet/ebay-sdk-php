@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AccountStateCodeType $AccountState
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InvoicePayment
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InvoiceCredit
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
- * @property \FulfilioNet\eBaySDK\Trading\Types\AdditionalAccountType[] $AdditionalAccount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AmountPastDue
+ * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType $AccountState
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
+ * @property \DTS\eBaySDK\Trading\Types\AdditionalAccountType[] $AdditionalAccount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
  * @property string $BankAccountInfo
  * @property \DateTime $BankModifyDate
  * @property integer $BillingCycleDate
  * @property \DateTime $CreditCardExpiration
  * @property string $CreditCardInfo
  * @property \DateTime $CreditCardModifyDate
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $CurrentBalance
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CurrentBalance
  * @property string $Email
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InvoiceBalance
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceBalance
  * @property \DateTime $InvoiceDate
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $LastAmountPaid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
  * @property \DateTime $LastPaymentDate
  * @property boolean $PastDue
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
  */
-class AccountSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -46,31 +46,31 @@ class AccountSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'AccountState'
         ],
         'InvoicePayment' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InvoicePayment'
         ],
         'InvoiceCredit' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InvoiceCredit'
         ],
         'InvoiceNewFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InvoiceNewFee'
         ],
         'AdditionalAccount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AdditionalAccountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AdditionalAccountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AdditionalAccount'
         ],
         'AmountPastDue' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPastDue'
@@ -112,7 +112,7 @@ class AccountSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CreditCardModifyDate'
         ],
         'CurrentBalance' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CurrentBalance'
@@ -124,7 +124,7 @@ class AccountSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Email'
         ],
         'InvoiceBalance' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InvoiceBalance'
@@ -136,7 +136,7 @@ class AccountSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InvoiceDate'
         ],
         'LastAmountPaid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LastAmountPaid'

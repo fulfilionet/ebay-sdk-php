@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\CurrencyCodeEnum $currency
+ * @property \DTS\eBaySDK\Marketing\Enums\CurrencyCodeEnum $currency
  * @property string $value
  */
-class Amount extends \FulfilioNet\eBaySDK\Types\BaseType
+class Amount extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

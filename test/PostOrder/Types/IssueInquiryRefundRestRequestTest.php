@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest;
 
 class IssueInquiryRefundRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class IssueInquiryRefundRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\IssueInquiryRefundRestRequest', $this->obj);
     }
 
     public function testExtendsInquiryVoluntaryRefundRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\InquiryVoluntaryRefundRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquiryVoluntaryRefundRequest', $this->obj);
     }
 }

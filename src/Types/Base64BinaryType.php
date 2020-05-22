@@ -1,12 +1,12 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types;
+namespace DTS\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to base64Binary types in the XML.
  *
  * @property string $value
  */
-class Base64BinaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class Base64BinaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

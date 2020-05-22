@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $invocationId
  * @property string $categoryId
- * @property \FulfilioNet\eBaySDK\Product\Types\PropertyValue[] $productPropertyValue
- * @property \FulfilioNet\eBaySDK\Product\Types\Media[] $media
+ * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $productPropertyValue
+ * @property \DTS\eBaySDK\Product\Types\Media[] $media
  */
-class ProductSubmission extends \FulfilioNet\eBaySDK\Product\Types\BaseServiceRequest
+class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class ProductSubmission extends \FulfilioNet\eBaySDK\Product\Types\BaseServiceRe
             'elementName' => 'categoryId'
         ],
         'productPropertyValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productPropertyValue'
         ],
         'media' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\Media',
+            'type' => 'DTS\eBaySDK\Product\Types\Media',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'media'

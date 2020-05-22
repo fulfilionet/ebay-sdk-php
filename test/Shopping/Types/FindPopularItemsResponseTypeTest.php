@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
+namespace DTS\eBaySDK\Test\Shopping\Types;
 
-use FulfilioNet\eBaySDK\Shopping\Types\FindPopularItemsResponseType;
+use DTS\eBaySDK\Shopping\Types\FindPopularItemsResponseType;
 
 class FindPopularItemsResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindPopularItemsResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\FindPopularItemsResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\FindPopularItemsResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }
 }

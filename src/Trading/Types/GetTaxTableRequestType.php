@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class GetTaxTableRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetTaxTableRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

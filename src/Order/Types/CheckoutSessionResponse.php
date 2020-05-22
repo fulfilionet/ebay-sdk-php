@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
+ * @property \DTS\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
  * @property string $checkoutSessionId
  * @property string $expirationDate
- * @property \FulfilioNet\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \FulfilioNet\eBaySDK\Order\Types\PricingSummary $pricingSummary
- * @property \FulfilioNet\eBaySDK\Order\Types\ProvidedPaymentInstrument $providedPaymentInstrument
- * @property \FulfilioNet\eBaySDK\Order\Types\ShippingAddress $shippingAddress
- * @property \FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
+ * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument $providedPaymentInstrument
+ * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
+ * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class CheckoutSessionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'acceptedPaymentMethods' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PaymentMethod',
+            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'acceptedPaymentMethods'
@@ -46,31 +46,31 @@ class CheckoutSessionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'expirationDate'
         ],
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\LineItem',
+            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
         ],
         'providedPaymentInstrument' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ProvidedPaymentInstrument',
+            'type' => 'DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'providedPaymentInstrument'
         ],
         'shippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ShippingAddress',
+            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

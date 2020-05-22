@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingInsuranceCost
  * @property string $ShippingService
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property boolean $ExpeditedService
  * @property integer $ShippingTimeMin
  * @property integer $ShippingTimeMax
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingSurcharge
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingSurcharge
  * @property boolean $FreeShipping
  * @property boolean $LocalPickup
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ImportCharge
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShippingPackageInfoType[] $ShippingPackageInfo
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\MerchantData\Types\ShippingPackageInfoType[] $ShippingPackageInfo
  * @property \DateTime $ShippingServiceCutOffTime
  */
-class ShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
@@ -46,13 +46,13 @@ class ShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingService'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
@@ -82,7 +82,7 @@ class ShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingTimeMax'
         ],
         'ShippingSurcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'
@@ -100,13 +100,13 @@ class ShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LocalPickup'
         ],
         'ImportCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'
         ],
         'ShippingPackageInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShippingPackageInfoType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingPackageInfoType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingPackageInfo'

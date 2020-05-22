@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Enums;
+namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
-use FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType;
+use DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType;
 
 class ReturnStatusInputTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ReturnStatusInputTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusInputType', $this->obj);
     }
 }

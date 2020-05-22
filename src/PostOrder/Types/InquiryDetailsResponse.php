@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
  * @property string $extTransactionId
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\InquiryDetails $inquiryDetails
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ClaimHistoryResponse $inquiryHistoryDetails
+ * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
+ * @property \DTS\eBaySDK\PostOrder\Types\InquiryDetails $inquiryDetails
+ * @property \DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse $inquiryHistoryDetails
  * @property string $inquiryId
  * @property integer $inquiryQuantity
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ItemDetails $itemDetails
+ * @property \DTS\eBaySDK\PostOrder\Types\ItemDetails $itemDetails
  * @property string $itemId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $sellerMakeItRightByDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerMakeItRightByDate
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $shippingCost
  * @property string $state
  * @property string $status
  * @property string $transactionId
  * @property string $viewPPTrasanctionUrl
  */
-class InquiryDetailsResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'claimAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'claimAmount'
@@ -54,13 +54,13 @@ class InquiryDetailsResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'initiator'
         ],
         'inquiryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\InquiryDetails',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\InquiryDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inquiryDetails'
         ],
         'inquiryHistoryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inquiryHistoryDetails'
@@ -78,7 +78,7 @@ class InquiryDetailsResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'inquiryQuantity'
         ],
         'itemDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ItemDetails',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemDetails'
@@ -90,19 +90,19 @@ class InquiryDetailsResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'returnDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnAddress',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnDetails'
         ],
         'sellerMakeItRightByDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerMakeItRightByDate'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'

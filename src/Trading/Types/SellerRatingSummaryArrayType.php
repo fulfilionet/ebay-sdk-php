@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\AverageRatingSummaryType[] $AverageRatingSummary
+ * @property \DTS\eBaySDK\Trading\Types\AverageRatingSummaryType[] $AverageRatingSummary
  */
-class SellerRatingSummaryArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerRatingSummaryArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AverageRatingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AverageRatingSummaryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AverageRatingSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AverageRatingSummary'

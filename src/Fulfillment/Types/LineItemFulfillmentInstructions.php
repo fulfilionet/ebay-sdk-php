@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace FulfilioNet\eBaySDK\Fulfillment\Types;
  * @property string $minEstimatedDeliveryDate
  * @property string $shipByDate
  */
-class LineItemFulfillmentInstructions extends \FulfilioNet\eBaySDK\Types\BaseType
+class LineItemFulfillmentInstructions extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

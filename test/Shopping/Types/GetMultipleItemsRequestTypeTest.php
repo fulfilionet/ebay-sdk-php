@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
+namespace DTS\eBaySDK\Test\Shopping\Types;
 
-use FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType;
+use DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType;
 
 class GetMultipleItemsRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetMultipleItemsRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractRequestType', $this->obj);
     }
 }

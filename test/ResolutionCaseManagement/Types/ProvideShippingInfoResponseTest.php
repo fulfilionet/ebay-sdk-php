@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse;
 
 class ProvideShippingInfoResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvideShippingInfoResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\ProvideShippingInfoResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse', $this->obj);
     }
 }

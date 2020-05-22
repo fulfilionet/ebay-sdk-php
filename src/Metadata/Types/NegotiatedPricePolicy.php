@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\Metadata\Types;
  * @property string $categoryId
  * @property string $categoryTreeId
  */
-class NegotiatedPricePolicy extends \FulfilioNet\eBaySDK\Types\BaseType
+class NegotiatedPricePolicy extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

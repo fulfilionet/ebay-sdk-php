@@ -10,53 +10,53 @@ Namespaces
 ============================= ========================================
 eBay Service                  SDK Namespace
 ============================= ========================================
-`Account`_                    FulfilioNet\\eBaySDK\\Account
+`Account`_                    DTS\\eBaySDK\\Account
 ----------------------------- ----------------------------------------
-`Analytics`_                  FulfilioNet\\eBaySDK\\Analytics
+`Analytics`_                  DTS\\eBaySDK\\Analytics
 ----------------------------- ----------------------------------------
-`Browse`_                     FulfilioNet\\eBaySDK\\Browse
+`Browse`_                     DTS\\eBaySDK\\Browse
 ----------------------------- ----------------------------------------
-`Bulk Data Exchange`_         FulfilioNet\\eBaySDK\\BulkDataExchange
+`Bulk Data Exchange`_         DTS\\eBaySDK\\BulkDataExchange
 ----------------------------- ----------------------------------------
-`Business Policies`_          FulfilioNet\\eBaySDK\\BusinessPoliciesManagement
+`Business Policies`_          DTS\\eBaySDK\\BusinessPoliciesManagement
 ----------------------------- ----------------------------------------
-`Feedback`_                   FulfilioNet\\eBaySDK\\Feedback
+`Feedback`_                   DTS\\eBaySDK\\Feedback
 ----------------------------- ----------------------------------------
-`File Transfer`_              FulfilioNet\\eBaySDK\\FileTransfer
+`File Transfer`_              DTS\\eBaySDK\\FileTransfer
 ----------------------------- ----------------------------------------
-`Finding`_                    FulfilioNet\\eBaySDK\\Finding
+`Finding`_                    DTS\\eBaySDK\\Finding
 ----------------------------- ----------------------------------------
-`Fulfillment`_                FulfilioNet\\eBaySDK\\Fulfillment
+`Fulfillment`_                DTS\\eBaySDK\\Fulfillment
 ----------------------------- ----------------------------------------
-`Half Finding`_               FulfilioNet\\eBaySDK\\HalfFinding
+`Half Finding`_               DTS\\eBaySDK\\HalfFinding
 ----------------------------- ----------------------------------------
-`Inventory`_                  FulfilioNet\\eBaySDK\\Inventory
+`Inventory`_                  DTS\\eBaySDK\\Inventory
 ----------------------------- ----------------------------------------
-`Marketing`_                  FulfilioNet\\eBaySDK\\Marketing
+`Marketing`_                  DTS\\eBaySDK\\Marketing
 ----------------------------- ----------------------------------------
-`Merchandising`_              FulfilioNet\\eBaySDK\\Merchandising
+`Merchandising`_              DTS\\eBaySDK\\Merchandising
 ----------------------------- ----------------------------------------
-`Merchant Data`_              FulfilioNet\\eBaySDK\\MerchantData
+`Merchant Data`_              DTS\\eBaySDK\\MerchantData
 ----------------------------- ----------------------------------------
-`Metadata`_                   FulfilioNet\\eBaySDK\\Metadata
+`Metadata`_                   DTS\\eBaySDK\\Metadata
 ----------------------------- ----------------------------------------
-`Order`_                      FulfilioNet\\eBaySDK\\Order
+`Order`_                      DTS\\eBaySDK\\Order
 ----------------------------- ----------------------------------------
-`Post Order`_                 FulfilioNet\\eBaySDK\\PostOrder
+`Post Order`_                 DTS\\eBaySDK\\PostOrder
 ----------------------------- ----------------------------------------
-`Product`_                    FulfilioNet\\eBaySDK\\Product
+`Product`_                    DTS\\eBaySDK\\Product
 ----------------------------- ----------------------------------------
-`Product Metadata`_           FulfilioNet\\eBaySDK\\ProductMetadata
+`Product Metadata`_           DTS\\eBaySDK\\ProductMetadata
 ----------------------------- ----------------------------------------
-`Related Items Management`_   FulfilioNet\\eBaySDK\\RelatedItemsManagement
+`Related Items Management`_   DTS\\eBaySDK\\RelatedItemsManagement
 ----------------------------- ----------------------------------------
-`Resolution Case Management`_ FulfilioNet\\eBaySDK\\ResolutionCaseManagement
+`Resolution Case Management`_ DTS\\eBaySDK\\ResolutionCaseManagement
 ----------------------------- ----------------------------------------
-`Return Management`_          FulfilioNet\\eBaySDK\\ReturnManagement
+`Return Management`_          DTS\\eBaySDK\\ReturnManagement
 ----------------------------- ----------------------------------------
-`Shopping`_                   FulfilioNet\\eBaySDK\\Shopping
+`Shopping`_                   DTS\\eBaySDK\\Shopping
 ----------------------------- ----------------------------------------
-`Trading`_                    FulfilioNet\\eBaySDK\\Trading
+`Trading`_                    DTS\\eBaySDK\\Trading
 ============================= ========================================
 
 .. _Account: http://developer.ebay.com/devzone/rest/api-ref/account/index.html

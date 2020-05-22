@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
+namespace DTS\eBaySDK\Test\Marketing\Types;
 
-use FulfilioNet\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest;
+use DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest;
 
 class UpdateItemPromotionRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateItemPromotionRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\UpdateItemPromotionRestRequest', $this->obj);
     }
 
     public function testExtendsItemPromotion()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\ItemPromotion', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\ItemPromotion', $this->obj);
     }
 }

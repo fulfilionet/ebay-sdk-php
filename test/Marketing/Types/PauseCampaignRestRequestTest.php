@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
+namespace DTS\eBaySDK\Test\Marketing\Types;
 
-use FulfilioNet\eBaySDK\Marketing\Types\PauseCampaignRestRequest;
+use DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest;
 
 class PauseCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PauseCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\PauseCampaignRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\PauseCampaignRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

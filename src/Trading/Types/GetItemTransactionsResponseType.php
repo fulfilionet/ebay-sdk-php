@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreTransactions
  * @property integer $TransactionsPerPage
  * @property integer $PageNumber
  * @property integer $ReturnedTransactionCountActual
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType $Item
- * @property \FulfilioNet\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  * @property boolean $PayPalPreferred
  */
-class GetItemTransactionsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetItemTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
@@ -58,13 +58,13 @@ class GetItemTransactionsResponseType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'ReturnedTransactionCountActual'
         ],
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ],
         'TransactionArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionArray'

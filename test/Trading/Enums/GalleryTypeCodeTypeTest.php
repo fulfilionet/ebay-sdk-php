@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\GalleryTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType;
 
 class GalleryTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class GalleryTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\GalleryTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType', $this->obj);
     }
 }

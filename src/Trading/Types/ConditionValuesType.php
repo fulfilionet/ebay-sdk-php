@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ConditionType[] $Condition
+ * @property \DTS\eBaySDK\Trading\Types\ConditionType[] $Condition
  * @property string $ConditionHelpURL
  */
-class ConditionValuesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ConditionValuesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Condition' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ConditionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ConditionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Condition'

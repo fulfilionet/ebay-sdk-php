@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
+ * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
  * @property double $EachAdditionalPercentOff
  */
-class CalculatedHandlingDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,19 +31,19 @@ class CalculatedHandlingDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DiscountName'
         ],
         'OrderHandlingAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderHandlingAmount'
         ],
         'EachAdditionalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ],
         'EachAdditionalOffAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalOffAmount'

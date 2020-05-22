@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontFaceCodeType $NameFace
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontSizeCodeType $NameSize
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $NameFace
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $NameSize
  * @property string $NameColor
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontFaceCodeType $TitleFace
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontSizeCodeType $TitleSize
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $TitleFace
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $TitleSize
  * @property string $TitleColor
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontFaceCodeType $DescFace
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreFontSizeCodeType $DescSize
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType $DescFace
+ * @property \DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType $DescSize
  * @property string $DescColor
  */
-class StoreFontType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreFontType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Shopping\Types;
  * @property double $SalesTaxPercent
  * @property boolean $ShippingIncludedInTax
  */
-class TaxJurisdictionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

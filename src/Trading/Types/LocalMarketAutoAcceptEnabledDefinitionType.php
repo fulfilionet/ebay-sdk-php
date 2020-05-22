@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class LocalMarketAutoAcceptEnabledDefinitionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class LocalMarketAutoAcceptEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

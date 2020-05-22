@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  */
-class HalfCatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
+class HalfCatalogProductType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse;
 
 class CreateReturnRequestRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateReturnRequestRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnRequestRestResponse', $this->obj);
     }
 
     public function testExtendsCreateReturnResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CreateReturnResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnResponse', $this->obj);
     }
 }

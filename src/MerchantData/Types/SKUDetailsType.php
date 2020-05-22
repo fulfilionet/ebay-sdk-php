@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $SKU
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $Price
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Price
  * @property integer $Quantity
  * @property string $ItemID
  * @property integer $BidCount
  * @property boolean $ReserveMet
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MerchantDataVariationsType $Variations
+ * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType $Variations
  */
-class SKUDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SKUDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class SKUDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'Price' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Price'
@@ -63,7 +63,7 @@ class SKUDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ReserveMet'
         ],
         'Variations' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MerchantDataVariationsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataVariationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variations'

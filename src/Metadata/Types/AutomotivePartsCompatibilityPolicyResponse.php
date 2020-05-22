@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy[] $automotivePartsCompatibilityPolicies
- * @property \FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy[] $automotivePartsCompatibilityPolicies
+ * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class AutomotivePartsCompatibilityPolicyResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class AutomotivePartsCompatibilityPolicyResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'automotivePartsCompatibilityPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy',
+            'type' => 'DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'automotivePartsCompatibilityPolicies'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

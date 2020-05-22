@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
+ * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
  * @property string[] $datasetPropertyName
  * @property string[] $dataset
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductStatus $productStatusFilter
+ * @property \DTS\eBaySDK\Product\Types\ProductStatus $productStatusFilter
  */
-class ProductDetailsRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductDetailsRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productIdentifier' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductIdentifier',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productIdentifier'
@@ -42,7 +42,7 @@ class ProductDetailsRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'dataset'
         ],
         'productStatusFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductStatus',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productStatusFilter'

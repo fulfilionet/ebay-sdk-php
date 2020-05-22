@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string[] $managedValue
  * @property integer $maximumCharactersAllowed
  */
-class StringTypeSpecificInformation extends \FulfilioNet\eBaySDK\Types\BaseType
+class StringTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

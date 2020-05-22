@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,9 +18,9 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $BidsToUniqueSellers
  * @property integer $BidsToUniqueCategories
  * @property integer $BidRetractions
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemBidDetailsType[] $ItemBidDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemBidDetailsType[] $ItemBidDetails
  */
-class BiddingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -63,7 +63,7 @@ class BiddingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BidRetractions'
         ],
         'ItemBidDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemBidDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemBidDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemBidDetails'

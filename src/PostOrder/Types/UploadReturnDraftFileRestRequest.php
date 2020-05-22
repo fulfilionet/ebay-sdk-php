@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $draftId
  */
-class UploadReturnDraftFileRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\UploadFileRequest
+class UploadReturnDraftFileRestRequest extends \DTS\eBaySDK\PostOrder\Types\UploadFileRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

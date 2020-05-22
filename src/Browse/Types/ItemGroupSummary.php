@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Browse\Types\Image[] $itemGroupAdditionalImages
+ * @property \DTS\eBaySDK\Browse\Types\Image[] $itemGroupAdditionalImages
  * @property string $itemGroupHref
  * @property string $itemGroupId
- * @property \FulfilioNet\eBaySDK\Browse\Types\Image $itemGroupImage
+ * @property \DTS\eBaySDK\Browse\Types\Image $itemGroupImage
  * @property string $itemGroupTitle
- * @property \FulfilioNet\eBaySDK\Browse\Enums\ItemGroupTypeEnum $itemGroupType
+ * @property \DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum $itemGroupType
  */
-class ItemGroupSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemGroupSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemGroupAdditionalImages' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\Image',
+            'type' => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemGroupAdditionalImages'
@@ -44,7 +44,7 @@ class ItemGroupSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'itemGroupId'
         ],
         'itemGroupImage' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\Image',
+            'type' => 'DTS\eBaySDK\Browse\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemGroupImage'

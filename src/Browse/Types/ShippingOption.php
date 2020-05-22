@@ -8,31 +8,31 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount $additionalShippingCostPerUnit
+ * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $additionalShippingCostPerUnit
  * @property string $cutOffDateUsedForEstimate
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
  * @property integer $quantityUsedForEstimate
  * @property string $shippingCarrierCode
- * @property \FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount $shippingCost
+ * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $shippingCost
  * @property string $shippingCostType
  * @property string $shippingServiceCode
- * @property \FulfilioNet\eBaySDK\Browse\Types\ShipToLocation $shipToLocationUsedForEstimate
+ * @property \DTS\eBaySDK\Browse\Types\ShipToLocation $shipToLocationUsedForEstimate
  * @property string $trademarkSymbol
  * @property string $type
  */
-class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingOption extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalShippingCostPerUnit' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'additionalShippingCostPerUnit'
@@ -68,7 +68,7 @@ class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingCarrierCode'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
@@ -86,7 +86,7 @@ class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceCode'
         ],
         'shipToLocationUsedForEstimate' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ShipToLocation',
+            'type' => 'DTS\eBaySDK\Browse\Types\ShipToLocation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocationUsedForEstimate'

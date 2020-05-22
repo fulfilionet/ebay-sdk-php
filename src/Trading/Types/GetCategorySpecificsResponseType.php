@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\RecommendationsType[] $Recommendations
+ * @property \DTS\eBaySDK\Trading\Types\RecommendationsType[] $Recommendations
  * @property string $TaskReferenceID
  * @property string $FileReferenceID
  */
-class GetCategorySpecificsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategorySpecificsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Recommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RecommendationsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RecommendationsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Recommendations'

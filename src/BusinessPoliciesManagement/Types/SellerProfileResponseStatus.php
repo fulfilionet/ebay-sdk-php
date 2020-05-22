@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  * @property integer $profileId
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Enums\AckValue $ack
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage $errorMessage
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue $ack
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage $errorMessage
  */
-class SellerProfileResponseStatus extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerProfileResponseStatus extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class SellerProfileResponseStatus extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'

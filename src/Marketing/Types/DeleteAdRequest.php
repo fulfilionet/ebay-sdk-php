@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $listingId
  */
-class DeleteAdRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeleteAdRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

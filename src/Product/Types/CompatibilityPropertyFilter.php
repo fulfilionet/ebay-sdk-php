@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\PropertyValue[] $propertyFilter
+ * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $propertyFilter
  * @property string $AAIA
  * @property string $HSNTSN
  */
-class CompatibilityPropertyFilter extends \FulfilioNet\eBaySDK\Types\BaseType
+class CompatibilityPropertyFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'propertyFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyFilter'

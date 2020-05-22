@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $unit
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $measurementSystem
+ * @property \DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $measurementSystem
  */
-class MeasureType extends \FulfilioNet\eBaySDK\Types\DecimalType
+class MeasureType extends \DTS\eBaySDK\Types\DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

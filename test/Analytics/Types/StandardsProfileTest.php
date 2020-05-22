@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Analytics\Types;
+namespace DTS\eBaySDK\Test\Analytics\Types;
 
-use FulfilioNet\eBaySDK\Analytics\Types\StandardsProfile;
+use DTS\eBaySDK\Analytics\Types\StandardsProfile;
 
 class StandardsProfileTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StandardsProfileTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Analytics\Types\StandardsProfile', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\StandardsProfile', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

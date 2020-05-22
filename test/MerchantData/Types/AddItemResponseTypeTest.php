@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
+namespace DTS\eBaySDK\Test\MerchantData\Types;
 
-use FulfilioNet\eBaySDK\MerchantData\Types\AddItemResponseType;
+use DTS\eBaySDK\MerchantData\Types\AddItemResponseType;
 
 class AddItemResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddItemResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\AddItemResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AddItemResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractResponseType', $this->obj);
     }
 }

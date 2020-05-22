@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus[] $sellerProfileResponseStatus
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus[] $sellerProfileResponseStatus
  */
-class RemoveSellerProfilesResponse extends \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class RemoveSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'sellerProfileResponseStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sellerProfileResponseStatus'

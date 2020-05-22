@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
@@ -20,11 +20,11 @@ namespace FulfilioNet\eBaySDK\Browse\Types;
  * @property string $name
  * @property string $phone
  * @property string $registrationNumber
- * @property \FulfilioNet\eBaySDK\Browse\Types\LegalAddress $sellerProvidedLegalAddress
+ * @property \DTS\eBaySDK\Browse\Types\LegalAddress $sellerProvidedLegalAddress
  * @property string $termsOfService
- * @property \FulfilioNet\eBaySDK\Browse\Types\VatDetail[] $vatDetails
+ * @property \DTS\eBaySDK\Browse\Types\VatDetail[] $vatDetails
  */
-class SellerLegalInfo extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerLegalInfo extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -79,7 +79,7 @@ class SellerLegalInfo extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'registrationNumber'
         ],
         'sellerProvidedLegalAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\LegalAddress',
+            'type' => 'DTS\eBaySDK\Browse\Types\LegalAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerProvidedLegalAddress'
@@ -91,7 +91,7 @@ class SellerLegalInfo extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'termsOfService'
         ],
         'vatDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\VatDetail',
+            'type' => 'DTS\eBaySDK\Browse\Types\VatDetail',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'vatDetails'

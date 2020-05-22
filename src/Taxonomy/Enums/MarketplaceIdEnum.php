@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Enums;
+namespace DTS\eBaySDK\Taxonomy\Enums;
 
 class MarketplaceIdEnum
 {

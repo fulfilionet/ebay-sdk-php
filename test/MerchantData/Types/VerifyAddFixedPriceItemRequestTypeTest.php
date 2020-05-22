@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
+namespace DTS\eBaySDK\Test\MerchantData\Types;
 
-use FulfilioNet\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType;
+use DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType;
 
 class VerifyAddFixedPriceItemRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VerifyAddFixedPriceItemRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\AbstractRequestType', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $EntriesPerPage
  * @property integer $PageNumber
  */
-class PaginationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaginationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

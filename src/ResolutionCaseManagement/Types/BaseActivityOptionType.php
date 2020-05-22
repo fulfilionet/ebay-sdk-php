@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property boolean $buyerPreference
  */
-class BaseActivityOptionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseActivityOptionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

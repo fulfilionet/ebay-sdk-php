@@ -1,9 +1,9 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Trading\Mocks;
+namespace DTS\eBaySDK\Test\Trading\Mocks;
 
-use FulfilioNet\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
+use DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
 
-class Service extends \FulfilioNet\eBaySDK\Trading\Services\TradingBaseService
+class Service extends \DTS\eBaySDK\Trading\Services\TradingBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \FulfilioNet\eBaySDK\Trading\Services\TradingBaseService
         return $this->callOperationAsync(
             'testOperation',
             new GeteBayOfficialTimeRequestType(),
-            '\FulfilioNet\eBaySDK\Test\Mocks\ComplexClass'
+            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

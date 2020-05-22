@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $label
- * @property \FulfilioNet\eBaySDK\Order\Types\Image $logoImage
- * @property \FulfilioNet\eBaySDK\Order\Types\PaymentMethodBrand[] $paymentMethodBrands
- * @property \FulfilioNet\eBaySDK\Order\Types\PaymentMethodMessage[] $paymentMethodMessages
- * @property \FulfilioNet\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \DTS\eBaySDK\Order\Types\Image $logoImage
+ * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand[] $paymentMethodBrands
+ * @property \DTS\eBaySDK\Order\Types\PaymentMethodMessage[] $paymentMethodMessages
+ * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */
-class PaymentMethod extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,19 +31,19 @@ class PaymentMethod extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'label'
         ],
         'logoImage' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Image',
+            'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'logoImage'
         ],
         'paymentMethodBrands' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PaymentMethodBrand',
+            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethodBrands'
         ],
         'paymentMethodMessages' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PaymentMethodMessage',
+            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodMessage',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethodMessages'

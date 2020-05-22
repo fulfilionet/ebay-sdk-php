@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Enums;
+namespace DTS\eBaySDK\Test\Account\Enums;
 
-use FulfilioNet\eBaySDK\Account\Enums\ShippingCostTypeEnum;
+use DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum;
 
 class ShippingCostTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShippingCostTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Enums\ShippingCostTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum', $this->obj);
     }
 }

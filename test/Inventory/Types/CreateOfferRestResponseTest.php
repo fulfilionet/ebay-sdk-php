@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\CreateOfferRestResponse;
+use DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse;
 
 class CreateOfferRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateOfferRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\CreateOfferRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateOfferRestResponse', $this->obj);
     }
 
     public function testExtendsOfferResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\OfferResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\OfferResponse', $this->obj);
     }
 }

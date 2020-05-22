@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Enums;
+namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
-use FulfilioNet\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType;
+use DTS\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType;
 
 class TransactionPlatformCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TransactionPlatformCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType', $this->obj);
     }
 }

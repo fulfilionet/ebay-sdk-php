@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\CreateInventoryLocationRestRequest;
+use DTS\eBaySDK\Inventory\Types\CreateInventoryLocationRestRequest;
 
 class CreateInventoryLocationRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateInventoryLocationRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\CreateInventoryLocationRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\CreateInventoryLocationRestRequest', $this->obj);
     }
 
     public function testExtendsInventoryLocationFull()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\InventoryLocationFull', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\InventoryLocationFull', $this->obj);
     }
 }

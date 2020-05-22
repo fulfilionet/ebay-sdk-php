@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Analytics\Types;
+namespace DTS\eBaySDK\Test\Analytics\Types;
 
-use FulfilioNet\eBaySDK\Analytics\Types\GetTrafficReportRestRequest;
+use DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest;
 
 class GetTrafficReportRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetTrafficReportRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Analytics\Types\GetTrafficReportRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\GetTrafficReportRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

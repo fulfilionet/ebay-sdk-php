@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SKU
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property integer $Quantity
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
  * @property integer $UnitsAvailable
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $UnitCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property boolean $Delete
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
  * @property integer $WatchCount
  * @property string $PrivateNotes
- * @property \FulfilioNet\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
- * @property \FulfilioNet\eBaySDK\Trading\Types\VariationProductListingDetailsType $VariationProductListingDetails
+ * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType $VariationProductListingDetails
  */
-class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VariationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -41,7 +41,7 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'StartPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
@@ -53,7 +53,7 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
@@ -65,13 +65,13 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'UnitsAvailable'
         ],
         'UnitCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
         ],
         'SellingStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
@@ -95,7 +95,7 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Delete'
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductInventoryStatus'
@@ -113,13 +113,13 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PrivateNotes'
         ],
         'DiscountPriceInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DiscountPriceInfoType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'
         ],
         'VariationProductListingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VariationProductListingDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationProductListingDetails'

@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $RefundStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\RefundSourceTypeCodeType $RefundType
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\UserIdentityType $RefundTo
+ * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $RefundStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\RefundSourceTypeCodeType $RefundType
+ * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $RefundTo
  * @property \DateTime $RefundTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $RefundAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
  */
-class RefundTransactionInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class RefundTransactionInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'RefundType'
         ],
         'RefundTo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\UserIdentityType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundTo'
@@ -51,19 +51,19 @@ class RefundTransactionInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'RefundTime'
         ],
         'RefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
         ],
         'ReferenceID' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ],
         'FeeOrCreditAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'

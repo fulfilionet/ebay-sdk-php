@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\StatusCodeTrait;
-use FulfilioNet\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
+use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Error[] $error
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
+ * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings
  */
-class GetReturnRulesRestResponse extends \FulfilioNet\eBaySDK\PostOrder\Types\GetDispositionRulesResponse
+class GetReturnRulesRestResponse extends \DTS\eBaySDK\PostOrder\Types\GetDispositionRulesResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -29,19 +29,19 @@ class GetReturnRulesRestResponse extends \FulfilioNet\eBaySDK\PostOrder\Types\Ge
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Error',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'
         ],
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

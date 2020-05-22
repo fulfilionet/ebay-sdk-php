@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $DeliveryMethod
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\DeliveryStatusType $DeliveryStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\DeliveryDetailsType $DeliveryDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\DeliveryStatusType $DeliveryStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\DeliveryDetailsType $DeliveryDetails
  */
-class DigitalDeliverySelectedType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DigitalDeliverySelectedType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class DigitalDeliverySelectedType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DeliveryMethod'
         ],
         'DeliveryStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\DeliveryStatusType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\DeliveryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeliveryStatus'
         ],
         'DeliveryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\DeliveryDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\DeliveryDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeliveryDetails'

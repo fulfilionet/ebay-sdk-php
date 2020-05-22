@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Enums;
+namespace DTS\eBaySDK\HalfFinding\Enums;
 
 class ErrorSeverity
 {

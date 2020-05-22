@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
  * @property string $TransactionID
- * @property \FulfilioNet\eBaySDK\Trading\Types\BestOfferType $BestOffer
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
  * @property string $OrderLineItemID
  */
-class PlaceOfferResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class PlaceOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
@@ -36,7 +36,7 @@ class PlaceOfferResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstract
             'elementName' => 'TransactionID'
         ],
         'BestOffer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BestOfferType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOffer'

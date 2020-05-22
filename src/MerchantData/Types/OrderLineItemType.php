@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -22,28 +22,28 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $GlobalCategoryDescription
  * @property string $SiteDescription
  * @property integer $QuantitySold
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $SalePrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TotalCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $SalePrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalCost
  * @property \DateTime $PaymentClearedTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $InsuranceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceCost
  * @property integer $ListingSiteID
  * @property \DateTime $SaleTime
  * @property string $Memo
  * @property string $SecondDescription
  * @property string $FeeDescription
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FeeAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeAmount
  * @property integer $SellingManagerSaleRecordID
  * @property string $BuyerPaymentTransactionNumber
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MerchantDataVariationType $Variation
+ * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType $Variation
  * @property string $TaxCategory
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxesType $Taxes
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TransactionStatusType $Status
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxesType $Taxes
+ * @property \DTS\eBaySDK\MerchantData\Types\TransactionStatusType $Status
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
  */
-class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderLineItemType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -110,25 +110,25 @@ class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'QuantitySold'
         ],
         'SalePrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalePrice'
         ],
         'TaxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
         ],
         'ShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCost'
         ],
         'TotalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalCost'
@@ -140,7 +140,7 @@ class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PaymentClearedTime'
         ],
         'InsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceCost'
@@ -176,7 +176,7 @@ class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'FeeDescription'
         ],
         'FeeAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeAmount'
@@ -194,7 +194,7 @@ class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BuyerPaymentTransactionNumber'
         ],
         'Variation' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MerchantDataVariationType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataVariationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variation'
@@ -206,25 +206,25 @@ class OrderLineItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TaxCategory'
         ],
         'Taxes' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxesType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Taxes'
         ],
         'Status' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TransactionStatusType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Status'
         ],
         'ActualShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualShippingCost'
         ],
         'UnpaidItem' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\UnpaidItemType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\UnpaidItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnpaidItem'

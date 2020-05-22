@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ShippingService
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property string[] $ShipToLocation
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingInsuranceCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ImportCharge
  * @property \DateTime $ShippingServiceCutOffTime
  */
-class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,13 +34,13 @@ class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types
             'elementName' => 'ShippingService'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
@@ -58,13 +58,13 @@ class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types
             'elementName' => 'ShipToLocation'
         ],
         'ShippingInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
         ],
         'ImportCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'

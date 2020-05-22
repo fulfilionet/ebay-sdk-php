@@ -27,8 +27,8 @@ Instead of constructing this XML you use the SDK to instantiate various objects.
 .. code-block:: php
 
     <?php
-    use \FulfilioNet\eBaySDK\Finding\Services\FindingService;
-    use \FulfilioNet\eBaySDK\Finding\Types;
+    use \DTS\eBaySDK\Finding\Services\FindingService;
+    use \DTS\eBaySDK\Finding\Types;
 
     $service = new FindingService([
         'globalId' => Constants\GlobalIds::US,
@@ -85,11 +85,11 @@ Using the above examples the rest of this guide will explain a few things that y
 Property names must exist
 -------------------------
 
-Properties of the objects are named after the fields found in the offical eBay documentation. The SDK will throw a ``FulfilioNet\eBaySDK\Exceptions\UnknownPropertyException`` if you get or set a property that does not exist.
+Properties of the objects are named after the fields found in the offical eBay documentation. The SDK will throw a ``DTS\eBaySDK\Exceptions\UnknownPropertyException`` if you get or set a property that does not exist.
 
 .. code-block:: php
 
-    use FulfilioNet\eBaySDK\Exceptions;
+    use DTS\eBaySDK\Exceptions;
 
     try {
         $request->foo = 'foo';
@@ -124,11 +124,11 @@ The fields in a request and response have types, such as booleans and strings, t
     // Dates can also be assigned
     $request->date = new datetime('2016-01-01');
 
-A ``FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException`` is thrown if a value of the wrong type is assigned to a property.
+A ``DTS\eBaySDK\Exceptions\InvalidPropertyTypeException`` is thrown if a value of the wrong type is assigned to a property.
 
 .. code-block:: php
 
-    use FulfilioNet\eBaySDK\Exceptions;
+    use DTS\eBaySDK\Exceptions;
 
     try {
         $request->keywords = 123;
@@ -137,11 +137,11 @@ A ``FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException`` is thrown if a
         echo $e->getMessage();
     }
 
-You can disable this type checking by assigning ``false`` to the static property ``\FulfilioNet\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES``.
+You can disable this type checking by assigning ``false`` to the static property ``\DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES``.
 
 .. code-block:: php
 
-  \FulfilioNet\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = false;
+  \DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = false;
 
   // No exception will be thrown.
   $request->keywords = 123;

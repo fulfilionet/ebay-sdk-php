@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
  * @property string $cancelCloseReason
  * @property string $cancelId
  * @property string $cancelReason
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $cancelRequestDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelRequestDate
  * @property string $legacyOrderId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\OrderCancelLineItem[] $lineItems
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem[] $lineItems
+ * @property \DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $paymentStatus
  * @property string $requestorType
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $requestRefundAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $sellerResponseDueDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $shipmentDate
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $requestRefundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerResponseDueDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipmentDate
  * @property string $cancelState
  * @property string $cancelStatus
  */
-class CancelSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class CancelSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyerResponseDueDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerResponseDueDate'
         ],
         'cancelCloseDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelCloseDate'
@@ -66,7 +66,7 @@ class CancelSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'cancelReason'
         ],
         'cancelRequestDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelRequestDate'
@@ -78,7 +78,7 @@ class CancelSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'legacyOrderId'
         ],
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\OrderCancelLineItem',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
@@ -102,19 +102,19 @@ class CancelSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'requestorType'
         ],
         'requestRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'requestRefundAmount'
         ],
         'sellerResponseDueDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerResponseDueDate'
         ],
         'shipmentDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipmentDate'

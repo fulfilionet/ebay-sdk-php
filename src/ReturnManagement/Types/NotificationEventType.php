@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\NotificationEventNameType $NotificationEventName
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\NotificationEventNameType $NotificationEventName
  * @property string $RecipientUserID
  * @property string $ExternalUserData
  * @property string $ReturnId
  * @property \DateTime $CreationDate
  * @property string $OtherPartyId
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $OtherPartyRole
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnUserRoleType $OtherPartyRole
  * @property string $ReturnStatus
  * @property string $ReturnGlobalId
  */
-class NotificationEventType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

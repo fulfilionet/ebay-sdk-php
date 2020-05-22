@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Enums;
+namespace DTS\eBaySDK\Test\Shopping\Enums;
 
-use FulfilioNet\eBaySDK\Shopping\Enums\SellerBusinessCodeType;
+use DTS\eBaySDK\Shopping\Enums\SellerBusinessCodeType;
 
 class SellerBusinessCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellerBusinessCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Enums\SellerBusinessCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\SellerBusinessCodeType', $this->obj);
     }
 }

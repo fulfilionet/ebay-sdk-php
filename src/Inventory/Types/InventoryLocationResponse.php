@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Location $location
+ * @property \DTS\eBaySDK\Inventory\Types\Location $location
  * @property string $locationAdditionalInformation
  * @property string $locationInstructions
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\StoreTypeEnum[] $locationTypes
+ * @property \DTS\eBaySDK\Inventory\Enums\StoreTypeEnum[] $locationTypes
  * @property string $locationWebUrl
  * @property string $merchantLocationKey
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\StatusEnum $merchantLocationStatus
+ * @property \DTS\eBaySDK\Inventory\Enums\StatusEnum $merchantLocationStatus
  * @property string $name
- * @property \FulfilioNet\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
+ * @property \DTS\eBaySDK\Inventory\Types\OperatingHours[] $operatingHours
  * @property string $phone
- * @property \FulfilioNet\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
+ * @property \DTS\eBaySDK\Inventory\Types\SpecialHours[] $specialHours
  */
-class InventoryLocationResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventoryLocationResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'location' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Location',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Location',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'location'
@@ -79,7 +79,7 @@ class InventoryLocationResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'name'
         ],
         'operatingHours' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\OperatingHours',
+            'type' => 'DTS\eBaySDK\Inventory\Types\OperatingHours',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'operatingHours'
@@ -91,7 +91,7 @@ class InventoryLocationResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'phone'
         ],
         'specialHours' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\SpecialHours',
+            'type' => 'DTS\eBaySDK\Inventory\Types\SpecialHours',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'specialHours'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \FulfilioNet\eBaySDK\Product\Types\Value[] $value
+ * @property \DTS\eBaySDK\Product\Types\Value[] $value
  */
-class PropertyValue extends \FulfilioNet\eBaySDK\Types\BaseType
+class PropertyValue extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class PropertyValue extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'propertyName'
         ],
         'value' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\Value',
+            'type' => 'DTS\eBaySDK\Product\Types\Value',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'value'

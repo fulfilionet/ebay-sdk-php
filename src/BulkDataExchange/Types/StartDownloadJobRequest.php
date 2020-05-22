@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string $downloadJobType
  * @property string $UUID
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter $downloadRequestFilter
+ * @property \DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter $downloadRequestFilter
  */
-class StartDownloadJobRequest extends \FulfilioNet\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class StartDownloadJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class StartDownloadJobRequest extends \FulfilioNet\eBaySDK\BulkDataExchange\Type
             'elementName' => 'UUID'
         ],
         'downloadRequestFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter',
+            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DownloadRequestFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'downloadRequestFilter'

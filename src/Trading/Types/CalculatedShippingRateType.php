@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $OriginatingPostalCode
- * @property \FulfilioNet\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $PackagingHandlingCosts
+ * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $PackagingHandlingCosts
  * @property boolean $ShippingIrregular
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InternationalPackagingHandlingCosts
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InternationalPackagingHandlingCosts
  */
-class CalculatedShippingRateType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class CalculatedShippingRateType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'MeasurementUnit'
         ],
         'PackagingHandlingCosts' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackagingHandlingCosts'
@@ -49,7 +49,7 @@ class CalculatedShippingRateType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingIrregular'
         ],
         'InternationalPackagingHandlingCosts' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalPackagingHandlingCosts'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Enums;
+namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
-use FulfilioNet\eBaySDK\MerchantData\Enums\TradingRoleCodeType;
+use DTS\eBaySDK\MerchantData\Enums\TradingRoleCodeType;
 
 class TradingRoleCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TradingRoleCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Enums\TradingRoleCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\TradingRoleCodeType', $this->obj);
     }
 }

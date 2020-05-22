@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $trackingNumber
  * @property string $carrierUsed
  */
-class ProvideTrackingInfoOptionType extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideTrackingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

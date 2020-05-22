@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\SetMessagePreferencesRequestType;
+use DTS\eBaySDK\Trading\Types\SetMessagePreferencesRequestType;
 
 class SetMessagePreferencesRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SetMessagePreferencesRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\SetMessagePreferencesRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SetMessagePreferencesRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

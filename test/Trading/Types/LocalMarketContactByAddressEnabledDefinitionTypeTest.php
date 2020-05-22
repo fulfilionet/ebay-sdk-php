@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType;
+use DTS\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType;
 
 class LocalMarketContactByAddressEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class LocalMarketContactByAddressEnabledDefinitionTypeTest extends \PHPUnit_Fram
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

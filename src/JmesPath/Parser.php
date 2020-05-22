@@ -20,9 +20,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace FulfilioNet\eBaySDK\JmesPath;
+namespace DTS\eBaySDK\JmesPath;
 
-use FulfilioNet\eBaySDK\JmesPath\Lexer as T;
+use DTS\eBaySDK\JmesPath\Lexer as T;
 
 /**
  * JMESPath Pratt parser

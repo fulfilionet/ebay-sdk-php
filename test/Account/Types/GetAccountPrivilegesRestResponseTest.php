@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Types;
+namespace DTS\eBaySDK\Test\Account\Types;
 
-use FulfilioNet\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse;
+use DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse;
 
 class GetAccountPrivilegesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetAccountPrivilegesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse', $this->obj);
     }
 
     public function testExtendsSellingPrivileges()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\SellingPrivileges', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SellingPrivileges', $this->obj);
     }
 }

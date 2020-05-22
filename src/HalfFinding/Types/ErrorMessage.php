@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ErrorData[] $error
+ * @property \DTS\eBaySDK\HalfFinding\Types\ErrorData[] $error
  */
-class ErrorMessage extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ErrorData',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorData',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'

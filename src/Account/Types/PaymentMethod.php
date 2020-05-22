@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Enums\PaymentInstrumentBrandEnum[] $brands
- * @property \FulfilioNet\eBaySDK\Account\Enums\PaymentMethodTypeEnum $paymentMethodType
- * @property \FulfilioNet\eBaySDK\Account\Types\RecipientAccountReference $recipientAccountReference
+ * @property \DTS\eBaySDK\Account\Enums\PaymentInstrumentBrandEnum[] $brands
+ * @property \DTS\eBaySDK\Account\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \DTS\eBaySDK\Account\Types\RecipientAccountReference $recipientAccountReference
  */
-class PaymentMethod extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentMethod extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class PaymentMethod extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'paymentMethodType'
         ],
         'recipientAccountReference' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\RecipientAccountReference',
+            'type' => 'DTS\eBaySDK\Account\Types\RecipientAccountReference',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'recipientAccountReference'

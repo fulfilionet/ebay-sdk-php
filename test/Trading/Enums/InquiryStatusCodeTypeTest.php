@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\InquiryStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType;
 
 class InquiryStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class InquiryStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\InquiryStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType', $this->obj);
     }
 }

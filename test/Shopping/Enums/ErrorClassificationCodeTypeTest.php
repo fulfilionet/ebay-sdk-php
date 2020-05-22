@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Enums;
+namespace DTS\eBaySDK\Test\Shopping\Enums;
 
-use FulfilioNet\eBaySDK\Shopping\Enums\ErrorClassificationCodeType;
+use DTS\eBaySDK\Shopping\Enums\ErrorClassificationCodeType;
 
 class ErrorClassificationCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ErrorClassificationCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Enums\ErrorClassificationCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\ErrorClassificationCodeType', $this->obj);
     }
 }

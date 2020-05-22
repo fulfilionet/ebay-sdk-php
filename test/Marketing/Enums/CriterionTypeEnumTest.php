@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Enums;
+namespace DTS\eBaySDK\Test\Marketing\Enums;
 
-use FulfilioNet\eBaySDK\Marketing\Enums\CriterionTypeEnum;
+use DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum;
 
 class CriterionTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CriterionTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Enums\CriterionTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\CriterionTypeEnum', $this->obj);
     }
 }

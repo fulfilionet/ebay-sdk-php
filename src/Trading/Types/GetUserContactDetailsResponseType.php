@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $UserID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressType $ContactAddress
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ContactAddress
  * @property \DateTime $RegistrationDate
  */
-class GetUserContactDetailsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserContactDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class GetUserContactDetailsResponseType extends \FulfilioNet\eBaySDK\Trading\Typ
             'elementName' => 'UserID'
         ],
         'ContactAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ContactAddress'

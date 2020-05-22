@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse;
+use DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse;
 
 class GetReturnShippingLabelRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetReturnShippingLabelRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnShippingLabelRestResponse', $this->obj);
     }
 
     public function testExtendsGetShippingLabelResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\GetShippingLabelResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetShippingLabelResponse', $this->obj);
     }
 }

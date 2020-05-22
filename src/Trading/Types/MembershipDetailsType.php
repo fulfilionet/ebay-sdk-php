@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MembershipDetailType[] $Program
+ * @property \DTS\eBaySDK\Trading\Types\MembershipDetailType[] $Program
  */
-class MembershipDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MembershipDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Program' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MembershipDetailType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MembershipDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Program'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Types;
+namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
  *
  * @property integer $maxResults
- * @property \FulfilioNet\eBaySDK\Merchandising\Types\Affiliate $affiliate
+ * @property \DTS\eBaySDK\Merchandising\Types\Affiliate $affiliate
  */
-class BaseMerchandisingServiceRequest extends \FulfilioNet\eBaySDK\Merchandising\Types\BaseServiceRequest
+class BaseMerchandisingServiceRequest extends \DTS\eBaySDK\Merchandising\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class BaseMerchandisingServiceRequest extends \FulfilioNet\eBaySDK\Merchandising
             'elementName' => 'maxResults'
         ],
         'affiliate' => [
-            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\Affiliate',
+            'type' => 'DTS\eBaySDK\Merchandising\Types\Affiliate',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'affiliate'

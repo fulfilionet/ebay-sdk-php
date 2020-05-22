@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Taxonomy\Types;
+namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
-use FulfilioNet\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest;
+use DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest;
 
 class GetADefaultCategoryTreeIdRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetADefaultCategoryTreeIdRestRequestTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetADefaultCategoryTreeIdRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

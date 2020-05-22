@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $VATSite
  * @property string $VATID
  */
-class VATDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VATDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

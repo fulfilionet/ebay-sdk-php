@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\FeeSummary[] $feeSummaries
+ * @property \DTS\eBaySDK\Inventory\Types\FeeSummary[] $feeSummaries
  */
-class FeesSummaryResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeesSummaryResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'feeSummaries' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\FeeSummary',
+            'type' => 'DTS\eBaySDK\Inventory\Types\FeeSummary',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'feeSummaries'

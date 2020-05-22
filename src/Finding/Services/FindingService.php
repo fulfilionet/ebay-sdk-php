@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Services;
+namespace DTS\eBaySDK\Finding\Services;
 
-class FindingService extends \FulfilioNet\eBaySDK\Finding\Services\FindingBaseService
+class FindingService extends \DTS\eBaySDK\Finding\Services\FindingBaseService
 {
     const API_VERSION = '1.13.0';
 
@@ -23,244 +23,244 @@ class FindingService extends \FulfilioNet\eBaySDK\Finding\Services\FindingBaseSe
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationResponse
+     * @param \DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationResponse
      */
-    public function getSearchKeywordsRecommendation(\FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request)
+    public function getSearchKeywordsRecommendation(\DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request)
     {
         return $this->getSearchKeywordsRecommendationAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSearchKeywordsRecommendationAsync(\FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request)
+    public function getSearchKeywordsRecommendationAsync(\DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationRequest $request)
     {
         return $this->callOperationAsync(
             'getSearchKeywordsRecommendation',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationResponse'
+            '\DTS\eBaySDK\Finding\Types\GetSearchKeywordsRecommendationResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsByKeywordsResponse
      */
-    public function findItemsByKeywords(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request)
+    public function findItemsByKeywords(\DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request)
     {
         return $this->findItemsByKeywordsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsByKeywordsAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request)
+    public function findItemsByKeywordsAsync(\DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsByKeywords',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsByKeywordsResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsByCategoryResponse
      */
-    public function findItemsByCategory(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request)
+    public function findItemsByCategory(\DTS\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request)
     {
         return $this->findItemsByCategoryAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsByCategoryAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request)
+    public function findItemsByCategoryAsync(\DTS\eBaySDK\Finding\Types\FindItemsByCategoryRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsByCategory',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsByCategoryResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsByCategoryResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsAdvancedResponse
      */
-    public function findItemsAdvanced(\FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request)
+    public function findItemsAdvanced(\DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request)
     {
         return $this->findItemsAdvancedAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsAdvancedAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request)
+    public function findItemsAdvancedAsync(\DTS\eBaySDK\Finding\Types\FindItemsAdvancedRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsAdvanced',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsAdvancedResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsAdvancedResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByProductRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsByProductResponse
      */
-    public function findItemsByProduct(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductRequest $request)
+    public function findItemsByProduct(\DTS\eBaySDK\Finding\Types\FindItemsByProductRequest $request)
     {
         return $this->findItemsByProductAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByProductRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsByProductAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductRequest $request)
+    public function findItemsByProductAsync(\DTS\eBaySDK\Finding\Types\FindItemsByProductRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsByProduct',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsByProductResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsByProductResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse
      */
-    public function findItemsIneBayStores(\FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request)
+    public function findItemsIneBayStores(\DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request)
     {
         return $this->findItemsIneBayStoresAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsIneBayStoresAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request)
+    public function findItemsIneBayStoresAsync(\DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsIneBayStores',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsIneBayStoresResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByImageRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsByImageResponse
      */
-    public function findItemsByImage(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageRequest $request)
+    public function findItemsByImage(\DTS\eBaySDK\Finding\Types\FindItemsByImageRequest $request)
     {
         return $this->findItemsByImageAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsByImageRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsByImageAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageRequest $request)
+    public function findItemsByImageAsync(\DTS\eBaySDK\Finding\Types\FindItemsByImageRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsByImage',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsByImageResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsByImageResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetHistogramsRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\GetHistogramsResponse
+     * @param \DTS\eBaySDK\Finding\Types\GetHistogramsRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\GetHistogramsResponse
      */
-    public function getHistograms(\FulfilioNet\eBaySDK\Finding\Types\GetHistogramsRequest $request)
+    public function getHistograms(\DTS\eBaySDK\Finding\Types\GetHistogramsRequest $request)
     {
         return $this->getHistogramsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetHistogramsRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\GetHistogramsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getHistogramsAsync(\FulfilioNet\eBaySDK\Finding\Types\GetHistogramsRequest $request)
+    public function getHistogramsAsync(\DTS\eBaySDK\Finding\Types\GetHistogramsRequest $request)
     {
         return $this->callOperationAsync(
             'getHistograms',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\GetHistogramsResponse'
+            '\DTS\eBaySDK\Finding\Types\GetHistogramsResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetVersionRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\GetVersionResponse
+     * @param \DTS\eBaySDK\Finding\Types\GetVersionRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\GetVersionResponse
      */
-    public function getVersion(\FulfilioNet\eBaySDK\Finding\Types\GetVersionRequest $request)
+    public function getVersion(\DTS\eBaySDK\Finding\Types\GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\GetVersionRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getVersionAsync(\FulfilioNet\eBaySDK\Finding\Types\GetVersionRequest $request)
+    public function getVersionAsync(\DTS\eBaySDK\Finding\Types\GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\GetVersionResponse'
+            '\DTS\eBaySDK\Finding\Types\GetVersionResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchResponse
      */
-    public function findItemsForFavoriteSearch(\FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request)
+    public function findItemsForFavoriteSearch(\DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request)
     {
         return $this->findItemsForFavoriteSearchAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findItemsForFavoriteSearchAsync(\FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request)
+    public function findItemsForFavoriteSearchAsync(\DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchRequest $request)
     {
         return $this->callOperationAsync(
             'findItemsForFavoriteSearch',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindItemsForFavoriteSearchResponse'
+            '\DTS\eBaySDK\Finding\Types\FindItemsForFavoriteSearchResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsRequest $request
-     * @return \FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsResponse
+     * @param \DTS\eBaySDK\Finding\Types\FindCompletedItemsRequest $request
+     * @return \DTS\eBaySDK\Finding\Types\FindCompletedItemsResponse
      */
-    public function findCompletedItems(\FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsRequest $request)
+    public function findCompletedItems(\DTS\eBaySDK\Finding\Types\FindCompletedItemsRequest $request)
     {
         return $this->findCompletedItemsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsRequest $request
+     * @param \DTS\eBaySDK\Finding\Types\FindCompletedItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findCompletedItemsAsync(\FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsRequest $request)
+    public function findCompletedItemsAsync(\DTS\eBaySDK\Finding\Types\FindCompletedItemsRequest $request)
     {
         return $this->callOperationAsync(
             'findCompletedItems',
             $request,
-            '\FulfilioNet\eBaySDK\Finding\Types\FindCompletedItemsResponse'
+            '\DTS\eBaySDK\Finding\Types\FindCompletedItemsResponse'
         );
     }
 }

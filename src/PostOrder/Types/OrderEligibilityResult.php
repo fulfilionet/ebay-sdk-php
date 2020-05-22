@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $eligible
  * @property string[] $eligibleCancelReason
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum[] $failureReason
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ItemEligibilityResult[] $itemEligibilityResult
+ * @property \DTS\eBaySDK\PostOrder\Enums\EligibilityFailureReasonEnum[] $failureReason
+ * @property \DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult[] $itemEligibilityResult
  * @property string $legacyOrderId
  */
-class OrderEligibilityResult extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderEligibilityResult extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class OrderEligibilityResult extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'failureReason'
         ],
         'itemEligibilityResult' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ItemEligibilityResult',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemEligibilityResult',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemEligibilityResult'

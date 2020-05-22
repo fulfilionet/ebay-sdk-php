@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliveryUserType $Recipient
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliveryUserType $Sender
+ * @property \DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType $Recipient
+ * @property \DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType $Sender
  */
-class DeliveryDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeliveryDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Recipient' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliveryUserType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Recipient'
         ],
         'Sender' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliveryUserType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\DigitalDeliveryUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Sender'

@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
  * @property \DateTime $RefundTime
  * @property string $RefundID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
  */
-class RefundType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RefundType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'RefundFromSeller' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundFromSeller'
         ],
         'TotalRefundToBuyer' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalRefundToBuyer'
@@ -49,7 +49,7 @@ class RefundType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'RefundID'
         ],
         'RefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'

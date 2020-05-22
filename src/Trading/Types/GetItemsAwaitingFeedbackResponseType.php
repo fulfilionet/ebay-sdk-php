@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedTransactionArrayType $ItemsAwaitingFeedback
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedTransactionArrayType $ItemsAwaitingFeedback
  */
-class GetItemsAwaitingFeedbackResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetItemsAwaitingFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ItemsAwaitingFeedback' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedTransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemsAwaitingFeedback'

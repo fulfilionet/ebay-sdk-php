@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\FileTransfer\Types;
+namespace DTS\eBaySDK\Test\FileTransfer\Types;
 
-use FulfilioNet\eBaySDK\FileTransfer\Types\ErrorParameter;
+use DTS\eBaySDK\FileTransfer\Types\ErrorParameter;
 
 class ErrorParameterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ErrorParameterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\FileTransfer\Types\ErrorParameter', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\ErrorParameter', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }
 }

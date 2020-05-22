@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Finding\Types;
+namespace DTS\eBaySDK\Test\Finding\Types;
 
-use FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest;
+use DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest;
 
 class FindItemsByKeywordsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindItemsByKeywordsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Finding\Types\FindItemsByKeywordsRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest', $this->obj);
     }
 
     public function testExtendsBaseFindingServiceRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Finding\Types\BaseFindingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest', $this->obj);
     }
 }

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Enums;
+namespace DTS\eBaySDK\Fulfillment\Enums;
 
 class PaymentMethodTypeEnum
 {

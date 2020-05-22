@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Enums;
+namespace DTS\eBaySDK\Test\MerchantData\Enums;
 
-use FulfilioNet\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType;
+use DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType;
 
 class PaymentInstructionCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PaymentInstructionCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PaymentInstructionCodeType', $this->obj);
     }
 }

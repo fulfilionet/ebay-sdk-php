@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Enums\ProductIDCodeType $type
+ * @property \DTS\eBaySDK\HalfFinding\Enums\ProductIDCodeType $type
  */
-class ProductIDType extends \FulfilioNet\eBaySDK\Types\StringType
+class ProductIDType extends \DTS\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

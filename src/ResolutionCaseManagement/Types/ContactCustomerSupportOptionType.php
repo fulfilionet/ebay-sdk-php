@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class ContactCustomerSupportOptionType extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ContactCustomerSupportOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

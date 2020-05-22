@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Types;
+namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
-use FulfilioNet\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionResponse;
+use DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionResponse;
 
 class GetCompatibilitySearchDataVersionResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetCompatibilitySearchDataVersionResponseTest extends \PHPUnit_Framework_T
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetCompatibilitySearchDataVersionResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse', $this->obj);
     }
 }

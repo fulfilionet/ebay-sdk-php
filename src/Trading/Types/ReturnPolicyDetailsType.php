@@ -8,43 +8,43 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\RefundDetailsType[] $Refund
- * @property \FulfilioNet\eBaySDK\Trading\Types\ReturnsWithinDetailsType[] $ReturnsWithin
- * @property \FulfilioNet\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType[] $ReturnsAccepted
+ * @property \DTS\eBaySDK\Trading\Types\RefundDetailsType[] $Refund
+ * @property \DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType[] $ReturnsWithin
+ * @property \DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType[] $ReturnsAccepted
  * @property boolean $Description
- * @property \FulfilioNet\eBaySDK\Trading\Types\WarrantyOfferedDetailsType[] $WarrantyOffered
- * @property \FulfilioNet\eBaySDK\Trading\Types\WarrantyTypeDetailsType[] $WarrantyType
- * @property \FulfilioNet\eBaySDK\Trading\Types\WarrantyDurationDetailsType[] $WarrantyDuration
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType[] $WarrantyOffered
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType[] $WarrantyType
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType[] $WarrantyDuration
  * @property boolean $EAN
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType[] $ShippingCostPaidBy
- * @property \FulfilioNet\eBaySDK\Trading\Types\RestockingFeeValueDetailsType[] $RestockingFeeValue
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType[] $ShippingCostPaidBy
+ * @property \DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType[] $RestockingFeeValue
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  */
-class ReturnPolicyDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Refund' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RefundDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Refund'
         ],
         'ReturnsWithin' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnsWithin'
         ],
         'ReturnsAccepted' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnsAccepted'
@@ -56,19 +56,19 @@ class ReturnPolicyDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Description'
         ],
         'WarrantyOffered' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyOffered'
         ],
         'WarrantyType' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyType'
         ],
         'WarrantyDuration' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyDuration'
@@ -80,13 +80,13 @@ class ReturnPolicyDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'EAN'
         ],
         'ShippingCostPaidBy' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingCostPaidBy'
         ],
         'RestockingFeeValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RestockingFeeValue'

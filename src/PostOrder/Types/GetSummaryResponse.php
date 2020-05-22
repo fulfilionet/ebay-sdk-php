@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \DTS\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
+ * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $total
  */
-class GetSummaryResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetSummaryResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'countSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\CountSummaryType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\CountSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'countSummary'
         ],
         'members' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'members'
         ],
         'paginationOutput' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

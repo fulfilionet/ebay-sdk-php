@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $ExpectedReleaseDate
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\RequiredSellerActionArrayType $RequiredSellerActionArray
+ * @property \DTS\eBaySDK\MerchantData\Types\RequiredSellerActionArrayType $RequiredSellerActionArray
  * @property integer $NumOfReqSellerActions
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType $PaymentHoldReason
+ * @property \DTS\eBaySDK\MerchantData\Enums\PaymentHoldReasonCodeType $PaymentHoldReason
  */
-class PaymentHoldDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentHoldDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class PaymentHoldDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ExpectedReleaseDate'
         ],
         'RequiredSellerActionArray' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\RequiredSellerActionArrayType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\RequiredSellerActionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RequiredSellerActionArray'

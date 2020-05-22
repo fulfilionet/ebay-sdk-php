@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $cancelId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\OrderEligibilityResult $orderEligibilityResult
+ * @property \DTS\eBaySDK\PostOrder\Types\OrderEligibilityResult $orderEligibilityResult
  */
-class CreateCancelResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateCancelResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CreateCancelResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'cancelId'
         ],
         'orderEligibilityResult' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\OrderEligibilityResult',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\OrderEligibilityResult',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'orderEligibilityResult'

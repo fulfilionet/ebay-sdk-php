@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\BulkDataExchange\Enums;
+namespace DTS\eBaySDK\Test\BulkDataExchange\Enums;
 
-use FulfilioNet\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes;
+use DTS\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes;
 
 class OrderStatusTypesTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class OrderStatusTypesTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use FulfilioNet\eBaySDK\RelatedItemsManagement\Types\Discount;
+use DTS\eBaySDK\RelatedItemsManagement\Types\Discount;
 
 class DiscountTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DiscountTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\Discount', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\Discount', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

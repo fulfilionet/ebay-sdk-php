@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
- * @property \FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
+ * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class ItemConditionPolicyResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemConditionPolicyResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemConditionPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\ItemConditionPolicy',
+            'type' => 'DTS\eBaySDK\Metadata\Types\ItemConditionPolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemConditionPolicies'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

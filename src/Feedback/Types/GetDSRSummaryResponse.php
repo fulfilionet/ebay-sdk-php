@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Feedback\Types;
+namespace DTS\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Feedback\Types\DSRSummary[] $DSRSummary
+ * @property \DTS\eBaySDK\Feedback\Types\DSRSummary[] $DSRSummary
  * @property integer $totalTransactionCount
  */
-class GetDSRSummaryResponse extends \FulfilioNet\eBaySDK\Feedback\Types\BaseServiceResponse
+class GetDSRSummaryResponse extends \DTS\eBaySDK\Feedback\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'DSRSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Feedback\Types\DSRSummary',
+            'type' => 'DTS\eBaySDK\Feedback\Types\DSRSummary',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DSRSummary'

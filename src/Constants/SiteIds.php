@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK\Constants;
+namespace DTS\eBaySDK\Constants;
 
 /**
  * Constants for specifing an eBay site ID.

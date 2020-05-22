@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  * @property string $returnMerchandiseAuthorization
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\Address $returnAddress
+ * @property \DTS\eBaySDK\ReturnManagement\Types\Address $returnAddress
  */
-class ProvideSellerInfoRequest extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseRequest
+class ProvideSellerInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnId'
@@ -35,7 +35,7 @@ class ProvideSellerInfoRequest extends \FulfilioNet\eBaySDK\ReturnManagement\Typ
             'elementName' => 'returnMerchandiseAuthorization'
         ],
         'returnAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\Address',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnAddress'

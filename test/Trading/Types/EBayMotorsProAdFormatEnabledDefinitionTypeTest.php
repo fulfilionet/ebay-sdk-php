@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType;
+use DTS\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType;
 
 class EBayMotorsProAdFormatEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class EBayMotorsProAdFormatEnabledDefinitionTypeTest extends \PHPUnit_Framework_
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

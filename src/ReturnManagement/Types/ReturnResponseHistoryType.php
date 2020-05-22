@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $note
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnUserType $author
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $author
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail
  * @property \DateTime $creationDate
  */
-class ReturnResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class ReturnResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'note'
         ],
         'author' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'author'
         ],
         'activityDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ActivityDetailType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'activityDetail'

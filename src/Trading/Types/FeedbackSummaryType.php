@@ -8,55 +8,55 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType $BidRetractionFeedbackPeriodArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NegativeFeedbackPeriodArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NeutralFeedbackPeriodArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType $PositiveFeedbackPeriodArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType $TotalFeedbackPeriodArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $BidRetractionFeedbackPeriodArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NegativeFeedbackPeriodArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NeutralFeedbackPeriodArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $PositiveFeedbackPeriodArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $TotalFeedbackPeriodArray
  * @property integer $NeutralCommentCountFromSuspendedUsers
  * @property integer $UniqueNegativeFeedbackCount
  * @property integer $UniquePositiveFeedbackCount
  * @property integer $UniqueNeutralFeedbackCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerRatingSummaryArrayType $SellerRatingSummaryArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerRoleMetricsType $SellerRoleMetrics
- * @property \FulfilioNet\eBaySDK\Trading\Types\BuyerRoleMetricsType $BuyerRoleMetrics
+ * @property \DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType $SellerRatingSummaryArray
+ * @property \DTS\eBaySDK\Trading\Types\SellerRoleMetricsType $SellerRoleMetrics
+ * @property \DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType $BuyerRoleMetrics
  */
-class FeedbackSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeedbackSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidRetractionFeedbackPeriodArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidRetractionFeedbackPeriodArray'
         ],
         'NegativeFeedbackPeriodArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NegativeFeedbackPeriodArray'
         ],
         'NeutralFeedbackPeriodArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NeutralFeedbackPeriodArray'
         ],
         'PositiveFeedbackPeriodArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PositiveFeedbackPeriodArray'
         ],
         'TotalFeedbackPeriodArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalFeedbackPeriodArray'
@@ -86,19 +86,19 @@ class FeedbackSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'UniqueNeutralFeedbackCount'
         ],
         'SellerRatingSummaryArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerRatingSummaryArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerRatingSummaryArray'
         ],
         'SellerRoleMetrics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerRoleMetricsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerRoleMetricsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerRoleMetrics'
         ],
         'BuyerRoleMetrics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BuyerRoleMetricsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerRoleMetrics'

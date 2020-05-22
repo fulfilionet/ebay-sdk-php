@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\InventoryItem[] $excludeInventoryItems
+ * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $excludeInventoryItems
  * @property string[] $excludeListingIds
- * @property \FulfilioNet\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
+ * @property \DTS\eBaySDK\Marketing\Types\SelectionRule[] $selectionRules
  */
-class RuleCriteria extends \FulfilioNet\eBaySDK\Types\BaseType
+class RuleCriteria extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'excludeInventoryItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\InventoryItem',
+            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'excludeInventoryItems'
@@ -35,7 +35,7 @@ class RuleCriteria extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'excludeListingIds'
         ],
         'selectionRules' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\SelectionRule',
+            'type' => 'DTS\eBaySDK\Marketing\Types\SelectionRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'selectionRules'

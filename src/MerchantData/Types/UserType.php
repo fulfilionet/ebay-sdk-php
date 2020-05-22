@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -20,42 +20,42 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property integer $UniquePositiveFeedbackCount
  * @property double $PositiveFeedbackPercent
  * @property boolean $FeedbackPrivate
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property \DTS\eBaySDK\MerchantData\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property boolean $IDVerified
  * @property boolean $eBayGoodStanding
  * @property boolean $NewUser
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $RegistrationAddress
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $RegistrationAddress
  * @property \DateTime $RegistrationDate
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SiteCodeType $Site
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\UserStatusCodeType $Status
+ * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $Site
+ * @property \DTS\eBaySDK\MerchantData\Enums\UserStatusCodeType $Status
  * @property string $UserID
  * @property boolean $UserIDChanged
  * @property \DateTime $UserIDLastChanged
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\VATStatusCodeType $VATStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\BuyerType $BuyerInfo
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerType $SellerInfo
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\BusinessRoleType $BusinessRole
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType $PayPalAccountType
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
+ * @property \DTS\eBaySDK\MerchantData\Enums\VATStatusCodeType $VATStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\BuyerType $BuyerInfo
+ * @property \DTS\eBaySDK\MerchantData\Types\SellerType $SellerInfo
+ * @property \DTS\eBaySDK\MerchantData\Enums\BusinessRoleType $BusinessRole
+ * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
+ * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountTypeCodeType $PayPalAccountType
+ * @property \DTS\eBaySDK\MerchantData\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
  * @property string[] $SkypeID
  * @property boolean $eBayWikiReadOnly
  * @property integer $TUVLevel
  * @property string $VATID
  * @property boolean $MotorsDealer
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\BiddingSummaryType $BiddingSummary
+ * @property \DTS\eBaySDK\MerchantData\Types\BiddingSummaryType $BiddingSummary
  * @property boolean $UserAnonymized
  * @property integer $UniqueNeutralFeedbackCount
  * @property boolean $EnterpriseSeller
  * @property string $BillingEmail
  * @property boolean $QualifiesForSelling
  * @property string $StaticAlias
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
  * @property string $UserFirstName
  * @property string $UserLastName
  */
-class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
+class UserType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -134,7 +134,7 @@ class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'NewUser'
         ],
         'RegistrationAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RegistrationAddress'
@@ -182,13 +182,13 @@ class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'VATStatus'
         ],
         'BuyerInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\BuyerType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerInfo'
         ],
         'SellerInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerInfo'
@@ -254,7 +254,7 @@ class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'MotorsDealer'
         ],
         'BiddingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\BiddingSummaryType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\BiddingSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BiddingSummary'
@@ -296,7 +296,7 @@ class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'StaticAlias'
         ],
         'ShippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'

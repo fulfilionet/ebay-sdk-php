@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $CampaignID
  * @property string $CampaignDisplayName
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ItemDiscountAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingDiscountAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemDiscountAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingDiscountAmount
  */
-class SellerDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerDiscountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class SellerDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CampaignDisplayName'
         ],
         'ItemDiscountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemDiscountAmount'
         ],
         'ShippingDiscountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDiscountAmount'

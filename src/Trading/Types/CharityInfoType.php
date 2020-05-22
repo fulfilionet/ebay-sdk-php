@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -27,11 +27,11 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $PopularityIndex
  * @property string $EIN
  * @property string $NonProfitSecondName
- * @property \FulfilioNet\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
- * @property \FulfilioNet\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
  * @property string $id
  */
-class CharityInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -128,13 +128,13 @@ class CharityInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'NonProfitSecondName'
         ],
         'NonProfitAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NonProfitAddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitAddressType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NonProfitAddress'
         ],
         'NonProfitSocialAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NonProfitSocialAddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NonProfitSocialAddress'

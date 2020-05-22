@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AccountDetailEntryCodeType $AccountDetailsEntryType
+ * @property \DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType $AccountDetailsEntryType
  * @property string $Description
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $Balance
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
  * @property \DateTime $Date
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $GrossDetailAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $GrossDetailAmount
  * @property string $ItemID
  * @property string $Memo
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ConversionRate
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $NetDetailAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConversionRate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetDetailAmount
  * @property string $RefNumber
  * @property integer $VATPercent
  * @property string $Title
@@ -28,7 +28,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $TransactionID
  * @property boolean $ReceivedTopRatedDiscount
  */
-class AccountEntryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AccountEntryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -47,7 +47,7 @@ class AccountEntryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Description'
         ],
         'Balance' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Balance'
@@ -59,7 +59,7 @@ class AccountEntryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Date'
         ],
         'GrossDetailAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GrossDetailAmount'
@@ -77,13 +77,13 @@ class AccountEntryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Memo'
         ],
         'ConversionRate' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConversionRate'
         ],
         'NetDetailAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NetDetailAmount'

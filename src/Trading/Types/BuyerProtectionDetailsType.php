@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType $BuyerProtectionSource
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerProtectionCodeType $BuyerProtectionStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType $BuyerProtectionSource
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType $BuyerProtectionStatus
  */
-class BuyerProtectionDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BuyerProtectionDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

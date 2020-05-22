@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $EndTime
  * @property string $CorrelationID
- * @property \FulfilioNet\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
  */
-class EndItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EndItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class EndItemResponseContainerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CorrelationID'
         ],
         'Errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ErrorType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'

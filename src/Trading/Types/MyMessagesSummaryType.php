@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
  * @property integer $NewMessageCount
  * @property integer $FlaggedMessageCount
  * @property integer $TotalMessageCount
  * @property integer $NewHighPriorityCount
  * @property integer $TotalHighPriorityCount
  */
-class MyMessagesSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'FolderSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FolderSummary'

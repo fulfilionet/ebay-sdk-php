@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Enums\ProgramTypeEnum $programType
+ * @property \DTS\eBaySDK\Account\Enums\ProgramTypeEnum $programType
  */
-class Program extends \FulfilioNet\eBaySDK\Types\BaseType
+class Program extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

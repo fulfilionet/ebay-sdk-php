@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest;
 
 class CreateReturnDraftRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateReturnDraftRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CreateReturnDraftRestRequest', $this->obj);
     }
 
     public function testExtendsSetReturnCreationSessionRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\SetReturnCreationSessionRequest', $this->obj);
     }
 }

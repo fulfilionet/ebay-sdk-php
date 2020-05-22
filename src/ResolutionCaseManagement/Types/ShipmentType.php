@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
@@ -16,10 +16,10 @@ namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
  * @property string $carrierUsed
  * @property string $deliveryStatus
  * @property \DateTime $deliveryDate
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount $shippingCost
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Address $shippingAddress
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $shippingAddress
  */
-class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -50,13 +50,13 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'deliveryDate'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
         ],
         'shippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Address',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'

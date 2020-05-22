@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\CharityInfoType[] $Charity
+ * @property \DTS\eBaySDK\Trading\Types\CharityInfoType[] $Charity
  */
-class GetCharitiesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetCharitiesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Charity' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CharityInfoType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CharityInfoType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Charity'

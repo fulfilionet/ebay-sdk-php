@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  * @property integer[] $profileIds
  */
-class RemoveSellerProfilesRequest extends \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
+class RemoveSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

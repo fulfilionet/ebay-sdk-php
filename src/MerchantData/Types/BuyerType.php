@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxIdentifierType[] $BuyerTaxIdentifier
  */
-class BuyerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BuyerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
         ],
         'BuyerTaxIdentifier' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxIdentifierType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerTaxIdentifier'

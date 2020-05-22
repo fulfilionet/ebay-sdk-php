@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $SpacingIntervalInMinutes
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoListMinActiveItemsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerAutoListMinActiveItemsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

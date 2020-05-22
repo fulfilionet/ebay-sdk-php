@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -19,24 +19,24 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $ShippingServiceID
  * @property integer $ShippingTimeMax
  * @property integer $ShippingTimeMin
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
  * @property boolean $DimensionsRequired
  * @property boolean $ValidForSellingFlow
  * @property boolean $SurchargeApplicable
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
  * @property boolean $CODService
- * @property \FulfilioNet\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
+ * @property \DTS\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
  * @property integer $MappedToShippingServiceID
  * @property string $CostGroupFlat
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
  * @property boolean $WeightRequired
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  * @property string $ShippingCategory
  */
-class ShippingServiceDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingServiceDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -133,7 +133,7 @@ class ShippingServiceDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CODService'
         ],
         'DeprecationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AnnouncementMessageType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AnnouncementMessageType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DeprecationDetails'
@@ -151,7 +151,7 @@ class ShippingServiceDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CostGroupFlat'
         ],
         'ShippingServicePackageDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingServicePackageDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServicePackageDetails'

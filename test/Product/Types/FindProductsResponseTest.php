@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Product\Types;
+namespace DTS\eBaySDK\Test\Product\Types;
 
-use FulfilioNet\eBaySDK\Product\Types\FindProductsResponse;
+use DTS\eBaySDK\Product\Types\FindProductsResponse;
 
 class FindProductsResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindProductsResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Product\Types\FindProductsResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\FindProductsResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Product\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\BaseServiceResponse', $this->obj);
     }
 }

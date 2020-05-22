@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $EndTime
  */
-class EndItemResponseType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType
+class EndItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

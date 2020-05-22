@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest;
+use DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest;
 
 class AppealToCustomerSupportRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AppealToCustomerSupportRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\AppealToCustomerSupportRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest', $this->obj);
     }
 }

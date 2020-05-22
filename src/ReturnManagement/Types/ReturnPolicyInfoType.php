@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property boolean $optedForRMA
  * @property boolean $optedForMultipleReturnAddress
  */
-class ReturnPolicyInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnPolicyInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

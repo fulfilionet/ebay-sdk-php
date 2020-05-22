@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Services;
+namespace DTS\eBaySDK\BulkDataExchange\Services;
 
 /**
  * Base class for the BulkDataExchange service.
  */
-class BulkDataExchangeBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class BulkDataExchangeBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -41,7 +41,7 @@ class BulkDataExchangeBaseService extends \FulfilioNet\eBaySDK\Services\BaseServ
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService::API_VERSION
+                'default' => \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

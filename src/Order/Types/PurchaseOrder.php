@@ -8,42 +8,42 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \FulfilioNet\eBaySDK\Order\Types\PaymentInstrument $paymentInstrument
- * @property \FulfilioNet\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
+ * @property \DTS\eBaySDK\Order\Types\PaymentInstrument $paymentInstrument
+ * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
  * @property string $purchaseOrderCreationDate
  * @property string $purchaseOrderId
- * @property \FulfilioNet\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \FulfilioNet\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $refundedAmount
- * @property \FulfilioNet\eBaySDK\Order\Types\ShippingAddress $shippingAddress
- * @property \FulfilioNet\eBaySDK\Order\Types\ShippingFulfillment[] $shippingFulfillments
- * @property \FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
+ * @property \DTS\eBaySDK\Order\Types\Amount $refundedAmount
+ * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
+ * @property \DTS\eBaySDK\Order\Types\ShippingFulfillment[] $shippingFulfillments
+ * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class PurchaseOrder extends \FulfilioNet\eBaySDK\Types\BaseType
+class PurchaseOrder extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\LineItem',
+            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
         ],
         'paymentInstrument' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PaymentInstrument',
+            'type' => 'DTS\eBaySDK\Order\Types\PaymentInstrument',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentInstrument'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -73,25 +73,25 @@ class PurchaseOrder extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'purchaseOrderStatus'
         ],
         'refundedAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundedAmount'
         ],
         'shippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ShippingAddress',
+            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'
         ],
         'shippingFulfillments' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ShippingFulfillment',
+            'type' => 'DTS\eBaySDK\Order\Types\ShippingFulfillment',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shippingFulfillments'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

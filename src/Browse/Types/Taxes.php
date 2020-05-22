@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
  * @property boolean $includedInPrice
  * @property boolean $shippingAndHandlingTaxed
- * @property \FulfilioNet\eBaySDK\Browse\Types\TaxJurisdiction $taxJurisdiction
+ * @property \DTS\eBaySDK\Browse\Types\TaxJurisdiction $taxJurisdiction
  * @property string $taxPercentage
- * @property \FulfilioNet\eBaySDK\Browse\Types\TaxType $taxType
+ * @property \DTS\eBaySDK\Browse\Types\TaxType $taxType
  */
-class Taxes extends \FulfilioNet\eBaySDK\Types\BaseType
+class Taxes extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class Taxes extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingAndHandlingTaxed'
         ],
         'taxJurisdiction' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\TaxJurisdiction',
+            'type' => 'DTS\eBaySDK\Browse\Types\TaxJurisdiction',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'taxJurisdiction'
@@ -49,7 +49,7 @@ class Taxes extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'taxPercentage'
         ],
         'taxType' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\TaxType',
+            'type' => 'DTS\eBaySDK\Browse\Types\TaxType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'taxType'

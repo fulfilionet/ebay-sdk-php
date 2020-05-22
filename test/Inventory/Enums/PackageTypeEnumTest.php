@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Enums;
+namespace DTS\eBaySDK\Test\Inventory\Enums;
 
-use FulfilioNet\eBaySDK\Inventory\Enums\PackageTypeEnum;
+use DTS\eBaySDK\Inventory\Enums\PackageTypeEnum;
 
 class PackageTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PackageTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Enums\PackageTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\PackageTypeEnum', $this->obj);
     }
 }

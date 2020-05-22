@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
+namespace DTS\eBaySDK\Test\Shopping\Types;
 
-use FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeResponseType;
+use DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType;
 
 class GeteBayTimeResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GeteBayTimeResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }
 }

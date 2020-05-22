@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $FolderID
  */
-class AddSellingManagerInventoryFolderResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class AddSellingManagerInventoryFolderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

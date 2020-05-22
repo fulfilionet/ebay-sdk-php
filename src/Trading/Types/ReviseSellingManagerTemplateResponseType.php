@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $SaleTemplateID
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property boolean $VerifyOnly
  * @property string $SaleTemplateName
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  */
-class ReviseSellingManagerTemplateResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class ReviseSellingManagerTemplateResponseType extends \FulfilioNet\eBaySDK\Trad
             'elementName' => 'SaleTemplateID'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -63,7 +63,7 @@ class ReviseSellingManagerTemplateResponseType extends \FulfilioNet\eBaySDK\Trad
             'elementName' => 'SaleTemplateName'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'

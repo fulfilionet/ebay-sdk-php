@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldOrderType[] $SaleRecord
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType[] $SaleRecord
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetSellingManagerSoldListingsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerSoldListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SaleRecord' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SaleRecord'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

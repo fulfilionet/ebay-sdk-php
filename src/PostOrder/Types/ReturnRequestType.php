@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrier
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
  * @property string $itemId
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
+ * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
  * @property string $requestType
  * @property integer $returnQuantity
  * @property string $transactionId
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
+ * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
  */
-class ReturnRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,7 +34,7 @@ class ReturnRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'carrier'
         ],
         'comments' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'

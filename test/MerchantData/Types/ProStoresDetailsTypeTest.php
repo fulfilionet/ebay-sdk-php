@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
+namespace DTS\eBaySDK\Test\MerchantData\Types;
 
-use FulfilioNet\eBaySDK\MerchantData\Types\ProStoresDetailsType;
+use DTS\eBaySDK\MerchantData\Types\ProStoresDetailsType;
 
 class ProStoresDetailsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProStoresDetailsTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\ProStoresDetailsType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ProStoresDetailsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

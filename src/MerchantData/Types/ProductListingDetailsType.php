@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -21,12 +21,12 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $ISBN
  * @property string $UPC
  * @property string $EAN
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\BrandMPNType $BrandMPN
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TicketListingDetailsType $TicketListingDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\BrandMPNType $BrandMPN
+ * @property \DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType $TicketListingDetails
  * @property boolean $UseFirstProduct
  * @property boolean $IncludeeBayProductDetails
  */
-class ProductListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -87,13 +87,13 @@ class ProductListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'EAN'
         ],
         'BrandMPN' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\BrandMPNType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\BrandMPNType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BrandMPN'
         ],
         'TicketListingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TicketListingDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TicketListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TicketListingDetails'

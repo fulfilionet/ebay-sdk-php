@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $inquiryId
  */
-class SendInquiryMessageRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\SendMessageRequest
+class SendInquiryMessageRestRequest extends \DTS\eBaySDK\PostOrder\Types\SendMessageRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

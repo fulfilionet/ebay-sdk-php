@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class GetVersionRequest extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class GetVersionRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

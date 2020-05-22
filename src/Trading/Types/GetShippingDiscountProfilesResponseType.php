@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
- * @property \FulfilioNet\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \FulfilioNet\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
  * @property boolean $PromotionalShippingDiscount
- * @property \FulfilioNet\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
- * @property \FulfilioNet\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
  */
-class GetShippingDiscountProfilesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,13 +33,13 @@ class GetShippingDiscountProfilesResponseType extends \FulfilioNet\eBaySDK\Tradi
             'elementName' => 'CurrencyID'
         ],
         'FlatShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FlatShippingDiscountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FlatShippingDiscount'
         ],
         'CalculatedShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingDiscount'
@@ -51,13 +51,13 @@ class GetShippingDiscountProfilesResponseType extends \FulfilioNet\eBaySDK\Tradi
             'elementName' => 'PromotionalShippingDiscount'
         ],
         'CalculatedHandlingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedHandlingDiscount'
         ],
         'PromotionalShippingDiscountDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalShippingDiscountDetails'

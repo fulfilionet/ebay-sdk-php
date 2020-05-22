@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $SKU
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $StartPrice
  * @property integer $Quantity
  */
-class InventoryStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class InventoryStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemID'
         ],
         'StartPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'

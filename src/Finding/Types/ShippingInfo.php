@@ -8,11 +8,11 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\Amount $shippingServiceCost
+ * @property \DTS\eBaySDK\Finding\Types\Amount $shippingServiceCost
  * @property string $shippingType
  * @property string[] $shipToLocations
  * @property boolean $expeditedShipping
@@ -20,14 +20,14 @@ namespace FulfilioNet\eBaySDK\Finding\Types;
  * @property integer $handlingTime
  * @property boolean $intermediatedShipping
  */
-class ShippingInfo extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingInfo extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'shippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\Amount',
+            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingServiceCost'

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TotalTaxAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxDetailsType[] $TaxDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalTaxAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxDetailsType[] $TaxDetails
  */
-class TaxesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TaxesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'TotalTaxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalTaxAmount'
         ],
         'TaxDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'TaxDetails'

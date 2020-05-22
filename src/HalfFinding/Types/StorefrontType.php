@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
  * @property string $storeURL
  * @property string $storeName
  */
-class StorefrontType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StorefrontType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

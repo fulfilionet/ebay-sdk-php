@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Types;
+namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
-use FulfilioNet\eBaySDK\ProductMetadata\Types\ExtensionType;
+use DTS\eBaySDK\ProductMetadata\Types\ExtensionType;
 
 class ExtensionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ExtensionTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\ExtensionType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\ExtensionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

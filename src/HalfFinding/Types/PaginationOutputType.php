@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace FulfilioNet\eBaySDK\HalfFinding\Types;
  * @property integer $totalEntries
  * @property integer $totalPages
  */
-class PaginationOutputType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaginationOutputType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

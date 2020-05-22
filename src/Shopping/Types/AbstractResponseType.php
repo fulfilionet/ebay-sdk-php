@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property \DateTime $Timestamp
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\AckCodeType $Ack
- * @property \FulfilioNet\eBaySDK\Shopping\Types\ErrorType[] $Errors
+ * @property \DTS\eBaySDK\Shopping\Enums\AckCodeType $Ack
+ * @property \DTS\eBaySDK\Shopping\Types\ErrorType[] $Errors
  * @property string $Build
  * @property string $Version
  * @property string $CorrelationID
  */
-class AbstractResponseType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,7 +38,7 @@ class AbstractResponseType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Ack'
         ],
         'Errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\ErrorType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'

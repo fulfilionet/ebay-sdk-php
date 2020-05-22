@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  */
-class GetListingFeesRestRequest extends \FulfilioNet\eBaySDK\Inventory\Types\OfferKeysWithId
+class GetListingFeesRestRequest extends \DTS\eBaySDK\Inventory\Types\OfferKeysWithId
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property \DateTime $refundDue
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\EstimatedRefundDetailType $estimatedRefundDetail
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ActualRefundDetailType $actualRefundDetail
+ * @property \DTS\eBaySDK\ReturnManagement\Types\EstimatedRefundDetailType $estimatedRefundDetail
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ActualRefundDetailType $actualRefundDetail
  */
-class RefundInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RefundInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class RefundInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'refundDue'
         ],
         'estimatedRefundDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\EstimatedRefundDetailType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\EstimatedRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefundDetail'
         ],
         'actualRefundDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ActualRefundDetailType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ActualRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualRefundDetail'

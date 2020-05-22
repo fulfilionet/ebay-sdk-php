@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
-use FulfilioNet\eBaySDK\StatusCodeTrait;
-use FulfilioNet\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
+use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
  */
-class BulkMigrateListingsRestResponse extends \FulfilioNet\eBaySDK\Inventory\Types\BulkMigrateListingResponse
+class BulkMigrateListingsRestResponse extends \DTS\eBaySDK\Inventory\Types\BulkMigrateListingResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class BulkMigrateListingsRestResponse extends \FulfilioNet\eBaySDK\Inventory\Typ
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

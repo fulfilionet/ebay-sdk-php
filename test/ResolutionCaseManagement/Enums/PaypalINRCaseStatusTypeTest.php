@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType;
 
 class PaypalINRCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PaypalINRCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType', $this->obj);
     }
 }

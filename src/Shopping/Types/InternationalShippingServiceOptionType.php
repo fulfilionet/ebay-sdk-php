@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingInsuranceCost
  * @property string $ShippingServiceName
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingServiceAdditionalCost
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
  * @property integer $ShippingServicePriority
  * @property string[] $ShipsTo
  * @property \DateTime $EstimatedDeliveryMinTime
  * @property \DateTime $EstimatedDeliveryMaxTime
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ImportCharge
  * @property \DateTime $ShippingServiceCutOffTime
  */
-class InternationalShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class InternationalShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
@@ -42,13 +42,13 @@ class InternationalShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\
             'elementName' => 'ShippingServiceName'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
@@ -78,7 +78,7 @@ class InternationalShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\
             'elementName' => 'EstimatedDeliveryMaxTime'
         ],
         'ImportCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'

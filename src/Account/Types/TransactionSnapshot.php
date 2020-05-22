@@ -8,42 +8,42 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\SoldAggregatedMetrics $calendarWindowAggregatedMetrics
- * @property \FulfilioNet\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
- * @property \FulfilioNet\eBaySDK\Account\Types\SoldAggregatedMetrics $rollingWindowAggregatedMetrics
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $soldInventoryValue
+ * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $calendarWindowAggregatedMetrics
+ * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
+ * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $rollingWindowAggregatedMetrics
+ * @property \DTS\eBaySDK\Account\Types\Amount $soldInventoryValue
  * @property integer $soldQuantity
  */
-class TransactionSnapshot extends \FulfilioNet\eBaySDK\Types\BaseType
+class TransactionSnapshot extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'calendarWindowAggregatedMetrics' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'calendarWindowAggregatedMetrics'
         ],
         'lookbackPeriod' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\LookbackPeriod',
+            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lookbackPeriod'
         ],
         'rollingWindowAggregatedMetrics' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'rollingWindowAggregatedMetrics'
         ],
         'soldInventoryValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'soldInventoryValue'

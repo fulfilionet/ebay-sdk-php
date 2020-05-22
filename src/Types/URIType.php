@@ -1,12 +1,12 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types;
+namespace DTS\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to uri types in the XML.
  *
  * @property string $value
  */
-class URIType extends \FulfilioNet\eBaySDK\Types\BaseType
+class URIType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

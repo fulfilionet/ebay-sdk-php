@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $Name
  * @property string[] $Value
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType $Source
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType $Source
  */
-class NameValueListType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NameValueListType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

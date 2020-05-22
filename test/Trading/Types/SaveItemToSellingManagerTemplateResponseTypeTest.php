@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType;
+use DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType;
 
 class SaveItemToSellingManagerTemplateResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SaveItemToSellingManagerTemplateResponseTypeTest extends \PHPUnit_Framewor
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

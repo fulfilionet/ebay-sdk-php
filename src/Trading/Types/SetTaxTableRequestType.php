@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
  */
-class SetTaxTableRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class SetTaxTableRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'TaxTable' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TaxTableType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxTable'

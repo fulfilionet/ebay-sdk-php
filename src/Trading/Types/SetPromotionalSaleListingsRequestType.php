@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $PromotionalSaleID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $Action
+ * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
  * @property integer $StoreCategoryID
  * @property integer $CategoryID
  * @property boolean $AllFixedPriceItems
  * @property boolean $AllAuctionItems
  */
-class SetPromotionalSaleListingsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class SetPromotionalSaleListingsRequestType extends \FulfilioNet\eBaySDK\Trading
             'elementName' => 'Action'
         ],
         'PromotionalSaleItemIDArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemIDArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleItemIDArray'

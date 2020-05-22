@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Constants\Test;
+namespace DTS\eBaySDK\Constants\Test;
 
-use FulfilioNet\eBaySDK\Constants\MarketplaceIds as MarketplaceIds;
+use DTS\eBaySDK\Constants\MarketplaceIds as MarketplaceIds;
 
 class MarketplaceIdsTest extends \PHPUnit_Framework_TestCase
 {

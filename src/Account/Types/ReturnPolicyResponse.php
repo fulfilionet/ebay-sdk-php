@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
@@ -17,10 +17,10 @@ namespace FulfilioNet\eBaySDK\Account\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \FulfilioNet\eBaySDK\Account\Types\ReturnPolicy[] $returnPolicies
+ * @property \DTS\eBaySDK\Account\Types\ReturnPolicy[] $returnPolicies
  * @property integer $total
  */
-class ReturnPolicyResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class ReturnPolicyResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'prev'
         ],
         'returnPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\ReturnPolicy',
+            'type' => 'DTS\eBaySDK\Account\Types\ReturnPolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'returnPolicies'

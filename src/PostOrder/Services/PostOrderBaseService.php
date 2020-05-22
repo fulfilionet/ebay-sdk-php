@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\PostOrder\Services;
+namespace DTS\eBaySDK\PostOrder\Services;
 
 /**
  * Base class for the PostOrder service.
  */
-class PostOrderBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class PostOrderBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
+                'default' => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
                 'required' => true
             ],
             'authToken' => [

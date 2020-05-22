@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  */
-class UpdateReturnRulesRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\ModifyDispositionRuleRequest
+class UpdateReturnRulesRestRequest extends \DTS\eBaySDK\PostOrder\Types\ModifyDispositionRuleRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

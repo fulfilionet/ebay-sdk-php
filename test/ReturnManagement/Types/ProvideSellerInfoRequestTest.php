@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Types;
+namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
-use FulfilioNet\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest;
+use DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest;
 
 class ProvideSellerInfoRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvideSellerInfoRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\ProvideSellerInfoRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseRequest', $this->obj);
     }
 }

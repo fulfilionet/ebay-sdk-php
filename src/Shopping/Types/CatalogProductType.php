@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $DomainName
  * @property string $DetailsURL
  * @property boolean $DisplayStockPhotos
- * @property \FulfilioNet\eBaySDK\Shopping\Types\ProductIDType[] $ProductID
+ * @property \DTS\eBaySDK\Shopping\Types\ProductIDType[] $ProductID
  * @property integer $ItemCount
- * @property \FulfilioNet\eBaySDK\Shopping\Types\NameValueListArrayType $ItemSpecifics
+ * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType $ItemSpecifics
  * @property integer $ReviewCount
  * @property string $StockPhotoURL
  * @property string $Title
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\ProductStateCodeType $ProductState
+ * @property \DTS\eBaySDK\Shopping\Enums\ProductStateCodeType $ProductState
  */
-class CatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CatalogProductType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,7 +48,7 @@ class CatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DisplayStockPhotos'
         ],
         'ProductID' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\ProductIDType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ProductID'
@@ -60,7 +60,7 @@ class CatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemCount'
         ],
         'ItemSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemSpecifics'

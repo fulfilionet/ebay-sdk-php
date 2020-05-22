@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $activityDue
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
  */
-class ReturnResponseDueType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnResponseDueType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class ReturnResponseDueType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'activityDue'
         ],
         'respondByDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'respondByDate'

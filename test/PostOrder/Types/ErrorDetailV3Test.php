@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3;
+use DTS\eBaySDK\PostOrder\Types\ErrorDetailV3;
 
 class ErrorDetailV3Test extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ErrorDetailV3Test extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\ErrorDetailV3', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ErrorDetailV3', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

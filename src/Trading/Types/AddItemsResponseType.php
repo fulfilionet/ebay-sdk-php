@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddItemResponseContainerType[] $AddItemResponseContainer
+ * @property \DTS\eBaySDK\Trading\Types\AddItemResponseContainerType[] $AddItemResponseContainer
  */
-class AddItemsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class AddItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AddItemResponseContainer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddItemResponseContainerType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddItemResponseContainerType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AddItemResponseContainer'

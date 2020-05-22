@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\GetSellingManagerSoldListingsRequestType;
+use DTS\eBaySDK\Trading\Types\GetSellingManagerSoldListingsRequestType;
 
 class GetSellingManagerSoldListingsRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetSellingManagerSoldListingsRequestTypeTest extends \PHPUnit_Framework_Te
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\GetSellingManagerSoldListingsRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetSellingManagerSoldListingsRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

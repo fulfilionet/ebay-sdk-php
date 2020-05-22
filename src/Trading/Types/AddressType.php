@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -19,20 +19,20 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $CityName
  * @property string $County
  * @property string $StateOrProvince
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType $Country
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
  * @property string $CountryName
  * @property string $Phone
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType $PhoneCountryCode
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $PhoneCountryCode
  * @property string $PhoneCountryPrefix
  * @property string $PhoneAreaOrCityCode
  * @property string $PhoneLocalNumber
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType $Phone2CountryCode
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Phone2CountryCode
  * @property string $Phone2CountryPrefix
  * @property string $Phone2AreaOrCityCode
  * @property string $Phone2LocalNumber
  * @property string $PostalCode
  * @property string $AddressID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AddressOwnerCodeType $AddressOwner
+ * @property \DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType $AddressOwner
  * @property string $ExternalAddressID
  * @property string $InternationalName
  * @property string $InternationalStateAndCity
@@ -41,11 +41,11 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $FirstName
  * @property string $LastName
  * @property string $Phone2
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AddressUsageCodeType $AddressUsage
+ * @property \DTS\eBaySDK\Trading\Enums\AddressUsageCodeType $AddressUsage
  * @property string $ReferenceID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressAttributeType[] $AddressAttribute
+ * @property \DTS\eBaySDK\Trading\Types\AddressAttributeType[] $AddressAttribute
  */
-class AddressType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AddressType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -238,7 +238,7 @@ class AddressType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ReferenceID'
         ],
         'AddressAttribute' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressAttributeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressAttributeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AddressAttribute'

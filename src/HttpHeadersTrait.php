@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK;
+namespace DTS\eBaySDK;
 
 /**
  * Trait that allows objects to get/set HTTP headers.

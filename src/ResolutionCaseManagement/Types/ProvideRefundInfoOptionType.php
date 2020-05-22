@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class ProvideRefundInfoOptionType extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideRefundInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

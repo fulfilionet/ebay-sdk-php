@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest;
 
 class CheckInquiryEligibilityRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CheckInquiryEligibilityRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRestRequest', $this->obj);
     }
 
     public function testExtendsCheckInquiryEligibilityRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckInquiryEligibilityRequest', $this->obj);
     }
 }

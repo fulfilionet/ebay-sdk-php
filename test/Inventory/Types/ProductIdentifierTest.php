@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\ProductIdentifier;
+use DTS\eBaySDK\Inventory\Types\ProductIdentifier;
 
 class ProductIdentifierTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductIdentifierTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\ProductIdentifier', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\ProductIdentifier', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

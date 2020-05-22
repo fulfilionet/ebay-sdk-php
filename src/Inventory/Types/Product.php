@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
@@ -24,7 +24,7 @@ namespace FulfilioNet\eBaySDK\Inventory\Types;
  * @property string[] $upc
  * @property string[] $epid
  */
-class Product extends \FulfilioNet\eBaySDK\Types\BaseType
+class Product extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\BulkDataExchange\Enums;
+namespace DTS\eBaySDK\Test\BulkDataExchange\Enums;
 
-use FulfilioNet\eBaySDK\BulkDataExchange\Enums\FileType;
+use DTS\eBaySDK\BulkDataExchange\Enums\FileType;
 
 class FileTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class FileTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Enums\FileType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Enums\FileType', $this->obj);
     }
 }

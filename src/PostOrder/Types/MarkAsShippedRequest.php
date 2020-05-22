@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrierEnum
  * @property string $carrierName
  * @property string $carrierUsed
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $shippedDate
+ * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shippedDate
  * @property string $trackingNumber
  */
-class MarkAsShippedRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class MarkAsShippedRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,13 +44,13 @@ class MarkAsShippedRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'carrierUsed'
         ],
         'comments' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
         ],
         'shippedDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippedDate'

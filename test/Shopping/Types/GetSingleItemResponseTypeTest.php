@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
+namespace DTS\eBaySDK\Test\Shopping\Types;
 
-use FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemResponseType;
+use DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType;
 
 class GetSingleItemResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetSingleItemResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }
 }

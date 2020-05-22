@@ -8,36 +8,36 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $estimatedAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $maxAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $minAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum $refundFeeType
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $estimatedAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $maxAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $minAmount
+ * @property \DTS\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum $refundFeeType
  * @property string $restockingFeePercentage
  */
-class EstimatedRefundType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EstimatedRefundType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'estimatedAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedAmount'
         ],
         'maxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'maxAmount'
         ],
         'minAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minAmount'

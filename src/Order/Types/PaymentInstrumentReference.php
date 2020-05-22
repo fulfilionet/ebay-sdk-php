@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $lastFourDigitForCreditCard
  */
-class PaymentInstrumentReference extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentInstrumentReference extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

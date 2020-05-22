@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $ItemID
  * @property boolean $RemoveAllItems
- * @property \FulfilioNet\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
+ * @property \DTS\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
  */
-class RemoveFromWatchListRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class RemoveFromWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class RemoveFromWatchListRequestType extends \FulfilioNet\eBaySDK\Trading\Types\
             'elementName' => 'RemoveAllItems'
         ],
         'VariationKey' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VariationKeyType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationKeyType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationKey'

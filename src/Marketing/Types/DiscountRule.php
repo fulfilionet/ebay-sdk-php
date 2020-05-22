@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\DiscountBenefit $discountBenefit
- * @property \FulfilioNet\eBaySDK\Marketing\Types\DiscountSpecification $discountSpecification
+ * @property \DTS\eBaySDK\Marketing\Types\DiscountBenefit $discountBenefit
+ * @property \DTS\eBaySDK\Marketing\Types\DiscountSpecification $discountSpecification
  * @property integer $ruleOrder
  */
-class DiscountRule extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountRule extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'discountBenefit' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DiscountBenefit',
+            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountBenefit',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountBenefit'
         ],
         'discountSpecification' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DiscountSpecification',
+            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountSpecification',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountSpecification'

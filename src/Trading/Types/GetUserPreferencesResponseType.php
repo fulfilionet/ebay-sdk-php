@@ -8,62 +8,62 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\BidderNoticePreferencesType $BidderNoticePreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\CombinedPaymentPreferencesType $CombinedPaymentPreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerPaymentPreferencesType $SellerPaymentPreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType $SellerFavoriteItemPreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType $EndOfAuctionEmailPreferences
+ * @property \DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType $BidderNoticePreferences
+ * @property \DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType $CombinedPaymentPreferences
+ * @property \DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType $SellerPaymentPreferences
+ * @property \DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType $SellerFavoriteItemPreferences
+ * @property \DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType $EndOfAuctionEmailPreferences
  * @property boolean $EmailShipmentTrackingNumberPreference
  * @property boolean $RequiredShipPhoneNumberPreference
- * @property \FulfilioNet\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType $SellerExcludeShipToLocationPreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
+ * @property \DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
+ * @property \DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType $SellerExcludeShipToLocationPreferences
+ * @property \DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
+ * @property \DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
+ * @property \DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
  * @property boolean $OfferGlobalShippingProgramPreference
- * @property \FulfilioNet\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType $DispatchCutoffTimePreference
+ * @property \DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType $DispatchCutoffTimePreference
  * @property boolean $GlobalShippingProgramListingPreference
  * @property boolean $OverrideGSPServiceWithIntlServicePreference
  * @property boolean $PickupDropoffSellerPreference
  * @property boolean $OutOfStockControlPreference
- * @property \FulfilioNet\eBaySDK\Trading\Types\EBayPLUSPreferenceType[] $eBayPLUSPreference
+ * @property \DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType[] $eBayPLUSPreference
  */
-class GetUserPreferencesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidderNoticePreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BidderNoticePreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BidderNoticePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidderNoticePreferences'
         ],
         'CombinedPaymentPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CombinedPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CombinedPaymentPreferences'
         ],
         'SellerPaymentPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentPreferences'
         ],
         'SellerFavoriteItemPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerFavoriteItemPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerFavoriteItemPreferences'
         ],
         'EndOfAuctionEmailPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EndOfAuctionEmailPreferences'
@@ -81,31 +81,31 @@ class GetUserPreferencesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\
             'elementName' => 'RequiredShipPhoneNumberPreference'
         ],
         'UnpaidItemAssistancePreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnpaidItemAssistancePreferences'
         ],
         'SellerExcludeShipToLocationPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerExcludeShipToLocationPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerExcludeShipToLocationPreferences'
         ],
         'PurchaseReminderEmailPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PurchaseReminderEmailPreferences'
         ],
         'SellerProfilePreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerProfilePreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerProfilePreferences'
         ],
         'SellerReturnPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerReturnPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnPreferences'
@@ -117,7 +117,7 @@ class GetUserPreferencesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\
             'elementName' => 'OfferGlobalShippingProgramPreference'
         ],
         'DispatchCutoffTimePreference' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DispatchCutoffTimePreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DispatchCutoffTimePreference'
@@ -147,7 +147,7 @@ class GetUserPreferencesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\
             'elementName' => 'OutOfStockControlPreference'
         ],
         'eBayPLUSPreference' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\EBayPLUSPreferenceType',
+            'type' => 'DTS\eBaySDK\Trading\Types\EBayPLUSPreferenceType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'eBayPLUSPreference'

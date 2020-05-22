@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $field
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\RangeValue $range
+ * @property \DTS\eBaySDK\Fulfillment\Types\RangeValue $range
  * @property string[] $set
  * @property string $value
  */
-class FilterField extends \FulfilioNet\eBaySDK\Types\BaseType
+class FilterField extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class FilterField extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'field'
         ],
         'range' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\RangeValue',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\RangeValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'range'

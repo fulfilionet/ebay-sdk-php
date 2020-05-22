@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $addressLine1
  * @property string $addressLine2
  * @property string $city
- * @property \FulfilioNet\eBaySDK\Browse\Enums\CountryCodeEnum $country
+ * @property \DTS\eBaySDK\Browse\Enums\CountryCodeEnum $country
  * @property string $county
  * @property string $postalCode
  * @property string $stateOrProvince
  */
-class ItemLocationImpl extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemLocationImpl extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

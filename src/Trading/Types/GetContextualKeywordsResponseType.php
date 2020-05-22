@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ContextSearchAssetType[] $ContextSearchAsset
+ * @property \DTS\eBaySDK\Trading\Types\ContextSearchAssetType[] $ContextSearchAsset
  */
-class GetContextualKeywordsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetContextualKeywordsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ContextSearchAsset' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ContextSearchAssetType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ContextSearchAssetType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ContextSearchAsset'

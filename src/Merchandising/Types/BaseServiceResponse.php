@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Types;
+namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Merchandising\Enums\AckValue $ack
- * @property \FulfilioNet\eBaySDK\Merchandising\Types\ErrorMessage $errorMessage
+ * @property \DTS\eBaySDK\Merchandising\Enums\AckValue $ack
+ * @property \DTS\eBaySDK\Merchandising\Types\ErrorMessage $errorMessage
  * @property string $version
  * @property \DateTime $timestamp
  */
-class BaseServiceResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseServiceResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class BaseServiceResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\ErrorMessage',
+            'type' => 'DTS\eBaySDK\Merchandising\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellerLevelCodeType $Level
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
+ * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $Level
+ * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
  */
-class PowerSellerDashboardType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PowerSellerDashboardType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class PowerSellerDashboardType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Level'
         ],
         'Alert' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerDashboardAlertType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Alert'

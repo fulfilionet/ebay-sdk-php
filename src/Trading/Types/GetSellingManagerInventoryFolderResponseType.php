@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $Folder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $Folder
  */
-class GetSellingManagerInventoryFolderResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerInventoryFolderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Folder' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Folder'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Enums;
+namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
-use FulfilioNet\eBaySDK\ReturnManagement\Enums\CaseType;
+use DTS\eBaySDK\ReturnManagement\Enums\CaseType;
 
 class CaseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CaseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Enums\CaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\CaseType', $this->obj);
     }
 }

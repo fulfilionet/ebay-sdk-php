@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK;
+namespace DTS\eBaySDK;
 
 /**
  * @internal Resolves and validates an associative array of configuration options.

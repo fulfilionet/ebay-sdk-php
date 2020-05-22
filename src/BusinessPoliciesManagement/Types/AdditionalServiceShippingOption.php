@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  * @property string $name
  * @property boolean $value
  */
-class AdditionalServiceShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
+class AdditionalServiceShippingOption extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

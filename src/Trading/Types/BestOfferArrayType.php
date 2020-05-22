@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\BestOfferType[] $BestOffer
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferType[] $BestOffer
  */
-class BestOfferArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BestOfferArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BestOffer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BestOfferType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BestOffer'

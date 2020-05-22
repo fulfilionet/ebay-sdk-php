@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest;
+use DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest;
 
 class DeleteBundlesRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DeleteBundlesRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }
 }

@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\ExternalPaymentMethod $acceptedPaymentMethods
+ * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $acceptedPaymentMethods
  * @property string $accountCreationDate
- * @property \FulfilioNet\eBaySDK\Account\Types\ExternalPaymentMethod $billingPaymentMethods
- * @property \FulfilioNet\eBaySDK\Account\Types\InventorySizing $inventorySizing
+ * @property \DTS\eBaySDK\Account\Types\ExternalPaymentMethod $billingPaymentMethods
+ * @property \DTS\eBaySDK\Account\Types\InventorySizing $inventorySizing
  * @property string $merchantCategoryCode
- * @property \FulfilioNet\eBaySDK\Account\Enums\CurrencyCodeEnum $primaryCurrency
- * @property \FulfilioNet\eBaySDK\Account\Types\ReturnSnapshot $returnSnapshots
+ * @property \DTS\eBaySDK\Account\Enums\CurrencyCodeEnum $primaryCurrency
+ * @property \DTS\eBaySDK\Account\Types\ReturnSnapshot $returnSnapshots
  * @property string $sicCode
- * @property \FulfilioNet\eBaySDK\Account\Types\TransactionVolume $transactionVolume
+ * @property \DTS\eBaySDK\Account\Types\TransactionVolume $transactionVolume
  */
-class MerchantExternalProfile extends \FulfilioNet\eBaySDK\Types\BaseType
+class MerchantExternalProfile extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'acceptedPaymentMethods' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'acceptedPaymentMethods'
@@ -41,13 +41,13 @@ class MerchantExternalProfile extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'accountCreationDate'
         ],
         'billingPaymentMethods' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\ExternalPaymentMethod',
+            'type' => 'DTS\eBaySDK\Account\Types\ExternalPaymentMethod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'billingPaymentMethods'
         ],
         'inventorySizing' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\InventorySizing',
+            'type' => 'DTS\eBaySDK\Account\Types\InventorySizing',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventorySizing'
@@ -65,7 +65,7 @@ class MerchantExternalProfile extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'primaryCurrency'
         ],
         'returnSnapshots' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\ReturnSnapshot',
+            'type' => 'DTS\eBaySDK\Account\Types\ReturnSnapshot',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnSnapshots'
@@ -77,7 +77,7 @@ class MerchantExternalProfile extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'sicCode'
         ],
         'transactionVolume' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\TransactionVolume',
+            'type' => 'DTS\eBaySDK\Account\Types\TransactionVolume',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transactionVolume'

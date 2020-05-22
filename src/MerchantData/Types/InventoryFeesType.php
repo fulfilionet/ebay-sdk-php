@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeeType[] $Fee
+ * @property \DTS\eBaySDK\MerchantData\Types\FeeType[] $Fee
  */
-class InventoryFeesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventoryFeesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class InventoryFeesType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemID'
         ],
         'Fee' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeeType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Fee'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -22,7 +22,7 @@ namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
  * @property integer $maxActualDelivery
  * @property integer $minActualDelivery
  */
-class DeliveryEstimate extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeliveryEstimate extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

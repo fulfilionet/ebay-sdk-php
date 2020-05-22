@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $keywords
  * @property string $storeName
- * @property \FulfilioNet\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \FulfilioNet\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
- * @property \FulfilioNet\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
+ * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
+ * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
+ * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
  * @property string[] $categoryId
  */
-class FindItemsIneBayStoresRequest extends \FulfilioNet\eBaySDK\Finding\Types\BaseFindingServiceRequest
+class FindItemsIneBayStoresRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,7 +38,7 @@ class FindItemsIneBayStoresRequest extends \FulfilioNet\eBaySDK\Finding\Types\Ba
             'elementName' => 'storeName'
         ],
         'itemFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\ItemFilter',
+            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'
@@ -50,7 +50,7 @@ class FindItemsIneBayStoresRequest extends \FulfilioNet\eBaySDK\Finding\Types\Ba
             'elementName' => 'outputSelector'
         ],
         'aspectFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\AspectFilter',
+            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectFilter'

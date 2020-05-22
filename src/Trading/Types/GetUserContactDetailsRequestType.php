@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $ContactID
  * @property string $RequesterID
  */
-class GetUserContactDetailsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserContactDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

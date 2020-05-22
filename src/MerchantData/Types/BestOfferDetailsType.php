@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $BestOfferCount
  * @property boolean $BestOfferEnabled
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $BestOffer
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\BestOfferStatusCodeType $BestOfferStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BestOffer
+ * @property \DTS\eBaySDK\MerchantData\Enums\BestOfferStatusCodeType $BestOfferStatus
  */
-class BestOfferDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class BestOfferDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BestOfferEnabled'
         ],
         'BestOffer' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOffer'

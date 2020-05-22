@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\StringValue $text
- * @property \FulfilioNet\eBaySDK\Product\Types\NumericValue $number
- * @property \FulfilioNet\eBaySDK\Product\Types\URIValue $URL
+ * @property \DTS\eBaySDK\Product\Types\StringValue $text
+ * @property \DTS\eBaySDK\Product\Types\NumericValue $number
+ * @property \DTS\eBaySDK\Product\Types\URIValue $URL
  */
-class Value extends \FulfilioNet\eBaySDK\Types\BaseType
+class Value extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'text' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\StringValue',
+            'type' => 'DTS\eBaySDK\Product\Types\StringValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'text'
         ],
         'number' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\NumericValue',
+            'type' => 'DTS\eBaySDK\Product\Types\NumericValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'number'
         ],
         'URL' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\URIValue',
+            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'URL'

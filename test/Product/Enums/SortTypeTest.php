@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Product\Enums;
+namespace DTS\eBaySDK\Test\Product\Enums;
 
-use FulfilioNet\eBaySDK\Product\Enums\SortType;
+use DTS\eBaySDK\Product\Enums\SortType;
 
 class SortTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SortTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Product\Enums\SortType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\SortType', $this->obj);
     }
 }

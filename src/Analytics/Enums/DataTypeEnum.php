@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Enums;
+namespace DTS\eBaySDK\Analytics\Enums;
 
 class DataTypeEnum
 {

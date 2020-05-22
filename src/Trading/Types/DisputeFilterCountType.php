@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
  * @property integer $TotalAvailable
  */
-class DisputeFilterCountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DisputeFilterCountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

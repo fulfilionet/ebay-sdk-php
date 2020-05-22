@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Merchandising\Services;
+namespace DTS\eBaySDK\Test\Merchandising\Services;
 
-use FulfilioNet\eBaySDK\Merchandising\Services\MerchandisingBaseService;
-use FulfilioNet\eBaySDK\Merchandising\Services\MerchandisingService;
-use FulfilioNet\eBaySDK\Test\Merchandising\Mocks\Service;
-use FulfilioNet\eBaySDK\Test\Mocks\HttpHandler;
+use DTS\eBaySDK\Merchandising\Services\MerchandisingBaseService;
+use DTS\eBaySDK\Merchandising\Services\MerchandisingService;
+use DTS\eBaySDK\Test\Merchandising\Mocks\Service;
+use DTS\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

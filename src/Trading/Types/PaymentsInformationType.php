@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaymentInformationType $Payments
- * @property \FulfilioNet\eBaySDK\Trading\Types\RefundInformationType $Refunds
+ * @property \DTS\eBaySDK\Trading\Types\PaymentInformationType $Payments
+ * @property \DTS\eBaySDK\Trading\Types\RefundInformationType $Refunds
  */
-class PaymentsInformationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentsInformationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Payments' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaymentInformationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaymentInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Payments'
         ],
         'Refunds' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RefundInformationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RefundInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Refunds'

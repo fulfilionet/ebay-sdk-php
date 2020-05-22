@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $country_code
  */
-class GetAllSalesTaxTablesRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetAllSalesTaxTablesRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

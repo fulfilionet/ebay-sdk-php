@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType $Action
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType $Action
  * @property integer $ItemDestinationCategoryID
  * @property integer $DestinationParentCategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $StoreCategories
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $StoreCategories
  */
-class SetStoreCategoriesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class SetStoreCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class SetStoreCategoriesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\A
             'elementName' => 'DestinationParentCategoryID'
         ],
         'StoreCategories' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StoreCategories'

@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $buyerFinalAcceptRefundAmt
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $buyerInitExpectRefundAmt
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $internationalRefundAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $refundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $buyerFinalAcceptRefundAmt
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $buyerInitExpectRefundAmt
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $internationalRefundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $refundAmount
  */
-class RefundAmounts extends \FulfilioNet\eBaySDK\Types\BaseType
+class RefundAmounts extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyerFinalAcceptRefundAmt' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerFinalAcceptRefundAmt'
         ],
         'buyerInitExpectRefundAmt' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerInitExpectRefundAmt'
         ],
         'internationalRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'internationalRefundAmount'
         ],
         'refundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundAmount'

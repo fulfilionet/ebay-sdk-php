@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Enums;
+namespace DTS\eBaySDK\Test\ProductMetadata\Enums;
 
-use FulfilioNet\eBaySDK\ProductMetadata\Enums\DatasetValue;
+use DTS\eBaySDK\ProductMetadata\Enums\DatasetValue;
 
 class DatasetValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class DatasetValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Enums\DatasetValue', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Enums\DatasetValue', $this->obj);
     }
 }

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\ErrorData[] $error
+ * @property \DTS\eBaySDK\ProductMetadata\Types\ErrorData[] $error
  */
-class ErrorMessage extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorMessage extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\ErrorData',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ErrorData',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'

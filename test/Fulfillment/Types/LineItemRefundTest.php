@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Types;
+namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
-use FulfilioNet\eBaySDK\Fulfillment\Types\LineItemRefund;
+use DTS\eBaySDK\Fulfillment\Types\LineItemRefund;
 
 class LineItemRefundTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class LineItemRefundTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Types\LineItemRefund', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\LineItemRefund', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

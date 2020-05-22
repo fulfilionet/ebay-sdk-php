@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $ShortMessage
  * @property string $LongMessage
  * @property string $ErrorCode
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\SeverityCodeType $SeverityCode
- * @property \FulfilioNet\eBaySDK\Shopping\Types\ErrorParameterType[] $ErrorParameters
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\ErrorClassificationCodeType $ErrorClassification
+ * @property \DTS\eBaySDK\Shopping\Enums\SeverityCodeType $SeverityCode
+ * @property \DTS\eBaySDK\Shopping\Types\ErrorParameterType[] $ErrorParameters
+ * @property \DTS\eBaySDK\Shopping\Enums\ErrorClassificationCodeType $ErrorClassification
  */
-class ErrorType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -50,7 +50,7 @@ class ErrorType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SeverityCode'
         ],
         'ErrorParameters' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\ErrorParameterType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\ErrorParameterType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ErrorParameters'

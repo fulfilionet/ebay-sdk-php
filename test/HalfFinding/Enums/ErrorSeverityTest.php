@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\HalfFinding\Enums;
+namespace DTS\eBaySDK\Test\HalfFinding\Enums;
 
-use FulfilioNet\eBaySDK\HalfFinding\Enums\ErrorSeverity;
+use DTS\eBaySDK\HalfFinding\Enums\ErrorSeverity;
 
 class ErrorSeverityTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ErrorSeverityTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Enums\ErrorSeverity', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\ErrorSeverity', $this->obj);
     }
 }

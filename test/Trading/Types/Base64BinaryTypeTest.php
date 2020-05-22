@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\Base64BinaryType;
+use DTS\eBaySDK\Trading\Types\Base64BinaryType;
 
 class Base64BinaryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class Base64BinaryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\Base64BinaryType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\Base64BinaryType', $this->obj);
     }
 
     public function testExtendsBase64BinaryType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\Base64BinaryType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\Base64BinaryType', $this->obj);
     }
 }

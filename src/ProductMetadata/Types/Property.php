@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyNameMetadata $propertyNameMetadata
+ * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameMetadata $propertyNameMetadata
  * @property string $propertyDisplayName
  */
-class Property extends \FulfilioNet\eBaySDK\Types\BaseType
+class Property extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class Property extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'propertyName'
         ],
         'propertyNameMetadata' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyNameMetadata',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameMetadata',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'propertyNameMetadata'

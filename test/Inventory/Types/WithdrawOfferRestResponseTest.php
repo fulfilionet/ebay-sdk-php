@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\WithdrawOfferRestResponse;
+use DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse;
 
 class WithdrawOfferRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class WithdrawOfferRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\WithdrawOfferRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\WithdrawOfferRestResponse', $this->obj);
     }
 
     public function testExtendsWithdrawResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\WithdrawResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\WithdrawResponse', $this->obj);
     }
 }

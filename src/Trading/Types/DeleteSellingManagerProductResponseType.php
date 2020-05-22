@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $DeletedSellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $DeletedSellingManagerProductDetails
  */
-class DeleteSellingManagerProductResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class DeleteSellingManagerProductResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'DeletedSellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedSellingManagerProductDetails'

@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $additionalShippingCost
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $additionalShippingCost
  * @property integer $priority
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $shippingCost
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum $shippingServiceType
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $surcharge
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\Inventory\Enums\ShippingServiceTypeEnum $shippingServiceType
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $surcharge
  */
-class ShippingCostOverride extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingCostOverride extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'additionalShippingCost'
@@ -37,7 +37,7 @@ class ShippingCostOverride extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'priority'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
@@ -49,7 +49,7 @@ class ShippingCostOverride extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceType'
         ],
         'surcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'surcharge'

@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $ItemID
  * @property integer $QuantitySold
  * @property string $DestinationPostalCode
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\CountryCodeType $DestinationCountryCode
+ * @property \DTS\eBaySDK\Shopping\Enums\CountryCodeType $DestinationCountryCode
  * @property boolean $IncludeDetails
  */
-class GetShippingCostsRequestType extends \FulfilioNet\eBaySDK\Shopping\Types\AbstractRequestType
+class GetShippingCostsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

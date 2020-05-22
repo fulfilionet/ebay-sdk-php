@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
+ * @property \DTS\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
  * @property integer $LayoutTotal
  * @property integer[] $ObsoleteLayoutID
  * @property integer[] $ObsoleteThemeID
- * @property \FulfilioNet\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
+ * @property \DTS\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
  * @property integer $ThemeTotal
  */
-class GetDescriptionTemplatesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'DescriptionTemplate' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DescriptionTemplateType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DescriptionTemplate'
@@ -50,7 +50,7 @@ class GetDescriptionTemplatesResponseType extends \FulfilioNet\eBaySDK\Trading\T
             'elementName' => 'ObsoleteThemeID'
         ],
         'ThemeGroup' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ThemeGroupType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ThemeGroup'

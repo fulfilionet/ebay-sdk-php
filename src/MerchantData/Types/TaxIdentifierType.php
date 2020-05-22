@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ValueTypeCodeType $Type
+ * @property \DTS\eBaySDK\MerchantData\Enums\ValueTypeCodeType $Type
  * @property string $ID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType[] $Attribute
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType[] $Attribute
  */
-class TaxIdentifierType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TaxIdentifierType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class TaxIdentifierType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ID'
         ],
         'Attribute' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxIdentifierAttributeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Attribute'

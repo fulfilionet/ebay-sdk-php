@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\SimpleItemType[] $Item
+ * @property \DTS\eBaySDK\Shopping\Types\SimpleItemType[] $Item
  */
-class GetMultipleItemsResponseType extends \FulfilioNet\eBaySDK\Shopping\Types\AbstractResponseType
+class GetMultipleItemsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\SimpleItemType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\SimpleItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Item'

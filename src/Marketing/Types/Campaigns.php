@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Campaign[] $campaigns
+ * @property \DTS\eBaySDK\Marketing\Types\Campaign[] $campaigns
  */
-class Campaigns extends \FulfilioNet\eBaySDK\Types\BaseType
+class Campaigns extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'campaigns' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Campaign',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Campaign',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'campaigns'

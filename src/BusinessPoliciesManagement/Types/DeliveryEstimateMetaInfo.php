@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  * @property string $key
  * @property string $value
  */
-class DeliveryEstimateMetaInfo extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeliveryEstimateMetaInfo extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

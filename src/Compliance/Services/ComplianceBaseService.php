@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Compliance\Services;
+namespace DTS\eBaySDK\Compliance\Services;
 
 /**
  * Base class for the Compliance service.
  */
-class ComplianceBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class ComplianceBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class ComplianceBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestServic
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Compliance\Services\ComplianceService::API_VERSION,
+                'default' => \DTS\eBaySDK\Compliance\Services\ComplianceService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

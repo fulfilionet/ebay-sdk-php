@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property boolean $EligibleForPickupInStore
  */
-class PickUpInStoreDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PickUpInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

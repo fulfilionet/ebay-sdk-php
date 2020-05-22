@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Compliance\Types;
+namespace DTS\eBaySDK\Test\Compliance\Types;
 
-use FulfilioNet\eBaySDK\Compliance\Types\GetListingViolationsRestResponse;
+use DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse;
 
 class GetListingViolationsRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetListingViolationsRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Compliance\Types\GetListingViolationsRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse', $this->obj);
     }
 
     public function testExtendsPagedComplianceViolationCollection()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Compliance\Types\PagedComplianceViolationCollection', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\PagedComplianceViolationCollection', $this->obj);
     }
 }

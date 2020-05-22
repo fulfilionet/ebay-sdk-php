@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
  * @property string $marketplace_id
  */
-class GetADefaultCategoryTreeIdRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetADefaultCategoryTreeIdRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

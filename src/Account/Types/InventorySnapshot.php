@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $cumulativeInventoryValue
+ * @property \DTS\eBaySDK\Account\Types\Amount $cumulativeInventoryValue
  * @property integer $cumulativeQuantity
- * @property \FulfilioNet\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
+ * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
  * @property integer $maxAvailableQuantity
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $maxInventoryValue
+ * @property \DTS\eBaySDK\Account\Types\Amount $maxInventoryValue
  * @property integer $minAvailableQuantity
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $minInventoryValue
+ * @property \DTS\eBaySDK\Account\Types\Amount $minInventoryValue
  */
-class InventorySnapshot extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventorySnapshot extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'cumulativeInventoryValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cumulativeInventoryValue'
@@ -39,7 +39,7 @@ class InventorySnapshot extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'cumulativeQuantity'
         ],
         'lookbackPeriod' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\LookbackPeriod',
+            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lookbackPeriod'
@@ -51,7 +51,7 @@ class InventorySnapshot extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'maxAvailableQuantity'
         ],
         'maxInventoryValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'maxInventoryValue'
@@ -63,7 +63,7 @@ class InventorySnapshot extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'minAvailableQuantity'
         ],
         'minInventoryValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minInventoryValue'

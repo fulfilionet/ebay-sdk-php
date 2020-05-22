@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $date
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Interval[] $intervals
+ * @property \DTS\eBaySDK\Inventory\Types\Interval[] $intervals
  */
-class SpecialHours extends \FulfilioNet\eBaySDK\Types\BaseType
+class SpecialHours extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class SpecialHours extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'date'
         ],
         'intervals' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Interval',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Interval',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'intervals'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrier
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingCost
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType $shippingCost
  */
-class CarrierShippingCostInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CarrierShippingCostInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CarrierShippingCostInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'carrier'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnShippingCostDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'

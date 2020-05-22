@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
  */
-class SellerProfilesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellerShippingProfile' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerShippingProfileType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerShippingProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerShippingProfile'
         ],
         'SellerReturnProfile' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerReturnProfileType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerReturnProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnProfile'
         ],
         'SellerPaymentProfile' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerPaymentProfileType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentProfile'

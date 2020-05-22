@@ -8,43 +8,43 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreSubscriptionArrayType $SubscriptionArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType $SubscriptionArray
  * @property integer $MaxCategories
  * @property integer $MaxCategoryLevels
  */
-class GetStoreOptionsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetStoreOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BasicThemeArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreThemeArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BasicThemeArray'
         ],
         'AdvancedThemeArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreThemeArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdvancedThemeArray'
         ],
         'LogoArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreLogoArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LogoArray'
         ],
         'SubscriptionArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreSubscriptionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SubscriptionArray'

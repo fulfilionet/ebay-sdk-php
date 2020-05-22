@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Browse\Types;
+namespace DTS\eBaySDK\Test\Browse\Types;
 
-use FulfilioNet\eBaySDK\Browse\Types\LegalAddress;
+use DTS\eBaySDK\Browse\Types\LegalAddress;
 
 class LegalAddressTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class LegalAddressTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Browse\Types\LegalAddress', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\LegalAddress', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

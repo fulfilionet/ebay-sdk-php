@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\NotificationDetailsType[] $NotificationDetails
+ * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsType[] $NotificationDetails
  */
-class NotificationDetailsArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NotificationDetailsArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'NotificationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NotificationDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NotificationDetails'

@@ -1,9 +1,9 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Mocks;
+namespace DTS\eBaySDK\Test\ReturnManagement\Mocks;
 
-use FulfilioNet\eBaySDK\Test\Mocks\ComplexClass;
+use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \FulfilioNet\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService
+class Service extends \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \FulfilioNet\eBaySDK\ReturnManagement\Services\ReturnManag
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\FulfilioNet\eBaySDK\Test\Mocks\ComplexClass'
+            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

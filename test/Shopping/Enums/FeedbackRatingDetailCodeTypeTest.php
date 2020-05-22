@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Enums;
+namespace DTS\eBaySDK\Test\Shopping\Enums;
 
-use FulfilioNet\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType;
+use DTS\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType;
 
 class FeedbackRatingDetailCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class FeedbackRatingDetailCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\FeedbackRatingDetailCodeType', $this->obj);
     }
 }

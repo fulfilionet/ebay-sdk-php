@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Enums\CountryCodeEnum $countryCode
+ * @property \DTS\eBaySDK\Account\Enums\CountryCodeEnum $countryCode
  * @property string $salesTaxJurisdictionId
  * @property string $salesTaxPercentage
  * @property boolean $shippingAndHandlingTaxed
  */
-class SalesTax extends \FulfilioNet\eBaySDK\Types\BaseType
+class SalesTax extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

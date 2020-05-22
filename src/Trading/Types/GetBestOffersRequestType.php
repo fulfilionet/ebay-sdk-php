@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $BestOfferID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  */
-class GetBestOffersRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class GetBestOffersRequestType extends \FulfilioNet\eBaySDK\Trading\Types\Abstra
             'elementName' => 'BestOfferStatus'
         ],
         'Pagination' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

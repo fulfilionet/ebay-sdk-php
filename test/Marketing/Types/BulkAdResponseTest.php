@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
+namespace DTS\eBaySDK\Test\Marketing\Types;
 
-use FulfilioNet\eBaySDK\Marketing\Types\BulkAdResponse;
+use DTS\eBaySDK\Marketing\Types\BulkAdResponse;
 
 class BulkAdResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BulkAdResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\BulkAdResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkAdResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

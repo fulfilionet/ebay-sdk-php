@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\VeROReportedItemType[] $ReportedItem
+ * @property \DTS\eBaySDK\Trading\Types\VeROReportedItemType[] $ReportedItem
  */
-class VeROReportedItemDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VeROReportedItemDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReportedItem' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VeROReportedItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportedItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReportedItem'

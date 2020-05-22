@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DiscountProfileID
  * @property string $DiscountProfileName
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $EachAdditionalAmountOff
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmountOff
  * @property double $EachAdditionalPercentOff
- * @property \FulfilioNet\eBaySDK\Trading\Types\MeasureType $WeightOff
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightOff
  * @property string $MappedDiscountProfileID
  */
-class DiscountProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,13 +39,13 @@ class DiscountProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DiscountProfileName'
         ],
         'EachAdditionalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ],
         'EachAdditionalAmountOff' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmountOff'
@@ -57,7 +57,7 @@ class DiscountProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'EachAdditionalPercentOff'
         ],
         'WeightOff' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightOff'

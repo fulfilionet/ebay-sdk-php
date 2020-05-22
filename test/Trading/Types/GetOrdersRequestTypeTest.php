@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\GetOrdersRequestType;
+use DTS\eBaySDK\Trading\Types\GetOrdersRequestType;
 
 class GetOrdersRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetOrdersRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\GetOrdersRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetOrdersRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

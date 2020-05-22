@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Enums\SortOrderType $sortOrder
+ * @property \DTS\eBaySDK\Finding\Enums\SortOrderType $sortOrder
  */
-class BaseFindingServiceRequest extends \FulfilioNet\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
+class BaseFindingServiceRequest extends \DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

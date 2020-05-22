@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType;
+use DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType;
 
 class SellereBayPaymentProcessStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellereBayPaymentProcessStatusCodeTypeTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType', $this->obj);
     }
 }

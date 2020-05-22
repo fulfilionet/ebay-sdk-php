@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount $discountAmount
+ * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $discountAmount
  * @property string $discountPercentage
- * @property \FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount $originalPrice
+ * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $originalPrice
  */
-class MarketingPrice extends \FulfilioNet\eBaySDK\Types\BaseType
+class MarketingPrice extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'discountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'
@@ -35,7 +35,7 @@ class MarketingPrice extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'discountPercentage'
         ],
         'originalPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originalPrice'

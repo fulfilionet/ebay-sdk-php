@@ -8,36 +8,36 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType $Item
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
  * @property integer $PageNumber
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetBestOffersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BestOfferArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BestOfferArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferArray'
         ],
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ],
         'ItemBestOffersArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemBestOffersArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemBestOffersArray'
@@ -49,7 +49,7 @@ class GetBestOffersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstr
             'elementName' => 'PageNumber'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

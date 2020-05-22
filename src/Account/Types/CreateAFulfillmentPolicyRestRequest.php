@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
  */
-class CreateAFulfillmentPolicyRestRequest extends \FulfilioNet\eBaySDK\Account\Types\FulfillmentPolicyRequest
+class CreateAFulfillmentPolicyRestRequest extends \DTS\eBaySDK\Account\Types\FulfillmentPolicyRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

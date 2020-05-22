@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType;
 
 class CancelTransactionCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CancelTransactionCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType', $this->obj);
     }
 }

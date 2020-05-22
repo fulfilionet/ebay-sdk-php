@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreLogoType[] $Logo
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoType[] $Logo
  */
-class StoreLogoArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreLogoArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Logo' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreLogoType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Logo'

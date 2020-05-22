@@ -8,69 +8,69 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\Adjustment $adjustment
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $deliveryCost
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $deliveryDiscount
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $fee
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $priceDiscount
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $priceSubtotal
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $tax
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $total
+ * @property \DTS\eBaySDK\Order\Types\Adjustment $adjustment
+ * @property \DTS\eBaySDK\Order\Types\Amount $deliveryCost
+ * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount
+ * @property \DTS\eBaySDK\Order\Types\Amount $fee
+ * @property \DTS\eBaySDK\Order\Types\Amount $priceDiscount
+ * @property \DTS\eBaySDK\Order\Types\Amount $priceSubtotal
+ * @property \DTS\eBaySDK\Order\Types\Amount $tax
+ * @property \DTS\eBaySDK\Order\Types\Amount $total
  */
-class PricingSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class PricingSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'adjustment' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Adjustment',
+            'type' => 'DTS\eBaySDK\Order\Types\Adjustment',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'adjustment'
         ],
         'deliveryCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryCost'
         ],
         'deliveryDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryDiscount'
         ],
         'fee' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fee'
         ],
         'priceDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceDiscount'
         ],
         'priceSubtotal' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceSubtotal'
         ],
         'tax' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'
         ],
         'total' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'total'

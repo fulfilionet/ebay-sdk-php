@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TotalAvailable
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerType[] $FavoriteSeller
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType[] $FavoriteSeller
  */
-class MyeBayFavoriteSellerListType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MyeBayFavoriteSellerListType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class MyeBayFavoriteSellerListType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TotalAvailable'
         ],
         'FavoriteSeller' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FavoriteSeller'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Compliance\Types;
+namespace DTS\eBaySDK\Test\Compliance\Types;
 
-use FulfilioNet\eBaySDK\Compliance\Types\ErrorParameterV3;
+use DTS\eBaySDK\Compliance\Types\ErrorParameterV3;
 
 class ErrorParameterV3Test extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ErrorParameterV3Test extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Compliance\Types\ErrorParameterV3', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\ErrorParameterV3', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

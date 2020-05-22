@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $other_applicable_category_ids
  * @property string $primary_category_id
  */
-class GetProductMetadataForCategoriesRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetProductMetadataForCategoriesRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

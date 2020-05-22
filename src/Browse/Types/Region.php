@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $regionName
- * @property \FulfilioNet\eBaySDK\Browse\Enums\RegionTypeEnum $regionType
+ * @property \DTS\eBaySDK\Browse\Enums\RegionTypeEnum $regionType
  */
-class Region extends \FulfilioNet\eBaySDK\Types\BaseType
+class Region extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

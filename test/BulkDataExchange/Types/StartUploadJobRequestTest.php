@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\BulkDataExchange\Types;
+namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
 
-use FulfilioNet\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest;
+use DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest;
 
 class StartUploadJobRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StartUploadJobRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\StartUploadJobRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest', $this->obj);
     }
 }

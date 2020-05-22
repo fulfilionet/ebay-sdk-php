@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -19,10 +19,10 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $longMessage
  * @property string $message
  * @property string $outputRefIds
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ErrorParameterV3[] $parameters
+ * @property \DTS\eBaySDK\PostOrder\Types\ErrorParameterV3[] $parameters
  * @property string $subDomain
  */
-class ErrorDetailV3 extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorDetailV3 extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -71,7 +71,7 @@ class ErrorDetailV3 extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'outputRefIds'
         ],
         'parameters' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ErrorParameterV3',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorParameterV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameters'

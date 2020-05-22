@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\LineItemReference[] $lineItems
+ * @property \DTS\eBaySDK\Fulfillment\Types\LineItemReference[] $lineItems
  * @property string $shippedDate
  * @property string $shippingCarrierCode
  * @property string $trackingNumber
  */
-class ShippingFulfillmentDetails extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingFulfillmentDetails extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\LineItemReference',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Browse\Types;
+namespace DTS\eBaySDK\Test\Browse\Types;
 
-use FulfilioNet\eBaySDK\Browse\Types\TaxType;
+use DTS\eBaySDK\Browse\Types\TaxType;
 
 class TaxTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TaxTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Browse\Types\TaxType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\TaxType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

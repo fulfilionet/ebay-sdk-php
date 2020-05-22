@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property integer $customerSupportResponseTimeInHours
  */
-class EscalateToCustomerSupportOptionType extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class EscalateToCustomerSupportOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

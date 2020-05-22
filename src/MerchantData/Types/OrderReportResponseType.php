@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $HardExpirationWarning
  * @property string $Ack
  * @property string $Version
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ErrorType[] $Errors
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\OrderArrayType $OrderArray
+ * @property \DTS\eBaySDK\MerchantData\Types\ErrorType[] $Errors
+ * @property \DTS\eBaySDK\MerchantData\Types\OrderArrayType $OrderArray
  */
-class OrderReportResponseType extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderReportResponseType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,13 +43,13 @@ class OrderReportResponseType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Version'
         ],
         'Errors' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ErrorType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'
         ],
         'OrderArray' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\OrderArrayType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderArray'

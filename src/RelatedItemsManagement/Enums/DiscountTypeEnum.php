@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Enums;
+namespace DTS\eBaySDK\RelatedItemsManagement\Enums;
 
 class DiscountTypeEnum
 {

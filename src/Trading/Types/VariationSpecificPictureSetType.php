@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $VariationSpecificValue
  * @property string[] $PictureURL
  * @property string[] $ExternalPictureURL
- * @property \FulfilioNet\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
+ * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
  */
-class VariationSpecificPictureSetType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class VariationSpecificPictureSetType extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'ExternalPictureURL'
         ],
         'ExtendedPictureDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExtendedPictureDetails'

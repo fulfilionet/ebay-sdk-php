@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $ShipToRegistrationCountry
  * @property boolean $ZeroFeedbackScore
  * @property integer $MinimumFeedbackScore
- * @property \FulfilioNet\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
+ * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
  * @property boolean $LinkedPayPalAccount
- * @property \FulfilioNet\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
- * @property \FulfilioNet\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
- * @property \FulfilioNet\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
+ * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
+ * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
+ * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
  */
-class BuyerRequirementDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -46,7 +46,7 @@ class BuyerRequirementDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'MinimumFeedbackScore'
         ],
         'MaximumItemRequirements' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MaximumItemRequirementsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumItemRequirements'
@@ -58,19 +58,19 @@ class BuyerRequirementDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LinkedPayPalAccount'
         ],
         'VerifiedUserRequirements' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VerifiedUserRequirementsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VerifiedUserRequirements'
         ],
         'MaximumUnpaidItemStrikesInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo'
         ],
         'MaximumBuyerPolicyViolations' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaximumBuyerPolicyViolations'

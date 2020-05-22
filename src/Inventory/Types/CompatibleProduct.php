@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $notes
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ProductFamilyProperties $productFamilyProperties
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ProductIdentifier $productIdentifier
+ * @property \DTS\eBaySDK\Inventory\Types\ProductFamilyProperties $productFamilyProperties
+ * @property \DTS\eBaySDK\Inventory\Types\ProductIdentifier $productIdentifier
  */
-class CompatibleProduct extends \FulfilioNet\eBaySDK\Types\BaseType
+class CompatibleProduct extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class CompatibleProduct extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'notes'
         ],
         'productFamilyProperties' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ProductFamilyProperties',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ProductFamilyProperties',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productFamilyProperties'
         ],
         'productIdentifier' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ProductIdentifier',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productIdentifier'

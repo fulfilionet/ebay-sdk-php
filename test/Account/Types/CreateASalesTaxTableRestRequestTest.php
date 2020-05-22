@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Types;
+namespace DTS\eBaySDK\Test\Account\Types;
 
-use FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest;
+use DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest;
 
 class CreateASalesTaxTableRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateASalesTaxTableRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest', $this->obj);
     }
 
     public function testExtendsSalesTaxBase()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\SalesTaxBase', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SalesTaxBase', $this->obj);
     }
 }

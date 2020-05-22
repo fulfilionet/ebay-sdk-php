@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Enums;
+namespace DTS\eBaySDK\Test\PostOrder\Enums;
 
-use FulfilioNet\eBaySDK\PostOrder\Enums\EscalateReasonEnum;
+use DTS\eBaySDK\PostOrder\Enums\EscalateReasonEnum;
 
 class EscalateReasonEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class EscalateReasonEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Enums\EscalateReasonEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\EscalateReasonEnum', $this->obj);
     }
 }

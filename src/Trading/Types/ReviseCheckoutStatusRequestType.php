@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
  * @property string $ShippingService
  * @property boolean $ShippingIncludedInTax
- * @property \FulfilioNet\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
  * @property string $BuyerID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $SalesTax
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $SalesTax
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
  * @property string $EncryptedID
- * @property \FulfilioNet\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
  * @property string $MultipleSellerPaymentID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
  * @property string $OrderLineItemID
  */
-class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -56,7 +56,7 @@ class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'OrderID'
         ],
         'AmountPaid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
@@ -92,7 +92,7 @@ class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'PaymentStatus'
         ],
         'AdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
@@ -104,13 +104,13 @@ class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'BuyerID'
         ],
         'SalesTax' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTax'
         ],
         'ShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCost'
@@ -122,7 +122,7 @@ class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'EncryptedID'
         ],
         'ExternalTransaction' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ExternalTransactionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
@@ -134,7 +134,7 @@ class ReviseCheckoutStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'MultipleSellerPaymentID'
         ],
         'CODCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CODCost'

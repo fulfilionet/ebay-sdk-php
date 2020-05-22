@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $currencyID
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $currencyID
  */
-class AmountType extends \FulfilioNet\eBaySDK\Types\DoubleType
+class AmountType extends \DTS\eBaySDK\Types\DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

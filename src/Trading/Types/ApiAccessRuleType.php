@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -26,10 +26,10 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $PeriodicUsage
  * @property \DateTime $PeriodicStartDate
  * @property \DateTime $ModTime
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType $RuleCurrentStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AccessRuleStatusCodeType $RuleStatus
+ * @property \DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType $RuleCurrentStatus
+ * @property \DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType $RuleStatus
  */
-class ApiAccessRuleType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

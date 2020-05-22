@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $additionalShippingCost
+ * @property \DTS\eBaySDK\Account\Types\Amount $additionalShippingCost
  * @property boolean $buyerResponsibleForPickup
  * @property boolean $buyerResponsibleForShipping
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $cashOnDeliveryFee
+ * @property \DTS\eBaySDK\Account\Types\Amount $cashOnDeliveryFee
  * @property boolean $freeShipping
  * @property string $shippingCarrierCode
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\Account\Types\Amount $shippingCost
  * @property string $shippingServiceCode
- * @property \FulfilioNet\eBaySDK\Account\Types\RegionSet $shipToLocations
+ * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
  * @property integer $sortOrder
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $surcharge
+ * @property \DTS\eBaySDK\Account\Types\Amount $surcharge
  */
-class ShippingService extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingService extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'additionalShippingCost'
@@ -49,7 +49,7 @@ class ShippingService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'buyerResponsibleForShipping'
         ],
         'cashOnDeliveryFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cashOnDeliveryFee'
@@ -67,7 +67,7 @@ class ShippingService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingCarrierCode'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
@@ -79,7 +79,7 @@ class ShippingService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceCode'
         ],
         'shipToLocations' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\RegionSet',
+            'type' => 'DTS\eBaySDK\Account\Types\RegionSet',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocations'
@@ -91,7 +91,7 @@ class ShippingService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'sortOrder'
         ],
         'surcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'surcharge'

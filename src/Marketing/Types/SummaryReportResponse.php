@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $baseSale
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $baseSale
  * @property string $lastUpdated
  * @property string $percentageSalesLift
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $promotionSale
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $totalSale
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $promotionSale
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $totalSale
  */
-class SummaryReportResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class SummaryReportResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'baseSale' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'baseSale'
@@ -43,13 +43,13 @@ class SummaryReportResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'percentageSalesLift'
         ],
         'promotionSale' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'promotionSale'
         ],
         'totalSale' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalSale'

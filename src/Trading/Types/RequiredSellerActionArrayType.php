@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
+ * @property \DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
  */
-class RequiredSellerActionArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

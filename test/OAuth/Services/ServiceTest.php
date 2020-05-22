@@ -1,11 +1,11 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\OAuth\Services;
+namespace DTS\eBaySDK\Test\OAuth\Services;
 
-use FulfilioNet\eBaySDK\Test\TestTraits\ManageEnv;
-use FulfilioNet\eBaySDK\OAuth\Services\OAuthService;
-use FulfilioNet\eBaySDK\Test\Mocks\HttpOAuthHandler;
-use FulfilioNet\eBaySDK\Credentials\Credentials;
-use FulfilioNet\eBaySDK\Credentials\CredentialsProvider;
+use DTS\eBaySDK\Test\TestTraits\ManageEnv;
+use DTS\eBaySDK\OAuth\Services\OAuthService;
+use DTS\eBaySDK\Test\Mocks\HttpOAuthHandler;
+use DTS\eBaySDK\Credentials\Credentials;
+use DTS\eBaySDK\Credentials\CredentialsProvider;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -17,22 +17,22 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey('credentials', $d);
         $this->assertEquals([
-            'valid'   => ['FulfilioNet\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-            'fn'      => 'FulfilioNet\eBaySDK\applyCredentials',
+            'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+            'fn'      => 'DTS\eBaySDK\applyCredentials',
             'default' => [CredentialsProvider::class, 'defaultProvider']
         ], $d['credentials']);
 
         $this->assertArrayHasKey('debug', $d);
         $this->assertEquals([
             'valid'   => ['bool', 'array'],
-            'fn'      => 'FulfilioNet\eBaySDK\applyDebug',
+            'fn'      => 'DTS\eBaySDK\applyDebug',
             'default' => false
         ], $d['debug']);
 
         $this->assertArrayHasKey('httpHandler', $d);
         $this->assertEquals([
             'valid'   => ['callable'],
-            'default' => 'FulfilioNet\eBaySDK\defaultHttpHandler'
+            'default' => 'DTS\eBaySDK\defaultHttpHandler'
         ], $d['httpHandler']);
 
         $this->assertArrayHasKey('httpOptions', $d);
@@ -44,7 +44,7 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
         $this->assertArrayHasKey('profile', $d);
         $this->assertEquals([
             'valid' => ['string'],
-            'fn'    => 'FulfilioNet\eBaySDK\applyProfile',
+            'fn'    => 'DTS\eBaySDK\applyProfile',
         ], $d['profile']);
 
         $this->assertArrayHasKey('ruName', $d);
@@ -240,7 +240,7 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
         ]);
         $r = $s->getAppToken();
 
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestResponse', $r);
+        $this->assertInstanceOf('\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse', $r);
         $this->assertEquals('foo', $r->access_token);
         $this->assertEquals('bar', $r->token_type);
         $this->assertEquals(123, $r->expires_in);

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaign_id
  */
-class BulkUpdateAdBidsByInventoryReferenceRestRequest extends \FulfilioNet\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRequest
+class BulkUpdateAdBidsByInventoryReferenceRestRequest extends \DTS\eBaySDK\Marketing\Types\BulkCreateAdsByInventoryReferenceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

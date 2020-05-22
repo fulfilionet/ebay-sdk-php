@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Mocks;
+namespace DTS\eBaySDK\Test\Mocks;
 
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Psr7;

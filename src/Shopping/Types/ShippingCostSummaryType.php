@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $ShippingServiceName
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $InsuranceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\ShippingTypeCodeType $ShippingType
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $InsuranceCost
+ * @property \DTS\eBaySDK\Shopping\Enums\ShippingTypeCodeType $ShippingType
  * @property boolean $LocalPickup
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ListedShippingServiceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ListedShippingServiceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ImportCharge
  * @property string $LogisticPlanType
  */
-class ShippingCostSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingCostSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,13 +35,13 @@ class ShippingCostSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceName'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'InsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceCost'
@@ -65,13 +65,13 @@ class ShippingCostSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InsuranceOption'
         ],
         'ListedShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListedShippingServiceCost'
         ],
         'ImportCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'

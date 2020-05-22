@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Services;
+namespace DTS\eBaySDK\Shopping\Services;
 
-class ShoppingService extends \FulfilioNet\eBaySDK\Shopping\Services\ShoppingBaseService
+class ShoppingService extends \DTS\eBaySDK\Shopping\Services\ShoppingBaseService
 {
     const API_VERSION = '1027';
 
@@ -23,178 +23,178 @@ class ShoppingService extends \FulfilioNet\eBaySDK\Shopping\Services\ShoppingBas
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\FindProductsRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\FindProductsResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\FindProductsResponseType
      */
-    public function findProducts(\FulfilioNet\eBaySDK\Shopping\Types\FindProductsRequestType $request)
+    public function findProducts(\DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request)
     {
         return $this->findProductsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\FindProductsRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findProductsAsync(\FulfilioNet\eBaySDK\Shopping\Types\FindProductsRequestType $request)
+    public function findProductsAsync(\DTS\eBaySDK\Shopping\Types\FindProductsRequestType $request)
     {
         return $this->callOperationAsync(
             'FindProducts',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\FindProductsResponseType'
+            '\DTS\eBaySDK\Shopping\Types\FindProductsResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType
      */
-    public function getCategoryInfo(\FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
+    public function getCategoryInfo(\DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
     {
         return $this->getCategoryInfoAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getCategoryInfoAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
+    public function getCategoryInfoAsync(\DTS\eBaySDK\Shopping\Types\GetCategoryInfoRequestType $request)
     {
         return $this->callOperationAsync(
             'GetCategoryInfo',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetCategoryInfoResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetItemStatusResponseType
      */
-    public function getItemStatus(\FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
+    public function getItemStatus(\DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
     {
         return $this->getItemStatusAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getItemStatusAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
+    public function getItemStatusAsync(\DTS\eBaySDK\Shopping\Types\GetItemStatusRequestType $request)
     {
         return $this->callOperationAsync(
             'GetItemStatus',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetItemStatusResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetItemStatusResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetMultipleItemsResponseType
      */
-    public function getMultipleItems(\FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
+    public function getMultipleItems(\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
     {
         return $this->getMultipleItemsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getMultipleItemsAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
+    public function getMultipleItemsAsync(\DTS\eBaySDK\Shopping\Types\GetMultipleItemsRequestType $request)
     {
         return $this->callOperationAsync(
             'GetMultipleItems',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetMultipleItemsResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetMultipleItemsResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetShippingCostsResponseType
      */
-    public function getShippingCosts(\FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
+    public function getShippingCosts(\DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
     {
         return $this->getShippingCostsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getShippingCostsAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
+    public function getShippingCostsAsync(\DTS\eBaySDK\Shopping\Types\GetShippingCostsRequestType $request)
     {
         return $this->callOperationAsync(
             'GetShippingCosts',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetShippingCostsResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetShippingCostsResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType
      */
-    public function getSingleItem(\FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
+    public function getSingleItem(\DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
     {
         return $this->getSingleItemAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSingleItemAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
+    public function getSingleItemAsync(\DTS\eBaySDK\Shopping\Types\GetSingleItemRequestType $request)
     {
         return $this->callOperationAsync(
             'GetSingleItem',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetSingleItemResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetSingleItemResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType
      */
-    public function getUserProfile(\FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
+    public function getUserProfile(\DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
     {
         return $this->getUserProfileAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getUserProfileAsync(\FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
+    public function getUserProfileAsync(\DTS\eBaySDK\Shopping\Types\GetUserProfileRequestType $request)
     {
         return $this->callOperationAsync(
             'GetUserProfile',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GetUserProfileResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GetUserProfileResponseType'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
-     * @return \FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeResponseType
+     * @param \DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
+     * @return \DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType
      */
-    public function geteBayTime(\FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
+    public function geteBayTime(\DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
     {
         return $this->geteBayTimeAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
+     * @param \DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function geteBayTimeAsync(\FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
+    public function geteBayTimeAsync(\DTS\eBaySDK\Shopping\Types\GeteBayTimeRequestType $request)
     {
         return $this->callOperationAsync(
             'GeteBayTime',
             $request,
-            '\FulfilioNet\eBaySDK\Shopping\Types\GeteBayTimeResponseType'
+            '\DTS\eBaySDK\Shopping\Types\GeteBayTimeResponseType'
         );
     }
 }

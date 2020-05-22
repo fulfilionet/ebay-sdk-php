@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  */
-class CreateItemPromotionRestRequest extends \FulfilioNet\eBaySDK\Marketing\Types\ItemPromotion
+class CreateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPromotion
 {
     /**
      * @var array Properties belonging to objects of this class.

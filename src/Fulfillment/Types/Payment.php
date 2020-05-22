@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $amount
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $amount
  * @property string $paymentDate
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\PaymentHold[] $paymentHolds
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum $paymentMethod
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\PaymentModeTypeEnum $paymentMode
+ * @property \DTS\eBaySDK\Fulfillment\Types\PaymentHold[] $paymentHolds
+ * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum $paymentMethod
+ * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentModeTypeEnum $paymentMode
  * @property string $paymentReferenceId
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\PaymentStatusEnum $paymentStatus
+ * @property \DTS\eBaySDK\Fulfillment\Enums\PaymentStatusEnum $paymentStatus
  */
-class Payment extends \FulfilioNet\eBaySDK\Types\BaseType
+class Payment extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'
@@ -39,7 +39,7 @@ class Payment extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'paymentDate'
         ],
         'paymentHolds' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\PaymentHold',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\PaymentHold',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentHolds'

@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $PictureName
  * @property integer $PictureSystemVersion
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\Base64BinaryType $PictureData
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType $PictureUploadPolicy
+ * @property \DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
+ * @property \DTS\eBaySDK\MerchantData\Types\Base64BinaryType $PictureData
+ * @property \DTS\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType $PictureUploadPolicy
  * @property string[] $ExternalPictureURL
  * @property integer $ExtensionInDays
  */
-class UploadSiteHostedPicturesRequestType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractRequestType
+class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -45,7 +45,7 @@ class UploadSiteHostedPicturesRequestType extends \FulfilioNet\eBaySDK\MerchantD
             'elementName' => 'PictureSet'
         ],
         'PictureData' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\Base64BinaryType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\Base64BinaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PictureData'

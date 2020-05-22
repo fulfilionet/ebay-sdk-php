@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $DurationInDays
  * @property boolean $Include
  */
-class ReminderCustomizationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReminderCustomizationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

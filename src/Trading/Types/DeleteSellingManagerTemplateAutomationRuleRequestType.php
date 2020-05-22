@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $DeleteAutomatedRelistingRule
  * @property boolean $DeleteAutomatedSecondChanceOfferRule
  */
-class DeleteSellingManagerTemplateAutomationRuleRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class DeleteSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

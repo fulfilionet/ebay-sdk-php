@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $actualAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $actualAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property string $externalPaymentId
  * @property string $moneyMovementType
  * @property string $paymentProvider
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $requestedAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $requestedAmount
  * @property string $status
  */
-class MoneyMovementDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actualAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualAmount'
         ],
         'creationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
@@ -57,7 +57,7 @@ class MoneyMovementDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'paymentProvider'
         ],
         'requestedAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'requestedAmount'

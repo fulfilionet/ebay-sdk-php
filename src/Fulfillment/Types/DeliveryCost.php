@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $importCharges
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $shippingCost
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $discountAmount
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $importCharges
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountAmount
  */
-class DeliveryCost extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeliveryCost extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'importCharges' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'importCharges'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
         ],
         'shippingIntermediationFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingIntermediationFee'
         ],
         'discountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'

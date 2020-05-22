@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $OrderAmount
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderAmount
  * @property integer $ItemCount
  */
-class PromotionalShippingDiscountDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class PromotionalShippingDiscountDetailsType extends \FulfilioNet\eBaySDK\Types\
             'elementName' => 'DiscountName'
         ],
         'ShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCost'
         ],
         'OrderAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderAmount'

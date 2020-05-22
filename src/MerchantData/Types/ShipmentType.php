@@ -8,38 +8,38 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property \DateTime $EstimatedDeliveryDate
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $InsuredValue
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuredValue
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
  * @property string $PayPalShipmentID
  * @property integer $ShipmentID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $PostageTotal
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PostageTotal
  * @property \DateTime $PrintedTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $ShipFromAddress
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType[] $ShippingFeature
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShipFromAddress
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingFeatureCodeType[] $ShippingFeature
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
  * @property string $ShippingServiceUsed
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ItemTransactionIDType[] $ItemTransactionID
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
+ * @property \DTS\eBaySDK\MerchantData\Types\ItemTransactionIDType[] $ItemTransactionID
  * @property \DateTime $DeliveryDate
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentDeliveryStatusCodeType $DeliveryStatus
  * @property \DateTime $RefundGrantedTime
  * @property \DateTime $RefundRequestedTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType $Status
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShipmentStatusCodeType $Status
  * @property \DateTime $ShippedTime
  * @property string $Notes
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property \DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\ShipmentLineItemType $ShipmentLineItem
  */
-class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -52,25 +52,25 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'EstimatedDeliveryDate'
         ],
         'InsuredValue' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuredValue'
         ],
         'PackageDepth' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ],
         'PackageLength' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ],
         'PackageWidth' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
@@ -88,7 +88,7 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShipmentID'
         ],
         'PostageTotal' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PostageTotal'
@@ -100,13 +100,13 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PrintedTime'
         ],
         'ShipFromAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipFromAddress'
         ],
         'ShippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
@@ -130,19 +130,19 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceUsed'
         ],
         'WeightMajor' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ],
         'WeightMinor' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMinor'
         ],
         'ItemTransactionID' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ItemTransactionIDType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemTransactionIDType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemTransactionID'
@@ -190,13 +190,13 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Notes'
         ],
         'ShipmentTrackingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShipmentTrackingDetails'
         ],
         'ShipmentLineItem' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShipmentLineItemType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentLineItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipmentLineItem'

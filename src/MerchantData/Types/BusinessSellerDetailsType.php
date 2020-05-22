@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $Address
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $Address
  * @property string $Fax
  * @property string $Email
  * @property string $AdditionalContactInformation
  * @property string $TradeRegistrationNumber
  * @property boolean $LegalInvoice
  * @property string $TermsAndConditions
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\VATDetailsType $VATDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\VATDetailsType $VATDetails
  */
-class BusinessSellerDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Address' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Address'
@@ -70,7 +70,7 @@ class BusinessSellerDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TermsAndConditions'
         ],
         'VATDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\VATDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\VATDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VATDetails'

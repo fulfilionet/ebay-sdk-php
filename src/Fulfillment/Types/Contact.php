@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $companyName
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Address $contactAddress
+ * @property \DTS\eBaySDK\Fulfillment\Types\Address $contactAddress
  * @property string $fullName
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\PhoneNumber $primaryPhone
+ * @property \DTS\eBaySDK\Fulfillment\Types\PhoneNumber $primaryPhone
  */
-class Contact extends \FulfilioNet\eBaySDK\Types\BaseType
+class Contact extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class Contact extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'companyName'
         ],
         'contactAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Address',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'contactAddress'
@@ -42,7 +42,7 @@ class Contact extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'fullName'
         ],
         'primaryPhone' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\PhoneNumber',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\PhoneNumber',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'primaryPhone'

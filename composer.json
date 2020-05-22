@@ -36,7 +36,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FulfilioNet\\eBaySDK\\": "src/"
+      "DTS\\eBaySDK\\": "src/"
     },
     "files": [
       "src/functions.php"
@@ -44,7 +44,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "FulfilioNet\\eBaySDK\\Test\\": "test/"
+      "DTS\\eBaySDK\\Test\\": "test/"
     },
     "classmap": [
       "build/"

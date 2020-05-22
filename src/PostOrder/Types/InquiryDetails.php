@@ -8,69 +8,69 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $escalationDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $expirationDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $escalationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $expirationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
+ * @property \DTS\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
  */
-class InquiryDetails extends \FulfilioNet\eBaySDK\Types\BaseType
+class InquiryDetails extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appealDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\AppealDetails',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\AppealDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealDetails'
         ],
         'creationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
         ],
         'escalationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'escalationDate'
         ],
         'expirationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'expirationDate'
         ],
         'lastBuyerRespDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lastBuyerRespDate'
         ],
         'refundAmounts' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RefundAmounts',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundAmounts'
         ],
         'refundDeadlineDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundDeadlineDate'
         ],
         'totalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalAmount'

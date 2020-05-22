@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreCustomPageType[] $CustomPage
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomPageType[] $CustomPage
  */
-class StoreCustomPageArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreCustomPageArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CustomPage' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreCustomPageType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomPageType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CustomPage'

@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\CategorySuggestion[] $categorySuggestions
+ * @property \DTS\eBaySDK\Taxonomy\Types\CategorySuggestion[] $categorySuggestions
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
  */
-class CategorySuggestionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class CategorySuggestionResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categorySuggestions' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\CategorySuggestion',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategorySuggestion',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categorySuggestions'

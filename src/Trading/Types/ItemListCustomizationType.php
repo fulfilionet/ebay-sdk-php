@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $Include
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType $Sort
  * @property integer $DurationInDays
  * @property boolean $IncludeNotes
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \FulfilioNet\eBaySDK\Trading\Enums\OrderStatusFilterCodeType $OrderStatusFilter
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType $OrderStatusFilter
  */
-class ItemListCustomizationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class ItemListCustomizationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'IncludeNotes'
         ],
         'Pagination' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

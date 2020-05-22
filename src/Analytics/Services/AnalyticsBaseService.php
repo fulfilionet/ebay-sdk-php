@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Analytics\Services;
+namespace DTS\eBaySDK\Analytics\Services;
 
 /**
  * Base class for the Analytics service.
  */
-class AnalyticsBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class AnalyticsBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class AnalyticsBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Analytics\Services\AnalyticsService::API_VERSION,
+                'default' => \DTS\eBaySDK\Analytics\Services\AnalyticsService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

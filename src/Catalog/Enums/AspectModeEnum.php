@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Enums;
+namespace DTS\eBaySDK\Catalog\Enums;
 
 class AspectModeEnum
 {

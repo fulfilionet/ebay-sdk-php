@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\Condition $condition
+ * @property \DTS\eBaySDK\Finding\Types\Condition $condition
  * @property integer $count
  */
-class ConditionHistogram extends \FulfilioNet\eBaySDK\Types\BaseType
+class ConditionHistogram extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'condition' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\Condition',
+            'type' => 'DTS\eBaySDK\Finding\Types\Condition',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'condition'

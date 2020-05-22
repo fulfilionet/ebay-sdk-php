@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $baseDeliveryCost
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $deliveryDiscount
+ * @property \DTS\eBaySDK\Order\Types\Amount $baseDeliveryCost
+ * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount
  * @property string $maxEstimatedDeliveryDate
  * @property string $minEstimatedDeliveryDate
  * @property boolean $selected
@@ -21,20 +21,20 @@ namespace FulfilioNet\eBaySDK\Order\Types;
  * @property string $shippingOptionId
  * @property string $shippingServiceCode
  */
-class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingOption extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'baseDeliveryCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'baseDeliveryCost'
         ],
         'deliveryDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryDiscount'

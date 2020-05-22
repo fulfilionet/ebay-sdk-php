@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
  */
-class VerifyAddFixedPriceItemRequestType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractRequestType
+class VerifyAddFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ItemType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'

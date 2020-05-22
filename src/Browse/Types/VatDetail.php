@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Browse\Enums\CountryCodeEnum $issuingCountry
+ * @property \DTS\eBaySDK\Browse\Enums\CountryCodeEnum $issuingCountry
  * @property string $vatId
  */
-class VatDetail extends \FulfilioNet\eBaySDK\Types\BaseType
+class VatDetail extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

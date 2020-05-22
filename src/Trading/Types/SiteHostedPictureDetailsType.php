@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $PictureName
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PictureFormatCodeType $PictureFormat
+ * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet
+ * @property \DTS\eBaySDK\Trading\Enums\PictureFormatCodeType $PictureFormat
  * @property string $FullURL
  * @property string $BaseURL
- * @property \FulfilioNet\eBaySDK\Trading\Types\PictureSetMemberType[] $PictureSetMember
+ * @property \DTS\eBaySDK\Trading\Types\PictureSetMemberType[] $PictureSetMember
  * @property string $ExternalPictureURL
  * @property \DateTime $UseByDate
  */
-class SiteHostedPictureDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -58,7 +58,7 @@ class SiteHostedPictureDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BaseURL'
         ],
         'PictureSetMember' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PictureSetMemberType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PictureSetMemberType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PictureSetMember'

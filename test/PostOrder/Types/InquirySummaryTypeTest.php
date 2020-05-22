@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\InquirySummaryType;
+use DTS\eBaySDK\PostOrder\Types\InquirySummaryType;
 
 class InquirySummaryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class InquirySummaryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\InquirySummaryType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquirySummaryType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

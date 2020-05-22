@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $name
  * @property boolean $ETRS
  */
-class CategoryGroup extends \FulfilioNet\eBaySDK\Types\BaseType
+class CategoryGroup extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\AddSellingManagerInventoryFolderResponseType;
+use DTS\eBaySDK\Trading\Types\AddSellingManagerInventoryFolderResponseType;
 
 class AddSellingManagerInventoryFolderResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddSellingManagerInventoryFolderResponseTypeTest extends \PHPUnit_Framewor
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AddSellingManagerInventoryFolderResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AddSellingManagerInventoryFolderResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

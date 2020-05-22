@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $PromotionalSaleID
  * @property string $PromotionalSaleName
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType $Status
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DiscountCodeType $DiscountType
+ * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountCodeType $DiscountType
  * @property double $DiscountValue
  * @property \DateTime $PromotionalSaleStartTime
  * @property \DateTime $PromotionalSaleEndTime
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType $PromotionalSaleType
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType $PromotionalSaleType
  */
-class PromotionalSaleType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -41,7 +41,7 @@ class PromotionalSaleType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PromotionalSaleName'
         ],
         'PromotionalSaleItemIDArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemIDArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleItemIDArray'

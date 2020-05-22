@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\Amount $estimatedRefundAmount
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\Amount $actualRefundAmount
+ * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $estimatedRefundAmount
+ * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $actualRefundAmount
  */
-class TotalRefundAmountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TotalRefundAmountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'estimatedRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefundAmount'
         ],
         'actualRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualRefundAmount'

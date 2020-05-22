@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ProductIDType $productID
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\SortByType $sortBy
+ * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType $productID
+ * @property \DTS\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
+ * @property \DTS\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
+ * @property \DTS\eBaySDK\HalfFinding\Types\SortByType $sortBy
  */
-class FindItemsRequest extends \FulfilioNet\eBaySDK\HalfFinding\Types\BaseRequest
+class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productID' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ProductIDType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productID'
         ],
         'paginationInput' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\PaginationInputType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'itemFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ItemFilter',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'
         ],
         'sortBy' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\SortByType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sortBy'

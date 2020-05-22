@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $SKU
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\MerchantData\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
  */
-class VerifyAddFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType
+class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class VerifyAddFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantD
             'elementName' => 'SKU'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeesType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -63,7 +63,7 @@ class VerifyAddFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantD
             'elementName' => 'DiscountReason'
         ],
         'ListingRecommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

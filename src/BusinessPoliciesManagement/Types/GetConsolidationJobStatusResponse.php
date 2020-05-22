@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob[] $Job
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob[] $Job
  */
-class GetConsolidationJobStatusResponse extends \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
+class GetConsolidationJobStatusResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Job' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidationJob',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Job'

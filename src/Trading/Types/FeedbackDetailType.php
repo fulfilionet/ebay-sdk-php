@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CommentingUser
- * @property \FulfilioNet\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property integer $CommentingUserScore
  * @property string $CommentText
  * @property \DateTime $CommentTime
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CommentTypeCodeType $CommentType
+ * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType $CommentType
  * @property string $FeedbackResponse
  * @property string $Followup
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
  * @property string $ItemTitle
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ItemPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
  * @property string $FeedbackID
  * @property string $TransactionID
  * @property boolean $CommentReplaced
@@ -33,7 +33,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $FeedbackRevised
  * @property string $OrderLineItemID
  */
-class FeedbackDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -106,7 +106,7 @@ class FeedbackDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemTitle'
         ],
         'ItemPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemPrice'

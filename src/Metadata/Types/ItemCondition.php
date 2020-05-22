@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
  * @property string $conditionDescription
  * @property string $conditionId
  */
-class ItemCondition extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemCondition extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\Tag[] $tag
+ * @property \DTS\eBaySDK\ProductMetadata\Types\Tag[] $tag
  */
-class GroupProperty extends \FulfilioNet\eBaySDK\Types\BaseType
+class GroupProperty extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class GroupProperty extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'propertyName'
         ],
         'tag' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\Tag',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'tag'

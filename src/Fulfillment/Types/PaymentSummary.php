@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Payment[] $payments
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\OrderRefund[] $refunds
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $totalDueSeller
+ * @property \DTS\eBaySDK\Fulfillment\Types\Payment[] $payments
+ * @property \DTS\eBaySDK\Fulfillment\Types\OrderRefund[] $refunds
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $totalDueSeller
  */
-class PaymentSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'payments' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Payment',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Payment',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'payments'
         ],
         'refunds' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\OrderRefund',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\OrderRefund',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'refunds'
         ],
         'totalDueSeller' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalDueSeller'

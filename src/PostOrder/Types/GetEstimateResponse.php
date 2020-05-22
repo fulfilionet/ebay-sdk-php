@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EstimatedRefundInfoType $refundInfo
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EstimatedShippingInfoType $returnShippingCostInfo
+ * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundInfoType $refundInfo
+ * @property \DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType $returnShippingCostInfo
  */
-class GetEstimateResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetEstimateResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'refundInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EstimatedRefundInfoType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundInfo'
         ],
         'returnShippingCostInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EstimatedShippingInfoType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedShippingInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnShippingCostInfo'

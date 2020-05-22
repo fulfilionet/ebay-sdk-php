@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\NotificationRoleCodeType $PreferenceLevel
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType $PreferenceLevel
  */
-class GetNotificationPreferencesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

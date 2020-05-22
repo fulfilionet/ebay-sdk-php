@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Address $address
- * @property \FulfilioNet\eBaySDK\Inventory\Types\GeoCoordinates $geoCoordinates
+ * @property \DTS\eBaySDK\Inventory\Types\Address $address
+ * @property \DTS\eBaySDK\Inventory\Types\GeoCoordinates $geoCoordinates
  * @property string $locationId
  */
-class Location extends \FulfilioNet\eBaySDK\Types\BaseType
+class Location extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'address' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Address',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'address'
         ],
         'geoCoordinates' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\GeoCoordinates',
+            'type' => 'DTS\eBaySDK\Inventory\Types\GeoCoordinates',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'geoCoordinates'

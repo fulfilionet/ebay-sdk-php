@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $InventoryCountLastCalculatedDate
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductType[] $SellingManagerProduct
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class GetSellingManagerInventoryResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerInventoryResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class GetSellingManagerInventoryResponseType extends \FulfilioNet\eBaySDK\Tradin
             'elementName' => 'InventoryCountLastCalculatedDate'
         ],
         'SellingManagerProduct' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellingManagerProduct'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

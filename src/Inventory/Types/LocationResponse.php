@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $href
  * @property integer $limit
- * @property \FulfilioNet\eBaySDK\Inventory\Types\InventoryLocationResponse[] $locations
+ * @property \DTS\eBaySDK\Inventory\Types\InventoryLocationResponse[] $locations
  * @property string $next
  * @property integer $offset
  * @property string $prev
  * @property integer $total
  */
-class LocationResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class LocationResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class LocationResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'limit'
         ],
         'locations' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\InventoryLocationResponse',
+            'type' => 'DTS\eBaySDK\Inventory\Types\InventoryLocationResponse',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'locations'

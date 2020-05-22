@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Enums;
+namespace DTS\eBaySDK\BulkDataExchange\Enums;
 
 class OrderStatusTypes
 {

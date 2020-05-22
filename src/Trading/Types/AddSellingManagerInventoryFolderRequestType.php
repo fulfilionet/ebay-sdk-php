@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $ParentFolderID
  * @property string $Comment
  */
-class AddSellingManagerInventoryFolderRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class AddSellingManagerInventoryFolderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

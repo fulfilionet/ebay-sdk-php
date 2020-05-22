@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\FlatRateInsuranceRangeCodeType $FlatRateInsuranceRange
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $InsuranceCost
+ * @property \DTS\eBaySDK\Trading\Enums\FlatRateInsuranceRangeCodeType $FlatRateInsuranceRange
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuranceCost
  */
-class FlatRateInsuranceRangeCostType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FlatRateInsuranceRangeCostType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class FlatRateInsuranceRangeCostType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'FlatRateInsuranceRange'
         ],
         'InsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceCost'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Feed\Types;
+namespace DTS\eBaySDK\Feed\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Feed\Types\ItemFeed[] $itemFeeds
+ * @property \DTS\eBaySDK\Feed\Types\ItemFeed[] $itemFeeds
  */
-class ItemFeedResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemFeedResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemFeeds' => [
-            'type' => 'FulfilioNet\eBaySDK\Feed\Types\ItemFeed',
+            'type' => 'DTS\eBaySDK\Feed\Types\ItemFeed',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFeeds'

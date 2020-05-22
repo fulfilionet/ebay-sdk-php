@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TokenStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Enums\TokenStatusCodeType $Status
  * @property string $EIASToken
  * @property \DateTime $ExpirationTime
  * @property \DateTime $RevocationTime
  */
-class TokenStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TokenStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

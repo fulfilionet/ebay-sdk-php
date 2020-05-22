@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $BotBlockToken
  * @property string $BotBlockUserInput
  */
-class BotBlockRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BotBlockRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

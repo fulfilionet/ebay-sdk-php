@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\OfferArrayType $BidArray
+ * @property \DTS\eBaySDK\Trading\Types\OfferArrayType $BidArray
  * @property string $HighBidder
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $HighestBid
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
+ * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
  */
-class GetAllBiddersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\OfferArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\OfferArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidArray'
@@ -36,7 +36,7 @@ class GetAllBiddersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstr
             'elementName' => 'HighBidder'
         ],
         'HighestBid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HighestBid'

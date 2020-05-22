@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Enums\AspectDataTypeEnum $aspectDataType
+ * @property \DTS\eBaySDK\Catalog\Enums\AspectDataTypeEnum $aspectDataType
  * @property string $aspectFormat
- * @property \FulfilioNet\eBaySDK\Catalog\Enums\AspectModeEnum $aspectMode
+ * @property \DTS\eBaySDK\Catalog\Enums\AspectModeEnum $aspectMode
  * @property boolean $aspectRequired
- * @property \FulfilioNet\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum $productToAspectCardinality
+ * @property \DTS\eBaySDK\Catalog\Enums\ItemToAspectCardinalityEnum $productToAspectCardinality
  */
-class ProductAspectConstraint extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductAspectConstraint extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Enums;
+namespace DTS\eBaySDK\Shopping\Enums;
 
 class ProductIDCodeType
 {

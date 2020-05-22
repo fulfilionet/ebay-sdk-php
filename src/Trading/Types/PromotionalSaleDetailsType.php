@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $OriginalPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalPrice
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
  */
-class PromotionalSaleDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PromotionalSaleDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalPrice'

@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MultiLegShippingServiceType $ShippingServiceDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressType $ShipToAddress
+ * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingServiceType $ShippingServiceDetails
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShipToAddress
  * @property integer $ShippingTimeMin
  * @property integer $ShippingTimeMax
  */
-class MultiLegShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MultiLegShipmentType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingServiceDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MultiLegShippingServiceType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShippingServiceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceDetails'
         ],
         'ShipToAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipToAddress'

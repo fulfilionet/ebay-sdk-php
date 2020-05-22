@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Enums;
+namespace DTS\eBaySDK\Test\Shopping\Enums;
 
-use FulfilioNet\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType;
+use DTS\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType;
 
 class BuyerPaymentMethodCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class BuyerPaymentMethodCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\BuyerPaymentMethodCodeType', $this->obj);
     }
 }

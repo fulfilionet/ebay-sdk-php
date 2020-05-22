@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Finding\Types;
+namespace DTS\eBaySDK\Test\Finding\Types;
 
-use FulfilioNet\eBaySDK\Finding\Types\BestMatchFindingServiceRequest;
+use DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest;
 
 class BestMatchFindingServiceRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BestMatchFindingServiceRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Finding\Types\BestMatchFindingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BestMatchFindingServiceRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\BaseServiceRequest', $this->obj);
     }
 }

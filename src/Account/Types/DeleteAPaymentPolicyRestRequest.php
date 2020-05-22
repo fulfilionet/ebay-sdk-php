@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $payment_policy_id
  */
-class DeleteAPaymentPolicyRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeleteAPaymentPolicyRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

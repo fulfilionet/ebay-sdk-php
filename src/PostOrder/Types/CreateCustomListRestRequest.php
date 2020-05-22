@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  */
-class CreateCustomListRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\CreateCustomListRequest
+class CreateCustomListRestRequest extends \DTS\eBaySDK\PostOrder\Types\CreateCustomListRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

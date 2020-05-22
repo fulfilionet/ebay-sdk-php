@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Metadata\Types;
+namespace DTS\eBaySDK\Test\Metadata\Types;
 
-use FulfilioNet\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse;
+use DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse;
 
 class GetPoliciesForItemConditionRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetPoliciesForItemConditionRestResponseTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForItemConditionRestResponse', $this->obj);
     }
 
     public function testExtendsItemConditionPolicyResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Metadata\Types\ItemConditionPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ItemConditionPolicyResponse', $this->obj);
     }
 }

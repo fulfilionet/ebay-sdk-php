@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string[] $additionalImageUrls
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Aspect[] $aspects
+ * @property \DTS\eBaySDK\Catalog\Types\Aspect[] $aspects
  * @property string $brand
  * @property string $description
  * @property string[] $ean
@@ -27,7 +27,7 @@ namespace FulfilioNet\eBaySDK\Catalog\Types;
  * @property string[] $upc
  * @property string $version
  */
-class SuggestedProduct extends \FulfilioNet\eBaySDK\Types\BaseType
+class SuggestedProduct extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -40,7 +40,7 @@ class SuggestedProduct extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'additionalImageUrls'
         ],
         'aspects' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Aspect',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspects'

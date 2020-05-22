@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\PaginationInput $paginationInput
+ * @property \DTS\eBaySDK\Finding\Types\PaginationInput $paginationInput
  */
-class FindItemsForFavoriteSearchRequest extends \FulfilioNet\eBaySDK\Finding\Types\BaseServiceRequest
+class FindItemsForFavoriteSearchRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'paginationInput' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\PaginationInput',
+            'type' => 'DTS\eBaySDK\Finding\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'

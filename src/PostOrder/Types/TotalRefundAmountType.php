@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $actualRefundAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $estimatedRefundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $actualRefundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $estimatedRefundAmount
  */
-class TotalRefundAmountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TotalRefundAmountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actualRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualRefundAmount'
         ],
         'estimatedRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefundAmount'

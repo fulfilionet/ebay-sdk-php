@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $OriginalRetailPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MinimumAdvertisedPrice
- * @property \FulfilioNet\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalRetailPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumAdvertisedPrice
+ * @property \DTS\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property \DTS\eBaySDK\Trading\Enums\PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MadeForOutletComparisonPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MadeForOutletComparisonPrice
  */
-class DiscountPriceInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalRetailPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalRetailPrice'
         ],
         'MinimumAdvertisedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumAdvertisedPrice'
@@ -63,7 +63,7 @@ class DiscountPriceInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SoldOffeBay'
         ],
         'MadeForOutletComparisonPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MadeForOutletComparisonPrice'

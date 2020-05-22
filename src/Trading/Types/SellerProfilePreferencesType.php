@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $SellerProfileOptedIn
- * @property \FulfilioNet\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
+ * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
  */
-class SellerProfilePreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class SellerProfilePreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SellerProfileOptedIn'
         ],
         'SupportedSellerProfiles' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SupportedSellerProfilesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SupportedSellerProfiles'

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Types;
+namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
  *
  * @property string $type
  */
-class ProductId extends \FulfilioNet\eBaySDK\Types\StringType
+class ProductId extends \DTS\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
  */
-class CreateDispositionRuleRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ruleDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleDetailInputType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleDetail'

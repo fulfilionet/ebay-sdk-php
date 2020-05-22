@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo;
+use DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo;
 
 class ShippingProfileDiscountInfoTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingProfileDiscountInfoTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
  * @property string $ItemID
  * @property boolean $BlockOnWarning
- * @property \FulfilioNet\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
-class PlaceOfferRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Offer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\OfferType',
+            'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Offer'
@@ -43,13 +43,13 @@ class PlaceOfferRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractR
             'elementName' => 'BlockOnWarning'
         ],
         'AffiliateTrackingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AffiliateTrackingDetails'
         ],
         'VariationSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'

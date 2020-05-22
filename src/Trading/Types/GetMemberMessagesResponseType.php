@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
  */
-class GetMemberMessagesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetMemberMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MemberMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MemberMessage'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

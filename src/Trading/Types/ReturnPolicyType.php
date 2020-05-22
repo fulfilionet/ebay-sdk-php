@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -31,7 +31,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $RestockingFeeValueOption
  * @property boolean $ExtendedHolidayReturns
  */
-class ReturnPolicyType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

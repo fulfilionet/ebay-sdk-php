@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
+namespace DTS\eBaySDK\Test\MerchantData\Types;
 
-use FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType;
+use DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType;
 
 class BuyerPackageEnclosureTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BuyerPackageEnclosureTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }
 }

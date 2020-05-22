@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property \DateTime $creationTimeFrom
  * @property \DateTime $creationTimeTo
  * @property string[] $jobType
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Enums\JobStatus[] $jobStatus
+ * @property \DTS\eBaySDK\BulkDataExchange\Enums\JobStatus[] $jobStatus
  */
-class GetJobsRequest extends \FulfilioNet\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

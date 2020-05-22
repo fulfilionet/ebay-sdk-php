@@ -1,9 +1,9 @@
 title: eBay SDK for PHP
-main: FulfilioNet
+main: DTS
 baseUrl: http://devbay.net/sdk/guides/api/
 googleAnalytics: ""
 
-source: [build/artifacts/staging/FulfilioNet, build/artifacts/staging/GuzzleHttp/Psr7, build/artifacts/staging/GuzzleHttp/Promise, build/artifacts/staging/Psr]
+source: [build/artifacts/staging/DTS, build/artifacts/staging/GuzzleHttp/Psr7, build/artifacts/staging/GuzzleHttp/Promise, build/artifacts/staging/Psr]
 destination: build/artifacts/docs
 
 templateTheme: bootstrap

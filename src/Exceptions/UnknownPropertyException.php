@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK\Exceptions;
+namespace DTS\eBaySDK\Exceptions;
 
 /**
  * A property was get/set that doesn't exist.

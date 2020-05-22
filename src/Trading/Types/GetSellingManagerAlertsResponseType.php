@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAlertType[] $Alert
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerAlertType[] $Alert
  */
-class GetSellingManagerAlertsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerAlertsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Alert' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAlertType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAlertType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Alert'

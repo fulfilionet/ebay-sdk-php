@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property integer $PictureHeight
  * @property integer $PictureWidth
  */
-class PictureSetMemberType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PictureSetMemberType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

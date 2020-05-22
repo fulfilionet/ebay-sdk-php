@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $PickupMethod
  * @property string $PickupStoreID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PickupStatusCodeType $PickupStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\PickupStatusCodeType $PickupStatus
  * @property string $MerchantPickupCode
  * @property \DateTime $PickupFulfillmentTime
  * @property string $PickupLocationUUID
  */
-class PickupMethodSelectedType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

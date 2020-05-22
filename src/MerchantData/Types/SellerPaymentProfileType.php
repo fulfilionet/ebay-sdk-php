@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $PaymentProfileID
  * @property string $PaymentProfileName
  */
-class SellerPaymentProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerPaymentProfileType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

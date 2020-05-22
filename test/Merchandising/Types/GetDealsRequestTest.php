@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Merchandising\Types;
+namespace DTS\eBaySDK\Test\Merchandising\Types;
 
-use FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest;
+use DTS\eBaySDK\Merchandising\Types\GetDealsRequest;
 
 class GetDealsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetDealsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetDealsRequest', $this->obj);
     }
 
     public function testExtendsBaseMerchandisingServiceRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }
 }

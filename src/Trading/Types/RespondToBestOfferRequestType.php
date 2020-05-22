@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string[] $BestOfferID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BestOfferActionCodeType $Action
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType $Action
  * @property string $SellerResponse
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $CounterOfferPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CounterOfferPrice
  * @property integer $CounterOfferQuantity
  */
-class RespondToBestOfferRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class RespondToBestOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -50,7 +50,7 @@ class RespondToBestOfferRequestType extends \FulfilioNet\eBaySDK\Trading\Types\A
             'elementName' => 'SellerResponse'
         ],
         'CounterOfferPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CounterOfferPrice'

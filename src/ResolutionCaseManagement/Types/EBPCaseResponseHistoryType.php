@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $note
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $author
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $author
  * @property string $activity
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType $activityDetail
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType $activityDetail
  * @property \DateTime $creationDate
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType $attributes
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType $attributes
  */
-class EBPCaseResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EBPCaseResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class EBPCaseResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'note'
         ],
         'author' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'author'
@@ -44,7 +44,7 @@ class EBPCaseResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'activity'
         ],
         'activityDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ActivityDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'activityDetail'
@@ -56,7 +56,7 @@ class EBPCaseResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'creationDate'
         ],
         'attributes' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ResponseHistoryAttributesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'attributes'

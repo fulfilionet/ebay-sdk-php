@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $PictureURL
  */
-class ExtendSiteHostedPicturesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class ExtendSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

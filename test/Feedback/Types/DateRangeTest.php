@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Feedback\Types;
+namespace DTS\eBaySDK\Test\Feedback\Types;
 
-use FulfilioNet\eBaySDK\Feedback\Types\DateRange;
+use DTS\eBaySDK\Feedback\Types\DateRange;
 
 class DateRangeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DateRangeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Feedback\Types\DateRange', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\DateRange', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

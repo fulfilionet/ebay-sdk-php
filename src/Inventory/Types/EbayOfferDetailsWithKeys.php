@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\FormatTypeEnum $format
+ * @property \DTS\eBaySDK\Inventory\Enums\FormatTypeEnum $format
  * @property string $listingDescription
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
+ * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
  * @property string $merchantLocationKey
- * @property \FulfilioNet\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string $sku
  * @property string[] $storeCategoryNames
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Tax $tax
+ * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
  */
-class EbayOfferDetailsWithKeys extends \FulfilioNet\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithKeys extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -56,7 +56,7 @@ class EbayOfferDetailsWithKeys extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingDescription'
         ],
         'listingPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listingPolicies'
@@ -74,7 +74,7 @@ class EbayOfferDetailsWithKeys extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'merchantLocationKey'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -98,7 +98,7 @@ class EbayOfferDetailsWithKeys extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'storeCategoryNames'
         ],
         'tax' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Tax',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'

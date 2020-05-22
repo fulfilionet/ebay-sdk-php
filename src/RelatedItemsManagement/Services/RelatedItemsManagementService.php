@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Services;
+namespace DTS\eBaySDK\RelatedItemsManagement\Services;
 
-class RelatedItemsManagementService extends \FulfilioNet\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService
+class RelatedItemsManagementService extends \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementBaseService
 {
     const API_VERSION = '1.0.0';
 
@@ -23,156 +23,156 @@ class RelatedItemsManagementService extends \FulfilioNet\eBaySDK\RelatedItemsMan
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesResponse
      */
-    public function createBundles(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request)
+    public function createBundles(\DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request)
     {
         return $this->createBundlesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createBundlesAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request)
+    public function createBundlesAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesRequest $request)
     {
         return $this->callOperationAsync(
             'createBundles',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\CreateBundlesResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\CreateBundlesResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesResponse
      */
-    public function findBundles(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request)
+    public function findBundles(\DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request)
     {
         return $this->findBundlesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function findBundlesAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request)
+    public function findBundlesAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest $request)
     {
         return $this->callOperationAsync(
             'findBundles',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\FindBundlesResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse
      */
-    public function getBundles(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request)
+    public function getBundles(\DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request)
     {
         return $this->getBundlesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getBundlesAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request)
+    public function getBundlesAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesRequest $request)
     {
         return $this->callOperationAsync(
             'getBundles',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\GetBundlesResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesResponse
      */
-    public function updateBundles(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request)
+    public function updateBundles(\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request)
     {
         return $this->updateBundlesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateBundlesAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request)
+    public function updateBundlesAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesRequest $request)
     {
         return $this->callOperationAsync(
             'updateBundles',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundlesResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse
      */
-    public function updateBundleStatus(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request)
+    public function updateBundleStatus(\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request)
     {
         return $this->updateBundleStatusAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateBundleStatusAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request)
+    public function updateBundleStatusAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusRequest $request)
     {
         return $this->callOperationAsync(
             'updateBundleStatus',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\UpdateBundleStatusResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse
      */
-    public function deleteBundles(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request)
+    public function deleteBundles(\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request)
     {
         return $this->deleteBundlesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteBundlesAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request)
+    public function deleteBundlesAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesRequest $request)
     {
         return $this->callOperationAsync(
             'deleteBundles',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\DeleteBundlesResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request
-     * @return \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionResponse
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request
+     * @return \DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionResponse
      */
-    public function getVersion(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request)
+    public function getVersion(\DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request
+     * @param \DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getVersionAsync(\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request)
+    public function getVersionAsync(\DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
             $request,
-            '\FulfilioNet\eBaySDK\RelatedItemsManagement\Types\GetVersionResponse'
+            '\DTS\eBaySDK\RelatedItemsManagement\Types\GetVersionResponse'
         );
     }
 }

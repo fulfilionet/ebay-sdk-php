@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $PictureURL
  * @property integer $ExtensionInDays
  */
-class ExtendSiteHostedPicturesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class ExtendSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

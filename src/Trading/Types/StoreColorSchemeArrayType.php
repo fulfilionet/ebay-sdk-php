@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreColorSchemeType[] $ColorScheme
+ * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeType[] $ColorScheme
  */
-class StoreColorSchemeArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreColorSchemeArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ColorScheme' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreColorSchemeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ColorScheme'

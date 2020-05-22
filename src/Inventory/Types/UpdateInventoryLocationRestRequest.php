@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $merchantLocationKey
  */
-class UpdateInventoryLocationRestRequest extends \FulfilioNet\eBaySDK\Inventory\Types\InventoryLocation
+class UpdateInventoryLocationRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryLocation
 {
     /**
      * @var array Properties belonging to objects of this class.

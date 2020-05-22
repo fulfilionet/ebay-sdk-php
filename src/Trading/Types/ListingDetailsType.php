@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $Adult
  * @property boolean $BindingAuction
  * @property boolean $CheckoutEnabled
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
  * @property boolean $HasReservePrice
  * @property string $RelistedItemID
  * @property string $SecondChanceOriginalItemID
@@ -27,14 +27,14 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $HasUnansweredQuestions
  * @property boolean $HasPublicMessages
  * @property boolean $BuyItNowAvailable
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
  * @property string $LocalListingDistance
  * @property string $TCROriginalItemID
  * @property string $ViewItemURLForNaturalSearch
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
- * @property \FulfilioNet\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
+ * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
  */
-class ListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -59,19 +59,19 @@ class ListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CheckoutEnabled'
         ],
         'ConvertedBuyItNowPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedBuyItNowPrice'
         ],
         'ConvertedStartPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedStartPrice'
         ],
         'ConvertedReservePrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedReservePrice'
@@ -131,7 +131,7 @@ class ListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BuyItNowAvailable'
         ],
         'MinimumBestOfferPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumBestOfferPrice'
@@ -155,7 +155,7 @@ class ListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ViewItemURLForNaturalSearch'
         ],
         'BestOfferAutoAcceptPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferAutoAcceptPrice'

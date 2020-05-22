@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Enums;
+namespace DTS\eBaySDK\Marketing\Enums;
 
 class PromotionStatusEnum
 {

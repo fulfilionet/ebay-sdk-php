@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType $Operation
+ * @property \DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType $Operation
  * @property integer[] $FolderID
  * @property string[] $FolderName
  */
-class ReviseMyMessagesFoldersRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

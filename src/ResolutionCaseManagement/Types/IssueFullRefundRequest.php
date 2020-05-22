@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
  * @property string $comments
  */
-class IssueFullRefundRequest extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class IssueFullRefundRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'

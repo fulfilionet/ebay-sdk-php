@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Types;
+namespace DTS\eBaySDK\Test\Account\Types;
 
-use FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse;
+use DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse;
 
 class UpdateAFulfillmentPolicyRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateAFulfillmentPolicyRestResponseTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse', $this->obj);
     }
 
     public function testExtendsSetFulfillmentPolicyResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\SetFulfillmentPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\SetFulfillmentPolicyResponse', $this->obj);
     }
 }

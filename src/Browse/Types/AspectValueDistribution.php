@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Browse\Types;
  * @property integer $matchCount
  * @property string $refinementHref
  */
-class AspectValueDistribution extends \FulfilioNet\eBaySDK\Types\BaseType
+class AspectValueDistribution extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

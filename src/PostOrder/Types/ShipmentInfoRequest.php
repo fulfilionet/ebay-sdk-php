@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $proofOfShipmentUploaded
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $sellerComments
+ * @property \DTS\eBaySDK\PostOrder\Types\Text $sellerComments
  * @property boolean $shippedWithTracking
  * @property string $shippingCarrierName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $shippingDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shippingDate
  * @property string $trackingNumber
  */
-class ShipmentInfoRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentInfoRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class ShipmentInfoRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'proofOfShipmentUploaded'
         ],
         'sellerComments' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerComments'
@@ -50,7 +50,7 @@ class ShipmentInfoRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'shippingCarrierName'
         ],
         'shippingDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingDate'

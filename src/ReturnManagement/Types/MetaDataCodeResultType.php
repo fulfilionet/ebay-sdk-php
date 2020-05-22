@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\MetadataCodeType $codeName
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\MetadataCodeType $codeName
  * @property string[] $value
  */
-class MetaDataCodeResultType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MetaDataCodeResultType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

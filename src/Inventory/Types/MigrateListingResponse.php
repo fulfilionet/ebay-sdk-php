@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
  * @property string $inventoryItemGroupKey
- * @property \FulfilioNet\eBaySDK\Inventory\Types\InventoryItemListing[] $inventoryItems
+ * @property \DTS\eBaySDK\Inventory\Types\InventoryItemListing[] $inventoryItems
  * @property string $listingId
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
  * @property integer $statusCode
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
  */
-class MigrateListingResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class MigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
@@ -39,7 +39,7 @@ class MigrateListingResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'inventoryItemGroupKey'
         ],
         'inventoryItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\InventoryItemListing',
+            'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItemListing',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryItems'
@@ -63,7 +63,7 @@ class MigrateListingResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'statusCode'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

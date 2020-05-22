@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $buyerPaid
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $buyerPaidDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerPaidDate
  * @property string $cancelReason
  * @property string $legacyOrderId
  */
-class CreateCancelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateCancelRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class CreateCancelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'buyerPaid'
         ],
         'buyerPaidDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerPaidDate'

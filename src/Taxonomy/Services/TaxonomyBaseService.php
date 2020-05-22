@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Taxonomy\Services;
+namespace DTS\eBaySDK\Taxonomy\Services;
 
 /**
  * Base class for the Taxonomy service.
  */
-class TaxonomyBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class TaxonomyBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class TaxonomyBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Taxonomy\Services\TaxonomyService::API_VERSION,
+                'default' => \DTS\eBaySDK\Taxonomy\Services\TaxonomyService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType $Type
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType $RelistCondition
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType $Type
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType $RelistCondition
  * @property integer $RelistAfterDays
  * @property integer $RelistAfterHours
  * @property string $RelistAtSpecificTimeOfDay
- * @property \FulfilioNet\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoRelistType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class SellingManagerAutoRelistType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'RelistAtSpecificTimeOfDay'
         ],
         'BestOfferDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BestOfferDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferDetails'

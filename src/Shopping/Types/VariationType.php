@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $SKU
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $StartPrice
  * @property integer $Quantity
- * @property \FulfilioNet\eBaySDK\Shopping\Types\NameValueListArrayType[] $VariationSpecifics
- * @property \FulfilioNet\eBaySDK\Shopping\Types\SellingStatusType $SellingStatus
- * @property \FulfilioNet\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property \DTS\eBaySDK\Shopping\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
  */
-class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VariationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'StartPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
@@ -44,19 +44,19 @@ class VariationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
         ],
         'SellingStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\SellingStatusType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
         ],
         'DiscountPriceInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\DiscountPriceInfoType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'

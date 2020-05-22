@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ShippingService
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property string[] $ShipToLocation
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
  * @property \DateTime $ShippingServiceCutOffTime
  */
-class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,13 +34,13 @@ class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types
             'elementName' => 'ShippingService'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
@@ -58,13 +58,13 @@ class InternationalShippingServiceOptionsType extends \FulfilioNet\eBaySDK\Types
             'elementName' => 'ShipToLocation'
         ],
         'ShippingInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
         ],
         'ImportCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'

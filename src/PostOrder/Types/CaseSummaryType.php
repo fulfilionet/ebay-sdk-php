@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $buyer
  * @property integer $caseId
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $claimAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DTS\eBaySDK\PostOrder\Enums\CaseStatusEnum $caseStatusEnum
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property integer $itemId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $respondByDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastModifiedDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $respondByDate
  * @property string $seller
  * @property integer $transactionId
  */
-class CaseSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,13 +48,13 @@ class CaseSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'caseStatusEnum'
         ],
         'claimAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'claimAmount'
         ],
         'creationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
@@ -66,13 +66,13 @@ class CaseSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'lastModifiedDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lastModifiedDate'
         ],
         'respondByDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'respondByDate'

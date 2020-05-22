@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
  * @property string $OrderLineItemID
  */
-class ReviseSellingManagerSaleRecordRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class ReviseSellingManagerSaleRecordRequestType extends \FulfilioNet\eBaySDK\Tra
             'elementName' => 'OrderID'
         ],
         'SellingManagerSoldOrder' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerSoldOrder'

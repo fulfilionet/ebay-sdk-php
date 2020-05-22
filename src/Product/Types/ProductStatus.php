@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Product\Types;
  * @property boolean $excludeForeBayReviews
  * @property boolean $excludeForHalfSelling
  */
-class ProductStatus extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductStatus extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

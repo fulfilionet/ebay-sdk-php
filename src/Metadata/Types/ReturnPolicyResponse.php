@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Metadata\Types\Sel:ReturnsPolicy[] $returnPolicies
- * @property \FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy[] $returnPolicies
+ * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class ReturnPolicyResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnPolicyResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'returnPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\Sel:ReturnsPolicy',
+            'type' => 'DTS\eBaySDK\Metadata\Types\Sel:ReturnsPolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'returnPolicies'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

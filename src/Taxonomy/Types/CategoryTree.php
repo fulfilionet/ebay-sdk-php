@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Taxonomy\Enums\MarketplaceIdEnum[] $applicableMarketplaceIds
+ * @property \DTS\eBaySDK\Taxonomy\Enums\MarketplaceIdEnum[] $applicableMarketplaceIds
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\CategoryTreeNode $rootCategoryNode
+ * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode $rootCategoryNode
  */
-class CategoryTree extends \FulfilioNet\eBaySDK\Types\BaseType
+class CategoryTree extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class CategoryTree extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'categoryTreeVersion'
         ],
         'rootCategoryNode' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'rootCategoryNode'

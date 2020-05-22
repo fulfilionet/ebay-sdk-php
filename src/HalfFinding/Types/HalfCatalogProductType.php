@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
  * @property string $title
  * @property string $detailsURL
  * @property string $stockPhotoURL
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ProductIDType[] $productID
+ * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType[] $productID
  * @property string[] $categoryName
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\NameValueListArrayType $itemSpecifics
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ItemType[] $item
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\Amount $listPrice
+ * @property \DTS\eBaySDK\HalfFinding\Types\NameValueListArrayType $itemSpecifics
+ * @property \DTS\eBaySDK\HalfFinding\Types\ItemType[] $item
+ * @property \DTS\eBaySDK\HalfFinding\Types\Amount $listPrice
  * @property integer $reviewCount
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\Amount $BestFixedPrice
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\Amount $BestRentalPrice
+ * @property \DTS\eBaySDK\HalfFinding\Types\Amount $BestFixedPrice
+ * @property \DTS\eBaySDK\HalfFinding\Types\Amount $BestRentalPrice
  */
-class HalfCatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
+class HalfCatalogProductType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class HalfCatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'stockPhotoURL'
         ],
         'productID' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ProductIDType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productID'
@@ -61,19 +61,19 @@ class HalfCatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'categoryName'
         ],
         'itemSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemSpecifics'
         ],
         'item' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ItemType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'item'
         ],
         'listPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\Amount',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listPrice'
@@ -85,13 +85,13 @@ class HalfCatalogProductType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'reviewCount'
         ],
         'BestFixedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\Amount',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestFixedPrice'
         ],
         'BestRentalPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\Amount',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestRentalPrice'

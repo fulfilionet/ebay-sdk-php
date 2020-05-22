@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Merchandising\Types;
+namespace DTS\eBaySDK\Test\Merchandising\Types;
 
-use FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest;
+use DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest;
 
 class GetTopSellingProductsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetTopSellingProductsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest', $this->obj);
     }
 
     public function testExtendsBaseMerchandisingServiceRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }
 }

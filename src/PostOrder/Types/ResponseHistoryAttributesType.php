@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrierUsed
  * @property string $escalateReason
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
  * @property string $RMA
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnAddressType $sellerReturnAddress
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $sellerReturnAddress
  * @property string $toEmailAddress
  * @property string $trackingNumber
  */
-class ResponseHistoryAttributesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -40,13 +40,13 @@ class ResponseHistoryAttributesType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'escalateReason'
         ],
         'moneyMovementRef' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\MoneyMovementRef',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'moneyMovementRef'
         ],
         'partialRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'partialRefundAmount'
@@ -58,7 +58,7 @@ class ResponseHistoryAttributesType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'RMA'
         ],
         'sellerReturnAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerReturnAddress'

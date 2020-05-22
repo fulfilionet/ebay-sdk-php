@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\OrderType[] $Order
+ * @property \DTS\eBaySDK\MerchantData\Types\OrderType[] $Order
  */
-class OrderArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Order' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\OrderType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Order'

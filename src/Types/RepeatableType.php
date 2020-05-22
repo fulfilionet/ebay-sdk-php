@@ -1,8 +1,8 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types;
+namespace DTS\eBaySDK\Types;
 
-use \FulfilioNet\eBaySDK\Exceptions;
-use \FulfilioNet\eBaySDK\JmesPath\JmesPathableArrayInterface;
+use \DTS\eBaySDK\Exceptions;
+use \DTS\eBaySDK\JmesPath\JmesPathableArrayInterface;
 
 /**
  * Class to handle XML elements that are repeatable.
@@ -79,7 +79,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
      * @param mixed $offset The array index or null to add the value to the end of the array.
      * @param mixed $value The value to add.
      *
-     * @throws \FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
+     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
      */
     public function offsetSet($offset, $value)
     {
@@ -155,7 +155,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
      *
      * @param mixed $value The value to check the type of.
      *
-     * @throws \FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
+     * @throws \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException If the value is the wrong type for the array.
      */
     private function ensurePropertyType($value)
     {
@@ -167,7 +167,7 @@ class RepeatableType implements \ArrayAccess, \Countable, \Iterator, JmesPathabl
         $valid = explode('|', $this->expectedType);
         $isValid = false;
         foreach ($valid as $check) {
-            if ($check !== 'any' && \FulfilioNet\eBaySDK\checkPropertyType($check)) {
+            if ($check !== 'any' && \DTS\eBaySDK\checkPropertyType($check)) {
                 if ($check === $actualType) {
                     return;
                 }

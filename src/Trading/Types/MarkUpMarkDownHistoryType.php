@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MarkUpMarkDownEventType[] $MarkUpMarkDownEvent
+ * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType[] $MarkUpMarkDownEvent
  */
-class MarkUpMarkDownHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MarkUpMarkDownHistoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MarkUpMarkDownEvent' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MarkUpMarkDownEventType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MarkUpMarkDownEvent'

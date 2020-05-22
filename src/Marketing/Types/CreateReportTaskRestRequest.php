@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  */
-class CreateReportTaskRestRequest extends \FulfilioNet\eBaySDK\Marketing\Types\CreateReportTask
+class CreateReportTaskRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateReportTask
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\AvailabilityTypeEnum $availabilityType
- * @property \FulfilioNet\eBaySDK\Inventory\Types\TimeDuration $fulfillmentTime
+ * @property \DTS\eBaySDK\Inventory\Enums\AvailabilityTypeEnum $availabilityType
+ * @property \DTS\eBaySDK\Inventory\Types\TimeDuration $fulfillmentTime
  * @property string $merchantLocationKey
  * @property integer $quantity
  */
-class PickupAtLocationAvailability extends \FulfilioNet\eBaySDK\Types\BaseType
+class PickupAtLocationAvailability extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class PickupAtLocationAvailability extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'availabilityType'
         ],
         'fulfillmentTime' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\TimeDuration',
+            'type' => 'DTS\eBaySDK\Inventory\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fulfillmentTime'

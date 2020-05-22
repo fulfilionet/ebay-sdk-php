@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $amount
+ * @property \DTS\eBaySDK\Account\Types\Amount $amount
  * @property integer $quantity
  */
-class SellingLimit extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingLimit extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

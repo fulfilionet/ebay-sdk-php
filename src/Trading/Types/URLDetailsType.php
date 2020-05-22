@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\URLTypeCodeType $URLType
+ * @property \DTS\eBaySDK\Trading\Enums\URLTypeCodeType $URLType
  * @property string $URL
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  */
-class URLDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class URLDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

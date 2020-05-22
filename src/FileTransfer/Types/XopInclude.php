@@ -1,11 +1,11 @@
 <?php
-namespace FulfilioNet\eBaySDK\FileTransfer\Types;
+namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
  *
  * @property string href
  */
-class XopInclude extends \FulfilioNet\eBaySDK\Types\BaseType
+class XopInclude extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

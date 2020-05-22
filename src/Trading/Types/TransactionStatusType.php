@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
  * @property \DateTime $LastTimeModified
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CompleteStatus
  * @property boolean $BuyerSelectedShipping
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \FulfilioNet\eBaySDK\Trading\Enums\InquiryStatusCodeType $InquiryStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ReturnStatusCodeType $ReturnStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DigitalStatusCodeType $DigitalStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
+ * @property \DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType $InquiryStatus
+ * @property \DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType $ReturnStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property \DTS\eBaySDK\Trading\Enums\DigitalStatusCodeType $DigitalStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
  */
-class TransactionStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

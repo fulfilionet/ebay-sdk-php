@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest;
+use DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest;
 
 class ConfirmCancellationRefundRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ConfirmCancellationRefundRestRequestTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ConfirmCancellationRefundRestRequest', $this->obj);
     }
 
     public function testExtendsConfirmRefundRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\ConfirmRefundRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ConfirmRefundRequest', $this->obj);
     }
 }

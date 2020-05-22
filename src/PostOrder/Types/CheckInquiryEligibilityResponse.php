@@ -8,42 +8,42 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $earliestPossibleFilingDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError[] $errors
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $estimatedDeliveryDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\InquiryEligibilityStatusEnum $inquiryEligibilityStatus
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $earliestPossibleFilingDate
+ * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $errors
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimatedDeliveryDate
+ * @property \DTS\eBaySDK\PostOrder\Enums\InquiryEligibilityStatusEnum $inquiryEligibilityStatus
  * @property string $inquiryId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $latestPossibleFilingDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError[] $nonOverridableErrors
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum $paypalReasonToDenyRequestFiling
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $returnFilingDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $latestPossibleFilingDate
+ * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $nonOverridableErrors
+ * @property \DTS\eBaySDK\PostOrder\Enums\PaymentDenialReasonEnum $paypalReasonToDenyRequestFiling
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnFilingDate
  * @property string $returnId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError[] $warnings
+ * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResponseError[] $warnings
  */
-class CheckInquiryEligibilityResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class CheckInquiryEligibilityResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'earliestPossibleFilingDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'earliestPossibleFilingDate'
         ],
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'estimatedDeliveryDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedDeliveryDate'
@@ -61,13 +61,13 @@ class CheckInquiryEligibilityResponse extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'inquiryId'
         ],
         'latestPossibleFilingDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'latestPossibleFilingDate'
         ],
         'nonOverridableErrors' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'nonOverridableErrors'
@@ -79,7 +79,7 @@ class CheckInquiryEligibilityResponse extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'paypalReasonToDenyRequestFiling'
         ],
         'returnFilingDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnFilingDate'
@@ -91,7 +91,7 @@ class CheckInquiryEligibilityResponse extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'returnId'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResponseError',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResponseError',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

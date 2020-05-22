@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Account\Services;
+namespace DTS\eBaySDK\Account\Services;
 
 /**
  * Base class for the Account service.
  */
-class AccountBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class AccountBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class AccountBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Account\Services\AccountService::API_VERSION,
+                'default' => \DTS\eBaySDK\Account\Services\AccountService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

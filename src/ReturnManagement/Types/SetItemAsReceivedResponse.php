@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class SetItemAsReceivedResponse extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseResponse
+class SetItemAsReceivedResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

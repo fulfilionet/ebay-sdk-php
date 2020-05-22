@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,24 +17,24 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $SaleRecordID
  * @property string $ItemID
  * @property integer $QuantitySold
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ItemPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $SubtotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
  * @property string $ItemTitle
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property boolean $Relisted
  * @property integer $WatchCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ReservePrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
  * @property boolean $SecondChanceOfferSent
  * @property string $CustomLabel
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
  * @property boolean $CharityListing
- * @property \FulfilioNet\eBaySDK\Trading\Types\VariationType $Variation
+ * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
  * @property string $OrderLineItemID
  */
-class SellingManagerSoldTransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -71,13 +71,13 @@ class SellingManagerSoldTransactionType extends \FulfilioNet\eBaySDK\Types\BaseT
             'elementName' => 'QuantitySold'
         ],
         'ItemPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemPrice'
         ],
         'SubtotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SubtotalAmount'
@@ -107,13 +107,13 @@ class SellingManagerSoldTransactionType extends \FulfilioNet\eBaySDK\Types\BaseT
             'elementName' => 'WatchCount'
         ],
         'StartPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
         ],
         'ReservePrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReservePrice'
@@ -143,7 +143,7 @@ class SellingManagerSoldTransactionType extends \FulfilioNet\eBaySDK\Types\BaseT
             'elementName' => 'ListedOn'
         ],
         'Shipment' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShipmentType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Shipment'
@@ -155,7 +155,7 @@ class SellingManagerSoldTransactionType extends \FulfilioNet\eBaySDK\Types\BaseT
             'elementName' => 'CharityListing'
         ],
         'Variation' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VariationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variation'

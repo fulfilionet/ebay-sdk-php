@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $addressLine1
  * @property string $addressLine2
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType
+ * @property \DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType
  * @property string $city
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CountryCodeEnum $country
+ * @property \DTS\eBaySDK\PostOrder\Enums\CountryCodeEnum $country
  * @property string $county
  * @property boolean $isTransliterated
  * @property string $nationalRegion
  * @property string $postalCode
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\LanguageScriptEnum $script
+ * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $script
  * @property string $stateOrProvince
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\LanguageScriptEnum $transliteratedFromScript
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\WorldRegionEnum $worldRegion
+ * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $transliteratedFromScript
+ * @property \DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum $worldRegion
  */
-class Address extends \FulfilioNet\eBaySDK\Types\BaseType
+class Address extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

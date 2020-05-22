@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
+ * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
  * @property boolean $EmailCopyToSender
  * @property boolean $DisplayToPublic
  * @property string $SenderID
@@ -23,9 +23,9 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $Body
  * @property string $MessageID
  * @property string $ParentMessageID
- * @property \FulfilioNet\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
  */
-class MemberMessageType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -98,7 +98,7 @@ class MemberMessageType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ParentMessageID'
         ],
         'MessageMedia' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MessageMediaType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MessageMedia'

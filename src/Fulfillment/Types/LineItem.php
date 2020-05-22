@@ -8,57 +8,57 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\GiftDetails $giftDetails
+ * @property \DTS\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
+ * @property \DTS\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost
+ * @property \DTS\eBaySDK\Fulfillment\Types\GiftDetails $giftDetails
  * @property string $legacyItemId
  * @property string $legacyVariationId
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $lineItemCost
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $lineItemCost
+ * @property \DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
+ * @property \DTS\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
  * @property string $lineItemId
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $listingMarketplaceId
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\LineItemProperties $properties
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $purchaseMarketplaceId
+ * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $listingMarketplaceId
+ * @property \DTS\eBaySDK\Fulfillment\Types\LineItemProperties $properties
+ * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $purchaseMarketplaceId
  * @property integer $quantity
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\LineItemRefund[] $refunds
+ * @property \DTS\eBaySDK\Fulfillment\Types\LineItemRefund[] $refunds
  * @property string $sku
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\SoldFormatEnum $soldFormat
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Tax[] $taxes
+ * @property \DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum $soldFormat
+ * @property \DTS\eBaySDK\Fulfillment\Types\Tax[] $taxes
  * @property string $title
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $total
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $total
  */
-class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
+class LineItem extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appliedPromotions' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\AppliedPromotion',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\AppliedPromotion',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'appliedPromotions'
         ],
         'deliveryCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\DeliveryCost',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\DeliveryCost',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryCost'
         ],
         'discountedLineItemCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountedLineItemCost'
         ],
         'giftDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\GiftDetails',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\GiftDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'giftDetails'
@@ -76,13 +76,13 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'legacyVariationId'
         ],
         'lineItemCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lineItemCost'
         ],
         'lineItemFulfillmentInstructions' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lineItemFulfillmentInstructions'
@@ -106,7 +106,7 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingMarketplaceId'
         ],
         'properties' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\LineItemProperties',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemProperties',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'properties'
@@ -124,7 +124,7 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'quantity'
         ],
         'refunds' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\LineItemRefund',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemRefund',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'refunds'
@@ -142,7 +142,7 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'soldFormat'
         ],
         'taxes' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Tax',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Tax',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'taxes'
@@ -154,7 +154,7 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'title'
         ],
         'total' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'total'

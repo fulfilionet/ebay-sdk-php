@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types\Test;
+namespace DTS\eBaySDK\Types\Test;
 
-use FulfilioNet\eBaySDK\Test\Mocks\ComplexClass;
+use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
 class StrictPropertyTypesTest extends \PHPUnit_Framework_TestCase
 {
@@ -9,13 +9,13 @@ class StrictPropertyTypesTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        \FulfilioNet\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = false;
+        \DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = false;
         $this->obj = new ComplexClass();
     }
 
     protected function tearDown()
     {
-        \FulfilioNet\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = true;
+        \DTS\eBaySDK\Sdk::$STRICT_PROPERTY_TYPES = true;
     }
 
     public function testSettingPropertyWithAnInvalidTypeAllowed()
@@ -38,7 +38,7 @@ class StrictPropertyTypesTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException
+     * @expectedException \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException
      */
     public function testSettingComplexPropertiesThrows()
     {
@@ -46,7 +46,7 @@ class StrictPropertyTypesTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \FulfilioNet\eBaySDK\Exceptions\InvalidPropertyTypeException
+     * @expectedException \DTS\eBaySDK\Exceptions\InvalidPropertyTypeException
      */
     public function testSettingComplexRepeatablePropertiesThrows()
     {

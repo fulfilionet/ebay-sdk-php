@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse[] $responses
+ * @property \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse[] $responses
  */
-class BulkDeleteAdsByInventoryReferenceResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class BulkDeleteAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse',
+            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceResponse',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'responses'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,12 +16,12 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $VeROReasonCodeID
  * @property string $MessageToSeller
  * @property boolean $CopyEmailToRightsOwner
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingRegionCodeType[] $Region
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType[] $Country
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType[] $Region
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType[] $Country
  * @property string $Patent
  * @property string $DetailedMessage
  */
-class VeROReportItemType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

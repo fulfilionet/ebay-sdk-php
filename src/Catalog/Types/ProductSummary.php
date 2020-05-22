@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Image[] $additionalImages
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Aspect[] $aspects
+ * @property \DTS\eBaySDK\Catalog\Types\Image[] $additionalImages
+ * @property \DTS\eBaySDK\Catalog\Types\Aspect[] $aspects
  * @property string $brand
  * @property string $description
  * @property string[] $ean
  * @property string $epid
  * @property string[] $gtin
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Image $image
+ * @property \DTS\eBaySDK\Catalog\Types\Image $image
  * @property string[] $isbn
  * @property string[] $mpn
  * @property string $productHref
@@ -27,20 +27,20 @@ namespace FulfilioNet\eBaySDK\Catalog\Types;
  * @property string $title
  * @property string[] $upc
  */
-class ProductSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalImages' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Image',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'additionalImages'
         ],
         'aspects' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Aspect',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspects'
@@ -76,7 +76,7 @@ class ProductSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'gtin'
         ],
         'image' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Image',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'image'

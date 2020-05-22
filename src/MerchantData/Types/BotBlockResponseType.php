@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $BotBlockUrl
  * @property string $BotBlockAudioUrl
  */
-class BotBlockResponseType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BotBlockResponseType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

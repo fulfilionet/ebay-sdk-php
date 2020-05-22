@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\URIValue $thumbnail
- * @property \FulfilioNet\eBaySDK\Product\Types\URIValue $standard
+ * @property \DTS\eBaySDK\Product\Types\URIValue $thumbnail
+ * @property \DTS\eBaySDK\Product\Types\URIValue $standard
  */
-class StockPhotoURL extends \FulfilioNet\eBaySDK\Types\BaseType
+class StockPhotoURL extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'thumbnail' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\URIValue',
+            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'thumbnail'
         ],
         'standard' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\URIValue',
+            'type' => 'DTS\eBaySDK\Product\Types\URIValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'standard'

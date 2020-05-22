@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\DeleteAdRequest[] $requests
+ * @property \DTS\eBaySDK\Marketing\Types\DeleteAdRequest[] $requests
  */
-class BulkDeleteAdRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class BulkDeleteAdRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DeleteAdRequest',
+            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'requests'

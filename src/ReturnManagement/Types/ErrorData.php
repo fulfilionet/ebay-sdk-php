@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ErrorSeverity $severity
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ErrorCategory $category
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ErrorSeverity $severity
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ErrorCategory $category
  * @property string $message
  * @property string $exceptionId
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ErrorParameter[] $parameter
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorData extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ErrorParameter',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

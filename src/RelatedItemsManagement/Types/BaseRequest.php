@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Types;
+namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
+ * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
  */
-class BaseRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'extension' => [
-            'type' => 'FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ExtensionType',
+            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

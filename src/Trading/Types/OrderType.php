@@ -8,56 +8,56 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $OrderID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AmountSaved
- * @property \FulfilioNet\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
+ * @property \DTS\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
  * @property \DateTime $CreatedTime
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property string $SellerEmail
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $Subtotal
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $Total
- * @property \FulfilioNet\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \FulfilioNet\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Subtotal
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Total
+ * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
+ * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  * @property string $BuyerUserID
  * @property \DateTime $PaidTime
  * @property \DateTime $ShippedTime
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property string $BuyerCheckoutMessage
  * @property string $EIASToken
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
  * @property string $RefundStatus
  * @property boolean $IsMultiLegShipping
- * @property \FulfilioNet\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
+ * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
+ * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
  * @property string $SellerUserID
  * @property string $SellerEIASToken
  * @property string $CancelReason
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
  * @property string $CancelReasonDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
- * @property \FulfilioNet\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
+ * @property \DTS\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
  * @property string $LogisticsPlanType
- * @property \FulfilioNet\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
- * @property \FulfilioNet\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property \DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $ExtendedOrderID
  * @property boolean $ContainseBayPlusTransaction
  */
-class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -76,31 +76,31 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'OrderStatus'
         ],
         'AdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
         ],
         'AmountPaid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
         ],
         'AmountSaved' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountSaved'
         ],
         'CheckoutStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CheckoutStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CheckoutStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CheckoutStatus'
         ],
         'ShippingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
@@ -130,37 +130,37 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SellerEmail'
         ],
         'ShippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
         ],
         'ShippingServiceSelected' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingServiceOptionsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceSelected'
         ],
         'Subtotal' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Subtotal'
         ],
         'Total' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Total'
         ],
         'ExternalTransaction' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ExternalTransactionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
         ],
         'TransactionArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionArray'
@@ -208,13 +208,13 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PaymentHoldStatus'
         ],
         'PaymentHoldDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaymentHoldDetailType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaymentHoldDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentHoldDetails'
         ],
         'RefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
@@ -232,25 +232,25 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'IsMultiLegShipping'
         ],
         'MultiLegShippingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MultiLegShippingDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MultiLegShippingDetails'
         ],
         'MonetaryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaymentsInformationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaymentsInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MonetaryDetails'
         ],
         'PickupDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PickupDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PickupDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupDetails'
         ],
         'PickupMethodSelected' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PickupMethodSelectedType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PickupMethodSelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupMethodSelected'
@@ -286,13 +286,13 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CancelReasonDetails'
         ],
         'ShippingConvenienceCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingConvenienceCharge'
         ],
         'CancelDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CancelDetailType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CancelDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CancelDetail'
@@ -304,13 +304,13 @@ class OrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LogisticsPlanType'
         ],
         'BuyerTaxIdentifier' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TaxIdentifierType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerTaxIdentifier'
         ],
         'BuyerPackageEnclosures' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerPackageEnclosures'

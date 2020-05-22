@@ -8,164 +8,164 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaymentOptionDetailsType[] $PaymentOptionDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\RegionDetailsType[] $RegionDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingLocationDetailsType[] $ShippingLocationDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingServiceDetailsType[] $ShippingServiceDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\SiteDetailsType[] $SiteDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
- * @property \FulfilioNet\eBaySDK\Trading\Types\URLDetailsType[] $URLDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\TimeZoneDetailsType[] $TimeZoneDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemSpecificDetailsType[] $ItemSpecificDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\RegionOfOriginDetailsType[] $RegionOfOriginDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingPackageDetailsType[] $ShippingPackageDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingCarrierDetailsType[] $ShippingCarrierDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ReturnPolicyDetailsType $ReturnPolicyDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ListingStartPriceDetailsType[] $ListingStartPriceDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ListingFeatureDetailsType[] $ListingFeatureDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\VariationDetailsType $VariationDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
+ * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
+ * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType[] $PaymentOptionDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionDetailsType[] $RegionDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType[] $ShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType[] $ShippingServiceDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteDetailsType[] $SiteDetails
+ * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
+ * @property \DTS\eBaySDK\Trading\Types\URLDetailsType[] $URLDetails
+ * @property \DTS\eBaySDK\Trading\Types\TimeZoneDetailsType[] $TimeZoneDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType[] $ItemSpecificDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType[] $RegionOfOriginDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType[] $ShippingPackageDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType[] $ShippingCarrierDetails
+ * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType $ReturnPolicyDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType[] $ListingStartPriceDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType[] $ListingFeatureDetails
+ * @property \DTS\eBaySDK\Trading\Types\VariationDetailsType $VariationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
  * @property \DateTime $UpdateTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingCategoryDetailsType[] $ShippingCategoryDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\ProductDetailsType $ProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType[] $ShippingCategoryDetails
+ * @property \DTS\eBaySDK\Trading\Types\ProductDetailsType $ProductDetails
  */
-class GeteBayDetailsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CountryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CountryDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CountryDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CountryDetails'
         ],
         'CurrencyDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CurrencyDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CurrencyDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CurrencyDetails'
         ],
         'DispatchTimeMaxDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DispatchTimeMaxDetails'
         ],
         'PaymentOptionDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaymentOptionDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PaymentOptionDetails'
         ],
         'RegionDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RegionDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RegionDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RegionDetails'
         ],
         'ShippingLocationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingLocationDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingLocationDetails'
         ],
         'ShippingServiceDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingServiceDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServiceDetails'
         ],
         'SiteDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SiteDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SiteDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SiteDetails'
         ],
         'TaxJurisdiction' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TaxJurisdictionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TaxJurisdictionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'TaxJurisdiction'
         ],
         'URLDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\URLDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\URLDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'URLDetails'
         ],
         'TimeZoneDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TimeZoneDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TimeZoneDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'TimeZoneDetails'
         ],
         'ItemSpecificDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemSpecificDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemSpecificDetails'
         ],
         'RegionOfOriginDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RegionOfOriginDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RegionOfOriginDetails'
         ],
         'ShippingPackageDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingPackageDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingPackageDetails'
         ],
         'ShippingCarrierDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingCarrierDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingCarrierDetails'
         ],
         'ReturnPolicyDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ReturnPolicyDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnPolicyDetails'
         ],
         'ListingStartPriceDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ListingStartPriceDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ListingStartPriceDetails'
         ],
         'BuyerRequirementDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerRequirementDetails'
         ],
         'ListingFeatureDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ListingFeatureDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ListingFeatureDetails'
         ],
         'VariationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VariationDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationDetails'
         ],
         'ExcludeShippingLocationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ExcludeShippingLocationDetails'
@@ -177,19 +177,19 @@ class GeteBayDetailsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abst
             'elementName' => 'UpdateTime'
         ],
         'RecoupmentPolicyDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RecoupmentPolicyDetails'
         ],
         'ShippingCategoryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingCategoryDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingCategoryDetails'
         ],
         'ProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductDetails'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\ReviseMyMessagesFoldersResponseType;
+use DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersResponseType;
 
 class ReviseMyMessagesFoldersResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ReviseMyMessagesFoldersResponseTypeTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\ReviseMyMessagesFoldersResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

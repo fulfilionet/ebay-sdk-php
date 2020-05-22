@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\StoreVacationPreferencesType;
+use DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType;
 
 class StoreVacationPreferencesTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StoreVacationPreferencesTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\StoreVacationPreferencesType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

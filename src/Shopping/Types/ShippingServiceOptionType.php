@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingInsuranceCost
  * @property string $ShippingServiceName
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingServiceAdditionalCost
  * @property integer $ShippingServicePriority
  * @property boolean $ExpeditedService
  * @property integer $ShippingTimeMin
  * @property integer $ShippingTimeMax
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ShippingSurcharge
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ShippingSurcharge
  * @property string[] $ShipsTo
  * @property \DateTime $EstimatedDeliveryMinTime
  * @property \DateTime $EstimatedDeliveryMaxTime
  * @property boolean $FastAndFree
  * @property \DateTime $ShippingServiceCutOffTime
  */
-class ShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingServiceOptionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
@@ -46,13 +46,13 @@ class ShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceName'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
@@ -82,7 +82,7 @@ class ShippingServiceOptionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingTimeMax'
         ],
         'ShippingSurcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'

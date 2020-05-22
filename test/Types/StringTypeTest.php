@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types\Test;
+namespace DTS\eBaySDK\Types\Test;
 
-use FulfilioNet\eBaySDK\Types\StringType;
+use DTS\eBaySDK\Types\StringType;
 
 class StringTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class StringTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

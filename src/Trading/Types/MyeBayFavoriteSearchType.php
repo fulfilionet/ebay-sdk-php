@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,31 +16,31 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $SearchQuery
  * @property string $QueryKeywords
  * @property string $CategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SimpleItemSortCodeType $ItemSort
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType $ItemSort
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
  * @property \DateTime $EndTimeFrom
  * @property \DateTime $EndTimeTo
  * @property integer $MaxDistance
  * @property string $PostalCode
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ItemTypeCodeType $ItemType
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $PriceMax
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $PriceMin
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\ItemTypeCodeType $ItemType
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMax
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMin
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property integer $BidCountMax
  * @property integer $BidCountMin
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SearchFlagCodeType[] $SearchFlag
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType $PaymentMethod
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PreferredLocationCodeType $PreferredLocation
+ * @property \DTS\eBaySDK\Trading\Enums\SearchFlagCodeType[] $SearchFlag
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType $PreferredLocation
  * @property string[] $SellerID
  * @property string[] $SellerIDExclude
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType $ItemsAvailableTo
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CountryCodeType $ItemsLocatedIn
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ItemConditionCodeType $Condition
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsAvailableTo
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsLocatedIn
+ * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property \DTS\eBaySDK\Trading\Enums\ItemConditionCodeType $Condition
  * @property integer $Quantity
- * @property \FulfilioNet\eBaySDK\Trading\Enums\QuantityOperatorCodeType $QuantityOperator
+ * @property \DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType $QuantityOperator
  */
-class MyeBayFavoriteSearchType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -113,13 +113,13 @@ class MyeBayFavoriteSearchType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemType'
         ],
         'PriceMax' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PriceMax'
         ],
         'PriceMin' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PriceMin'

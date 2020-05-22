@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Analytics\Enums;
+namespace DTS\eBaySDK\Test\Analytics\Enums;
 
-use FulfilioNet\eBaySDK\Analytics\Enums\StandardsLevelEnum;
+use DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum;
 
 class StandardsLevelEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class StandardsLevelEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Analytics\Enums\StandardsLevelEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum', $this->obj);
     }
 }

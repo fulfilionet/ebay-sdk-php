@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Services;
+namespace DTS\eBaySDK\Order\Services;
 
-class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
+class OrderService extends \DTS\eBaySDK\Order\Services\OrderBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'GetCheckoutSession' => [
             'method' => 'GET',
             'resource' => 'checkout_session/{checkoutSessionId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\GetCheckoutSessionRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -32,14 +32,14 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'InitiateCheckoutSession' => [
             'method' => 'POST',
             'resource' => 'checkout_session/initiate',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse',
             'params' => [
             ]
         ],
         'PlaceOrder' => [
             'method' => 'POST',
             'resource' => 'checkout_session/{checkoutSessionId}/place_order',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\PlaceOrderRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -50,7 +50,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdatePaymentInfo' => [
             'method' => 'POST',
             'resource' => 'checkout_session/{checkoutSessionId}/update_payment_info',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -61,7 +61,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateQuantityForLineItem' => [
             'method' => 'POST',
             'resource' => 'checkout_session/{checkoutSessionId}/update_quantity',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -72,7 +72,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateShippingAddress' => [
             'method' => 'POST',
             'resource' => '_session/{checkoutSessionId}/update_shipping_address',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -83,7 +83,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateShippingOption' => [
             'method' => 'POST',
             'resource' => 'checkout_session/{checkoutSessionId}/update_shipping_option',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateShippingOptionRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -94,7 +94,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'GetGuestCheckoutSession' => [
             'method' => 'GET',
             'resource' => 'guest_checkout_session/{checkoutSessionId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -105,14 +105,14 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'InitiateGuestCheckoutSession' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/initiate',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse',
             'params' => [
             ]
         ],
         'PlaceGuestOrder' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/{checkoutSessionId}/place_order',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -123,7 +123,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateGuestLineItemQuantity' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/{checkoutSessionId}/update_quantity',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -134,7 +134,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateGuestLineItemShippingAddress' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/{checkoutSessionId}/update_shipping_address',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -145,7 +145,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateGuestPaymentInfo' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/{checkoutSessionId}/update_payment_info',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -156,7 +156,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'UpdateGuestShippingOption' => [
             'method' => 'POST',
             'resource' => 'guest_checkout_session/{checkoutSessionId}/update_shipping_option',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse',
             'params' => [
                 'checkoutSessionId' => [
                     'valid' => ['string'],
@@ -167,7 +167,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'GetGuestPurchaseOrder' => [
             'method' => 'GET',
             'resource' => 'guest_purchase_order/{purchaseOrderId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestResponse',
             'params' => [
                 'purchaseOrderId' => [
                     'valid' => ['string'],
@@ -178,7 +178,7 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
         'GetPurchaseOrder' => [
             'method' => 'GET',
             'resource' => 'purchase_order/{purchaseOrderId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Order\Types\GetPurchaseOrderRestResponse',
             'params' => [
                 'purchaseOrderId' => [
                     'valid' => ['string'],
@@ -197,289 +197,289 @@ class OrderService extends \FulfilioNet\eBaySDK\Order\Services\OrderBaseService
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestResponse
      */
-    public function getCheckoutSession(\FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
+    public function getCheckoutSession(\DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
     {
         return $this->getCheckoutSessionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getCheckoutSessionAsync(\FulfilioNet\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
+    public function getCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\GetCheckoutSessionRestRequest $request)
     {
         return $this->callOperationAsync('GetCheckoutSession', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestResponse
      */
-    public function initiateCheckoutSession(\FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
+    public function initiateCheckoutSession(\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
     {
         return $this->initiateCheckoutSessionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function initiateCheckoutSessionAsync(\FulfilioNet\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
+    public function initiateCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\InitiateCheckoutSessionRestRequest $request)
     {
         return $this->callOperationAsync('InitiateCheckoutSession', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestResponse
+     * @param \DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\PlaceOrderRestResponse
      */
-    public function placeOrder(\FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
+    public function placeOrder(\DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
     {
         return $this->placeOrderAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function placeOrderAsync(\FulfilioNet\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
+    public function placeOrderAsync(\DTS\eBaySDK\Order\Types\PlaceOrderRestRequest $request)
     {
         return $this->callOperationAsync('PlaceOrder', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestResponse
      */
-    public function updatePaymentInfo(\FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
+    public function updatePaymentInfo(\DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
     {
         return $this->updatePaymentInfoAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updatePaymentInfoAsync(\FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
+    public function updatePaymentInfoAsync(\DTS\eBaySDK\Order\Types\UpdatePaymentInfoRestRequest $request)
     {
         return $this->callOperationAsync('UpdatePaymentInfo', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestResponse
      */
-    public function updateQuantityForLineItem(\FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
+    public function updateQuantityForLineItem(\DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
     {
         return $this->updateQuantityForLineItemAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateQuantityForLineItemAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
+    public function updateQuantityForLineItemAsync(\DTS\eBaySDK\Order\Types\UpdateQuantityForLineItemRestRequest $request)
     {
         return $this->callOperationAsync('UpdateQuantityForLineItem', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestResponse
      */
-    public function updateShippingAddress(\FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
+    public function updateShippingAddress(\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
     {
         return $this->updateShippingAddressAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateShippingAddressAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
+    public function updateShippingAddressAsync(\DTS\eBaySDK\Order\Types\UpdateShippingAddressRestRequest $request)
     {
         return $this->callOperationAsync('UpdateShippingAddress', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestResponse
      */
-    public function updateShippingOption(\FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
+    public function updateShippingOption(\DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
     {
         return $this->updateShippingOptionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateShippingOptionAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
+    public function updateShippingOptionAsync(\DTS\eBaySDK\Order\Types\UpdateShippingOptionRestRequest $request)
     {
         return $this->callOperationAsync('UpdateShippingOption', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestResponse
      */
-    public function getGuestCheckoutSession(\FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
+    public function getGuestCheckoutSession(\DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
     {
         return $this->getGuestCheckoutSessionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getGuestCheckoutSessionAsync(\FulfilioNet\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
+    public function getGuestCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\GetGuestCheckoutSessionRestRequest $request)
     {
         return $this->callOperationAsync('GetGuestCheckoutSession', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestResponse
      */
-    public function initiateGuestCheckoutSession(\FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
+    public function initiateGuestCheckoutSession(\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
     {
         return $this->initiateGuestCheckoutSessionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function initiateGuestCheckoutSessionAsync(\FulfilioNet\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
+    public function initiateGuestCheckoutSessionAsync(\DTS\eBaySDK\Order\Types\InitiateGuestCheckoutSessionRestRequest $request)
     {
         return $this->callOperationAsync('InitiateGuestCheckoutSession', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestResponse
+     * @param \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestResponse
      */
-    public function placeGuestOrder(\FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
+    public function placeGuestOrder(\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
     {
         return $this->placeGuestOrderAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function placeGuestOrderAsync(\FulfilioNet\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
+    public function placeGuestOrderAsync(\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest $request)
     {
         return $this->callOperationAsync('PlaceGuestOrder', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestResponse
      */
-    public function updateGuestLineItemQuantity(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
+    public function updateGuestLineItemQuantity(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
     {
         return $this->updateGuestLineItemQuantityAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateGuestLineItemQuantityAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
+    public function updateGuestLineItemQuantityAsync(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemQuantityRestRequest $request)
     {
         return $this->callOperationAsync('UpdateGuestLineItemQuantity', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestResponse
      */
-    public function updateGuestLineItemShippingAddress(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
+    public function updateGuestLineItemShippingAddress(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
     {
         return $this->updateGuestLineItemShippingAddressAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateGuestLineItemShippingAddressAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
+    public function updateGuestLineItemShippingAddressAsync(\DTS\eBaySDK\Order\Types\UpdateGuestLineItemShippingAddressRestRequest $request)
     {
         return $this->callOperationAsync('UpdateGuestLineItemShippingAddress', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestResponse
      */
-    public function updateGuestPaymentInfo(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
+    public function updateGuestPaymentInfo(\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
     {
         return $this->updateGuestPaymentInfoAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateGuestPaymentInfoAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
+    public function updateGuestPaymentInfoAsync(\DTS\eBaySDK\Order\Types\UpdateGuestPaymentInfoRestRequest $request)
     {
         return $this->callOperationAsync('UpdateGuestPaymentInfo', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestResponse
      */
-    public function updateGuestShippingOption(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
+    public function updateGuestShippingOption(\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
     {
         return $this->updateGuestShippingOptionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateGuestShippingOptionAsync(\FulfilioNet\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
+    public function updateGuestShippingOptionAsync(\DTS\eBaySDK\Order\Types\UpdateGuestShippingOptionRestRequest $request)
     {
         return $this->callOperationAsync('UpdateGuestShippingOption', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestResponse
+     * @param \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestResponse
      */
-    public function getGuestPurchaseOrder(\FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
+    public function getGuestPurchaseOrder(\DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
     {
         return $this->getGuestPurchaseOrderAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getGuestPurchaseOrderAsync(\FulfilioNet\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
+    public function getGuestPurchaseOrderAsync(\DTS\eBaySDK\Order\Types\GetGuestPurchaseOrderRestRequest $request)
     {
         return $this->callOperationAsync('GetGuestPurchaseOrder', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestResponse
+     * @param \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
+     * @return \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestResponse
      */
-    public function getPurchaseOrder(\FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)
+    public function getPurchaseOrder(\DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)
     {
         return $this->getPurchaseOrderAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
+     * @param \DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getPurchaseOrderAsync(\FulfilioNet\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)
+    public function getPurchaseOrderAsync(\DTS\eBaySDK\Order\Types\GetPurchaseOrderRestRequest $request)
     {
         return $this->callOperationAsync('GetPurchaseOrder', $request);
     }

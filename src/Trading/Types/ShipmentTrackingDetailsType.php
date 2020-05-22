@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ShippingCarrierUsed
  * @property string $ShipmentTrackingNumber
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
  */
-class ShipmentTrackingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class ShipmentTrackingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShipmentTrackingNumber'
         ],
         'ShipmentLineItem' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShipmentLineItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShipmentLineItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShipmentLineItem'

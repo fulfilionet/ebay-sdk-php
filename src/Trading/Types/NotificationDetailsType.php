@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DeliveryURL
  * @property string $ReferenceID
  * @property \DateTime $ExpirationTime
- * @property \FulfilioNet\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $Type
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $Type
  * @property integer $Retries
- * @property \FulfilioNet\eBaySDK\Trading\Enums\NotificationEventStateCodeType $DeliveryStatus
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType $DeliveryStatus
  * @property \DateTime $NextRetryTime
  * @property \DateTime $DeliveryTime
  * @property string $ErrorMessage
  * @property string $DeliveryURLName
  */
-class NotificationDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

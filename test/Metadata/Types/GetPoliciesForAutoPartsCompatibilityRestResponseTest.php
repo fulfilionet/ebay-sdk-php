@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Metadata\Types;
+namespace DTS\eBaySDK\Test\Metadata\Types;
 
-use FulfilioNet\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse;
+use DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse;
 
 class GetPoliciesForAutoPartsCompatibilityRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetPoliciesForAutoPartsCompatibilityRestResponseTest extends \PHPUnit_Fram
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForAutoPartsCompatibilityRestResponse', $this->obj);
     }
 
     public function testExtendsAutomotivePartsCompatibilityPolicyResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicyResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\AutomotivePartsCompatibilityPolicyResponse', $this->obj);
     }
 }

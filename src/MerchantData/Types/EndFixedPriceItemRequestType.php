@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\EndReasonCodeType $EndingReason
+ * @property \DTS\eBaySDK\MerchantData\Enums\EndReasonCodeType $EndingReason
  * @property string $SKU
  */
-class EndFixedPriceItemRequestType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractRequestType
+class EndFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

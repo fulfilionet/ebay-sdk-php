@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $Value
  * @property boolean $ReturnSearchResultOnDuplicates
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\ExternalProductCodeType $Type
+ * @property \DTS\eBaySDK\Shopping\Enums\ExternalProductCodeType $Type
  * @property string[] $AlternateValue
  */
-class ExternalProductIDType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ExternalProductIDType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

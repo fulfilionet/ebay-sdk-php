@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\HalfFinding\Types;
  * @property integer $feedbackScore
  * @property double $positiveFeedbackPercent
  */
-class UserType extends \FulfilioNet\eBaySDK\Types\BaseType
+class UserType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

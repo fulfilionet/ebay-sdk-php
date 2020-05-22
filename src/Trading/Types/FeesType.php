@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeeType[] $Fee
+ * @property \DTS\eBaySDK\Trading\Types\FeeType[] $Fee
  */
-class FeesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Fee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeeType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Fee'

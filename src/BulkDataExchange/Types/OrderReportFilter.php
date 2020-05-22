@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
@@ -17,11 +17,11 @@ namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
  * @property \DateTime $modTimeFrom
  * @property \DateTime $modTimeTo
  * @property boolean $includeFinalValueFee
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Enums\ListingType $listingType
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes $orderStatus
+ * @property \DTS\eBaySDK\BulkDataExchange\Enums\ListingType $listingType
+ * @property \DTS\eBaySDK\BulkDataExchange\Enums\OrderStatusTypes $orderStatus
  * @property integer $version
  */
-class OrderReportFilter extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderReportFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

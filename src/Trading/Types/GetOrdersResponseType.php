@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreOrders
- * @property \FulfilioNet\eBaySDK\Trading\Types\OrderArrayType $OrderArray
+ * @property \DTS\eBaySDK\Trading\Types\OrderArrayType $OrderArray
  * @property integer $OrdersPerPage
  * @property integer $PageNumber
  * @property integer $ReturnedOrderCountActual
  */
-class GetOrdersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetOrdersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
@@ -38,7 +38,7 @@ class GetOrdersResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractR
             'elementName' => 'HasMoreOrders'
         ],
         'OrderArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\OrderArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\OrderArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderArray'

@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Feed\Services;
+namespace DTS\eBaySDK\Feed\Services;
 
 /**
  * Base class for the Feed service.
  */
-class FeedBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class FeedBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class FeedBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Feed\Services\FeedService::API_VERSION,
+                'default' => \DTS\eBaySDK\Feed\Services\FeedService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

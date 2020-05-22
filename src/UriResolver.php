@@ -1,5 +1,5 @@
 <?php
-namespace FulfilioNet\eBaySDK;
+namespace DTS\eBaySDK;
 
 /**
  * @internal Resolves a resource uri.

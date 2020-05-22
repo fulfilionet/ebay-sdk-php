@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\CreditCard $creditCard
- * @property \FulfilioNet\eBaySDK\Order\Types\LineItemInput[] $lineItemInputs
- * @property \FulfilioNet\eBaySDK\Order\Types\ShippingAddress $shippingAddress
+ * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
+ * @property \DTS\eBaySDK\Order\Types\LineItemInput[] $lineItemInputs
+ * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
  */
-class CreateSignInCheckoutSessionRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateSignInCheckoutSessionRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'creditCard' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\CreditCard',
+            'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creditCard'
         ],
         'lineItemInputs' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\LineItemInput',
+            'type' => 'DTS\eBaySDK\Order\Types\LineItemInput',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItemInputs'
         ],
         'shippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ShippingAddress',
+            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'

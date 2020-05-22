@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Types;
+namespace DTS\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\RelatedItemsManagement\Enums\AckValue $ack
- * @property \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ErrorMessage $errorMessage
+ * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\AckValue $ack
+ * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage $errorMessage
  * @property string $version
  * @property \DateTime $timestamp
- * @property \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
+ * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType[] $extension
  */
-class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ErrorMessage',
+            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'
@@ -49,7 +49,7 @@ class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'timestamp'
         ],
         'extension' => [
-            'type' => 'FulfilioNet\eBaySDK\RelatedItemsManagement\Types\ExtensionType',
+            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

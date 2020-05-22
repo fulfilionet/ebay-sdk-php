@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $activity
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType $attributes
+ * @property \DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType $attributes
  * @property string $author
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property string $fromState
  * @property string $notes
  * @property string $toState
  */
-class ReturnResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class ReturnResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'activity'
         ],
         'attributes' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ResponseHistoryAttributesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'attributes'
@@ -45,7 +45,7 @@ class ReturnResponseHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'author'
         ],
         'creationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'

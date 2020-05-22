@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Compliance\Types;
+namespace DTS\eBaySDK\Test\Compliance\Types;
 
-use FulfilioNet\eBaySDK\Compliance\Types\ProductRecommendation;
+use DTS\eBaySDK\Compliance\Types\ProductRecommendation;
 
 class ProductRecommendationTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductRecommendationTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Compliance\Types\ProductRecommendation', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\ProductRecommendation', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

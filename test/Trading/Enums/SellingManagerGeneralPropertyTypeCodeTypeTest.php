@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType;
+use DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType;
 
 class SellingManagerGeneralPropertyTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerGeneralPropertyTypeCodeTypeTest extends \PHPUnit_Framework_T
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType', $this->obj);
     }
 }

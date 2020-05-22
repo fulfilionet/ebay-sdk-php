@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
+ * @property \DTS\eBaySDK\Shopping\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property string $CommentingUser
  * @property integer $CommentingUserScore
  * @property string $CommentText
  * @property \DateTime $CommentTime
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\CommentTypeCodeType $CommentType
+ * @property \DTS\eBaySDK\Shopping\Enums\CommentTypeCodeType $CommentType
  * @property string $FeedbackResponse
  * @property string $FollowUp
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\TradingRoleCodeType $Role
+ * @property \DTS\eBaySDK\Shopping\Enums\TradingRoleCodeType $Role
  * @property string $ItemTitle
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $ItemPrice
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $ItemPrice
  * @property string $FeedbackID
  * @property string $TransactionID
  * @property boolean $CommentReplaced
@@ -31,7 +31,7 @@ namespace FulfilioNet\eBaySDK\Shopping\Types;
  * @property boolean $FollowUpReplaced
  * @property boolean $Countable
  */
-class FeedbackDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -104,7 +104,7 @@ class FeedbackDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemTitle'
         ],
         'ItemPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemPrice'

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
- * @property \FulfilioNet\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  */
-class ItemBestOffersType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class ItemBestOffersType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Role'
         ],
         'BestOfferArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BestOfferArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferArray'
         ],
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'

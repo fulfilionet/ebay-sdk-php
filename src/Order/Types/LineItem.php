@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\Image $image
+ * @property \DTS\eBaySDK\Order\Types\Image $image
  * @property string $itemId
  * @property string $lineItemId
- * @property \FulfilioNet\eBaySDK\Order\Enums\LineItemPaymentStatusEnum $lineItemPaymentStatus
- * @property \FulfilioNet\eBaySDK\Order\Enums\LineItemStatusEnum $lineItemStatus
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $netPrice
+ * @property \DTS\eBaySDK\Order\Enums\LineItemPaymentStatusEnum $lineItemPaymentStatus
+ * @property \DTS\eBaySDK\Order\Enums\LineItemStatusEnum $lineItemStatus
+ * @property \DTS\eBaySDK\Order\Types\Amount $netPrice
  * @property integer $quantity
- * @property \FulfilioNet\eBaySDK\Order\Types\Seller $seller
- * @property \FulfilioNet\eBaySDK\Order\Types\ShippingDetail $shippingDetail
+ * @property \DTS\eBaySDK\Order\Types\Seller $seller
+ * @property \DTS\eBaySDK\Order\Types\ShippingDetail $shippingDetail
  * @property string $title
  */
-class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
+class LineItem extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'image' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Image',
+            'type' => 'DTS\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'image'
@@ -60,7 +60,7 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'lineItemStatus'
         ],
         'netPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'netPrice'
@@ -72,13 +72,13 @@ class LineItem extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'quantity'
         ],
         'seller' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Seller',
+            'type' => 'DTS\eBaySDK\Order\Types\Seller',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'seller'
         ],
         'shippingDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ShippingDetail',
+            'type' => 'DTS\eBaySDK\Order\Types\ShippingDetail',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingDetail'

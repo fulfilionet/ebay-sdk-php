@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Types;
+namespace DTS\eBaySDK\Analytics\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Analytics\Enums\DataTypeEnum $dataType
+ * @property \DTS\eBaySDK\Analytics\Enums\DataTypeEnum $dataType
  * @property string $key
  * @property string $localizedName
  */
-class Definition extends \FulfilioNet\eBaySDK\Types\BaseType
+class Definition extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

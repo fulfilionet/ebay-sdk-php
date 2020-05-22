@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\CustomListDataType[] $listData
+ * @property \DTS\eBaySDK\PostOrder\Types\CustomListDataType[] $listData
  * @property integer $listId
  * @property string $listName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\CustomListType $listType
+ * @property \DTS\eBaySDK\PostOrder\Types\CustomListType $listType
  */
-class CustomListDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CustomListDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'listData' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\CustomListDataType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDataType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'listData'
@@ -42,7 +42,7 @@ class CustomListDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listName'
         ],
         'listType' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\CustomListType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listType'

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\CompatibilityPropertyFilter $applicationPropertyFilter
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductRequest $productSearch
+ * @property \DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter $applicationPropertyFilter
+ * @property \DTS\eBaySDK\Product\Types\ProductRequest $productSearch
  */
-class ProductByCompatibilityRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductByCompatibilityRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'applicationPropertyFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\CompatibilityPropertyFilter',
+            'type' => 'DTS\eBaySDK\Product\Types\CompatibilityPropertyFilter',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'applicationPropertyFilter'
         ],
         'productSearch' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductRequest',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productSearch'

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ShipmentStatusType $shipmentStatus
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType $shipmentStatus
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property \DateTime $deliveryDate
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\Amount $shippingCost
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\Address $shippingAddress
+ * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $shippingCost
+ * @property \DTS\eBaySDK\ReturnManagement\Types\Address $shippingAddress
  * @property string $returnMerchandiseAuthorization
  * @property \DateTime $minEstDeliveryDate
  * @property \DateTime $maxEstDeliveryDate
  */
-class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -53,13 +53,13 @@ class ShipmentType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'deliveryDate'
         ],
         'shippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
         ],
         'shippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\Address',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'

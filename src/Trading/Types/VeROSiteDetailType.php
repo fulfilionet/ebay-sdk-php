@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SiteCodeType $Site
- * @property \FulfilioNet\eBaySDK\Trading\Types\ReasonCodeDetailType[] $ReasonCodeDetail
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
+ * @property \DTS\eBaySDK\Trading\Types\ReasonCodeDetailType[] $ReasonCodeDetail
  */
-class VeROSiteDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VeROSiteDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VeROSiteDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Site'
         ],
         'ReasonCodeDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ReasonCodeDetailType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ReasonCodeDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReasonCodeDetail'

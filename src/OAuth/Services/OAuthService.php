@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\OAuth\Services;
+namespace DTS\eBaySDK\OAuth\Services;
 
-use FulfilioNet\eBaySDK\ConfigurationResolver;
-use FulfilioNet\eBaySDK\Credentials\CredentialsProvider;
-use FulfilioNet\eBaySDK\UriResolver;
-use \FulfilioNet\eBaySDK as Functions;
+use DTS\eBaySDK\ConfigurationResolver;
+use DTS\eBaySDK\Credentials\CredentialsProvider;
+use DTS\eBaySDK\UriResolver;
+use \DTS\eBaySDK as Functions;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 
@@ -27,33 +27,33 @@ class OAuthService
         'getUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
+            'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse',
             'params' => [
             ]
         ],
         'refreshUserToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
+            'responseClass' => '\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse',
             'params' => [
             ]
         ],
         'getAppToken' => [
             'method' => 'POST',
             'resource' => 'oauth2/token',
-            'responseClass' => '\FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
+            'responseClass' => '\DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse',
             'params' => [
             ]
         ]
     ];
 
     /**
-     * @var \FulfilioNet\eBaySDK\ConfigurationResolver Resolves configuration options.
+     * @var \DTS\eBaySDK\ConfigurationResolver Resolves configuration options.
      */
     private $resolver;
 
     /**
-     * @var \FulfilioNet\eBaySDK\UriResolver Resolves uri parameters.
+     * @var \DTS\eBaySDK\UriResolver Resolves uri parameters.
      */
     private $uriResolver;
 
@@ -82,26 +82,26 @@ class OAuthService
         return [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
+                'default' => \DTS\eBaySDK\OAuth\Services\OAuthService::API_VERSION,
                 'required' => true
             ],
             'profile' => [
                 'valid' => ['string'],
-                'fn'    => 'FulfilioNet\eBaySDK\applyProfile',
+                'fn'    => 'DTS\eBaySDK\applyProfile',
             ],
             'credentials' => [
-                'valid'   => ['FulfilioNet\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
-                'fn'      => 'FulfilioNet\eBaySDK\applyCredentials',
+                'valid'   => ['DTS\eBaySDK\Credentials\CredentialsInterface', 'array', 'callable'],
+                'fn'      => 'DTS\eBaySDK\applyCredentials',
                 'default' => [CredentialsProvider::class, 'defaultProvider']
             ],
             'debug' => [
                 'valid'   => ['bool', 'array'],
-                'fn'      => 'FulfilioNet\eBaySDK\applyDebug',
+                'fn'      => 'DTS\eBaySDK\applyDebug',
                 'default' => false
             ],
             'httpHandler' => [
                 'valid'   => ['callable'],
-                'default' => 'FulfilioNet\eBaySDK\defaultHttpHandler'
+                'default' => 'DTS\eBaySDK\defaultHttpHandler'
             ],
             'httpOptions' => [
                 'valid'   => ['array'],
@@ -153,7 +153,7 @@ class OAuthService
     /**
      * Helper method to return the value of the credentials configuration option.
      *
-     * @return \FulfilioNet\eBaySDK\Credentials\CredentialsInterface
+     * @return \DTS\eBaySDK\Credentials\CredentialsInterface
      */
     public function getCredentials()
     {
@@ -193,22 +193,22 @@ class OAuthService
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
-     * @return \FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestResponse
+     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
+     * @return \DTS\eBaySDK\OAuth\Types\GetUserTokenRestResponse
      */
-    public function getUserToken(\FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
+    public function getUserToken(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
     {
         return $this->getUserTokenAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
+     * @param \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getUserTokenAsync(\FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
+    public function getUserTokenAsync(\DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest $request)
     {
         if (!$request) {
-            $request = new \FulfilioNet\eBaySDK\OAuth\Types\GetUserTokenRestRequest();
+            $request = new \DTS\eBaySDK\OAuth\Types\GetUserTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'authorization_code';
@@ -221,22 +221,22 @@ class OAuthService
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
-     * @return \FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse
+     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
+     * @return \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestResponse
      */
-    public function refreshUserToken(\FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request)
+    public function refreshUserToken(\DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request)
     {
         return $this->refreshUserTokenAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
+     * @param \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function refreshUserTokenAsync(\FulfilioNet\eBaySDK\OAuth\Types\refreshUserTokenRestRequest $request)
+    public function refreshUserTokenAsync(\DTS\eBaySDK\OAuth\Types\refreshUserTokenRestRequest $request)
     {
         if (!$request) {
-            $request = new \FulfilioNet\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest();
+            $request = new \DTS\eBaySDK\OAuth\Types\RefreshUserTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'refresh_token';
@@ -246,22 +246,22 @@ class OAuthService
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
-     * @return \FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestResponse
+     * @param \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
+     * @return \DTS\eBaySDK\OAuth\Types\GetAppTokenRestResponse
      */
-    public function getAppToken(\FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
+    public function getAppToken(\DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
     {
         return $this->getAppTokenAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
+     * @param \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAppTokenAsync(\FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
+    public function getAppTokenAsync(\DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest $request = null)
     {
         if (!$request) {
-            $request = new \FulfilioNet\eBaySDK\OAuth\Types\GetAppTokenRestRequest();
+            $request = new \DTS\eBaySDK\OAuth\Types\GetAppTokenRestRequest();
         }
         if (!isset($request->grant_type)) {
             $request->grant_type = 'client_credentials';
@@ -280,11 +280,11 @@ class OAuthService
      * Sends an asynchronous API request.
      *
      * @param string $name The name of the operation.
-     * @param \FulfilioNet\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
      *
      * @return \GuzzleHttp\Promise\PromiseInterface A promise that will be resolved with an object created from the JSON response.
      */
-    private function callOperationAsync($name, \FulfilioNet\eBaySDK\Types\BaseType $request = null)
+    private function callOperationAsync($name, \DTS\eBaySDK\Types\BaseType $request = null)
     {
         $operation = static::$operations[$name];
 

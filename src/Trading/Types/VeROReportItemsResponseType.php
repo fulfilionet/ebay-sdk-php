@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $VeROReportPacketID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
+ * @property \DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
  */
-class VeROReportItemsResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class VeROReportItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

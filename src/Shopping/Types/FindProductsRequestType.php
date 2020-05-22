@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $IncludeSelector
  * @property boolean $AvailableItemsOnly
  * @property string[] $DomainName
- * @property \FulfilioNet\eBaySDK\Shopping\Types\ProductIDType $ProductID
+ * @property \DTS\eBaySDK\Shopping\Types\ProductIDType $ProductID
  * @property string $QueryKeywords
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\ProductSortCodeType $ProductSort
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\SortOrderCodeType $SortOrder
+ * @property \DTS\eBaySDK\Shopping\Enums\ProductSortCodeType $ProductSort
+ * @property \DTS\eBaySDK\Shopping\Enums\SortOrderCodeType $SortOrder
  * @property integer $MaxEntries
  * @property integer $PageNumber
  * @property string $CategoryID
  * @property boolean $HideDuplicateItems
  */
-class FindProductsRequestType extends \FulfilioNet\eBaySDK\Shopping\Types\AbstractRequestType
+class FindProductsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class FindProductsRequestType extends \FulfilioNet\eBaySDK\Shopping\Types\Abstra
             'elementName' => 'DomainName'
         ],
         'ProductID' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\ProductIDType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductID'

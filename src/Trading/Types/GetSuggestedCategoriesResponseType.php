@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SuggestedCategoryArrayType $SuggestedCategoryArray
+ * @property \DTS\eBaySDK\Trading\Types\SuggestedCategoryArrayType $SuggestedCategoryArray
  * @property integer $CategoryCount
  */
-class GetSuggestedCategoriesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetSuggestedCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SuggestedCategoryArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SuggestedCategoryArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SuggestedCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SuggestedCategoryArray'

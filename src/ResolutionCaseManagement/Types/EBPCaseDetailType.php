@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $openReason
  * @property string $decisionReason
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
  * @property \DateTime $decisionDate
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType $decision
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseDecisionType $decision
  * @property boolean $FVFCredited
  * @property boolean $notCountedInBuyerProtectionCases
  * @property string $globalId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealType[] $appeal
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType[] $responseHistory
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount $agreedRefundAmount
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\PaymentDetailType $paymentDetail
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $buyerReturnShipment
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $sellerShipment
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType[] $appeal
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType[] $responseHistory
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $agreedRefundAmount
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\PaymentDetailType $paymentDetail
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $buyerReturnShipment
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType $sellerShipment
  * @property string $detailStatus
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType $detailStatusInfo
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType $detailStatusInfo
  * @property string $initialBuyerExpectation
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType $initialBuyerExpectationDetail
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType $initialBuyerExpectationDetail
  * @property string $returnMerchandiseAuthorization
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDocumentInfoType[] $caseDocumentInfo
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDocumentInfoType[] $caseDocumentInfo
  */
-class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EBPCaseDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -52,7 +52,7 @@ class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'decisionReason'
         ],
         'decisionReasonDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'decisionReasonDetail'
@@ -88,37 +88,37 @@ class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'globalId'
         ],
         'appeal' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\AppealType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\AppealType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'appeal'
         ],
         'responseHistory' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseResponseHistoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'responseHistory'
         ],
         'agreedRefundAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'agreedRefundAmount'
         ],
         'paymentDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\PaymentDetailType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\PaymentDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentDetail'
         ],
         'buyerReturnShipment' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ShipmentType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerReturnShipment'
         ],
         'sellerShipment' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ShipmentType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerShipment'
@@ -130,7 +130,7 @@ class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'detailStatus'
         ],
         'detailStatusInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DetailStatusInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'detailStatusInfo'
@@ -142,7 +142,7 @@ class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'initialBuyerExpectation'
         ],
         'initialBuyerExpectationDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\InitialBuyerExpectationDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'initialBuyerExpectationDetail'
@@ -154,7 +154,7 @@ class EBPCaseDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'returnMerchandiseAuthorization'
         ],
         'caseDocumentInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDocumentInfoType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDocumentInfoType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'caseDocumentInfo'

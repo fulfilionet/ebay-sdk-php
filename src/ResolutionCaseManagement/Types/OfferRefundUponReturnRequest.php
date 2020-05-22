@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Address $returnAddress
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Address $returnAddress
  * @property string $returnMerchandiseAuthorization
  * @property string $additionalReturnInstructions
  */
-class OfferRefundUponReturnRequest extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class OfferRefundUponReturnRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'
         ],
         'returnAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Address',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnAddress'

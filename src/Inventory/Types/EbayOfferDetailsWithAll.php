@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\FormatTypeEnum $format
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ListingDetails $listing
+ * @property \DTS\eBaySDK\Inventory\Enums\FormatTypeEnum $format
+ * @property \DTS\eBaySDK\Inventory\Types\ListingDetails $listing
  * @property string $listingDescription
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
+ * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
+ * @property \DTS\eBaySDK\Inventory\Enums\MarketplaceEnum $marketplaceId
  * @property string $merchantLocationKey
  * @property string $offerId
- * @property \FulfilioNet\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string $sku
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\OfferStatusEnum $status
+ * @property \DTS\eBaySDK\Inventory\Enums\OfferStatusEnum $status
  * @property string[] $storeCategoryNames
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Tax $tax
+ * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
  */
-class EbayOfferDetailsWithAll extends \FulfilioNet\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithAll extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -53,7 +53,7 @@ class EbayOfferDetailsWithAll extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'format'
         ],
         'listing' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ListingDetails',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ListingDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listing'
@@ -65,7 +65,7 @@ class EbayOfferDetailsWithAll extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingDescription'
         ],
         'listingPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listingPolicies'
@@ -89,7 +89,7 @@ class EbayOfferDetailsWithAll extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'offerId'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -119,7 +119,7 @@ class EbayOfferDetailsWithAll extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'storeCategoryNames'
         ],
         'tax' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Tax',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'

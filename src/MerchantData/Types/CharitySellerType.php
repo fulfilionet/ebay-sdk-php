@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\CharitySellerStatusCodeType $CharitySellerStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\CharityAffiliationType[] $CharityAffiliation
+ * @property \DTS\eBaySDK\MerchantData\Enums\CharitySellerStatusCodeType $CharitySellerStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\CharityAffiliationType[] $CharityAffiliation
  * @property boolean $TermsAndConditionsAccepted
  */
-class CharitySellerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CharitySellerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class CharitySellerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CharitySellerStatus'
         ],
         'CharityAffiliation' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\CharityAffiliationType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CharityAffiliation'

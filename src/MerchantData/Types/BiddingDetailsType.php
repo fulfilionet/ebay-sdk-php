@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ConvertedMaxBid
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $MaxBid
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedMaxBid
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MaxBid
  * @property integer $QuantityBid
  * @property integer $QuantityWon
  * @property boolean $Winning
  */
-class BiddingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ConvertedMaxBid' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedMaxBid'
         ],
         'MaxBid' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxBid'

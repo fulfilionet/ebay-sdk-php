@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType[] $BuyerPackageEnclosure
+ * @property \DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType[] $BuyerPackageEnclosure
  */
-class BuyerPackageEnclosuresType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BuyerPackageEnclosuresType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BuyerPackageEnclosure' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosureType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerPackageEnclosure'

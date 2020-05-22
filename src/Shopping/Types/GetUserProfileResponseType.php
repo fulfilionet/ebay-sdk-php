@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\SimpleUserType $User
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackHistoryType $FeedbackHistory
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackDetailType[] $FeedbackDetails
+ * @property \DTS\eBaySDK\Shopping\Types\SimpleUserType $User
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackHistoryType $FeedbackHistory
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackDetailType[] $FeedbackDetails
  */
-class GetUserProfileResponseType extends \FulfilioNet\eBaySDK\Shopping\Types\AbstractResponseType
+class GetUserProfileResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'User' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\SimpleUserType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\SimpleUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'User'
         ],
         'FeedbackHistory' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackHistoryType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackHistoryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackHistory'
         ],
         'FeedbackDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackDetailType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FeedbackDetails'

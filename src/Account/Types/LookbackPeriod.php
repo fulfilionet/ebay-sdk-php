@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
  * @property boolean $lifetime
- * @property \FulfilioNet\eBaySDK\Account\Types\TimeDuration $timeDuration
+ * @property \DTS\eBaySDK\Account\Types\TimeDuration $timeDuration
  */
-class LookbackPeriod extends \FulfilioNet\eBaySDK\Types\BaseType
+class LookbackPeriod extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class LookbackPeriod extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'lifetime'
         ],
         'timeDuration' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'timeDuration'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Browse\Enums;
+namespace DTS\eBaySDK\Test\Browse\Enums;
 
-use FulfilioNet\eBaySDK\Browse\Enums\RegionTypeEnum;
+use DTS\eBaySDK\Browse\Enums\RegionTypeEnum;
 
 class RegionTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RegionTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Browse\Enums\RegionTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\RegionTypeEnum', $this->obj);
     }
 }

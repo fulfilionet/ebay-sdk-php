@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Analytics\Types;
+namespace DTS\eBaySDK\Test\Analytics\Types;
 
-use FulfilioNet\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse;
+use DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse;
 
 class GetAllSellerProfilesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetAllSellerProfilesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\GetAllSellerProfilesRestResponse', $this->obj);
     }
 
     public function testExtendsFindSellerStandardsProfilesResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\FindSellerStandardsProfilesResponse', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $VendorName
  * @property string $VendorContactInfo
  */
-class SellingManagerVendorDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerVendorDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

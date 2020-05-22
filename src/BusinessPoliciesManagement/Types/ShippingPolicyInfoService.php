@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -16,15 +16,15 @@ namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $shippingService
  * @property integer $sortOrderId
  * @property boolean $freeShipping
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
  * @property boolean $fastShipping
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
  * @property boolean $buyerResponsibleForShipping
  * @property boolean $buyerResponsibleForPickup
  */
-class ShippingPolicyInfoService extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -55,7 +55,7 @@ class ShippingPolicyInfoService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'freeShipping'
         ],
         'codFee' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'codFee'
@@ -67,19 +67,19 @@ class ShippingPolicyInfoService extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'fastShipping'
         ],
         'shippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingServiceAdditionalCost'
         ],
         'shippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingServiceCost'
         ],
         'shippingSurcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingSurcharge'

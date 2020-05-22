@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DetailLevelCodeType[] $DetailLevel
+ * @property \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
+ * @property \DTS\eBaySDK\Trading\Enums\DetailLevelCodeType[] $DetailLevel
  * @property string $ErrorLanguage
  * @property string $MessageID
  * @property string $Version
  * @property string $EndUserIP
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ErrorHandlingCodeType $ErrorHandling
+ * @property \DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType $ErrorHandling
  * @property string $InvocationID
  * @property string[] $OutputSelector
- * @property \FulfilioNet\eBaySDK\Trading\Enums\WarningLevelCodeType $WarningLevel
- * @property \FulfilioNet\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
+ * @property \DTS\eBaySDK\Trading\Enums\WarningLevelCodeType $WarningLevel
+ * @property \DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
  */
-class AbstractRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'RequesterCredentials' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CustomSecurityHeaderType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RequesterCredentials'
@@ -91,7 +91,7 @@ class AbstractRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'WarningLevel'
         ],
         'BotBlock' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BotBlockRequestType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BotBlockRequestType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'

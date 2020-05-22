@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ConflictingProduct[] $conflictingProducts
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Correction[] $corrections
+ * @property \DTS\eBaySDK\Catalog\Types\ConflictingProduct[] $conflictingProducts
+ * @property \DTS\eBaySDK\Catalog\Types\Correction[] $corrections
  * @property string $epid
  * @property string $productHref
- * @property \FulfilioNet\eBaySDK\Catalog\Types\Violation[] $violations
+ * @property \DTS\eBaySDK\Catalog\Types\Violation[] $violations
  */
-class ProcessResolution extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProcessResolution extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'conflictingProducts' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ConflictingProduct',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ConflictingProduct',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'conflictingProducts'
         ],
         'corrections' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Correction',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Correction',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'corrections'
@@ -49,7 +49,7 @@ class ProcessResolution extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'productHref'
         ],
         'violations' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\Violation',
+            'type' => 'DTS\eBaySDK\Catalog\Types\Violation',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'violations'

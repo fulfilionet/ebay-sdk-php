@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Types;
+namespace DTS\eBaySDK\Test\ReturnManagement\Types;
 
-use FulfilioNet\eBaySDK\ReturnManagement\Types\Amount;
+use DTS\eBaySDK\ReturnManagement\Types\Amount;
 
 class AmountTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AmountTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Types\Amount', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\Amount', $this->obj);
     }
 
     public function testExtendsDoubleType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\DoubleType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
     }
 }

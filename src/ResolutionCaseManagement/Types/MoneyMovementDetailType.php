@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType $type
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $fromParty
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $toParty
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount $amount
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType $paymentMethod
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementType $type
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $fromParty
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $toParty
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $amount
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaymentMethodType $paymentMethod
  * @property string $paypalTransactionId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType $status
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\MoneyMovementStatusType $status
  * @property \DateTime $transactionDate
  * @property string $id
  * @property string $parentId
  */
-class MoneyMovementDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MoneyMovementDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,19 +36,19 @@ class MoneyMovementDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'type'
         ],
         'fromParty' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fromParty'
         ],
         'toParty' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'toParty'
         ],
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

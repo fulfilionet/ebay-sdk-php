@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $trigger_date_range_from
  * @property string $trigger_date_range_to
  */
-class GetReturnRuleHistoryRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetReturnRuleHistoryRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

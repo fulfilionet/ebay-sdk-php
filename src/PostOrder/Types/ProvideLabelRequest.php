@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrierEnum
  * @property string $carrierName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
+ * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
  * @property string $fileId
  * @property boolean $forwardShippingLabelProvided
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\LabelActionEnum $labelAction
+ * @property \DTS\eBaySDK\PostOrder\Enums\LabelActionEnum $labelAction
  * @property string $labelId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $labelSentDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum $noLabelReason
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\B:Amount $returnLabelCost
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $labelSentDate
+ * @property \DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum $noLabelReason
+ * @property \DTS\eBaySDK\PostOrder\Types\B:Amount $returnLabelCost
  * @property string $trackingNumber
  */
-class ProvideLabelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class ProvideLabelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'carrierName'
         ],
         'comments' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
@@ -73,7 +73,7 @@ class ProvideLabelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'labelId'
         ],
         'labelSentDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'labelSentDate'
@@ -85,7 +85,7 @@ class ProvideLabelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'noLabelReason'
         ],
         'returnLabelCost' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\B:Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\B:Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnLabelCost'

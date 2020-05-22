@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Services;
+namespace DTS\eBaySDK\Fulfillment\Services;
 
-class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\FulfillmentBaseService
+class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
         'GetOrders' => [
             'method' => 'GET',
             'resource' => 'order',
-            'responseClass' => '\FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse',
             'params' => [
                 'filter' => [
                     'valid' => ['string']
@@ -40,7 +40,7 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
         'GetAnOrder' => [
             'method' => 'GET',
             'resource' => 'order/{orderId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse',
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
@@ -51,7 +51,7 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
         'CreateAShippingFulfillment' => [
             'method' => 'POST',
             'resource' => 'order/{orderId}/shipping_fulfillment',
-            'responseClass' => '\FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse',
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
@@ -62,7 +62,7 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
         'GetShippingFulfillments' => [
             'method' => 'GET',
             'resource' => 'order/{orderId}/shipping_fulfillment',
-            'responseClass' => '\FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse',
             'params' => [
                 'orderId' => [
                     'valid' => ['string'],
@@ -73,7 +73,7 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
         'GetAShippingFulfillment' => [
             'method' => 'GET',
             'resource' => 'order/{orderId}/shipping_fulfillment/{fulfillmentId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse',
             'params' => [
                 'fulfillmentId' => [
                     'valid' => ['string'],
@@ -96,91 +96,91 @@ class FulfillmentService extends \FulfilioNet\eBaySDK\Fulfillment\Services\Fulfi
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestResponse
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
+     * @return \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse
      */
-    public function getOrders(\FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
+    public function getOrders(\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
     {
         return $this->getOrdersAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getOrdersAsync(\FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
+    public function getOrdersAsync(\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestRequest $request)
     {
         return $this->callOperationAsync('GetOrders', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
+     * @return \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestResponse
      */
-    public function getAnOrder(\FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
+    public function getAnOrder(\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
     {
         return $this->getAnOrderAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAnOrderAsync(\FulfilioNet\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
+    public function getAnOrderAsync(\DTS\eBaySDK\Fulfillment\Types\GetAnOrderRestRequest $request)
     {
         return $this->callOperationAsync('GetAnOrder', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse
+     * @param \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
+     * @return \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestResponse
      */
-    public function createAShippingFulfillment(\FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
+    public function createAShippingFulfillment(\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
     {
         return $this->createAShippingFulfillmentAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
+     * @param \DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAShippingFulfillmentAsync(\FulfilioNet\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
+    public function createAShippingFulfillmentAsync(\DTS\eBaySDK\Fulfillment\Types\CreateAShippingFulfillmentRestRequest $request)
     {
         return $this->callOperationAsync('CreateAShippingFulfillment', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
+     * @return \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestResponse
      */
-    public function getShippingFulfillments(\FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
+    public function getShippingFulfillments(\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
     {
         return $this->getShippingFulfillmentsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getShippingFulfillmentsAsync(\FulfilioNet\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
+    public function getShippingFulfillmentsAsync(\DTS\eBaySDK\Fulfillment\Types\GetShippingFulfillmentsRestRequest $request)
     {
         return $this->callOperationAsync('GetShippingFulfillments', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
+     * @return \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestResponse
      */
-    public function getAShippingFulfillment(\FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)
+    public function getAShippingFulfillment(\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)
     {
         return $this->getAShippingFulfillmentAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
+     * @param \DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAShippingFulfillmentAsync(\FulfilioNet\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)
+    public function getAShippingFulfillmentAsync(\DTS\eBaySDK\Fulfillment\Types\GetAShippingFulfillmentRestRequest $request)
     {
         return $this->callOperationAsync('GetAShippingFulfillment', $request);
     }

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DeliveryMethod
- * @property \FulfilioNet\eBaySDK\Trading\Types\DeliveryStatusType $DeliveryStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\DeliveryDetailsType $DeliveryDetails
+ * @property \DTS\eBaySDK\Trading\Types\DeliveryStatusType $DeliveryStatus
+ * @property \DTS\eBaySDK\Trading\Types\DeliveryDetailsType $DeliveryDetails
  */
-class DigitalDeliverySelectedType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DigitalDeliverySelectedType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class DigitalDeliverySelectedType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DeliveryMethod'
         ],
         'DeliveryStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DeliveryStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DeliveryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeliveryStatus'
         ],
         'DeliveryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DeliveryDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DeliveryDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeliveryDetails'

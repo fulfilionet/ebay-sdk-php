@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Enums\AckValue $ack
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
+ * @property \DTS\eBaySDK\HalfFinding\Enums\AckValue $ack
+ * @property \DTS\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
  * @property string $version
  * @property \DateTime $timestamp
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
+ * @property \DTS\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
  */
-class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ErrorMessage',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'
@@ -49,7 +49,7 @@ class BaseResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'timestamp'
         ],
         'extension' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ExtensionType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -20,7 +20,7 @@ namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $destPickupLocationType
  * @property boolean $destPickupInside
  */
-class FreightShipping extends \FulfilioNet\eBaySDK\Types\BaseType
+class FreightShipping extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

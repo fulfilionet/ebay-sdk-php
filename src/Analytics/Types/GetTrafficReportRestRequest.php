@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Types;
+namespace DTS\eBaySDK\Analytics\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Analytics\Types;
  * @property string $filter
  * @property string $metric
  */
-class GetTrafficReportRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetTrafficReportRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

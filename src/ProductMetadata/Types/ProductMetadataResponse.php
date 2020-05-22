@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadata $productMetadata
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadataRequest $requestInformation
+ * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadata $productMetadata
+ * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest $requestInformation
  */
-class ProductMetadataResponse extends \FulfilioNet\eBaySDK\ProductMetadata\Types\BaseResponse
+class ProductMetadataResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productMetadata' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadata',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadata',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productMetadata'
         ],
         'requestInformation' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataRequest',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'requestInformation'

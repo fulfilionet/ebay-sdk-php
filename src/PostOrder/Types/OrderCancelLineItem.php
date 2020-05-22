@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $itemTitle
  * @property integer $cancelQuantity
  */
-class OrderCancelLineItem extends \FulfilioNet\eBaySDK\Types\BaseType
+class OrderCancelLineItem extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

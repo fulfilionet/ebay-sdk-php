@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -24,7 +24,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $IncludeVariationSpecifics
  * @property boolean $HideVariations
  */
-class GetSellerEventsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

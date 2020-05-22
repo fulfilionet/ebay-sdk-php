@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,15 +16,15 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $SKU
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \FulfilioNet\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
- * @property \FulfilioNet\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionsType $ProductSuggestions
+ * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  * @property boolean $VerifyOnly
  */
-class ReviseFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -55,7 +55,7 @@ class ReviseFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\Trading\Type
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -79,13 +79,13 @@ class ReviseFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\Trading\Type
             'elementName' => 'DiscountReason'
         ],
         'ProductSuggestions' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ProductSuggestionsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductSuggestions'
         ],
         'ListingRecommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

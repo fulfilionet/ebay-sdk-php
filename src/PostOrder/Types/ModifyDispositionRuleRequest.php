@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleModificationType $operation
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\PriorityListType $priorityList
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleModificationType $operation
+ * @property \DTS\eBaySDK\PostOrder\Types\PriorityListType $priorityList
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleDetailInputType $ruleDetail
  * @property integer $versionId
  */
-class ModifyDispositionRuleRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class ModifyDispositionRuleRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'operation' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleModificationType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleModificationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'operation'
         ],
         'priorityList' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\PriorityListType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\PriorityListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priorityList'
         ],
         'ruleDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleDetailInputType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleDetailInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleDetail'

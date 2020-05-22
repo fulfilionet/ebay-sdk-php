@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Order\Types;
+namespace DTS\eBaySDK\Test\Order\Types;
 
-use FulfilioNet\eBaySDK\Order\Types\PaymentMethodMessage;
+use DTS\eBaySDK\Order\Types\PaymentMethodMessage;
 
 class PaymentMethodMessageTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaymentMethodMessageTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Order\Types\PaymentMethodMessage', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PaymentMethodMessage', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

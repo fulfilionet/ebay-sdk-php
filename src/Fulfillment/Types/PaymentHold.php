@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $expectedReleaseDate
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $holdAmount
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $holdAmount
  * @property string $holdReason
  * @property string $holdState
  * @property string $releaseDate
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\SellerActionsToRelease[] $sellerActionsToRelease
+ * @property \DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease[] $sellerActionsToRelease
  */
-class PaymentHold extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaymentHold extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class PaymentHold extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'expectedReleaseDate'
         ],
         'holdAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'holdAmount'
@@ -56,7 +56,7 @@ class PaymentHold extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'releaseDate'
         ],
         'sellerActionsToRelease' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\SellerActionsToRelease',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sellerActionsToRelease'

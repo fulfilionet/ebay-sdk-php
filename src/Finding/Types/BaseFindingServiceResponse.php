@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\SearchResult $searchResult
- * @property \FulfilioNet\eBaySDK\Finding\Types\PaginationOutput $paginationOutput
+ * @property \DTS\eBaySDK\Finding\Types\SearchResult $searchResult
+ * @property \DTS\eBaySDK\Finding\Types\PaginationOutput $paginationOutput
  * @property string $itemSearchURL
  */
-class BaseFindingServiceResponse extends \FulfilioNet\eBaySDK\Finding\Types\BaseServiceResponse
+class BaseFindingServiceResponse extends \DTS\eBaySDK\Finding\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'searchResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\SearchResult',
+            'type' => 'DTS\eBaySDK\Finding\Types\SearchResult',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'searchResult'
         ],
         'paginationOutput' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\PaginationOutput',
+            'type' => 'DTS\eBaySDK\Finding\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

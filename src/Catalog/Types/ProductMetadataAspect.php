@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $aspectHelpText
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductAspectConstraint $constraint
+ * @property \DTS\eBaySDK\Catalog\Types\ProductAspectConstraint $constraint
  * @property boolean $droppable
  * @property string $name
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductAspectValue[] $values
+ * @property \DTS\eBaySDK\Catalog\Types\ProductAspectValue[] $values
  * @property string[] $valuesAssociatedWithProduct
  */
-class ProductMetadataAspect extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductMetadataAspect extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class ProductMetadataAspect extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'aspectHelpText'
         ],
         'constraint' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductAspectConstraint',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectConstraint',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'constraint'
@@ -50,7 +50,7 @@ class ProductMetadataAspect extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'name'
         ],
         'values' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductAspectValue',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductAspectValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'values'

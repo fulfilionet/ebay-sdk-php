@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $amountOffItem
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $amountOffOrder
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffItem
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $amountOffOrder
  * @property string $percentageOffItem
  * @property string $percentageOffOrder
  */
-class DiscountBenefit extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountBenefit extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amountOffItem' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amountOffItem'
         ],
         'amountOffOrder' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amountOffOrder'

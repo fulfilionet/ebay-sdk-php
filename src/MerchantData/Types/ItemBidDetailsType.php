@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $SellerID
  * @property \DateTime $LastBidTime
  */
-class ItemBidDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

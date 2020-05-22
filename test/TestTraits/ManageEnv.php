@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\TestTraits;
+namespace DTS\eBaySDK\Test\TestTraits;
 
-use FulfilioNet\eBaySDK\Credentials\CredentialsProvider;
+use DTS\eBaySDK\Credentials\CredentialsProvider;
 
 trait ManageEnv
 {

@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  */
-class RefundLineType extends \FulfilioNet\eBaySDK\MerchantData\Types\AmountType
+class RefundLineType extends \DTS\eBaySDK\MerchantData\Types\AmountType
 {
     /**
      * @var array Properties belonging to objects of this class.

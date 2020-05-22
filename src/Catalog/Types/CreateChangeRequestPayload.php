@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
+ * @property \DTS\eBaySDK\Catalog\Enums\ChangeRequestType $changeRequestType
  * @property string $reasonForChangeRequest
  * @property string $referenceId
- * @property \FulfilioNet\eBaySDK\Catalog\Enums\ReferenceType $referenceType
- * @property \FulfilioNet\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
+ * @property \DTS\eBaySDK\Catalog\Enums\ReferenceType $referenceType
+ * @property \DTS\eBaySDK\Catalog\Types\SuggestedProduct $suggestedProduct
  */
-class CreateChangeRequestPayload extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateChangeRequestPayload extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class CreateChangeRequestPayload extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'referenceType'
         ],
         'suggestedProduct' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\SuggestedProduct',
+            'type' => 'DTS\eBaySDK\Catalog\Types\SuggestedProduct',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'suggestedProduct'

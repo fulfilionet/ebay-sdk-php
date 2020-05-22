@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Enums;
+namespace DTS\eBaySDK\MerchantData\Enums;
 
 class DiscountReasonCodeType
 {

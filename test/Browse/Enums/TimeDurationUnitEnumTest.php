@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Browse\Enums;
+namespace DTS\eBaySDK\Test\Browse\Enums;
 
-use FulfilioNet\eBaySDK\Browse\Enums\TimeDurationUnitEnum;
+use DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum;
 
 class TimeDurationUnitEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TimeDurationUnitEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Browse\Enums\TimeDurationUnitEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\TimeDurationUnitEnum', $this->obj);
     }
 }

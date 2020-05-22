@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Types\Test;
+namespace DTS\eBaySDK\Types\Test;
 
-use FulfilioNet\eBaySDK\Types\IntegerType;
+use DTS\eBaySDK\Types\IntegerType;
 
 class IntegerTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class IntegerTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\IntegerType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\IntegerType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

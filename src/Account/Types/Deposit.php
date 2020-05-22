@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $amount
- * @property \FulfilioNet\eBaySDK\Account\Types\TimeDuration $dueIn
- * @property \FulfilioNet\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
+ * @property \DTS\eBaySDK\Account\Types\Amount $amount
+ * @property \DTS\eBaySDK\Account\Types\TimeDuration $dueIn
+ * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
  */
-class Deposit extends \FulfilioNet\eBaySDK\Types\BaseType
+class Deposit extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'
         ],
         'dueIn' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dueIn'
         ],
         'paymentMethods' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\PaymentMethod',
+            'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethods'

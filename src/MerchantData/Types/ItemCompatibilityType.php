@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property boolean $Delete
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
+ * @property \DTS\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
  * @property string $CompatibilityNotes
  */
-class ItemCompatibilityType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemCompatibilityType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class ItemCompatibilityType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Delete'
         ],
         'NameValueList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\NameValueListType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NameValueList'

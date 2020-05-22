@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Enums;
+namespace DTS\eBaySDK\Test\Inventory\Enums;
 
-use FulfilioNet\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum;
+use DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum;
 
 class MinimumAdvertisedPriceHandlingEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MinimumAdvertisedPriceHandlingEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum', $this->obj);
     }
 }

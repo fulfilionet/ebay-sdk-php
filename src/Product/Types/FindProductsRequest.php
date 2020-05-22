@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductRequest[] $productSearch
+ * @property \DTS\eBaySDK\Product\Types\ProductRequest[] $productSearch
  */
-class FindProductsRequest extends \FulfilioNet\eBaySDK\Product\Types\BaseServiceRequest
+class FindProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productSearch' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductRequest',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productSearch'

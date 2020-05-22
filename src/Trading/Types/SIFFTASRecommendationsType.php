@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
+ * @property \DTS\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
  */
-class SIFFTASRecommendationsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SIFFTASRecommendationsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AttributeSetArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AttributeSetArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AttributeSetArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AttributeSetArray'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ASQPreferencesType $ASQPreferences
+ * @property \DTS\eBaySDK\Trading\Types\ASQPreferencesType $ASQPreferences
  */
-class SetMessagePreferencesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class SetMessagePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ASQPreferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ASQPreferencesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ASQPreferencesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ASQPreferences'

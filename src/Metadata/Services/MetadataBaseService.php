@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Metadata\Services;
+namespace DTS\eBaySDK\Metadata\Services;
 
 /**
  * Base class for the Metadata service.
  */
-class MetadataBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class MetadataBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class MetadataBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Metadata\Services\MetadataService::API_VERSION,
+                'default' => \DTS\eBaySDK\Metadata\Services\MetadataService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

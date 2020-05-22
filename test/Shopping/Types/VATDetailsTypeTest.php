@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
+namespace DTS\eBaySDK\Test\Shopping\Types;
 
-use FulfilioNet\eBaySDK\Shopping\Types\VATDetailsType;
+use DTS\eBaySDK\Shopping\Types\VATDetailsType;
 
 class VATDetailsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VATDetailsTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\VATDetailsType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\VATDetailsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

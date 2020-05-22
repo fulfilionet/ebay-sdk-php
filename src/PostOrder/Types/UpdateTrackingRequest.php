@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $newCarrierEnum
+ * @property \DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $newCarrierEnum
  * @property string $newCarrierName
  * @property string $newTrackingNumber
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $usedCarrierEnum
+ * @property \DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum $usedCarrierEnum
  * @property string $usedCarrierName
  * @property string $usedTrackingNumber
  */
-class UpdateTrackingRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class UpdateTrackingRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

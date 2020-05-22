@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
@@ -37,7 +37,7 @@ namespace FulfilioNet\eBaySDK\Shopping\Types;
  * @property string $FirstName
  * @property string $LastName
  */
-class AddressType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AddressType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

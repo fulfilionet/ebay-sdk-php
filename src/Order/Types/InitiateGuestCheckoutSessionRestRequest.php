@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
  */
-class InitiateGuestCheckoutSessionRestRequest extends \FulfilioNet\eBaySDK\Order\Types\CreateGuestCheckoutSessionRequest
+class InitiateGuestCheckoutSessionRestRequest extends \DTS\eBaySDK\Order\Types\CreateGuestCheckoutSessionRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

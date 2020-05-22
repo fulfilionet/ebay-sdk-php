@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TaxAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TaxOnSubtotalAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TaxOnShippingAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TaxOnHandlingAmount
+ * @property \DTS\eBaySDK\MerchantData\Enums\TaxTypeCodeType $Imposition
+ * @property \DTS\eBaySDK\MerchantData\Enums\TaxDescriptionCodeType $TaxDescription
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnSubtotalAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnShippingAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TaxOnHandlingAmount
  * @property string $TaxCode
  */
-class TaxDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,25 +39,25 @@ class TaxDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TaxDescription'
         ],
         'TaxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
         ],
         'TaxOnSubtotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnSubtotalAmount'
         ],
         'TaxOnShippingAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnShippingAmount'
         ],
         'TaxOnHandlingAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnHandlingAmount'

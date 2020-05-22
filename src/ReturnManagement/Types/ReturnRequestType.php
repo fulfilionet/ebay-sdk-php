@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnItemType[] $returnItem
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnReasonType $returnReason
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnItemType[] $returnItem
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType $returnReason
  * @property string $comments
  */
-class ReturnRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'returnItem' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnItemType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'returnItem'
         ],
         'returnReason' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnReasonType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnReasonType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnReason'

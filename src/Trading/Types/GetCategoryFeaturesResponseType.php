@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CategoryVersion
  * @property \DateTime $UpdateTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
- * @property \FulfilioNet\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
+ * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
+ * @property \DTS\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults
+ * @property \DTS\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
  */
-class GetCategoryFeaturesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoryFeaturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class GetCategoryFeaturesResponseType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'UpdateTime'
         ],
         'Category' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CategoryFeatureType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CategoryFeatureType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Category'
         ],
         'SiteDefaults' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SiteDefaultsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SiteDefaultsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SiteDefaults'
         ],
         'FeatureDefinitions' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeatureDefinitionsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeatureDefinitionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeatureDefinitions'

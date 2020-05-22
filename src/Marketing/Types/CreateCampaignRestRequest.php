@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  */
-class CreateCampaignRestRequest extends \FulfilioNet\eBaySDK\Marketing\Types\CreateCampaignRequest
+class CreateCampaignRestRequest extends \DTS\eBaySDK\Marketing\Types\CreateCampaignRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

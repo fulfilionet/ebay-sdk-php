@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
  * @property string $localizedValue
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\ValueConstraint[] $valueConstraints
+ * @property \DTS\eBaySDK\Taxonomy\Types\ValueConstraint[] $valueConstraints
  */
-class AspectValue extends \FulfilioNet\eBaySDK\Types\BaseType
+class AspectValue extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class AspectValue extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'localizedValue'
         ],
         'valueConstraints' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\ValueConstraint',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\ValueConstraint',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'valueConstraints'

@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property integer $TransactionID
  * @property string $OrderID
- * @property \FulfilioNet\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
+ * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
  * @property string $OrderLineItemID
  */
-class GetSellingManagerEmailLogRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class GetSellingManagerEmailLogRequestType extends \FulfilioNet\eBaySDK\Trading\
             'elementName' => 'OrderID'
         ],
         'EmailDateRange' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TimeRangeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EmailDateRange'

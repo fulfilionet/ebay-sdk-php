@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\HalfFinding\Types;
+namespace DTS\eBaySDK\Test\HalfFinding\Types;
 
-use FulfilioNet\eBaySDK\HalfFinding\Types\PaginationOutputType;
+use DTS\eBaySDK\HalfFinding\Types\PaginationOutputType;
 
 class PaginationOutputTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaginationOutputTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Types\PaginationOutputType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\PaginationOutputType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType[] $historyDetail
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType[] $historyDetail
+ * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  */
-class GetDispositionRuleTriggerHistResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetDispositionRuleTriggerHistResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'historyDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleTriggerHistDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'historyDetail'
         ],
         'paginationOutput' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

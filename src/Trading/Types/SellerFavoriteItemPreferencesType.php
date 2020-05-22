@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SearchKeywords
  * @property integer $StoreCategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $SearchSortOrder
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MinPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MaxPrice
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $SearchSortOrder
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxPrice
  * @property string[] $FavoriteItemID
  */
-class SellerFavoriteItemPreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -51,13 +51,13 @@ class SellerFavoriteItemPreferencesType extends \FulfilioNet\eBaySDK\Types\BaseT
             'elementName' => 'SearchSortOrder'
         ],
         'MinPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinPrice'
         ],
         'MaxPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxPrice'

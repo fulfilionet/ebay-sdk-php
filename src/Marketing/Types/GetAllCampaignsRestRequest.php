@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
@@ -19,7 +19,7 @@ namespace FulfilioNet\eBaySDK\Marketing\Types;
  * @property string $offset
  * @property string $start_date_range
  */
-class GetAllCampaignsRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetAllCampaignsRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

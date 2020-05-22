@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $SellingManagerFolderDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $SellingManagerFolderDetails
  * @property string[] $DeletedField
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class ReviseSellingManagerProductRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'SellingManagerFolderDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerFolderDetails'
@@ -42,7 +42,7 @@ class ReviseSellingManagerProductRequestType extends \FulfilioNet\eBaySDK\Tradin
             'elementName' => 'DeletedField'
         ],
         'SellingManagerProductSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductSpecifics'

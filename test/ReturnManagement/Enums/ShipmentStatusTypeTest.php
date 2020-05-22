@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Enums;
+namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
 
-use FulfilioNet\eBaySDK\ReturnManagement\Enums\ShipmentStatusType;
+use DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType;
 
 class ShipmentStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShipmentStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Enums\ShipmentStatusType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\ShipmentStatusType', $this->obj);
     }
 }

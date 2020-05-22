@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Enums;
+namespace DTS\eBaySDK\Browse\Enums;
 
 class ReturnMethodEnum
 {

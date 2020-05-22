@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Compliance\Types;
+namespace DTS\eBaySDK\Compliance\Types;
 
 /**
  *
  * @property string $reasonCode
  * @property string $message
- * @property \FulfilioNet\eBaySDK\Compliance\Types\VariationDetails $variation
- * @property \FulfilioNet\eBaySDK\Compliance\Types\NameValueList[] $violationData
- * @property \FulfilioNet\eBaySDK\Compliance\Types\CorrectiveRecommendations $correctiveRecommendations
+ * @property \DTS\eBaySDK\Compliance\Types\VariationDetails $variation
+ * @property \DTS\eBaySDK\Compliance\Types\NameValueList[] $violationData
+ * @property \DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations $correctiveRecommendations
  */
-class ComplianceDetail extends \FulfilioNet\eBaySDK\Types\BaseType
+class ComplianceDetail extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class ComplianceDetail extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'message'
         ],
         'variation' => [
-            'type' => 'FulfilioNet\eBaySDK\Compliance\Types\VariationDetails',
+            'type' => 'DTS\eBaySDK\Compliance\Types\VariationDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'variation'
         ],
         'violationData' => [
-            'type' => 'FulfilioNet\eBaySDK\Compliance\Types\NameValueList',
+            'type' => 'DTS\eBaySDK\Compliance\Types\NameValueList',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'violationData'
         ],
         'correctiveRecommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\Compliance\Types\CorrectiveRecommendations',
+            'type' => 'DTS\eBaySDK\Compliance\Types\CorrectiveRecommendations',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'correctiveRecommendations'

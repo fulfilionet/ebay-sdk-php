@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Mrk:Amount $amount
+ * @property \DTS\eBaySDK\PostOrder\Types\Mrk:Amount $amount
  */
-class ConditionDataRangeType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ConditionDataRangeType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Mrk:Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Mrk:Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

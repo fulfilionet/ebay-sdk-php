@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Taxonomy\Types;
+namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
-use FulfilioNet\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse;
+use DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse;
 
 class GetSuggestedCategoriesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetSuggestedCategoriesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetSuggestedCategoriesRestResponse', $this->obj);
     }
 
     public function testExtendsCategorySuggestionResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\CategorySuggestionResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\CategorySuggestionResponse', $this->obj);
     }
 }

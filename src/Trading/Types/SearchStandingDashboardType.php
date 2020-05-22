@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SearchStandingStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType $Status
  */
-class SearchStandingDashboardType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SearchStandingDashboardType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

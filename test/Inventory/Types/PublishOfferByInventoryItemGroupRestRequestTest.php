@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestRequest;
+use DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestRequest;
 
 class PublishOfferByInventoryItemGroupRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PublishOfferByInventoryItemGroupRestRequestTest extends \PHPUnit_Framework
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishOfferByInventoryItemGroupRestRequest', $this->obj);
     }
 
     public function testExtendsPublishByInventoryItemGroupRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest', $this->obj);
     }
 }

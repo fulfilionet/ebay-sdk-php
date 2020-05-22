@@ -8,53 +8,53 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $user
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $otherParty
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType $status
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ItemType $item
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $user
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType $otherParty
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType $status
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType $item
  * @property integer $caseQuantity
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount $caseAmount
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $caseAmount
  * @property \DateTime $respondByDate
  * @property \DateTime $creationDate
  * @property \DateTime $lastModifiedDate
  */
-class CaseSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CaseSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'
         ],
         'user' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'user'
         ],
         'otherParty' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'otherParty'
         ],
         'status' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'status'
         ],
         'item' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ItemType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'item'
@@ -66,7 +66,7 @@ class CaseSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'caseQuantity'
         ],
         'caseAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseAmount'

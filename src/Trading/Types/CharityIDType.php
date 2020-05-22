@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $type
+ * @property \DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $type
  */
-class CharityIDType extends \FulfilioNet\eBaySDK\Types\StringType
+class CharityIDType extends \DTS\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $EIASToken
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SiteCodeType $SiteID
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $SiteID
  * @property boolean $Active
  */
-class SubscriptionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

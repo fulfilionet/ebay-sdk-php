@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Types;
+namespace DTS\eBaySDK\Merchandising\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Merchandising\Types\ProductId $productId
+ * @property \DTS\eBaySDK\Merchandising\Types\ProductId $productId
  * @property string $title
  * @property string $productURL
  * @property string $catalogName
  * @property string $imageURL
  * @property integer $reviewCount
- * @property \FulfilioNet\eBaySDK\Merchandising\Types\Amount $priceRangeMin
- * @property \FulfilioNet\eBaySDK\Merchandising\Types\Amount $priceRangeMax
+ * @property \DTS\eBaySDK\Merchandising\Types\Amount $priceRangeMin
+ * @property \DTS\eBaySDK\Merchandising\Types\Amount $priceRangeMax
  */
-class Product extends \FulfilioNet\eBaySDK\Types\BaseType
+class Product extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productId' => [
-            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\ProductId',
+            'type' => 'DTS\eBaySDK\Merchandising\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productId'
@@ -64,13 +64,13 @@ class Product extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'reviewCount'
         ],
         'priceRangeMin' => [
-            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\Amount',
+            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceRangeMin'
         ],
         'priceRangeMax' => [
-            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\Amount',
+            'type' => 'DTS\eBaySDK\Merchandising\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceRangeMax'

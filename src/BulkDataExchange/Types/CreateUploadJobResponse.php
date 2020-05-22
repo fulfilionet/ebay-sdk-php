@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
  * @property string $fileReferenceId
  * @property string $maxFileSize
  */
-class CreateUploadJobResponse extends \FulfilioNet\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class CreateUploadJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

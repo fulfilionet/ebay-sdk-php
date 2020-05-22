@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
+ * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
  * @property string $SKU
  */
-class EndFixedPriceItemRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class EndFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

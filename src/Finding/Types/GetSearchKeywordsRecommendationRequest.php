@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $keywords
  */
-class GetSearchKeywordsRecommendationRequest extends \FulfilioNet\eBaySDK\Finding\Types\BaseServiceRequest
+class GetSearchKeywordsRecommendationRequest extends \DTS\eBaySDK\Finding\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

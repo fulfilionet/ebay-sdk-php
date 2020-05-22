@@ -8,44 +8,44 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
- * @property \FulfilioNet\eBaySDK\Product\Types\StockPhotoURL $stockPhotoURL
- * @property \FulfilioNet\eBaySDK\Product\Types\PropertyValue[] $productDetails
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductStatus $productStatus
+ * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
+ * @property \DTS\eBaySDK\Product\Types\StockPhotoURL $stockPhotoURL
+ * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $productDetails
+ * @property \DTS\eBaySDK\Product\Types\ProductStatus $productStatus
  * @property integer $compatibilityCount
  * @property string $type
- * @property \FulfilioNet\eBaySDK\Product\Types\Notes $notes
+ * @property \DTS\eBaySDK\Product\Types\Notes $notes
  */
-class Product extends \FulfilioNet\eBaySDK\Types\BaseType
+class Product extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productIdentifier' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductIdentifier',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productIdentifier'
         ],
         'stockPhotoURL' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\StockPhotoURL',
+            'type' => 'DTS\eBaySDK\Product\Types\StockPhotoURL',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'stockPhotoURL'
         ],
         'productDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productDetails'
         ],
         'productStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductStatus',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productStatus'
@@ -63,7 +63,7 @@ class Product extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'type'
         ],
         'notes' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\Notes',
+            'type' => 'DTS\eBaySDK\Product\Types\Notes',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'notes'

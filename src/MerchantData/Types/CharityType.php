@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -18,10 +18,10 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $CharityID
  * @property string $Mission
  * @property string $LogoURL
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\CharityStatusCodeType $Status
+ * @property \DTS\eBaySDK\MerchantData\Enums\CharityStatusCodeType $Status
  * @property boolean $CharityListing
  */
-class CharityType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CharityType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

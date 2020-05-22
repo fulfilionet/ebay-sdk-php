@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType $includeShippingAddress
+ * @property \DTS\eBaySDK\BulkDataExchange\Enums\IncludeShippingAddressType $includeShippingAddress
  */
-class SoldReportFilter extends \FulfilioNet\eBaySDK\Types\BaseType
+class SoldReportFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

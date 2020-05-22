@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Enums;
+namespace DTS\eBaySDK\Order\Enums;
 
 class LineItemPaymentStatusEnum
 {

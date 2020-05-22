@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType;
+use DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType;
 
 class PaymentOptionsGroupEnabledCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PaymentOptionsGroupEnabledCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType', $this->obj);
     }
 }

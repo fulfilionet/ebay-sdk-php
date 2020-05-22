@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ActiveAuctionCount
  * @property integer $AuctionSellingCount
  * @property integer $AuctionBidCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
  * @property integer $TotalSoldCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalSoldValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
  * @property integer $SoldDurationInDays
  * @property integer $ClassifiedAdCount
  * @property integer $TotalLeadCount
  * @property integer $ClassifiedAdOfferCount
  * @property integer $TotalListingsWithLeads
  * @property integer $QuantityLimitRemaining
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AmountLimitRemaining
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountLimitRemaining
  */
-class MyeBaySellingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MyeBaySellingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -51,7 +51,7 @@ class MyeBaySellingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'AuctionBidCount'
         ],
         'TotalAuctionSellingValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalAuctionSellingValue'
@@ -63,7 +63,7 @@ class MyeBaySellingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TotalSoldCount'
         ],
         'TotalSoldValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalSoldValue'
@@ -105,7 +105,7 @@ class MyeBaySellingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'QuantityLimitRemaining'
         ],
         'AmountLimitRemaining' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountLimitRemaining'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
  * @property boolean $sellerRegistrationCompleted
- * @property \FulfilioNet\eBaySDK\Account\Types\SellingLimit $sellingLimit
+ * @property \DTS\eBaySDK\Account\Types\SellingLimit $sellingLimit
  */
-class SellingPrivileges extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingPrivileges extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class SellingPrivileges extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'sellerRegistrationCompleted'
         ],
         'sellingLimit' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\SellingLimit',
+            'type' => 'DTS\eBaySDK\Account\Types\SellingLimit',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellingLimit'

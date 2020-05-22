@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $AccountID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
- * @property \FulfilioNet\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \DTS\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreEntries
  * @property integer $EntriesPerPage
  * @property integer $PageNumber
  */
-class GetAccountResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,7 +34,7 @@ class GetAccountResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstract
             'elementName' => 'AccountID'
         ],
         'AccountSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AccountSummaryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AccountSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AccountSummary'
@@ -46,13 +46,13 @@ class GetAccountResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstract
             'elementName' => 'Currency'
         ],
         'AccountEntries' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AccountEntriesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AccountEntriesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AccountEntries'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

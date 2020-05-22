@@ -1,9 +1,9 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Product\Mocks;
+namespace DTS\eBaySDK\Test\Product\Mocks;
 
-use FulfilioNet\eBaySDK\Test\Mocks\ComplexClass;
+use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \FulfilioNet\eBaySDK\Product\Services\ProductBaseService
+class Service extends \DTS\eBaySDK\Product\Services\ProductBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \FulfilioNet\eBaySDK\Product\Services\ProductBaseService
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\FulfilioNet\eBaySDK\Test\Mocks\ComplexClass'
+            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

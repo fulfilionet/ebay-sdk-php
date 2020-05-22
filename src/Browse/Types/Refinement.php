@@ -8,42 +8,42 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Browse\Types\AspectDistribution[] $aspectDistributions
- * @property \FulfilioNet\eBaySDK\Browse\Types\BuyingOptionDistribution[] $buyingOptionDistributions
- * @property \FulfilioNet\eBaySDK\Browse\Types\CategoryDistribution[] $categoryDistributions
- * @property \FulfilioNet\eBaySDK\Browse\Types\ConditionDistribution[] $conditionDistributions
+ * @property \DTS\eBaySDK\Browse\Types\AspectDistribution[] $aspectDistributions
+ * @property \DTS\eBaySDK\Browse\Types\BuyingOptionDistribution[] $buyingOptionDistributions
+ * @property \DTS\eBaySDK\Browse\Types\CategoryDistribution[] $categoryDistributions
+ * @property \DTS\eBaySDK\Browse\Types\ConditionDistribution[] $conditionDistributions
  * @property string $dominantCategoryId
  */
-class Refinement extends \FulfilioNet\eBaySDK\Types\BaseType
+class Refinement extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectDistributions' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\AspectDistribution',
+            'type' => 'DTS\eBaySDK\Browse\Types\AspectDistribution',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectDistributions'
         ],
         'buyingOptionDistributions' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\BuyingOptionDistribution',
+            'type' => 'DTS\eBaySDK\Browse\Types\BuyingOptionDistribution',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'buyingOptionDistributions'
         ],
         'categoryDistributions' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\CategoryDistribution',
+            'type' => 'DTS\eBaySDK\Browse\Types\CategoryDistribution',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryDistributions'
         ],
         'conditionDistributions' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ConditionDistribution',
+            'type' => 'DTS\eBaySDK\Browse\Types\ConditionDistribution',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'conditionDistributions'

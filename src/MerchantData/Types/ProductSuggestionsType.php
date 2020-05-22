@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ProductSuggestionType[] $ProductSuggestion
+ * @property \DTS\eBaySDK\MerchantData\Types\ProductSuggestionType[] $ProductSuggestion
  */
-class ProductSuggestionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductSuggestionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ProductSuggestion' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ProductSuggestionType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ProductSuggestionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ProductSuggestion'

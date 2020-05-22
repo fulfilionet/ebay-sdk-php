@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\PostOrder\Types;
+namespace DTS\eBaySDK\Test\PostOrder\Types;
 
-use FulfilioNet\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest;
+use DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest;
 
 class CheckCancellationEligibilityRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CheckCancellationEligibilityRestRequestTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\CheckCancellationEligibilityRestRequest', $this->obj);
     }
 
     public function testExtendsOrderEligibilityCheckInfo()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo', $this->obj);
     }
 }

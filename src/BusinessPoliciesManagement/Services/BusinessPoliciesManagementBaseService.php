@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Services;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Services;
 
 /**
  * Base class for the BusinessPoliciesManagement service.
  */
-class BusinessPoliciesManagementBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class BusinessPoliciesManagementBaseService extends \FulfilioNet\eBaySDK\Service
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION
+                'default' => \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

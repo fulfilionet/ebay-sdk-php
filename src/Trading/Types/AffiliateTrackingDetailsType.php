@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $TrackingID
  * @property string $TrackingPartnerCode
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType $ApplicationDeviceType
+ * @property \DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType $ApplicationDeviceType
  * @property string $AffiliateUserID
  */
-class AffiliateTrackingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -22,7 +22,7 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $states
  * @property string $transaction_id
  */
-class SearchReturnsRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class SearchReturnsRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

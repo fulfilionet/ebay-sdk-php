@@ -8,46 +8,46 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property boolean $GlobalShipping
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingRateType $CalculatedShippingRate
+ * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType $CalculatedShippingRate
  * @property boolean $ChangePaymentInstructions
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InsuranceFee
+ * @property \DTS\eBaySDK\MerchantData\Enums\InsuranceOptionCodeType $InsuranceOption
  * @property boolean $InsuranceWanted
  * @property boolean $PaymentEdited
  * @property string $PaymentInstructions
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SalesTaxType $SalesTax
+ * @property \DTS\eBaySDK\MerchantData\Types\SalesTaxType $SalesTax
  * @property string $ShippingRateErrorMessage
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType $ShippingRateType
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShippingServiceOptionsType[] $ShippingServiceOptions
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingTypeCodeType $ShippingType
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingRateTypeCodeType $ShippingRateType
+ * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType[] $ShippingServiceOptions
+ * @property \DTS\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType[] $InternationalShippingServiceOption
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingTypeCodeType $ShippingType
  * @property integer $SellingManagerSalesRecordNumber
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxTableType $TaxTable
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxTableType $TaxTable
  * @property string $ShippingServiceUsed
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $DefaultShippingCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\InsuranceDetailsType $InsuranceDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\InsuranceDetailsType $InternationalInsuranceDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $DefaultShippingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType $InsuranceDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType $InternationalInsuranceDetails
  * @property string $ShippingDiscountProfileID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
  * @property boolean $PromotionalShippingDiscount
  * @property string $InternationalShippingDiscountProfileID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
+ * @property \DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
+ * @property \DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
  * @property boolean $InternationalPromotionalShippingDiscount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $CODCost
+ * @property \DTS\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $CODCost
  * @property string[] $ExcludeShipToLocation
  * @property boolean $SellerExcludeShipToLocationsPreference
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\RateTableDetailsType $RateTableDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\RateTableDetailsType $RateTableDetails
  */
-class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -60,7 +60,7 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'GlobalShipping'
         ],
         'CalculatedShippingRate' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingRateType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingRateType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingRate'
@@ -72,7 +72,7 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ChangePaymentInstructions'
         ],
         'InsuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceFee'
@@ -102,7 +102,7 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PaymentInstructions'
         ],
         'SalesTax' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SalesTaxType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SalesTaxType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTax'
@@ -120,13 +120,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingRateType'
         ],
         'ShippingServiceOptions' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServiceOptions'
         ],
         'InternationalShippingServiceOption' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\InternationalShippingServiceOptionsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'InternationalShippingServiceOption'
@@ -144,7 +144,7 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SellingManagerSalesRecordNumber'
         ],
         'TaxTable' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxTableType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxTable'
@@ -156,19 +156,19 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceUsed'
         ],
         'DefaultShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DefaultShippingCost'
         ],
         'InsuranceDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\InsuranceDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceDetails'
         ],
         'InternationalInsuranceDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\InsuranceDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\InsuranceDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalInsuranceDetails'
@@ -180,13 +180,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingDiscountProfileID'
         ],
         'FlatShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FlatShippingDiscount'
         ],
         'CalculatedShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingDiscount'
@@ -204,13 +204,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InternationalShippingDiscountProfileID'
         ],
         'InternationalFlatShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FlatShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalFlatShippingDiscount'
         ],
         'InternationalCalculatedShippingDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\CalculatedShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalCalculatedShippingDiscount'
@@ -222,13 +222,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InternationalPromotionalShippingDiscount'
         ],
         'PromotionalShippingDiscountDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PromotionalShippingDiscountDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalShippingDiscountDetails'
         ],
         'CODCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CODCost'
@@ -246,13 +246,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SellerExcludeShipToLocationsPreference'
         ],
         'ShipmentTrackingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentTrackingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShipmentTrackingDetails'
         ],
         'RateTableDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\RateTableDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\RateTableDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RateTableDetails'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string[] $ItemID
  * @property string $IncludeSelector
  */
-class GetMultipleItemsRequestType extends \FulfilioNet\eBaySDK\Shopping\Types\AbstractRequestType
+class GetMultipleItemsRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

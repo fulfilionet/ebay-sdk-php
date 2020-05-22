@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $ruleId
  * @property string $ruleName
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate
+ * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate
  */
-class DispositionRuleDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DispositionRuleDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

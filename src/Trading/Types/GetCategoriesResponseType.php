@@ -8,11 +8,11 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
+ * @property \DTS\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
  * @property integer $CategoryCount
  * @property \DateTime $UpdateTime
  * @property string $CategoryVersion
@@ -20,14 +20,14 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property double $MinimumReservePrice
  * @property boolean $ReduceReserveAllowed
  */
-class GetCategoriesResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CategoryArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CategoryArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CategoryArray'

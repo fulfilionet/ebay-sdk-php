@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $InsuranceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
- * @property \FulfilioNet\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType[] $InternationalShippingServiceOption
- * @property \FulfilioNet\eBaySDK\Shopping\Types\SalesTaxType $SalesTax
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $InsuranceCost
+ * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InsuranceOption
+ * @property \DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType[] $InternationalShippingServiceOption
+ * @property \DTS\eBaySDK\Shopping\Types\SalesTaxType $SalesTax
  * @property string $ShippingRateErrorMessage
- * @property \FulfilioNet\eBaySDK\Shopping\Types\ShippingServiceOptionType[] $ShippingServiceOption
- * @property \FulfilioNet\eBaySDK\Shopping\Types\TaxTableType $TaxTable
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $InternationalInsuranceCost
- * @property \FulfilioNet\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InternationalInsuranceOption
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $CODCost
+ * @property \DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType[] $ShippingServiceOption
+ * @property \DTS\eBaySDK\Shopping\Types\TaxTableType $TaxTable
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $InternationalInsuranceCost
+ * @property \DTS\eBaySDK\Shopping\Enums\InsuranceOptionCodeType $InternationalInsuranceOption
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $CODCost
  * @property string[] $ExcludeShipToLocation
  */
-class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'InsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InsuranceCost'
@@ -43,13 +43,13 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InsuranceOption'
         ],
         'InternationalShippingServiceOption' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\InternationalShippingServiceOptionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'InternationalShippingServiceOption'
         ],
         'SalesTax' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\SalesTaxType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\SalesTaxType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTax'
@@ -61,19 +61,19 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingRateErrorMessage'
         ],
         'ShippingServiceOption' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\ShippingServiceOptionType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingServiceOptionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingServiceOption'
         ],
         'TaxTable' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\TaxTableType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxTable'
         ],
         'InternationalInsuranceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalInsuranceCost'
@@ -85,7 +85,7 @@ class ShippingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InternationalInsuranceOption'
         ],
         'CODCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CODCost'

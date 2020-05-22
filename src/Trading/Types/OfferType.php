@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BidActionCodeType $Action
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MaxBid
+ * @property \DTS\eBaySDK\Trading\Enums\BidActionCodeType $Action
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxBid
  * @property integer $Quantity
  * @property boolean $SecondChanceEnabled
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CurrencyCodeType $SiteCurrency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $SiteCurrency
  * @property \DateTime $TimeBid
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $HighestBid
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ConvertedPrice
- * @property \FulfilioNet\eBaySDK\Trading\Types\UserType $User
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedPrice
+ * @property \DTS\eBaySDK\Trading\Types\UserType $User
  * @property boolean $UserConsent
  * @property string $Message
  * @property string $BestOfferID
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $MyMaxBid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MyMaxBid
  */
-class OfferType extends \FulfilioNet\eBaySDK\Types\BaseType
+class OfferType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -46,7 +46,7 @@ class OfferType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Currency'
         ],
         'MaxBid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxBid'
@@ -76,19 +76,19 @@ class OfferType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TimeBid'
         ],
         'HighestBid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HighestBid'
         ],
         'ConvertedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedPrice'
         ],
         'User' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\UserType',
+            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'User'
@@ -112,7 +112,7 @@ class OfferType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BestOfferID'
         ],
         'MyMaxBid' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MyMaxBid'

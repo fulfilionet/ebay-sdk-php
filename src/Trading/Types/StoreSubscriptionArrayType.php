@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreSubscriptionType[] $Subscription
+ * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionType[] $Subscription
  */
-class StoreSubscriptionArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreSubscriptionArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Subscription' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreSubscriptionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreSubscriptionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Subscription'

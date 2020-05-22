@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class ProvideSellerInfoOptionType extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
+class ProvideSellerInfoOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

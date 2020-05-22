@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Services;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Services;
 
 /**
  * Base class for the Finding service.
  */
-class ResolutionCaseManagementBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class ResolutionCaseManagementBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class ResolutionCaseManagementBaseService extends \FulfilioNet\eBaySDK\Services\
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService::API_VERSION
+                'default' => \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

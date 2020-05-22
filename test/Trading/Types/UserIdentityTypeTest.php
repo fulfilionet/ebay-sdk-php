@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\UserIdentityType;
+use DTS\eBaySDK\Trading\Types\UserIdentityType;
 
 class UserIdentityTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UserIdentityTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\UserIdentityType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\UserIdentityType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }
 }

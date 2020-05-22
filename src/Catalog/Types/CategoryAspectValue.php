@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $value
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ValueConstraint[] $valueConstraints
+ * @property \DTS\eBaySDK\Catalog\Types\ValueConstraint[] $valueConstraints
  */
-class CategoryAspectValue extends \FulfilioNet\eBaySDK\Types\BaseType
+class CategoryAspectValue extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CategoryAspectValue extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'value'
         ],
         'valueConstraints' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ValueConstraint',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ValueConstraint',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'valueConstraints'

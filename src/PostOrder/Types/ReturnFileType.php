@@ -8,11 +8,11 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
  * @property string $fileData
  * @property string $fileFormat
  * @property string $fileId
@@ -21,14 +21,14 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $resizedFileData
  * @property string $submitter
  */
-class ReturnFileType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnFileType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'creationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'

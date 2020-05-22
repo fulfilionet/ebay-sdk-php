@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Enums;
+namespace DTS\eBaySDK\Trading\Enums;
 
 class StoreFontSizeCodeType
 {

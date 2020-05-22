@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Catalog\Services;
+namespace DTS\eBaySDK\Catalog\Services;
 
 /**
  * Base class for the Catalog service.
  */
-class CatalogBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class CatalogBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class CatalogBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Catalog\Services\CatalogService::API_VERSION,
+                'default' => \DTS\eBaySDK\Catalog\Services\CatalogService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

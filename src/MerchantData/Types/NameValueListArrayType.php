@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
+ * @property \DTS\eBaySDK\MerchantData\Types\NameValueListType[] $NameValueList
  */
-class NameValueListArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NameValueListArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'NameValueList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\NameValueListType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NameValueList'

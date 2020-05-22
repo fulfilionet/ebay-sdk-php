@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Enums;
+namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
-use FulfilioNet\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum;
+use DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum;
 
 class PaymentMethodTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PaymentMethodTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\PaymentMethodTypeEnum', $this->obj);
     }
 }

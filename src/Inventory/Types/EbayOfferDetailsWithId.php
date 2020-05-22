@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
  * @property string $listingDescription
- * @property \FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
+ * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
  * @property string $merchantLocationKey
- * @property \FulfilioNet\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string[] $storeCategoryNames
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Tax $tax
+ * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
  */
-class EbayOfferDetailsWithId extends \FulfilioNet\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -47,7 +47,7 @@ class EbayOfferDetailsWithId extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingDescription'
         ],
         'listingPolicies' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\ListingPolicies',
+            'type' => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listingPolicies'
@@ -59,7 +59,7 @@ class EbayOfferDetailsWithId extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'merchantLocationKey'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -77,7 +77,7 @@ class EbayOfferDetailsWithId extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'storeCategoryNames'
         ],
         'tax' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Tax',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Tax',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'

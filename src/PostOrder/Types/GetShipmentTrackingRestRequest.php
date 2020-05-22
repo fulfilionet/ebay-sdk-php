@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\PostOrder\Types;
  * @property string $returnId
  * @property string $tracking_number
  */
-class GetShipmentTrackingRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetShipmentTrackingRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

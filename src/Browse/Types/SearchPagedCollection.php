@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Browse\Types;
+namespace DTS\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $href
- * @property \FulfilioNet\eBaySDK\Browse\Types\ItemSummary[] $itemSummaries
+ * @property \DTS\eBaySDK\Browse\Types\ItemSummary[] $itemSummaries
  * @property integer $limit
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \FulfilioNet\eBaySDK\Browse\Types\Refinement $refinement
+ * @property \DTS\eBaySDK\Browse\Types\Refinement $refinement
  * @property integer $total
- * @property \FulfilioNet\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
  */
-class SearchPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
+class SearchPagedCollection extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class SearchPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'href'
         ],
         'itemSummaries' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ItemSummary',
+            'type' => 'DTS\eBaySDK\Browse\Types\ItemSummary',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemSummaries'
@@ -65,7 +65,7 @@ class SearchPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'prev'
         ],
         'refinement' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\Refinement',
+            'type' => 'DTS\eBaySDK\Browse\Types\Refinement',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refinement'
@@ -77,7 +77,7 @@ class SearchPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'total'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Browse\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

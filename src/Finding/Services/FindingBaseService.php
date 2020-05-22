@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Finding\Services;
+namespace DTS\eBaySDK\Finding\Services;
 
 /**
  * Base class for the Finding service.
  */
-class FindingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class FindingBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class FindingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Finding\Services\FindingService::API_VERSION
+                'default' => \DTS\eBaySDK\Finding\Services\FindingService::API_VERSION
             ],
             'globalId' => [
                 'valid' => ['string']

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TaskID
  */
-class GetStoreCategoryUpdateStatusRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetStoreCategoryUpdateStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Taxonomy\Types;
+namespace DTS\eBaySDK\Test\Taxonomy\Types;
 
-use FulfilioNet\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse;
+use DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse;
 
 class GetItemAspectsForCategoryRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetItemAspectsForCategoryRestResponseTest extends \PHPUnit_Framework_TestC
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\GetItemAspectsForCategoryRestResponse', $this->obj);
     }
 
     public function testExtendsAspectMetadata()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\AspectMetadata', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AspectMetadata', $this->obj);
     }
 }

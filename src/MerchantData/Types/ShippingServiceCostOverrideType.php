@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $ShippingServicePriority
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingServiceType $ShippingServiceType
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingSurcharge
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingServiceType $ShippingServiceType
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingSurcharge
  */
-class ShippingServiceCostOverrideType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class ShippingServiceCostOverrideType extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'ShippingServiceType'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ],
         'ShippingSurcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'

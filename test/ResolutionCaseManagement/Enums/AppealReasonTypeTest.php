@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType;
+use DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType;
 
 class AppealReasonTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AppealReasonTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealReasonType', $this->obj);
     }
 }

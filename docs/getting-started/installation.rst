@@ -24,7 +24,7 @@ Installing the SDK with Composer is done as follows:
 
    ::
 
-       php composer.phar require fulfilionet/ebay-sdk-php
+       php composer.phar require dts/ebay-sdk-php
 
 
 3. Require Composer's autoloader by adding the following line to the top of your code.

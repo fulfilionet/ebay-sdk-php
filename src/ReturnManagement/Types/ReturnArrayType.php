@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $ReturnSummary
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $ReturnSummary
  */
-class ReturnArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnSummary'

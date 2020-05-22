@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\AspectConstraint $aspectConstraint
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\AspectValue[] $aspectValues
+ * @property \DTS\eBaySDK\Taxonomy\Types\AspectConstraint $aspectConstraint
+ * @property \DTS\eBaySDK\Taxonomy\Types\AspectValue[] $aspectValues
  * @property string $localizedAspectName
  */
-class Aspect extends \FulfilioNet\eBaySDK\Types\BaseType
+class Aspect extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectConstraint' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\AspectConstraint',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectConstraint',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectConstraint'
         ],
         'aspectValues' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\AspectValue',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectValues'

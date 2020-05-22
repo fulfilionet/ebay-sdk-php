@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\AvailableOptionType[] $buyerAvailableOptions
+ * @property \DTS\eBaySDK\PostOrder\Types\AvailableOptionType[] $buyerAvailableOptions
  * @property string $buyerLoginName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnResponseDueType $buyerResponseDue
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\TotalRefundAmountType $buyerTotalRefund
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnCreationInfoType $creationInfo
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnTypeEnum $currentType
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum[] $dispositionRuleTriggered
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EscalationInfoType $escalationInfo
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType $buyerResponseDue
+ * @property \DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType $buyerTotalRefund
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnCreationInfoType $creationInfo
+ * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $currentType
+ * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum[] $dispositionRuleTriggered
+ * @property \DTS\eBaySDK\PostOrder\Types\EscalationInfoType $escalationInfo
  * @property string $returnId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnPolicyType $returnPolicy
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\AvailableOptionType[] $sellerAvailableOptions
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnPolicyType $returnPolicy
+ * @property \DTS\eBaySDK\PostOrder\Types\AvailableOptionType[] $sellerAvailableOptions
  * @property string $sellerLoginName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnResponseDueType $sellerResponseDue
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\TotalRefundAmountType $sellerTotalRefund
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType $sellerResponseDue
+ * @property \DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType $sellerTotalRefund
  * @property string $state
  * @property string $status
  */
-class ReturnSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyerAvailableOptions' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\AvailableOptionType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'buyerAvailableOptions'
@@ -48,19 +48,19 @@ class ReturnSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'buyerLoginName'
         ],
         'buyerResponseDue' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnResponseDueType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerResponseDue'
         ],
         'buyerTotalRefund' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\TotalRefundAmountType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerTotalRefund'
         ],
         'creationInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnCreationInfoType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnCreationInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationInfo'
@@ -78,7 +78,7 @@ class ReturnSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'dispositionRuleTriggered'
         ],
         'escalationInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EscalationInfoType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EscalationInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'escalationInfo'
@@ -90,13 +90,13 @@ class ReturnSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'returnId'
         ],
         'returnPolicy' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnPolicyType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnPolicyType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPolicy'
         ],
         'sellerAvailableOptions' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\AvailableOptionType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\AvailableOptionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sellerAvailableOptions'
@@ -108,13 +108,13 @@ class ReturnSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'sellerLoginName'
         ],
         'sellerResponseDue' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnResponseDueType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerResponseDue'
         ],
         'sellerTotalRefund' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\TotalRefundAmountType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\TotalRefundAmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerTotalRefund'

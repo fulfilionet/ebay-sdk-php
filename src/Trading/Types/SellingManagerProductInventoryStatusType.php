@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,9 +17,9 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $QuantitySold
  * @property integer $QuantityUnsold
  * @property double $SuccessPercent
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
  */
-class SellingManagerProductInventoryStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -56,7 +56,7 @@ class SellingManagerProductInventoryStatusType extends \FulfilioNet\eBaySDK\Type
             'elementName' => 'SuccessPercent'
         ],
         'AverageSellingPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AverageSellingPrice'

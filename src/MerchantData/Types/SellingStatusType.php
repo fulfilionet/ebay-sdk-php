@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $BidCount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $BidIncrement
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ConvertedCurrentPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $CurrentPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\UserType $HighBidder
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BidIncrement
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedCurrentPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $CurrentPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\UserType $HighBidder
  * @property integer $LeadCount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $MinimumToBid
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MinimumToBid
  * @property integer $QuantitySold
  * @property boolean $ReserveMet
  * @property boolean $SecondChanceEligible
  * @property integer $BidderCount
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ListingStatusCodeType $ListingStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
+ * @property \DTS\eBaySDK\MerchantData\Enums\ListingStatusCodeType $ListingStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
+ * @property \DTS\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
  * @property boolean $AdminEnded
  * @property boolean $SoldAsBin
  * @property integer $QuantitySoldByPickupInStore
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SuggestedBidValueType $SuggestedBidValues
+ * @property \DTS\eBaySDK\MerchantData\Types\SuggestedBidValueType $SuggestedBidValues
  */
-class SellingStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,25 +44,25 @@ class SellingStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BidCount'
         ],
         'BidIncrement' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidIncrement'
         ],
         'ConvertedCurrentPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedCurrentPrice'
         ],
         'CurrentPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CurrentPrice'
         ],
         'HighBidder' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\UserType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HighBidder'
@@ -74,7 +74,7 @@ class SellingStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LeadCount'
         ],
         'MinimumToBid' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumToBid'
@@ -110,13 +110,13 @@ class SellingStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ListingStatus'
         ],
         'FinalValueFee' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FinalValueFee'
         ],
         'PromotionalSaleDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PromotionalSaleDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleDetails'
@@ -140,7 +140,7 @@ class SellingStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'QuantitySoldByPickupInStore'
         ],
         'SuggestedBidValues' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SuggestedBidValueType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SuggestedBidValueType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SuggestedBidValues'

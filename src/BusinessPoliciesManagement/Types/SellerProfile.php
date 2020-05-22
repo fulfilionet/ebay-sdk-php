@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
  * @property string $profileName
  * @property integer $profileId
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType $profileType
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType $profileType
  * @property integer $profileVersion
  * @property string $profileDesc
  * @property \DateTime $deletedDate
  * @property integer $siteId
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups $categoryGroups
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups $categoryGroups
  */
-class SellerProfile extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerProfile extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class SellerProfile extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'siteId'
         ],
         'categoryGroups' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categoryGroups'

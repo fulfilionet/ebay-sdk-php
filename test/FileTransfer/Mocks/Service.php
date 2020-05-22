@@ -1,9 +1,9 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\FileTransfer\Mocks;
+namespace DTS\eBaySDK\Test\FileTransfer\Mocks;
 
-use FulfilioNet\eBaySDK\Test\Mocks\ComplexClass;
+use DTS\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \FulfilioNet\eBaySDK\FileTransfer\Services\FileTransferBaseService
+class Service extends \DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService
 {
     public function __construct(array $config)
     {
@@ -15,7 +15,7 @@ class Service extends \FulfilioNet\eBaySDK\FileTransfer\Services\FileTransferBas
         return $this->callOperationAsync(
             'testOperation',
             new ComplexClass(),
-            '\FulfilioNet\eBaySDK\Test\Mocks\ComplexClass'
+            '\DTS\eBaySDK\Test\Mocks\ComplexClass'
         )->wait();
     }
 }

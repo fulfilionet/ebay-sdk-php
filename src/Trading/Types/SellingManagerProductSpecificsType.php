@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $PrimaryCategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Types\VariationsType $Variations
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\VariationsType $Variations
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  */
-class SellingManagerProductSpecificsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerProductSpecificsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class SellingManagerProductSpecificsType extends \FulfilioNet\eBaySDK\Types\Base
             'elementName' => 'PrimaryCategoryID'
         ],
         'Variations' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VariationsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variations'
         ],
         'ItemSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemSpecifics'

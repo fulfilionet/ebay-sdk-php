@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
+namespace DTS\eBaySDK\Test\Inventory\Types;
 
-use FulfilioNet\eBaySDK\Inventory\Types\PickupAtLocationAvailability;
+use DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability;
 
 class PickupAtLocationAvailabilityTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PickupAtLocationAvailabilityTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\PickupAtLocationAvailability', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

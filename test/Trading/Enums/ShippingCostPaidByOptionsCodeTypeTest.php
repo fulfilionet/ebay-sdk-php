@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType;
+use DTS\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType;
 
 class ShippingCostPaidByOptionsCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShippingCostPaidByOptionsCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ShippingCostPaidByOptionsCodeType', $this->obj);
     }
 }

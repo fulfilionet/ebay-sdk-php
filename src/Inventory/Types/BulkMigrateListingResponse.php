@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\MigrateListingResponse[] $responses
+ * @property \DTS\eBaySDK\Inventory\Types\MigrateListingResponse[] $responses
  */
-class BulkMigrateListingResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class BulkMigrateListingResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\MigrateListingResponse',
+            'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListingResponse',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'responses'

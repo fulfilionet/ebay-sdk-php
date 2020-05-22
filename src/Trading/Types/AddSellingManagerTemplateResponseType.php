@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,10 +16,10 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $Category2ID
  * @property integer $SaleTemplateID
  * @property string $SaleTemplateName
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  */
-class AddSellingManagerTemplateResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -50,13 +50,13 @@ class AddSellingManagerTemplateResponseType extends \FulfilioNet\eBaySDK\Trading
             'elementName' => 'SaleTemplateName'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeesType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'

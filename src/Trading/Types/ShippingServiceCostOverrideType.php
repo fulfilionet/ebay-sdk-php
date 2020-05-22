@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ShippingServicePriority
- * @property \FulfilioNet\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
  */
-class ShippingServiceCostOverrideType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class ShippingServiceCostOverrideType extends \FulfilioNet\eBaySDK\Types\BaseTyp
             'elementName' => 'ShippingServiceType'
         ],
         'ShippingServiceCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ],
         'ShippingSurcharge' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'

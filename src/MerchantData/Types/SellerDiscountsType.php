@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $OriginalItemPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $OriginalItemShippingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalItemShippingCost
  * @property string $OriginalShippingService
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerDiscountType[] $SellerDiscount
+ * @property \DTS\eBaySDK\MerchantData\Types\SellerDiscountType[] $SellerDiscount
  */
-class SellerDiscountsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalItemPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemPrice'
         ],
         'OriginalItemShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemShippingCost'
@@ -42,7 +42,7 @@ class SellerDiscountsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'OriginalShippingService'
         ],
         'SellerDiscount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerDiscountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerDiscountType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellerDiscount'

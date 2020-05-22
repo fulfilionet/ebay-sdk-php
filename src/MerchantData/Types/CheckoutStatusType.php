@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\PaymentStatusCodeType $eBayPaymentStatus
  * @property \DateTime $LastModifiedTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethod
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $Status
+ * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentMethodCodeType $PaymentMethod
+ * @property \DTS\eBaySDK\MerchantData\Enums\CompleteStatusCodeType $Status
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
+ * @property \DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
+ * @property \DTS\eBaySDK\MerchantData\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
  */
-class CheckoutStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CheckoutStatusType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class CheckoutStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'IntegratedMerchantCreditCardEnabled'
         ],
         'eBayPaymentMismatchDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\EBayPaymentMismatchDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayPaymentMismatchDetails'

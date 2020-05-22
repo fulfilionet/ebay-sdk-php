@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnSummaryType $ReturnSummary
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnDetailType $ReturnDetail
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType $ReturnSummary
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType $ReturnDetail
  */
-class GetReturnDetailResponse extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetReturnDetailResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnSummary'
         ],
         'ReturnDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnDetailType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnDetail'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Enums;
 
 class MoneyMovementStatusType
 {

@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShipmentType $Shipment
+ * @property \DTS\eBaySDK\MerchantData\Types\ShipmentType $Shipment
  * @property boolean $IsShipped
  * @property boolean $IsPaid
  */
-class SetShipmentTrackingInfoRequestType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SetShipmentTrackingInfoRequestType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class SetShipmentTrackingInfoRequestType extends \FulfilioNet\eBaySDK\Types\Base
             'elementName' => 'OrderLineItemID'
         ],
         'Shipment' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShipmentType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Shipment'

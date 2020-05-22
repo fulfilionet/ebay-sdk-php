@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Catalog\Types;
  * @property string $primary_category_id
  * @property string $epid
  */
-class GetProductMetadataRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetProductMetadataRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

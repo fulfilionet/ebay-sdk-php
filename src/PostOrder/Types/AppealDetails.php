@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $appealCloseReasonEnum
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $appealDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $appealDate
  * @property string $appealReasonCode
  * @property string $appealStatus
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\AppealStatusEnum $appealStatusEnum
+ * @property \DTS\eBaySDK\PostOrder\Enums\AppealStatusEnum $appealStatusEnum
  * @property boolean $eligibleForAppeal
  */
-class AppealDetails extends \FulfilioNet\eBaySDK\Types\BaseType
+class AppealDetails extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class AppealDetails extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'appealCloseReasonEnum'
         ],
         'appealDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealDate'

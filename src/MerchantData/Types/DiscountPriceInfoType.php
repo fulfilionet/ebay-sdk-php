@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $OriginalRetailPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $MinimumAdvertisedPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalRetailPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MinimumAdvertisedPrice
+ * @property \DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property \DTS\eBaySDK\MerchantData\Enums\PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $MadeForOutletComparisonPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MadeForOutletComparisonPrice
  */
-class DiscountPriceInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalRetailPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalRetailPrice'
         ],
         'MinimumAdvertisedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumAdvertisedPrice'
@@ -63,7 +63,7 @@ class DiscountPriceInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SoldOffeBay'
         ],
         'MadeForOutletComparisonPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MadeForOutletComparisonPrice'

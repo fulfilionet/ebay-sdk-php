@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
  * @property integer $VeROReportPacketID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\VeROReportedItemDetailsType $ReportedItemDetails
+ * @property \DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType $VeROReportPacketStatus
+ * @property \DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType $ReportedItemDetails
  */
-class GetVeROReportStatusResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
@@ -63,7 +63,7 @@ class GetVeROReportStatusResponseType extends \FulfilioNet\eBaySDK\Trading\Types
             'elementName' => 'VeROReportPacketStatus'
         ],
         'ReportedItemDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReportedItemDetails'

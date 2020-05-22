@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $SourceSaleTemplateID
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType $KeepMinActive
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType $ListAccordingToSchedule
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType $KeepMinActive
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType $ListAccordingToSchedule
  */
-class SellingManagerAutoListType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerAutoListType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class SellingManagerAutoListType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SourceSaleTemplateID'
         ],
         'KeepMinActive' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListMinActiveItemsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'KeepMinActive'
         ],
         'ListAccordingToSchedule' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListAccordingToScheduleType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListAccordingToSchedule'

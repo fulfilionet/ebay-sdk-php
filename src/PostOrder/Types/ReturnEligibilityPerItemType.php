@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult[] $eligibilityResultsPerCheckType
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityItemType $returnItem
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult[] $eligibilityResultsPerCheckType
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemType $returnItem
  */
-class ReturnEligibilityPerItemType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnEligibilityPerItemType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'eligibilityResultsPerCheckType' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemPerCheckTypeResult',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'eligibilityResultsPerCheckType'
         ],
         'returnItem' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityItemType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnItem'

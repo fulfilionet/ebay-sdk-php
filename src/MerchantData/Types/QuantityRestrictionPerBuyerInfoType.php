@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $MaximumQuantity
  */
-class QuantityRestrictionPerBuyerInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class QuantityRestrictionPerBuyerInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

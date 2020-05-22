@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $originalRetailPrice
- * @property \FulfilioNet\eBaySDK\Inventory\Types\Amount $price
- * @property \FulfilioNet\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum $pricingVisibility
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $minimumAdvertisedPrice
+ * @property \DTS\eBaySDK\Inventory\Enums\SoldOnEnum $originallySoldForRetailPriceOn
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $originalRetailPrice
+ * @property \DTS\eBaySDK\Inventory\Types\Amount $price
+ * @property \DTS\eBaySDK\Inventory\Enums\MinimumAdvertisedPriceHandlingEnum $pricingVisibility
  */
-class PricingSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class PricingSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'minimumAdvertisedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minimumAdvertisedPrice'
@@ -37,13 +37,13 @@ class PricingSummary extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'originallySoldForRetailPriceOn'
         ],
         'originalRetailPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originalRetailPrice'
         ],
         'price' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\Amount',
+            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'price'

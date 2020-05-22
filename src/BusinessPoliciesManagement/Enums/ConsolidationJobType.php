@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Enums;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
 
 class ConsolidationJobType
 {

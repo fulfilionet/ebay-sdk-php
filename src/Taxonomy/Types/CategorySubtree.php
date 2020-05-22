@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Taxonomy\Types\CategoryTreeNode $categorySubtreeNode
+ * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode $categorySubtreeNode
  * @property string $categoryTreeId
  * @property string $categoryTreeVersion
  */
-class CategorySubtree extends \FulfilioNet\eBaySDK\Types\BaseType
+class CategorySubtree extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categorySubtreeNode' => [
-            'type' => 'FulfilioNet\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categorySubtreeNode'

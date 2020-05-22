@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,9 +16,9 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $ProfileType
  * @property string $ProfileName
  * @property string $ShortSummary
- * @property \FulfilioNet\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
+ * @property \DTS\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
  */
-class SupportedSellerProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class SupportedSellerProfileType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShortSummary'
         ],
         'CategoryGroup' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\CategoryGroupType',
+            'type' => 'DTS\eBaySDK\Trading\Types\CategoryGroupType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CategoryGroup'

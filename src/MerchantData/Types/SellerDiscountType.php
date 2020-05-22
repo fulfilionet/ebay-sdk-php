@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $CampaignID
  * @property string $CampaignDisplayName
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ItemDiscountAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingDiscountAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ItemDiscountAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingDiscountAmount
  */
-class SellerDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerDiscountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class SellerDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CampaignDisplayName'
         ],
         'ItemDiscountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemDiscountAmount'
         ],
         'ShippingDiscountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDiscountAmount'

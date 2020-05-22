@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Enums;
+namespace DTS\eBaySDK\Account\Enums;
 
 class RecipientAccountReferenceTypeEnum
 {

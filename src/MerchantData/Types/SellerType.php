@@ -8,39 +8,39 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property integer $PaisaPayStatus
  * @property boolean $AllowPaymentEdit
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\CurrencyCodeType $BillingCurrency
+ * @property \DTS\eBaySDK\MerchantData\Enums\CurrencyCodeType $BillingCurrency
  * @property boolean $CheckoutEnabled
  * @property boolean $CIPBankAccountStored
  * @property boolean $GoodStanding
  * @property boolean $QualifiesForB2BVAT
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SellerLevelCodeType $SellerLevel
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AddressType $SellerPaymentAddress
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SchedulingInfoType $SchedulingInfo
+ * @property \DTS\eBaySDK\MerchantData\Enums\SellerLevelCodeType $SellerLevel
+ * @property \DTS\eBaySDK\MerchantData\Types\AddressType $SellerPaymentAddress
+ * @property \DTS\eBaySDK\MerchantData\Types\SchedulingInfoType $SchedulingInfo
  * @property boolean $StoreOwner
  * @property string $StoreURL
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property \DTS\eBaySDK\MerchantData\Enums\SellerBusinessCodeType $SellerBusinessType
  * @property boolean $RegisteredBusinessSeller
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SiteCodeType $StoreSite
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SellerPaymentMethodCodeType $PaymentMethod
+ * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $StoreSite
+ * @property \DTS\eBaySDK\MerchantData\Enums\SellerPaymentMethodCodeType $PaymentMethod
  * @property boolean $CharityRegistered
  * @property boolean $SafePaymentExempt
  * @property integer $PaisaPayEscrowEMIStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
  * @property double $TransactionPercent
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeatureEligibilityType $FeatureEligibility
+ * @property \DTS\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
+ * @property \DTS\eBaySDK\MerchantData\Types\FeatureEligibilityType $FeatureEligibility
  * @property boolean $TopRatedSeller
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
+ * @property \DTS\eBaySDK\MerchantData\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
  * @property boolean $DomesticRateTable
  */
-class SellerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -95,13 +95,13 @@ class SellerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'SellerLevel'
         ],
         'SellerPaymentAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AddressType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentAddress'
         ],
         'SchedulingInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SchedulingInfoType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SchedulingInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SchedulingInfo'
@@ -161,7 +161,7 @@ class SellerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PaisaPayEscrowEMIStatus'
         ],
         'CharityAffiliationDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CharityAffiliationDetails'
@@ -173,13 +173,13 @@ class SellerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TransactionPercent'
         ],
         'IntegratedMerchantCreditCardInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\IntegratedMerchantCreditCardInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'IntegratedMerchantCreditCardInfo'
         ],
         'FeatureEligibility' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeatureEligibilityType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeatureEligibilityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeatureEligibility'
@@ -191,13 +191,13 @@ class SellerType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TopRatedSeller'
         ],
         'TopRatedSellerDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TopRatedSellerDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TopRatedSellerDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TopRatedSellerDetails'
         ],
         'RecoupmentPolicyConsent' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\RecoupmentPolicyConsentType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\RecoupmentPolicyConsentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RecoupmentPolicyConsent'

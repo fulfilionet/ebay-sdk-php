@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
  * @property string $endDate
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionHref
  * @property string $promotionId
  * @property string $promotionImageUrl
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class PromotionDetail extends \FulfilioNet\eBaySDK\Types\BaseType
+class PromotionDetail extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnFileType[] $files
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnFileType[] $files
  */
-class GetFileResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetFileResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'files' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnFileType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnFileType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'files'

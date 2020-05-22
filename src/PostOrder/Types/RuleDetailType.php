@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleActionDetailType $actionDetail
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $condition
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleSummaryType $ruleSummary
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDetailType $actionDetail
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $condition
+ * @property \DTS\eBaySDK\PostOrder\Types\RuleSummaryType $ruleSummary
  */
-class RuleDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RuleDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actionDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleActionDetailType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actionDetail'
         ],
         'condition' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleConditionDetailType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'condition'
         ],
         'ruleSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleSummaryType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleSummary'

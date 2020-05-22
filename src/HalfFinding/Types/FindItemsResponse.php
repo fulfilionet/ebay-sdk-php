@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\PaginationOutputType $paginationOutput
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\HalfCatalogProductType $product
+ * @property \DTS\eBaySDK\HalfFinding\Types\PaginationOutputType $paginationOutput
+ * @property \DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType $product
  */
-class FindItemsResponse extends \FulfilioNet\eBaySDK\HalfFinding\Types\BaseResponse
+class FindItemsResponse extends \DTS\eBaySDK\HalfFinding\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'paginationOutput' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\PaginationOutputType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationOutputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'
         ],
         'product' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\HalfCatalogProductType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\HalfCatalogProductType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'product'

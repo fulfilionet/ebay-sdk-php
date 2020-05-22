@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType $SecondChanceOfferCondition
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $Amount
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType $SecondChanceOfferCondition
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Amount
  * @property double $ProfitPercent
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoSecondChanceOfferType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class SellingManagerAutoSecondChanceOfferType extends \FulfilioNet\eBaySDK\Types
             'elementName' => 'SecondChanceOfferCondition'
         ],
         'Amount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Amount'

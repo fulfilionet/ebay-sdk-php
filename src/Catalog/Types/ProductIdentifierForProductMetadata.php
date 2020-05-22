@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierConstraint $constraint
+ * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint $constraint
  * @property string $valueAssociatedWithProduct
  * @property string[] $values
  */
-class ProductIdentifierForProductMetadata extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductIdentifierForProductMetadata extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'constraint' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierConstraint',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'constraint'

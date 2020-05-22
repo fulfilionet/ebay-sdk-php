@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
- * @property \FulfilioNet\eBaySDK\Trading\Types\DiscountProfileType[] $DiscountProfile
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountNameCodeType $DiscountName
+ * @property \DTS\eBaySDK\Trading\Types\DiscountProfileType[] $DiscountProfile
  */
-class CalculatedShippingDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CalculatedShippingDiscountType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CalculatedShippingDiscountType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DiscountName'
         ],
         'DiscountProfile' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DiscountProfileType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DiscountProfileType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DiscountProfile'

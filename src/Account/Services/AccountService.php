@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Services;
+namespace DTS\eBaySDK\Account\Services;
 
-class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseService
+class AccountService extends \DTS\eBaySDK\Account\Services\AccountBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,14 +21,14 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'CreateAFulfillmentPolicy' => [
             'method' => 'POST',
             'resource' => 'fulfillment_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse',
             'params' => [
             ]
         ],
         'DeleteAFulfillmentPolicy' => [
             'method' => 'DELETE',
             'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse',
             'params' => [
                 'fulfillmentPolicyId' => [
                     'valid' => ['string'],
@@ -39,7 +39,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetFulfillmentPoliciesByMarketplace' => [
             'method' => 'GET',
             'resource' => 'fulfillment_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -50,7 +50,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAFulfillmentPolicyByID' => [
             'method' => 'GET',
             'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse',
             'params' => [
                 'fulfillmentPolicyId' => [
                     'valid' => ['string'],
@@ -61,7 +61,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAFulfillmentPolicyByName' => [
             'method' => 'GET',
             'resource' => 'fulfillment_policy/get_by_policy_name',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -76,7 +76,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'UpdateAFulfillmentPolicy' => [
             'method' => 'PUT',
             'resource' => 'fulfillment_policy/{fulfillmentPolicyId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse',
             'params' => [
                 'fulfillmentPolicyId' => [
                     'valid' => ['string'],
@@ -87,14 +87,14 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'CreateAPaymentPolicy' => [
             'method' => 'POST',
             'resource' => 'payment_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse',
             'params' => [
             ]
         ],
         'DeleteAPaymentPolicy' => [
             'method' => 'DELETE',
             'resource' => 'payment_policy/{payment_policy_id}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse',
             'params' => [
                 'payment_policy_id' => [
                     'valid' => ['string'],
@@ -105,7 +105,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetPaymentPoliciesByMarketplace' => [
             'method' => 'GET',
             'resource' => 'payment_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -116,7 +116,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAPaymentPolicyByID' => [
             'method' => 'GET',
             'resource' => 'payment_policy/{paymentPolicyId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse',
             'params' => [
                 'paymentPolicyId' => [
                     'valid' => ['string'],
@@ -127,7 +127,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAPaymentPolicyByName' => [
             'method' => 'GET',
             'resource' => 'payment_policy/get_by_policy_name',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -142,7 +142,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'UpdateAPaymentPolicy' => [
             'method' => 'PUT',
             'resource' => 'payment_policy/{payment_policy_id}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse',
             'params' => [
                 'payment_policy_id' => [
                     'valid' => ['string'],
@@ -153,35 +153,35 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAccountPrivileges' => [
             'method' => 'GET',
             'resource' => 'privilege',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse',
             'params' => [
             ]
         ],
         'GetOptedInPrograms' => [
             'method' => 'GET',
             'resource' => 'program/get_opted_in_programs',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetOptedInProgramsRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse',
             'params' => [
             ]
         ],
         'OptInToProgram' => [
             'method' => 'POST',
             'resource' => 'program/opt_in',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\OptInToProgramRestResponse',
             'params' => [
             ]
         ],
         'OptOutOfProgram' => [
             'method' => 'POST',
             'resource' => 'program/opt_out',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse',
             'params' => [
             ]
         ],
         'GetShippingRateTables' => [
             'method' => 'POST',
             'resource' => 'rate_table',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse',
             'params' => [
                 'country_code' => [
                     'valid' => ['string']
@@ -191,14 +191,14 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'CreateAReturnPolicy' => [
             'method' => 'POST',
             'resource' => 'return_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse',
             'params' => [
             ]
         ],
         'DeleteAReturnPolicy' => [
             'method' => 'DELETE',
             'resource' => 'return_policy/{return_policy_id}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse',
             'params' => [
                 'return_policy_id' => [
                     'valid' => ['string'],
@@ -209,7 +209,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetReturnPoliciesByMarketplace' => [
             'method' => 'GET',
             'resource' => 'return_policy',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -220,7 +220,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAReturnPolicyByID' => [
             'method' => 'GET',
             'resource' => 'return_policy/{returnPolicyId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse',
             'params' => [
                 'returnPolicyId' => [
                     'valid' => ['string'],
@@ -231,7 +231,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAReturnPolicyByName' => [
             'method' => 'GET',
             'resource' => 'return_policy/get_by_policy_name',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse',
             'params' => [
                 'marketplace_id' => [
                     'valid' => ['string'],
@@ -246,7 +246,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'UpdateAReturnPolicy' => [
             'method' => 'PUT',
             'resource' => 'return_policy/{return_policy_id}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse',
             'params' => [
                 'return_policy_id' => [
                     'valid' => ['string'],
@@ -257,7 +257,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'CreateASalesTaxTable' => [
             'method' => 'PUT',
             'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse',
             'params' => [
                 'countryCode' => [
                     'valid' => ['string'],
@@ -272,7 +272,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'DeleteASalesTaxTable' => [
             'method' => 'DELETE',
             'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse',
             'params' => [
                 'countryCode' => [
                     'valid' => ['string'],
@@ -287,7 +287,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetASalesTaxTable' => [
             'method' => 'GET',
             'resource' => 'sales_tax/{countryCode}/{jurisdictionId}',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse',
             'params' => [
                 'countryCode' => [
                     'valid' => ['string'],
@@ -302,7 +302,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
         'GetAllSalesTaxTables' => [
             'method' => 'GET',
             'resource' => 'sales_tax',
-            'responseClass' => '\FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse',
+            'responseClass' => '\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse',
             'params' => [
                 'country_code' => [
                     'valid' => ['string'],
@@ -321,223 +321,223 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestResponse
      */
-    public function createAFulfillmentPolicy(\FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
+    public function createAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
     {
         return $this->createAFulfillmentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAFulfillmentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
+    public function createAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAFulfillmentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('CreateAFulfillmentPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestResponse
      */
-    public function deleteAFulfillmentPolicy(\FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
+    public function deleteAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
     {
         return $this->deleteAFulfillmentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteAFulfillmentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
+    public function deleteAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAFulfillmentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('DeleteAFulfillmentPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestResponse
      */
-    public function getFulfillmentPoliciesByMarketplace(\FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
+    public function getFulfillmentPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
     {
         return $this->getFulfillmentPoliciesByMarketplaceAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getFulfillmentPoliciesByMarketplaceAsync(\FulfilioNet\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
+    public function getFulfillmentPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetFulfillmentPoliciesByMarketplaceRestRequest $request)
     {
         return $this->callOperationAsync('GetFulfillmentPoliciesByMarketplace', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestResponse
      */
-    public function getAFulfillmentPolicyByID(\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
+    public function getAFulfillmentPolicyByID(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
     {
         return $this->getAFulfillmentPolicyByIDAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAFulfillmentPolicyByIDAsync(\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
+    public function getAFulfillmentPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByIDRestRequest $request)
     {
         return $this->callOperationAsync('GetAFulfillmentPolicyByID', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestResponse
      */
-    public function getAFulfillmentPolicyByName(\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
+    public function getAFulfillmentPolicyByName(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
     {
         return $this->getAFulfillmentPolicyByNameAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAFulfillmentPolicyByNameAsync(\FulfilioNet\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
+    public function getAFulfillmentPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAFulfillmentPolicyByNameRestRequest $request)
     {
         return $this->callOperationAsync('GetAFulfillmentPolicyByName', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestResponse
      */
-    public function updateAFulfillmentPolicy(\FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
+    public function updateAFulfillmentPolicy(\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
     {
         return $this->updateAFulfillmentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateAFulfillmentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
+    public function updateAFulfillmentPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAFulfillmentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('UpdateAFulfillmentPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestResponse
      */
-    public function createAPaymentPolicy(\FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
+    public function createAPaymentPolicy(\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
     {
         return $this->createAPaymentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAPaymentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
+    public function createAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAPaymentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('CreateAPaymentPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestResponse
      */
-    public function deleteAPaymentPolicy(\FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
+    public function deleteAPaymentPolicy(\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
     {
         return $this->deleteAPaymentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteAPaymentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
+    public function deleteAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAPaymentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('DeleteAPaymentPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestResponse
      */
-    public function getPaymentPoliciesByMarketplace(\FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
+    public function getPaymentPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
     {
         return $this->getPaymentPoliciesByMarketplaceAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getPaymentPoliciesByMarketplaceAsync(\FulfilioNet\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
+    public function getPaymentPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetPaymentPoliciesByMarketplaceRestRequest $request)
     {
         return $this->callOperationAsync('GetPaymentPoliciesByMarketplace', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestResponse
      */
-    public function getAPaymentPolicyByID(\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
+    public function getAPaymentPolicyByID(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
     {
         return $this->getAPaymentPolicyByIDAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAPaymentPolicyByIDAsync(\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
+    public function getAPaymentPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByIDRestRequest $request)
     {
         return $this->callOperationAsync('GetAPaymentPolicyByID', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestResponse
      */
-    public function getAPaymentPolicyByName(\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
+    public function getAPaymentPolicyByName(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
     {
         return $this->getAPaymentPolicyByNameAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAPaymentPolicyByNameAsync(\FulfilioNet\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
+    public function getAPaymentPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAPaymentPolicyByNameRestRequest $request)
     {
         return $this->callOperationAsync('GetAPaymentPolicyByName', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestResponse
      */
-    public function updateAPaymentPolicy(\FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
+    public function updateAPaymentPolicy(\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
     {
         return $this->updateAPaymentPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateAPaymentPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
+    public function updateAPaymentPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest $request)
     {
         return $this->callOperationAsync('UpdateAPaymentPolicy', $request);
     }
 
     /**
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse
+     * @return \DTS\eBaySDK\Account\Types\GetAccountPrivilegesRestResponse
      */
     public function getAccountPrivileges()
     {
@@ -553,7 +553,7 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
     }
 
     /**
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetOptedInProgramsRestResponse
+     * @return \DTS\eBaySDK\Account\Types\GetOptedInProgramsRestResponse
      */
     public function getOptedInPrograms()
     {
@@ -569,235 +569,235 @@ class AccountService extends \FulfilioNet\eBaySDK\Account\Services\AccountBaseSe
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestResponse
+     * @param \DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\OptInToProgramRestResponse
      */
-    public function optInToProgram(\FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
+    public function optInToProgram(\DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
     {
         return $this->optInToProgramAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function optInToProgramAsync(\FulfilioNet\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
+    public function optInToProgramAsync(\DTS\eBaySDK\Account\Types\OptInToProgramRestRequest $request)
     {
         return $this->callOperationAsync('OptInToProgram', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestResponse
+     * @param \DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse
      */
-    public function optOutOfProgram(\FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
+    public function optOutOfProgram(\DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
     {
         return $this->optOutOfProgramAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function optOutOfProgramAsync(\FulfilioNet\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
+    public function optOutOfProgramAsync(\DTS\eBaySDK\Account\Types\OptOutOfProgramRestRequest $request)
     {
         return $this->callOperationAsync('OptOutOfProgram', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestResponse
      */
-    public function getShippingRateTables(\FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
+    public function getShippingRateTables(\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
     {
         return $this->getShippingRateTablesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getShippingRateTablesAsync(\FulfilioNet\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
+    public function getShippingRateTablesAsync(\DTS\eBaySDK\Account\Types\GetShippingRateTablesRestRequest $request)
     {
         return $this->callOperationAsync('GetShippingRateTables', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestResponse
      */
-    public function createAReturnPolicy(\FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
+    public function createAReturnPolicy(\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
     {
         return $this->createAReturnPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createAReturnPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
+    public function createAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\CreateAReturnPolicyRestRequest $request)
     {
         return $this->callOperationAsync('CreateAReturnPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestResponse
      */
-    public function deleteAReturnPolicy(\FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
+    public function deleteAReturnPolicy(\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
     {
         return $this->deleteAReturnPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteAReturnPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
+    public function deleteAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\DeleteAReturnPolicyRestRequest $request)
     {
         return $this->callOperationAsync('DeleteAReturnPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestResponse
      */
-    public function getReturnPoliciesByMarketplace(\FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
+    public function getReturnPoliciesByMarketplace(\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
     {
         return $this->getReturnPoliciesByMarketplaceAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getReturnPoliciesByMarketplaceAsync(\FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
+    public function getReturnPoliciesByMarketplaceAsync(\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest $request)
     {
         return $this->callOperationAsync('GetReturnPoliciesByMarketplace', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestResponse
      */
-    public function getAReturnPolicyByID(\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
+    public function getAReturnPolicyByID(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
     {
         return $this->getAReturnPolicyByIDAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAReturnPolicyByIDAsync(\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
+    public function getAReturnPolicyByIDAsync(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByIDRestRequest $request)
     {
         return $this->callOperationAsync('GetAReturnPolicyByID', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestResponse
      */
-    public function getAReturnPolicyByName(\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
+    public function getAReturnPolicyByName(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
     {
         return $this->getAReturnPolicyByNameAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAReturnPolicyByNameAsync(\FulfilioNet\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
+    public function getAReturnPolicyByNameAsync(\DTS\eBaySDK\Account\Types\GetAReturnPolicyByNameRestRequest $request)
     {
         return $this->callOperationAsync('GetAReturnPolicyByName', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse
+     * @param \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestResponse
      */
-    public function updateAReturnPolicy(\FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
+    public function updateAReturnPolicy(\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
     {
         return $this->updateAReturnPolicyAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function updateAReturnPolicyAsync(\FulfilioNet\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
+    public function updateAReturnPolicyAsync(\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest $request)
     {
         return $this->callOperationAsync('UpdateAReturnPolicy', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse
+     * @param \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestResponse
      */
-    public function createASalesTaxTable(\FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
+    public function createASalesTaxTable(\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
     {
         return $this->createASalesTaxTableAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createASalesTaxTableAsync(\FulfilioNet\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
+    public function createASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\CreateASalesTaxTableRestRequest $request)
     {
         return $this->callOperationAsync('CreateASalesTaxTable', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse
+     * @param \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestResponse
      */
-    public function deleteASalesTaxTable(\FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
+    public function deleteASalesTaxTable(\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
     {
         return $this->deleteASalesTaxTableAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function deleteASalesTaxTableAsync(\FulfilioNet\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
+    public function deleteASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\DeleteASalesTaxTableRestRequest $request)
     {
         return $this->callOperationAsync('DeleteASalesTaxTable', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestResponse
      */
-    public function getASalesTaxTable(\FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
+    public function getASalesTaxTable(\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
     {
         return $this->getASalesTaxTableAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getASalesTaxTableAsync(\FulfilioNet\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
+    public function getASalesTaxTableAsync(\DTS\eBaySDK\Account\Types\GetASalesTaxTableRestRequest $request)
     {
         return $this->callOperationAsync('GetASalesTaxTable', $request);
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
-     * @return \FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse
+     * @param \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
+     * @return \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestResponse
      */
-    public function getAllSalesTaxTables(\FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)
+    public function getAllSalesTaxTables(\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)
     {
         return $this->getAllSalesTaxTablesAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
+     * @param \DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getAllSalesTaxTablesAsync(\FulfilioNet\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)
+    public function getAllSalesTaxTablesAsync(\DTS\eBaySDK\Account\Types\GetAllSalesTaxTablesRestRequest $request)
     {
         return $this->callOperationAsync('GetAllSalesTaxTables', $request);
     }

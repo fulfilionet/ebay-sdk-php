@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TotalQuantity
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalValue
  */
-class ItemTotalsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemTotalsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class ItemTotalsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TotalQuantity'
         ],
         'TotalValue' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalValue'

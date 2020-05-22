@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Inventory\Types;
  * @property string $thirdPartyTaxCategory
  * @property double $vatPercentage
  */
-class Tax extends \FulfilioNet\eBaySDK\Types\BaseType
+class Tax extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

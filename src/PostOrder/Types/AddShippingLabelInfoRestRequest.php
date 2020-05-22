@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $returnId
  */
-class AddShippingLabelInfoRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\ProvideLabelRequest
+class AddShippingLabelInfoRestRequest extends \DTS\eBaySDK\PostOrder\Types\ProvideLabelRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

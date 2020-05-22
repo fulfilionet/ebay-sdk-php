@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Browse\Enums;
+namespace DTS\eBaySDK\Test\Browse\Enums;
 
-use FulfilioNet\eBaySDK\Browse\Enums\DeliveryOptionsEnum;
+use DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum;
 
 class DeliveryOptionsEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class DeliveryOptionsEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Browse\Enums\DeliveryOptionsEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\DeliveryOptionsEnum', $this->obj);
     }
 }

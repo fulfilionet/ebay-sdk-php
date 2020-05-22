@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
+namespace DTS\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $categoryId
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyFilter
+ * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyFilter
  * @property boolean $listFormatOnly
- * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\SortOrder[] $sortOrder
+ * @property \DTS\eBaySDK\ProductMetadata\Types\SortOrder[] $sortOrder
  */
-class GetProductSearchValuesBaseRequest extends \FulfilioNet\eBaySDK\ProductMetadata\Types\BaseServiceRequest
+class GetProductSearchValuesBaseRequest extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class GetProductSearchValuesBaseRequest extends \FulfilioNet\eBaySDK\ProductMeta
             'elementName' => 'categoryId'
         ],
         'propertyFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyValue',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyFilter'
@@ -42,7 +42,7 @@ class GetProductSearchValuesBaseRequest extends \FulfilioNet\eBaySDK\ProductMeta
             'elementName' => 'listFormatOnly'
         ],
         'sortOrder' => [
-            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\SortOrder',
+            'type' => 'DTS\eBaySDK\ProductMetadata\Types\SortOrder',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sortOrder'

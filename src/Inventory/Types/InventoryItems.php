@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $href
- * @property \FulfilioNet\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
+ * @property \DTS\eBaySDK\Inventory\Types\InventoryItem[] $inventoryItems
  * @property integer $limit
  * @property string $next
  * @property string $prev
  * @property integer $size
  * @property integer $total
  */
-class InventoryItems extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventoryItems extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class InventoryItems extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'href'
         ],
         'inventoryItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\InventoryItem',
+            'type' => 'DTS\eBaySDK\Inventory\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryItems'

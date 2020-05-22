@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $ResetDefaultSubjects
  * @property string[] $Subject
  */
-class ASQPreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ASQPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

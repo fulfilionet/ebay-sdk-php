@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\HalfFinding\Types;
+namespace DTS\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
+ * @property \DTS\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
  */
-class BaseRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class BaseRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'extension' => [
-            'type' => 'FulfilioNet\eBaySDK\HalfFinding\Types\ExtensionType',
+            'type' => 'DTS\eBaySDK\HalfFinding\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

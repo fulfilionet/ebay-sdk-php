@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,9 +18,9 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property string $Code
  * @property string[] $Value
  * @property string $Message
- * @property \FulfilioNet\eBaySDK\Trading\Types\MetadataType[] $Metadata
+ * @property \DTS\eBaySDK\Trading\Types\MetadataType[] $Metadata
  */
-class ListingRecommendationType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -63,7 +63,7 @@ class ListingRecommendationType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Message'
         ],
         'Metadata' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MetadataType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MetadataType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Metadata'

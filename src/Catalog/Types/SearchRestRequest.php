@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
@@ -21,7 +21,7 @@ namespace FulfilioNet\eBaySDK\Catalog\Types;
  * @property string $gtin
  * @property string $q
  */
-class SearchRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class SearchRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

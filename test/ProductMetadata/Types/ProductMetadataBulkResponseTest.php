@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Types;
+namespace DTS\eBaySDK\Test\ProductMetadata\Types;
 
-use FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadataBulkResponse;
+use DTS\eBaySDK\ProductMetadata\Types\ProductMetadataBulkResponse;
 
 class ProductMetadataBulkResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductMetadataBulkResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\ProductMetadataBulkResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\ProductMetadataBulkResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseResponse', $this->obj);
     }
 }

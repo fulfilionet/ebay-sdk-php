@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TaxTypeCodeType $Imposition
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TaxDescriptionCodeType $TaxDescription
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TaxAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TaxOnSubtotalAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
+ * @property \DTS\eBaySDK\Trading\Enums\TaxTypeCodeType $Imposition
+ * @property \DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType $TaxDescription
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnSubtotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
  * @property string $TaxCode
  */
-class TaxDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,25 +39,25 @@ class TaxDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TaxDescription'
         ],
         'TaxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
         ],
         'TaxOnSubtotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnSubtotalAmount'
         ],
         'TaxOnShippingAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnShippingAmount'
         ],
         'TaxOnHandlingAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxOnHandlingAmount'

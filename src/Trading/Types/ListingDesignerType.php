@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $OptimalPictureSize
  * @property integer $ThemeID
  */
-class ListingDesignerType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingDesignerType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

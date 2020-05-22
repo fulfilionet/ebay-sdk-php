@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Services;
+namespace DTS\eBaySDK\Merchandising\Services;
 
-class MerchandisingService extends \FulfilioNet\eBaySDK\Merchandising\Services\MerchandisingBaseService
+class MerchandisingService extends \DTS\eBaySDK\Merchandising\Services\MerchandisingBaseService
 {
     const API_VERSION = '1.5.0';
 
@@ -23,134 +23,134 @@ class MerchandisingService extends \FulfilioNet\eBaySDK\Merchandising\Services\M
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
-    public function getRelatedCategoryItems(\FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
+    public function getRelatedCategoryItems(\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
     {
         return $this->getRelatedCategoryItemsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getRelatedCategoryItemsAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
+    public function getRelatedCategoryItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest $request)
     {
         return $this->callOperationAsync(
             'getRelatedCategoryItems',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
+            '\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
-    public function getMostWatchedItems(\FulfilioNet\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
+    public function getMostWatchedItems(\DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
     {
         return $this->getMostWatchedItemsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getMostWatchedItemsAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
+    public function getMostWatchedItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetMostWatchedItemsRequest $request)
     {
         return $this->callOperationAsync(
             'getMostWatchedItems',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
+            '\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse
      */
-    public function getTopSellingProducts(\FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
+    public function getTopSellingProducts(\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
     {
         return $this->getTopSellingProductsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getTopSellingProductsAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
+    public function getTopSellingProductsAsync(\DTS\eBaySDK\Merchandising\Types\GetTopSellingProductsRequest $request)
     {
         return $this->callOperationAsync(
             'getTopSellingProducts',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse'
+            '\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceProductResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
-    public function getDeals(\FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest $request)
+    public function getDeals(\DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request)
     {
         return $this->getDealsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getDealsAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetDealsRequest $request)
+    public function getDealsAsync(\DTS\eBaySDK\Merchandising\Types\GetDealsRequest $request)
     {
         return $this->callOperationAsync(
             'getDeals',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
+            '\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse
      */
-    public function getSimilarItems(\FulfilioNet\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
+    public function getSimilarItems(\DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
     {
         return $this->getSimilarItemsAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSimilarItemsAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
+    public function getSimilarItemsAsync(\DTS\eBaySDK\Merchandising\Types\GetSimilarItemsRequest $request)
     {
         return $this->callOperationAsync(
             'getSimilarItems',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
+            '\DTS\eBaySDK\Merchandising\Types\MerchandisingServiceItemResponse'
         );
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetVersionRequest $request
-     * @return \FulfilioNet\eBaySDK\Merchandising\Types\GetVersionResponse
+     * @param \DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request
+     * @return \DTS\eBaySDK\Merchandising\Types\GetVersionResponse
      */
-    public function getVersion(\FulfilioNet\eBaySDK\Merchandising\Types\GetVersionRequest $request)
+    public function getVersion(\DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \FulfilioNet\eBaySDK\Merchandising\Types\GetVersionRequest $request
+     * @param \DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getVersionAsync(\FulfilioNet\eBaySDK\Merchandising\Types\GetVersionRequest $request)
+    public function getVersionAsync(\DTS\eBaySDK\Merchandising\Types\GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
             $request,
-            '\FulfilioNet\eBaySDK\Merchandising\Types\GetVersionResponse'
+            '\DTS\eBaySDK\Merchandising\Types\GetVersionResponse'
         );
     }
 }

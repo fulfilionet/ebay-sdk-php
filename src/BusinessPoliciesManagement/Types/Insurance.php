@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types;
+namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
  * @property string $domesticInsuranceOption
  * @property string $intlInsuranceOption
- * @property \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
  */
-class Insurance extends \FulfilioNet\eBaySDK\Types\BaseType
+class Insurance extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'domesticInsuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'domesticInsuranceFee'
@@ -42,7 +42,7 @@ class Insurance extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'intlInsuranceOption'
         ],
         'intlInsuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'intlInsuranceFee'

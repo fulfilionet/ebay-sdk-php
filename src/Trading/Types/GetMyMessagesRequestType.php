@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
  * @property integer $FolderID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property boolean $IncludeHighPriorityMessageOnly
  */
-class GetMyMessagesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MessageIDs' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MessageIDs'
@@ -51,13 +51,13 @@ class GetMyMessagesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\Abstra
             'elementName' => 'EndTime'
         ],
         'ExternalMessageIDs' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExternalMessageIDs'
         ],
         'Pagination' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

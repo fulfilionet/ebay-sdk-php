@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \FulfilioNet\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
+ * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsByProductResponse extends \FulfilioNet\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsByProductResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectHistogramContainer' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\AspectHistogramContainer',
+            'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectHistogramContainer'
         ],
         'conditionHistogramContainer' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\ConditionHistogramContainer',
+            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'conditionHistogramContainer'

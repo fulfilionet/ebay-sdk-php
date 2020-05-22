@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
+namespace DTS\eBaySDK\Test\Marketing\Types;
 
-use FulfilioNet\eBaySDK\Marketing\Types\CreateReportTaskRestRequest;
+use DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest;
 
 class CreateReportTaskRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateReportTaskRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CreateReportTaskRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateReportTaskRestRequest', $this->obj);
     }
 
     public function testExtendsCreateReportTask()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CreateReportTask', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CreateReportTask', $this->obj);
     }
 }

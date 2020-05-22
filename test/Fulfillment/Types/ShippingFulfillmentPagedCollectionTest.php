@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Types;
+namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
-use FulfilioNet\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection;
+use DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection;
 
 class ShippingFulfillmentPagedCollectionTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingFulfillmentPagedCollectionTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\ShippingFulfillmentPagedCollection', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

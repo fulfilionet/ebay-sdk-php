@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RightsOwnerID
- * @property \FulfilioNet\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
+ * @property \DTS\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
  */
-class VeROReportItemsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VeROReportItemsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\Abst
             'elementName' => 'RightsOwnerID'
         ],
         'ReportItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VeROReportItemsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportItemsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReportItems'

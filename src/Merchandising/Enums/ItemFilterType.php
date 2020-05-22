@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Merchandising\Enums;
+namespace DTS\eBaySDK\Merchandising\Enums;
 
 class ItemFilterType
 {

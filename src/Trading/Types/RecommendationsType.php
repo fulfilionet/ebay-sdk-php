@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
+ * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
  * @property boolean $Updated
  */
-class RecommendationsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RecommendationsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class RecommendationsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'CategoryID'
         ],
         'NameRecommendation' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameRecommendationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameRecommendationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NameRecommendation'

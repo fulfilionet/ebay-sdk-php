@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Enums;
+namespace DTS\eBaySDK\PostOrder\Enums;
 
 class CaseCloseReasonEnum
 {

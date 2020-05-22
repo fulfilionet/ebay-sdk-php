@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test;
+namespace DTS\eBaySDK\Test;
 
-use FulfilioNet\eBaySDK\Test\Mocks\StatusCode;
+use DTS\eBaySDK\Test\Mocks\StatusCode;
 
 class StatusCodeTraitTest extends \PHPUnit_Framework_TestCase
 {

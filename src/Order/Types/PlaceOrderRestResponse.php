@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
-use FulfilioNet\eBaySDK\StatusCodeTrait;
-use FulfilioNet\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
+use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3[] $errors
- * @property \FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class PlaceOrderRestResponse extends \FulfilioNet\eBaySDK\Order\Types\PurchaseOrderSummary
+class PlaceOrderRestResponse extends \DTS\eBaySDK\Order\Types\PurchaseOrderSummary
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class PlaceOrderRestResponse extends \FulfilioNet\eBaySDK\Order\Types\PurchaseOr
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

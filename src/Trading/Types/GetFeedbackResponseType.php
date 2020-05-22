@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackDetailArrayType $FeedbackDetailArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType $FeedbackDetailArray
  * @property integer $FeedbackDetailItemTotal
- * @property \FulfilioNet\eBaySDK\Trading\Types\FeedbackSummaryType $FeedbackSummary
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackSummaryType $FeedbackSummary
  * @property integer $FeedbackScore
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property integer $EntriesPerPage
  * @property integer $PageNumber
  */
-class GetFeedbackResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'FeedbackDetailArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackDetailArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackDetailArray'
@@ -39,7 +39,7 @@ class GetFeedbackResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'FeedbackDetailItemTotal'
         ],
         'FeedbackSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\FeedbackSummaryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackSummary'
@@ -51,7 +51,7 @@ class GetFeedbackResponseType extends \FulfilioNet\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'FeedbackScore'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

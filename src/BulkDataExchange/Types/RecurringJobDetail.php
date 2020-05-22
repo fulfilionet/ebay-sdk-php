@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
+namespace DTS\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
@@ -16,12 +16,12 @@ namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
  * @property \DateTime $creationTime
  * @property integer $frequencyInMinutes
  * @property string $downloadJobType
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus $jobStatus
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence $monthlyRecurrence
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence $weeklyRecurrence
- * @property \FulfilioNet\eBaySDK\BulkDataExchange\Types\DailyRecurrence $dailyRecurrence
+ * @property \DTS\eBaySDK\BulkDataExchange\Enums\RecurringJobStatus $jobStatus
+ * @property \DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence $monthlyRecurrence
+ * @property \DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence $weeklyRecurrence
+ * @property \DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence $dailyRecurrence
  */
-class RecurringJobDetail extends \FulfilioNet\eBaySDK\Types\BaseType
+class RecurringJobDetail extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -58,19 +58,19 @@ class RecurringJobDetail extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'jobStatus'
         ],
         'monthlyRecurrence' => [
-            'type' => 'FulfilioNet\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
+            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\MonthlyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'monthlyRecurrence'
         ],
         'weeklyRecurrence' => [
-            'type' => 'FulfilioNet\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
+            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\WeeklyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'weeklyRecurrence'
         ],
         'dailyRecurrence' => [
-            'type' => 'FulfilioNet\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
+            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dailyRecurrence'

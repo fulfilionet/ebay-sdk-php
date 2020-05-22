@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType $SummaryPeriod
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SummaryFrequencyCodeType $Frequency
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
+ * @property \DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType $SummaryPeriod
+ * @property \DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType $Frequency
  */
-class SummaryEventScheduleType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SummaryEventScheduleType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

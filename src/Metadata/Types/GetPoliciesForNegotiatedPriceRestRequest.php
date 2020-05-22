@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Metadata\Types;
+namespace DTS\eBaySDK\Metadata\Types;
 
 /**
  *
  * @property string $filter
  * @property string $marketplace_id
  */
-class GetPoliciesForNegotiatedPriceRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetPoliciesForNegotiatedPriceRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

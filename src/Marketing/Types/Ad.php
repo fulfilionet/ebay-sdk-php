@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $adId
  * @property string $bidPercentage
  * @property string $inventoryReferenceId
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  * @property string $listingId
  */
-class Ad extends \FulfilioNet\eBaySDK\Types\BaseType
+class Ad extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PictureURLsType[] $PictureURLs
+ * @property \DTS\eBaySDK\MerchantData\Types\PictureURLsType[] $PictureURLs
  */
-class ExtendedPictureDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PictureURLs' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PictureURLsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PictureURLsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PictureURLs'

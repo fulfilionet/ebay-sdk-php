@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
- * @property \FulfilioNet\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
+ * @property \DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
+ * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
  * @property string[] $listingIds
- * @property \FulfilioNet\eBaySDK\Marketing\Types\RuleCriteria $ruleCriteria
+ * @property \DTS\eBaySDK\Marketing\Types\RuleCriteria $ruleCriteria
  */
-class InventoryCriterion extends \FulfilioNet\eBaySDK\Types\BaseType
+class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class InventoryCriterion extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'inventoryCriterionType'
         ],
         'inventoryItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\InventoryItem',
+            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryItems'
@@ -42,7 +42,7 @@ class InventoryCriterion extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingIds'
         ],
         'ruleCriteria' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\RuleCriteria',
+            'type' => 'DTS\eBaySDK\Marketing\Types\RuleCriteria',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleCriteria'

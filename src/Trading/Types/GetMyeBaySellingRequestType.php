@@ -8,63 +8,63 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $ScheduledList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $ActiveList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $SoldList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $UnsoldList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromSoldList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromUnsoldList
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType $SellingSummary
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ScheduledList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ActiveList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $UnsoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromSoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromUnsoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SellingSummary
  * @property boolean $HideVariations
  */
-class GetMyeBaySellingRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ScheduledList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ScheduledList'
         ],
         'ActiveList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActiveList'
         ],
         'SoldList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SoldList'
         ],
         'UnsoldList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnsoldList'
         ],
         'DeletedFromSoldList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromSoldList'
         ],
         'DeletedFromUnsoldList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromUnsoldList'
         ],
         'SellingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingSummary'

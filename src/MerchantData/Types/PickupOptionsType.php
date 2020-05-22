@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $PickupMethod
  * @property integer $PickupPriority
  */
-class PickupOptionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PickupOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

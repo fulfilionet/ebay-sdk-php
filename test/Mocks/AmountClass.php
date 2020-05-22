@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Mocks;
+namespace DTS\eBaySDK\Test\Mocks;
 
-class AmountClass extends \FulfilioNet\eBaySDK\Types\DoubleType
+class AmountClass extends \DTS\eBaySDK\Types\DoubleType
 {
     private static $propertyTypes = [
         'AttributeOne' => [

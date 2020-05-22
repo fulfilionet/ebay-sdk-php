@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PaymentInstructionCodeType $type
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentInstructionCodeType $type
  */
-class BuyerPackageEnclosureType extends \FulfilioNet\eBaySDK\Types\StringType
+class BuyerPackageEnclosureType extends \DTS\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

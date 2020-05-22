@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $CharityID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $AffiliationType
+ * @property \DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType $AffiliationType
  * @property \DateTime $LastUsedTime
  */
-class CharityAffiliationDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CharityAffiliationDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

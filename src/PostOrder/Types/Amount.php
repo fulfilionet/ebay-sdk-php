@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $convertedFromCurrency
+ * @property \DTS\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $convertedFromCurrency
  * @property double $convertedFromValue
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $currency
+ * @property \DTS\eBaySDK\PostOrder\Enums\CurrencyCodeEnum $currency
  * @property double $value
  */
-class Amount extends \FulfilioNet\eBaySDK\Types\BaseType
+class Amount extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

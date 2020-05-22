@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
  * @property integer $StoreCategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType[] $Filter
  * @property boolean $Archived
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType $Sort
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \FulfilioNet\eBaySDK\Trading\Types\TimeRangeType $SaleDateRange
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $SaleDateRange
  */
-class GetSellingManagerSoldListingsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Search' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Search'
@@ -64,13 +64,13 @@ class GetSellingManagerSoldListingsRequestType extends \FulfilioNet\eBaySDK\Trad
             'elementName' => 'SortOrder'
         ],
         'Pagination' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ],
         'SaleDateRange' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\TimeRangeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SaleDateRange'

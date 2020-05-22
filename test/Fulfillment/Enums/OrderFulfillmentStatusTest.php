@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Enums;
+namespace DTS\eBaySDK\Test\Fulfillment\Enums;
 
-use FulfilioNet\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus;
+use DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus;
 
 class OrderFulfillmentStatusTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class OrderFulfillmentStatusTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus', $this->obj);
     }
 }

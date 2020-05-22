@@ -1,8 +1,8 @@
 <?php
-namespace FulfilioNet\eBaySDK\OAuth\Types;
+namespace DTS\eBaySDK\OAuth\Types;
 
-use FulfilioNet\eBaySDK\StatusCodeTrait;
-use FulfilioNet\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
+use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
@@ -15,7 +15,7 @@ use FulfilioNet\eBaySDK\HttpHeadersTrait;
  * @property string $error_description
  * @property string $error_uri
  */
-class GetUserTokenRestResponse  extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetUserTokenRestResponse  extends \DTS\eBaySDK\Types\BaseType
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;

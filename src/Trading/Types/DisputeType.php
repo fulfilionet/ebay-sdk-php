@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DisputeID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
  * @property string $OtherPartyName
- * @property \FulfilioNet\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
  * @property string $BuyerUserID
  * @property string $SellerUserID
  * @property string $TransactionID
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType $Item
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
  * @property \DateTime $DisputeCreatedTime
  * @property \DateTime $DisputeModifiedTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
- * @property \FulfilioNet\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
+ * @property \DTS\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
+ * @property \DTS\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
  * @property boolean $Escalation
  * @property boolean $PurchaseProtection
  * @property string $OrderLineItemID
  */
-class DisputeType extends \FulfilioNet\eBaySDK\Types\BaseType
+class DisputeType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -101,7 +101,7 @@ class DisputeType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TransactionID'
         ],
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
@@ -137,13 +137,13 @@ class DisputeType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DisputeModifiedTime'
         ],
         'DisputeResolution' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DisputeResolutionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DisputeResolutionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DisputeResolution'
         ],
         'DisputeMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DisputeMessageType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DisputeMessageType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DisputeMessage'

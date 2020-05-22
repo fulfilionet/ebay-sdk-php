@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $CategoryID
  * @property string $Name
  * @property integer $Order
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryType[] $ChildCategory
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryType[] $ChildCategory
  */
-class StoreCustomCategoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreCustomCategoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class StoreCustomCategoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Order'
         ],
         'ChildCategory' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ChildCategory'

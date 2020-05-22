@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  * @property integer $FolderID
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class AddSellingManagerProductRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class AddSellingManagerProductRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
@@ -35,7 +35,7 @@ class AddSellingManagerProductRequestType extends \FulfilioNet\eBaySDK\Trading\T
             'elementName' => 'FolderID'
         ],
         'SellingManagerProductSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductSpecifics'

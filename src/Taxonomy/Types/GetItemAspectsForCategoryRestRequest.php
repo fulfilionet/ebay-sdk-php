@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Taxonomy\Types;
+namespace DTS\eBaySDK\Taxonomy\Types;
 
 /**
  *
  * @property string $category_id
  * @property string $category_tree_id
  */
-class GetItemAspectsForCategoryRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetItemAspectsForCategoryRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

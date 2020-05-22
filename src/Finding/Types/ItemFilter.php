@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $paramName
  * @property string $paramValue
- * @property \FulfilioNet\eBaySDK\Finding\Enums\ItemFilterType $name
+ * @property \DTS\eBaySDK\Finding\Enums\ItemFilterType $name
  * @property string[] $value
  */
-class ItemFilter extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemFilter extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

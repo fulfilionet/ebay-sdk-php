@@ -8,53 +8,53 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType[] $BidRetractionFeedbackPeriods
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NegativeFeedbackPeriods
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NeutralFeedbackPeriods
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType[] $PositiveFeedbackPeriods
- * @property \FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType[] $TotalFeedbackPeriods
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $BidRetractionFeedbackPeriods
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NegativeFeedbackPeriods
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $NeutralFeedbackPeriods
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $PositiveFeedbackPeriods
+ * @property \DTS\eBaySDK\Shopping\Types\FeedbackPeriodType[] $TotalFeedbackPeriods
  * @property integer $UniqueNegativeFeedbackCount
  * @property integer $UniquePositiveFeedbackCount
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AverageRatingDetailsType[] $AverageRatingDetails
+ * @property \DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType[] $AverageRatingDetails
  * @property integer $NeutralCommentCountFromSuspendedUsers
  * @property integer $UniqueNeutralFeedbackCount
  */
-class FeedbackHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class FeedbackHistoryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BidRetractionFeedbackPeriods' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BidRetractionFeedbackPeriods'
         ],
         'NegativeFeedbackPeriods' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NegativeFeedbackPeriods'
         ],
         'NeutralFeedbackPeriods' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NeutralFeedbackPeriods'
         ],
         'PositiveFeedbackPeriods' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PositiveFeedbackPeriods'
         ],
         'TotalFeedbackPeriods' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\FeedbackPeriodType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\FeedbackPeriodType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'TotalFeedbackPeriods'
@@ -72,7 +72,7 @@ class FeedbackHistoryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'UniquePositiveFeedbackCount'
         ],
         'AverageRatingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AverageRatingDetailsType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AverageRatingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AverageRatingDetails'

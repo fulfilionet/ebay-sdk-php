@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\MeasureType;
+use DTS\eBaySDK\Trading\Types\MeasureType;
 
 class MeasureTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class MeasureTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\MeasureType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\MeasureType', $this->obj);
     }
 
     public function testExtendsDecimalType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\DecimalType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\DecimalType', $this->obj);
     }
 }

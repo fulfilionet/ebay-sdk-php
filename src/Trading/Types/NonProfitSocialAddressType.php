@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SocialAddressTypeCodeType $SocialAddressType
+ * @property \DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType $SocialAddressType
  * @property string $SocialAddressId
  */
-class NonProfitSocialAddressType extends \FulfilioNet\eBaySDK\Types\BaseType
+class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

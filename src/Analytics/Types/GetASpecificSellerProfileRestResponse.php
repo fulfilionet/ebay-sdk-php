@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Types;
+namespace DTS\eBaySDK\Analytics\Types;
 
-use FulfilioNet\eBaySDK\StatusCodeTrait;
-use FulfilioNet\eBaySDK\HttpHeadersTrait;
+use DTS\eBaySDK\StatusCodeTrait;
+use DTS\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Analytics\Types\ErrorDetailV3[] $errors
- * @property \FulfilioNet\eBaySDK\Analytics\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Analytics\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\Analytics\Types\ErrorDetailV3[] $warnings
  */
-class GetASpecificSellerProfileRestResponse extends \FulfilioNet\eBaySDK\Analytics\Types\StandardsProfile
+class GetASpecificSellerProfileRestResponse extends \DTS\eBaySDK\Analytics\Types\StandardsProfile
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetASpecificSellerProfileRestResponse extends \FulfilioNet\eBaySDK\Analyti
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Analytics\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Analytics\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Analytics\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

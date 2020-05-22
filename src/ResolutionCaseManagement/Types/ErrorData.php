@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\ErrorSeverity $severity
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\ErrorCategory $category
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ErrorSeverity $severity
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ErrorCategory $category
  * @property string $message
  * @property string $exceptionId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ErrorParameter[] $parameter
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \FulfilioNet\eBaySDK\Types\BaseType
+class ErrorData extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\ErrorParameter',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

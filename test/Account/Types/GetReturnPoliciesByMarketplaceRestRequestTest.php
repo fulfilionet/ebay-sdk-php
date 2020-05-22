@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Types;
+namespace DTS\eBaySDK\Test\Account\Types;
 
-use FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest;
+use DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest;
 
 class GetReturnPoliciesByMarketplaceRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetReturnPoliciesByMarketplaceRestRequestTest extends \PHPUnit_Framework_T
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\GetReturnPoliciesByMarketplaceRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

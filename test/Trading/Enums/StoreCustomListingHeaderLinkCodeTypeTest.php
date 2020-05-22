@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType;
+use DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType;
 
 class StoreCustomListingHeaderLinkCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class StoreCustomListingHeaderLinkCodeTypeTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType', $this->obj);
     }
 }

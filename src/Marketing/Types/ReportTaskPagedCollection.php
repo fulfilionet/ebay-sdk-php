@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
@@ -17,10 +17,10 @@ namespace FulfilioNet\eBaySDK\Marketing\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \FulfilioNet\eBaySDK\Marketing\Types\ReportTask[] $reportTasks
+ * @property \DTS\eBaySDK\Marketing\Types\ReportTask[] $reportTasks
  * @property integer $total
  */
-class ReportTaskPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReportTaskPagedCollection extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class ReportTaskPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'prev'
         ],
         'reportTasks' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\ReportTask',
+            'type' => 'DTS\eBaySDK\Marketing\Types\ReportTask',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'reportTasks'

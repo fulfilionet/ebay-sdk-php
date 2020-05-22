@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
  */
-class FindItemsForFavoriteSearchResponse extends \FulfilioNet\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsForFavoriteSearchResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Browse\Services;
+namespace DTS\eBaySDK\Browse\Services;
 
 /**
  * Base class for the Browse service.
  */
-class BrowseBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
+class BrowseBaseService extends \DTS\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -55,7 +55,7 @@ class BrowseBaseService extends \FulfilioNet\eBaySDK\Services\BaseRestService
             ],
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Browse\Services\BrowseService::API_VERSION,
+                'default' => \DTS\eBaySDK\Browse\Services\BrowseService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

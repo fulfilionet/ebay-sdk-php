@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
+ * @property \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
  * @property integer $total
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
  */
-class ShippingFulfillmentPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'fulfillments' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\ShippingFulfillment',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'fulfillments'
@@ -35,7 +35,7 @@ class ShippingFulfillmentPagedCollection extends \FulfilioNet\eBaySDK\Types\Base
             'elementName' => 'total'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

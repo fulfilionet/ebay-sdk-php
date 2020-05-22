@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode;
+use DTS\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode;
 
 class MyMessagesAlertResolutionStatusCodeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MyMessagesAlertResolutionStatusCodeTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\MyMessagesAlertResolutionStatusCode', $this->obj);
     }
 }

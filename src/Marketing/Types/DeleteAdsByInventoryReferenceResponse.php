@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string[] $adIds
- * @property \FulfilioNet\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
+ * @property \DTS\eBaySDK\Marketing\Types\ErrorDetailV3[] $errors
  * @property string $inventoryReferenceId
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  * @property integer $statusCode
  */
-class DeleteAdsByInventoryReferenceResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class DeleteAdsByInventoryReferenceResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class DeleteAdsByInventoryReferenceResponse extends \FulfilioNet\eBaySDK\Types\B
             'elementName' => 'adIds'
         ],
         'errors' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Marketing\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'

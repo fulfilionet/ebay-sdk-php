@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $SKU
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\MerchantData\Types\FeesType $Fees
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
  * @property string $CategoryID
  * @property string $Category2ID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ProductSuggestionsType $ProductSuggestions
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DTS\eBaySDK\MerchantData\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType $ProductSuggestions
+ * @property \DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType $ListingRecommendations
  */
-class RelistFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType
+class RelistFixedPriceItemResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class RelistFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantData
             'elementName' => 'SKU'
         ],
         'Fees' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeesType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -78,13 +78,13 @@ class RelistFixedPriceItemResponseType extends \FulfilioNet\eBaySDK\MerchantData
             'elementName' => 'DiscountReason'
         ],
         'ProductSuggestions' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ProductSuggestionsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ProductSuggestionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductSuggestions'
         ],
         'ListingRecommendations' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

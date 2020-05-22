@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Product\Types\ProductSubmission[] $addProductRequest
+ * @property \DTS\eBaySDK\Product\Types\ProductSubmission[] $addProductRequest
  * @property string $clientBatchId
  */
-class AddProductsRequest extends \FulfilioNet\eBaySDK\Product\Types\BaseServiceRequest
+class AddProductsRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'addProductRequest' => [
-            'type' => 'FulfilioNet\eBaySDK\Product\Types\ProductSubmission',
+            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'addProductRequest'

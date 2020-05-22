@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $AdditionalInformation
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressType $Address
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
  * @property string $BestTimeToCall
  * @property string $Email
  * @property \DateTime $SubmittedTime
  * @property string $ItemID
  * @property string $ItemTitle
  * @property string $UserID
- * @property \FulfilioNet\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property \FulfilioNet\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType $Status
  * @property string $ExternalEmail
  * @property string $PurchaseTimeFrame
  * @property string $TradeInYear
@@ -31,7 +31,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $Answer1
  * @property boolean $Answer2
  */
-class AdFormatLeadType extends \FulfilioNet\eBaySDK\Types\BaseType
+class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,7 +44,7 @@ class AdFormatLeadType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'AdditionalInformation'
         ],
         'Address' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Address'
@@ -86,7 +86,7 @@ class AdFormatLeadType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'UserID'
         ],
         'MemberMessage' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MemberMessage'

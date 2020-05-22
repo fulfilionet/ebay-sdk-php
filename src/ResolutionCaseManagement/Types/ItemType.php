@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $itemId
  * @property string $itemTitle
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount $transactionPrice
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $transactionPrice
  * @property \DateTime $transactionDate
  * @property string $globalId
  * @property string $transactionId
  */
-class ItemType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,7 +38,7 @@ class ItemType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'itemTitle'
         ],
         'transactionPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transactionPrice'

@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
  * @property integer $FolderID
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
  * @property integer $StoreCategoryID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType[] $Filter
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType[] $Filter
  */
-class GetSellingManagerInventoryRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class GetSellingManagerInventoryRequestType extends \FulfilioNet\eBaySDK\Trading
             'elementName' => 'FolderID'
         ],
         'Pagination' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
@@ -51,7 +51,7 @@ class GetSellingManagerInventoryRequestType extends \FulfilioNet\eBaySDK\Trading
             'elementName' => 'SortOrder'
         ],
         'Search' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Search'

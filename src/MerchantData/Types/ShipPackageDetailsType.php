@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
+ * @property \DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
  * @property boolean $ShippingIrregular
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
+ * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
+ * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
  */
-class ShipPackageDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,19 +34,19 @@ class ShipPackageDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'MeasurementUnit'
         ],
         'PackageDepth' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ],
         'PackageLength' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ],
         'PackageWidth' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
@@ -64,13 +64,13 @@ class ShipPackageDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingPackage'
         ],
         'WeightMajor' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ],
         'WeightMinor' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMinor'

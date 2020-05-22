@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrier
  * @property string $currentStatus
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $estimateFromDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $estimateToDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimateFromDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $estimateToDate
  * @property string $trackingNumber
  * @property string $trackingURL
  */
-class ShipmentTrackingDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShipmentTrackingDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,13 +38,13 @@ class ShipmentTrackingDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'currentStatus'
         ],
         'estimateFromDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimateFromDate'
         ],
         'estimateToDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimateToDate'

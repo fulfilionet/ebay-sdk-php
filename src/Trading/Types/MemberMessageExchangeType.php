@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType $Item
- * @property \FulfilioNet\eBaySDK\Trading\Types\MemberMessageType $Question
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $Question
  * @property string[] $Response
- * @property \FulfilioNet\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
+ * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
  * @property \DateTime $CreationDate
  * @property \DateTime $LastModifiedDate
- * @property \FulfilioNet\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
  */
-class MemberMessageExchangeType extends \FulfilioNet\eBaySDK\Types\BaseType
+class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ],
         'Question' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MemberMessageType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Question'
@@ -63,7 +63,7 @@ class MemberMessageExchangeType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LastModifiedDate'
         ],
         'MessageMedia' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MessageMediaType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'MessageMedia'

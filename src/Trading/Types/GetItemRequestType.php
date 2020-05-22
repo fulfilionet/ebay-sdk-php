@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,11 +18,11 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property boolean $IncludeTaxTable
  * @property string $SKU
  * @property string $VariationSKU
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  * @property string $TransactionID
  * @property boolean $IncludeItemCompatibilityList
  */
-class GetItemRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -65,7 +65,7 @@ class GetItemRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequ
             'elementName' => 'VariationSKU'
         ],
         'VariationSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'

@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType $escalationReason
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType $caseId
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType $escalationReason
  * @property string $comments
  */
-class EscalateToCustomerSupportRequest extends \FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
+class EscalateToCustomerSupportRequest extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseId' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'
         ],
         'escalationReason' => [
-            'type' => 'FulfilioNet\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType',
+            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EscalationReasonType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'escalationReason'

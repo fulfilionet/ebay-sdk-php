@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
+namespace DTS\eBaySDK\Test\Trading\Enums;
 
-use FulfilioNet\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType;
+use DTS\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType;
 
 class CalculatedShippingRateOptionCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CalculatedShippingRateOptionCodeTypeTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType', $this->obj);
     }
 }

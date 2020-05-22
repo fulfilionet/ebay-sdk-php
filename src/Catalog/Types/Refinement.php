@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Types\AspectDistribution[] $aspectDistributions
+ * @property \DTS\eBaySDK\Catalog\Types\AspectDistribution[] $aspectDistributions
  * @property string $dominantCategoryId
  */
-class Refinement extends \FulfilioNet\eBaySDK\Types\BaseType
+class Refinement extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectDistributions' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\AspectDistribution',
+            'type' => 'DTS\eBaySDK\Catalog\Types\AspectDistribution',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectDistributions'

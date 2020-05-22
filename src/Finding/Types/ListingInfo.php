@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
  * @property boolean $bestOfferEnabled
  * @property boolean $buyItNowAvailable
- * @property \FulfilioNet\eBaySDK\Finding\Types\Amount $buyItNowPrice
- * @property \FulfilioNet\eBaySDK\Finding\Types\Amount $convertedBuyItNowPrice
+ * @property \DTS\eBaySDK\Finding\Types\Amount $buyItNowPrice
+ * @property \DTS\eBaySDK\Finding\Types\Amount $convertedBuyItNowPrice
  * @property \DateTime $startTime
  * @property \DateTime $endTime
  * @property string $listingType
  * @property boolean $gift
  */
-class ListingInfo extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingInfo extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -40,13 +40,13 @@ class ListingInfo extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'buyItNowAvailable'
         ],
         'buyItNowPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\Amount',
+            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyItNowPrice'
         ],
         'convertedBuyItNowPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\Amount',
+            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'convertedBuyItNowPrice'

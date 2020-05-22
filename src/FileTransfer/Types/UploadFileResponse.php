@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\FileTransfer\Types;
+namespace DTS\eBaySDK\FileTransfer\Types;
 
 /**
  *
  */
-class UploadFileResponse extends \FulfilioNet\eBaySDK\FileTransfer\Types\BaseServiceResponse
+class UploadFileResponse extends \DTS\eBaySDK\FileTransfer\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

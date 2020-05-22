@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Types;
+namespace DTS\eBaySDK\Analytics\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Analytics\Types\Definition[] $dimensionKeys
- * @property \FulfilioNet\eBaySDK\Analytics\Types\Definition[] $metrics
+ * @property \DTS\eBaySDK\Analytics\Types\Definition[] $dimensionKeys
+ * @property \DTS\eBaySDK\Analytics\Types\Definition[] $metrics
  */
-class Header extends \FulfilioNet\eBaySDK\Types\BaseType
+class Header extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'dimensionKeys' => [
-            'type' => 'FulfilioNet\eBaySDK\Analytics\Types\Definition',
+            'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dimensionKeys'
         ],
         'metrics' => [
-            'type' => 'FulfilioNet\eBaySDK\Analytics\Types\Definition',
+            'type' => 'DTS\eBaySDK\Analytics\Types\Definition',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'metrics'

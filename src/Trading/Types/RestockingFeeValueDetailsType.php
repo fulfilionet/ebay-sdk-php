@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RestockingFeeValueOption
  * @property string $Description
  */
-class RestockingFeeValueDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class RestockingFeeValueDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

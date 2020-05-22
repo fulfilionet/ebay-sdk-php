@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -19,17 +19,17 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property \DateTime $ReportEndTime
  * @property \DateTime $InvoiceProcessingTime
  * @property \DateTime $ReportProcessingTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FeeSettlementAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $LastInvoiceAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FeeRoundingAdjustmentAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FeeTotalUsageAdjustmentAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderTransactionList
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TransactionListType[] $ListingTransactionList
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderAdjustmentList
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AccountTransactionType[] $AccountTransactionList
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AccountTransactionType[] $DiscountTransactionList
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeSettlementAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $LastInvoiceAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeRoundingAdjustmentAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeTotalUsageAdjustmentAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderTransactionList
+ * @property \DTS\eBaySDK\MerchantData\Types\TransactionListType[] $ListingTransactionList
+ * @property \DTS\eBaySDK\MerchantData\Types\OrderDetailsType[] $OrderAdjustmentList
+ * @property \DTS\eBaySDK\MerchantData\Types\AccountTransactionType[] $AccountTransactionList
+ * @property \DTS\eBaySDK\MerchantData\Types\AccountTransactionType[] $DiscountTransactionList
  */
-class FeeSettlementReportResponseType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType
+class FeeSettlementReportResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -78,55 +78,55 @@ class FeeSettlementReportResponseType extends \FulfilioNet\eBaySDK\MerchantData\
             'elementName' => 'ReportProcessingTime'
         ],
         'FeeSettlementAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeSettlementAmount'
         ],
         'LastInvoiceAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LastInvoiceAmount'
         ],
         'FeeRoundingAdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeRoundingAdjustmentAmount'
         ],
         'FeeTotalUsageAdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeTotalUsageAdjustmentAmount'
         ],
         'OrderTransactionList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\OrderDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'OrderTransactionList'
         ],
         'ListingTransactionList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TransactionListType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionListType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ListingTransactionList'
         ],
         'OrderAdjustmentList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\OrderDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'OrderAdjustmentList'
         ],
         'AccountTransactionList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AccountTransactionType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AccountTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AccountTransactionList'
         ],
         'DiscountTransactionList' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AccountTransactionType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AccountTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DiscountTransactionList'

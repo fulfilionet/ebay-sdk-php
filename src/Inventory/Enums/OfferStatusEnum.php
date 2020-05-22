@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Enums;
+namespace DTS\eBaySDK\Inventory\Enums;
 
 class OfferStatusEnum
 {

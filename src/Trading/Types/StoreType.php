@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $Name
  * @property string $URLPath
  * @property string $URL
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType $SubscriptionLevel
+ * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType $SubscriptionLevel
  * @property string $Description
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreLogoType $Logo
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreThemeType $Theme
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType $HeaderStyle
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
+ * @property \DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType $HeaderStyle
  * @property integer $HomePage
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType $ItemListLayout
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $ItemListSortOrder
- * @property \FulfilioNet\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType $CustomHeaderLayout
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType $ItemListLayout
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $ItemListSortOrder
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType $CustomHeaderLayout
  * @property string $CustomHeader
  * @property boolean $ExportListings
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
- * @property \FulfilioNet\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
  * @property \DateTime $LastOpenedTime
  * @property boolean $TitleWithCompatibility
  */
-class StoreType extends \FulfilioNet\eBaySDK\Types\BaseType
+class StoreType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -68,13 +68,13 @@ class StoreType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Description'
         ],
         'Logo' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreLogoType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Logo'
         ],
         'Theme' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreThemeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Theme'
@@ -122,13 +122,13 @@ class StoreType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ExportListings'
         ],
         'CustomCategories' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CustomCategories'
         ],
         'CustomListingHeader' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\StoreCustomListingHeaderType',
+            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CustomListingHeader'

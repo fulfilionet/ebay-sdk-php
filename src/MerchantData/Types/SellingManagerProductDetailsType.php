@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -16,14 +16,14 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property integer $ProductID
  * @property string $CustomLabel
  * @property integer $QuantityAvailable
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $UnitCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $UnitCost
  * @property integer $FolderID
  * @property boolean $RestockAlert
  * @property integer $RestockThreshold
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType $VendorInfo
+ * @property \DTS\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType $VendorInfo
  * @property string $Note
  */
-class SellingManagerProductDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -54,7 +54,7 @@ class SellingManagerProductDetailsType extends \FulfilioNet\eBaySDK\Types\BaseTy
             'elementName' => 'QuantityAvailable'
         ],
         'UnitCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
@@ -78,7 +78,7 @@ class SellingManagerProductDetailsType extends \FulfilioNet\eBaySDK\Types\BaseTy
             'elementName' => 'RestockThreshold'
         ],
         'VendorInfo' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerVendorDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VendorInfo'

@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldTransactionType[] $SellingManagerSoldTransaction
- * @property \FulfilioNet\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \FulfilioNet\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $CashOnDeliveryCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType[] $SellingManagerSoldTransaction
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CashOnDeliveryCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
  * @property integer $TotalQuantity
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ItemCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\VATRateType[] $VATRate
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $NetInsuranceFee
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $VATInsuranceFee
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $VATShippingFee
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $NetShippingFee
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $NetTotalAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $VATTotalAmount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $ActualShippingCost
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemCost
+ * @property \DTS\eBaySDK\Trading\Types\VATRateType[] $VATRate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetInsuranceFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATInsuranceFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATShippingFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetShippingFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetTotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATTotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ActualShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
  * @property string $NotesToBuyer
  * @property string $NotesFromBuyer
  * @property string $NotesToSeller
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerOrderStatusType $OrderStatus
- * @property \FulfilioNet\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType $UnpaidItemStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $SalePrice
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType $OrderStatus
+ * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType $UnpaidItemStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $SalePrice
  * @property integer $EmailsSent
  * @property integer $DaysSinceSale
  * @property string $BuyerID
@@ -41,38 +41,38 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property integer $SaleRecordID
  * @property \DateTime $CreationTime
  */
-class SellingManagerSoldOrderType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerSoldOrderType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerSoldTransaction' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerSoldTransactionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SellingManagerSoldTransaction'
         ],
         'ShippingAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AddressType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
         ],
         'ShippingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ShippingDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
         ],
         'CashOnDeliveryCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CashOnDeliveryCost'
         ],
         'TotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalAmount'
@@ -84,61 +84,61 @@ class SellingManagerSoldOrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TotalQuantity'
         ],
         'ItemCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemCost'
         ],
         'VATRate' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\VATRateType',
+            'type' => 'DTS\eBaySDK\Trading\Types\VATRateType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VATRate'
         ],
         'NetInsuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NetInsuranceFee'
         ],
         'VATInsuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VATInsuranceFee'
         ],
         'VATShippingFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VATShippingFee'
         ],
         'NetShippingFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NetShippingFee'
         ],
         'NetTotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NetTotalAmount'
         ],
         'VATTotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VATTotalAmount'
         ],
         'ActualShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualShippingCost'
         ],
         'AdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
@@ -162,7 +162,7 @@ class SellingManagerSoldOrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'NotesToSeller'
         ],
         'OrderStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerOrderStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderStatus'
@@ -174,7 +174,7 @@ class SellingManagerSoldOrderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'UnpaidItemStatus'
         ],
         'SalePrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalePrice'

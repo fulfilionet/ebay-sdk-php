@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \FulfilioNet\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
+ * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
  * @property string $purchaseOrderCreationDate
  * @property string $purchaseOrderId
- * @property \FulfilioNet\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
- * @property \FulfilioNet\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
- * @property \FulfilioNet\eBaySDK\Order\Types\Amount $refundedAmount
- * @property \FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderPaymentStatusEnum $purchaseOrderPaymentStatus
+ * @property \DTS\eBaySDK\Order\Enums\PurchaseOrderStatusEnum $purchaseOrderStatus
+ * @property \DTS\eBaySDK\Order\Types\Amount $refundedAmount
+ * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class GuestPurchaseOrder extends \FulfilioNet\eBaySDK\Types\BaseType
+class GuestPurchaseOrder extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\LineItem',
+            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -64,13 +64,13 @@ class GuestPurchaseOrder extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'purchaseOrderStatus'
         ],
         'refundedAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\Amount',
+            'type' => 'DTS\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundedAmount'
         ],
         'warnings' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $ascending
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CancelSortTypeEnum $enumValue
+ * @property \DTS\eBaySDK\PostOrder\Enums\CancelSortTypeEnum $enumValue
  */
-class CancelSortField extends \FulfilioNet\eBaySDK\Types\BaseType
+class CancelSortField extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

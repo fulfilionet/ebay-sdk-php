@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Trading\Types;
+namespace DTS\eBaySDK\Test\Trading\Types;
 
-use FulfilioNet\eBaySDK\Trading\Types\BuyerPackageEnclosureType;
+use DTS\eBaySDK\Trading\Types\BuyerPackageEnclosureType;
 
 class BuyerPackageEnclosureTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BuyerPackageEnclosureTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\BuyerPackageEnclosureType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BuyerPackageEnclosureType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
     }
 }

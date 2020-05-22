@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Analytics\Types;
+namespace DTS\eBaySDK\Analytics\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Analytics\Types\StandardsProfile[] $standardsProfiles
+ * @property \DTS\eBaySDK\Analytics\Types\StandardsProfile[] $standardsProfiles
  */
-class FindSellerStandardsProfilesResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class FindSellerStandardsProfilesResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'standardsProfiles' => [
-            'type' => 'FulfilioNet\eBaySDK\Analytics\Types\StandardsProfile',
+            'type' => 'DTS\eBaySDK\Analytics\Types\StandardsProfile',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'standardsProfiles'

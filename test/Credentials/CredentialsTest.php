@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Credentials\Test;
+namespace DTS\eBaySDK\Credentials\Test;
 
-use FulfilioNet\eBaySDK\Credentials\Credentials;
+use DTS\eBaySDK\Credentials\Credentials;
 
 class CredentialsTest extends \PHPUnit_Framework_TestCase
 {

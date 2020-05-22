@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SiteCodeType[] $Site
- * @property \FulfilioNet\eBaySDK\Trading\Enums\PerformanceStatusCodeType $Status
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $Site
+ * @property \DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
  */
-class PerformanceDashboardType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class PerformanceDashboardType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'Status'
         ],
         'Alert' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellerDashboardAlertType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellerDashboardAlertType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Alert'

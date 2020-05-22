@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Mocks;
+namespace DTS\eBaySDK\Test\Mocks;
 
-class TokenType extends \FulfilioNet\eBaySDK\Types\TokenType
+class TokenType extends \DTS\eBaySDK\Types\TokenType
 {
     private static $propertyTypes = [];
 

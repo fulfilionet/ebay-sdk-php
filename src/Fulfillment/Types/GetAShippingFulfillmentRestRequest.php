@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $fulfillmentId
  * @property string $orderId
  */
-class GetAShippingFulfillmentRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class GetAShippingFulfillmentRestRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

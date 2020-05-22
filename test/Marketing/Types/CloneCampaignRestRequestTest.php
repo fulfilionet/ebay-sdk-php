@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
+namespace DTS\eBaySDK\Test\Marketing\Types;
 
-use FulfilioNet\eBaySDK\Marketing\Types\CloneCampaignRestRequest;
+use DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest;
 
 class CloneCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CloneCampaignRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CloneCampaignRestRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CloneCampaignRestRequest', $this->obj);
     }
 
     public function testExtendsCloneCampaignRequest()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CloneCampaignRequest', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CloneCampaignRequest', $this->obj);
     }
 }

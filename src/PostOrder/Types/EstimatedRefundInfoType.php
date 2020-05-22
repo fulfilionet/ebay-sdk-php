@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $buyerTotalAmount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\EstimatedRefundDetailType $estimatedRefundDetail
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $sellerTotalAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $buyerTotalAmount
+ * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType $estimatedRefundDetail
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $sellerTotalAmount
  */
-class EstimatedRefundInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EstimatedRefundInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyerTotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerTotalAmount'
         ],
         'estimatedRefundDetail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefundDetail'
         ],
         'sellerTotalAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerTotalAmount'

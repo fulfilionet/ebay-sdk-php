@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $checkoutSessionId
  */
-class UpdateGuestPaymentInfoRestRequest extends \FulfilioNet\eBaySDK\Order\Types\UpdatePaymentInformation
+class UpdateGuestPaymentInfoRestRequest extends \DTS\eBaySDK\Order\Types\UpdatePaymentInformation
 {
     /**
      * @var array Properties belonging to objects of this class.

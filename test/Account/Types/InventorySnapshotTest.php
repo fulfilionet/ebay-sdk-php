@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Account\Types;
+namespace DTS\eBaySDK\Test\Account\Types;
 
-use FulfilioNet\eBaySDK\Account\Types\InventorySnapshot;
+use DTS\eBaySDK\Account\Types\InventorySnapshot;
 
 class InventorySnapshotTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class InventorySnapshotTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\InventorySnapshot', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\InventorySnapshot', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Shopping\Services;
+namespace DTS\eBaySDK\Shopping\Services;
 
 /**
  * Base class for the Shopping service.
  */
-class ShoppingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class ShoppingBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. Your affiliate ID.
@@ -69,7 +69,7 @@ class ShoppingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
             ],
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
+                'default' => \DTS\eBaySDK\Shopping\Services\ShoppingService::API_VERSION,
                 'required' => true
             ],
             'siteId' => [

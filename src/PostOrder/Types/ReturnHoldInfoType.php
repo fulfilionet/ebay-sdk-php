@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $holdCreationDate
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $holdCreationDate
  * @property string $holdReferenceId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $holdReleaseDate
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnHoldStatusEnum $holdStatus
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $holdReleaseDate
+ * @property \DTS\eBaySDK\PostOrder\Enums\ReturnHoldStatusEnum $holdStatus
  * @property string $holdTransactionId
  */
-class ReturnHoldInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnHoldInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'holdCreationDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'holdCreationDate'
@@ -37,7 +37,7 @@ class ReturnHoldInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'holdReferenceId'
         ],
         'holdReleaseDate' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'holdReleaseDate'

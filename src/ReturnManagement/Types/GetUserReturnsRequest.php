@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ItemFilterType $itemFilter
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ItemFilterType $itemFilter
  * @property string $orderId
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\DateRangeFilterType $creationDateRangeFilter
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType $ReturnStatusFilter
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\UserFilterType $otherUserFilter
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Types\PaginationInput $paginationInput
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnSortType $sortType
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType $sortOrderType
+ * @property \DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType $creationDateRangeFilter
+ * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType $ReturnStatusFilter
+ * @property \DTS\eBaySDK\ReturnManagement\Types\UserFilterType $otherUserFilter
+ * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationInput $paginationInput
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortType $sortType
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType $sortOrderType
  */
-class GetUserReturnsRequest extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ItemFilterType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemFilter'
@@ -40,25 +40,25 @@ class GetUserReturnsRequest extends \FulfilioNet\eBaySDK\ReturnManagement\Types\
             'elementName' => 'orderId'
         ],
         'creationDateRangeFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDateRangeFilter'
         ],
         'ReturnStatusFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnStatusFilter'
         ],
         'otherUserFilter' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\UserFilterType',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'otherUserFilter'
         ],
         'paginationInput' => [
-            'type' => 'FulfilioNet\eBaySDK\ReturnManagement\Types\PaginationInput',
+            'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'

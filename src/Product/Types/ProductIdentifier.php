@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Product\Types;
+namespace DTS\eBaySDK\Product\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace FulfilioNet\eBaySDK\Product\Types;
  * @property string $EAN
  * @property string $productId
  */
-class ProductIdentifier extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductIdentifier extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

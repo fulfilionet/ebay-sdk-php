@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaignName
  * @property string $endDate
- * @property \FulfilioNet\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
+ * @property \DTS\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
  * @property string $startDate
  */
-class CloneCampaignRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class CloneCampaignRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class CloneCampaignRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'fundingStrategy' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\FundingStrategy',
+            'type' => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fundingStrategy'

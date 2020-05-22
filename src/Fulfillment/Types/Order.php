@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Buyer $buyer
+ * @property \DTS\eBaySDK\Fulfillment\Types\Buyer $buyer
  * @property string $buyerCheckoutNotes
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\CancelStatus $cancelStatus
+ * @property \DTS\eBaySDK\Fulfillment\Types\CancelStatus $cancelStatus
  * @property string $creationDate
  * @property string[] $fulfillmentHrefs
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction[] $fulfillmentStartInstructions
+ * @property \DTS\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction[] $fulfillmentStartInstructions
  * @property string $lastModifiedDate
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\LineItem[] $lineItems
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus $orderFulfillmentStatus
+ * @property \DTS\eBaySDK\Fulfillment\Types\LineItem[] $lineItems
+ * @property \DTS\eBaySDK\Fulfillment\Enums\OrderFulfillmentStatus $orderFulfillmentStatus
  * @property string $orderId
- * @property \FulfilioNet\eBaySDK\Fulfillment\Enums\OrderPaymentStatusEnum $orderPaymentStatus
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\PaymentSummary $paymentSummary
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\PricingSummary $pricingSummary
+ * @property \DTS\eBaySDK\Fulfillment\Enums\OrderPaymentStatusEnum $orderPaymentStatus
+ * @property \DTS\eBaySDK\Fulfillment\Types\PaymentSummary $paymentSummary
+ * @property \DTS\eBaySDK\Fulfillment\Types\PricingSummary $pricingSummary
  * @property string $sellerId
  */
-class Order extends \FulfilioNet\eBaySDK\Types\BaseType
+class Order extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'buyer' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Buyer',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Buyer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyer'
@@ -46,7 +46,7 @@ class Order extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'buyerCheckoutNotes'
         ],
         'cancelStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\CancelStatus',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\CancelStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelStatus'
@@ -64,7 +64,7 @@ class Order extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'fulfillmentHrefs'
         ],
         'fulfillmentStartInstructions' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\FulfillmentStartInstruction',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'fulfillmentStartInstructions'
@@ -76,7 +76,7 @@ class Order extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'lastModifiedDate'
         ],
         'lineItems' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\LineItem',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
@@ -100,13 +100,13 @@ class Order extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'orderPaymentStatus'
         ],
         'paymentSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\PaymentSummary',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\PaymentSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentSummary'
         ],
         'pricingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\PricingSummary',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'

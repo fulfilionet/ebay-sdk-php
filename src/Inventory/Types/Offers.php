@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Inventory\Types;
+namespace DTS\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $href
  * @property integer $limit
  * @property string $next
- * @property \FulfilioNet\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll[] $offers
+ * @property \DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll[] $offers
  * @property string $prev
  * @property integer $size
  * @property integer $total
  */
-class Offers extends \FulfilioNet\eBaySDK\Types\BaseType
+class Offers extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -45,7 +45,7 @@ class Offers extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'next'
         ],
         'offers' => [
-            'type' => 'FulfilioNet\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll',
+            'type' => 'DTS\eBaySDK\Inventory\Types\EbayOfferDetailsWithAll',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'offers'

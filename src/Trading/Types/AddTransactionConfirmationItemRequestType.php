@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RecipientUserID
  * @property string $VerifyEligibilityOnly
  * @property string $RecipientPostalCode
- * @property \FulfilioNet\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
- * @property \FulfilioNet\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
+ * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
  * @property string $ItemID
  * @property string $Comments
  */
-class AddTransactionConfirmationItemRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -52,7 +52,7 @@ class AddTransactionConfirmationItemRequestType extends \FulfilioNet\eBaySDK\Tra
             'elementName' => 'RecipientRelationType'
         ],
         'NegotiatedPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NegotiatedPrice'

@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ListDataType[] $all
+ * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $all
  * @property boolean $isMultiple
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ListDataType[] $selected
+ * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $selected
  */
-class ConditionListDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ConditionListDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'all' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ListDataType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'all'
@@ -35,7 +35,7 @@ class ConditionListDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'isMultiple'
         ],
         'selected' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ListDataType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'selected'

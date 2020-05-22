@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\HalfFinding\Enums;
+namespace DTS\eBaySDK\Test\HalfFinding\Enums;
 
-use FulfilioNet\eBaySDK\HalfFinding\Enums\ItemFilterType;
+use DTS\eBaySDK\HalfFinding\Enums\ItemFilterType;
 
 class ItemFilterTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemFilterTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Enums\ItemFilterType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\ItemFilterType', $this->obj);
     }
 }

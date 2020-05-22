@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $firstName
  * @property string $lastName
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Address $returnAddress
+ * @property \DTS\eBaySDK\PostOrder\Types\Address $returnAddress
  * @property string $RMA
  */
-class ReturnAddressRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class ReturnAddressRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class ReturnAddressRequest extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'lastName'
         ],
         'returnAddress' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Address',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnAddress'

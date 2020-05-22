@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemTransactionIDType[] $ItemTransactionID
+ * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDType[] $ItemTransactionID
  */
-class ItemTransactionIDArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemTransactionIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ItemTransactionID' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemTransactionIDType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemTransactionID'

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Catalog\Types;
+namespace DTS\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductMetadataAspect[] $aspects
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $brand
- * @property \FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $mpn
+ * @property \DTS\eBaySDK\Catalog\Types\ProductMetadataAspect[] $aspects
+ * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $brand
+ * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata $mpn
  */
-class ProductMetadata extends \FulfilioNet\eBaySDK\Types\BaseType
+class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspects' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductMetadataAspect',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductMetadataAspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspects'
         ],
         'brand' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'brand'
         ],
         'mpn' => [
-            'type' => 'FulfilioNet\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
+            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifierForProductMetadata',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'mpn'

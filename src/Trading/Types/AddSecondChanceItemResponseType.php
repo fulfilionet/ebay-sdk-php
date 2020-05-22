@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace FulfilioNet\eBaySDK\Trading\Types;
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
  */
-class AddSecondChanceItemResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class AddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $amount
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $date
+ * @property \DTS\eBaySDK\PostOrder\Types\Amount $amount
+ * @property \DTS\eBaySDK\PostOrder\Types\DateTime $date
  * @property string $type
  */
-class MoneyMovementEntry extends \FulfilioNet\eBaySDK\Types\BaseType
+class MoneyMovementEntry extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'
         ],
         'date' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'date'

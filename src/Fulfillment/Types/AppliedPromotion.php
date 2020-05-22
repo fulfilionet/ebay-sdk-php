@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Fulfillment\Types;
+namespace DTS\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $description
- * @property \FulfilioNet\eBaySDK\Fulfillment\Types\Amount $discountAmount
+ * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountAmount
  * @property string $promotionId
  */
-class AppliedPromotion extends \FulfilioNet\eBaySDK\Types\BaseType
+class AppliedPromotion extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,7 +29,7 @@ class AppliedPromotion extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'discountAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'

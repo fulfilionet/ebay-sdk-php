@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Compliance\Types;
+namespace DTS\eBaySDK\Compliance\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Compliance\Types\ComplianceSummaryInfo[] $violationSummaries
+ * @property \DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo[] $violationSummaries
  */
-class ComplianceSummary extends \FulfilioNet\eBaySDK\Types\BaseType
+class ComplianceSummary extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'violationSummaries' => [
-            'type' => 'FulfilioNet\eBaySDK\Compliance\Types\ComplianceSummaryInfo',
+            'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceSummaryInfo',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'violationSummaries'

@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\GetDetailResponse $detail
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResult
+ * @property \DTS\eBaySDK\PostOrder\Types\GetDetailResponse $detail
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResult
  * @property string $returnId
- * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
+ * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
  */
-class CreateReturnResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'detail' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\GetDetailResponse',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\GetDetailResponse',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'detail'
         ],
         'eligibilityResult' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityResult'
@@ -42,7 +42,7 @@ class CreateReturnResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'returnId'
         ],
         'summary' => [
-            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'summary'

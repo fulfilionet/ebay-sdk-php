@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string[] $campaignIds
  * @property string $dateFrom
  * @property string $dateTo
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Dimension[] $dimensions
- * @property \FulfilioNet\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
+ * @property \DTS\eBaySDK\Marketing\Types\Dimension[] $dimensions
+ * @property \DTS\eBaySDK\Marketing\Types\InventoryReference[] $inventoryReferences
  * @property string[] $listingIds
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
+ * @property \DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum $marketplaceId
  * @property string[] $metricKeys
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
+ * @property \DTS\eBaySDK\Marketing\Enums\ReportFormatEnum $reportFormat
+ * @property \DTS\eBaySDK\Marketing\Enums\ReportTypeEnum $reportType
  */
-class CreateReportTask extends \FulfilioNet\eBaySDK\Types\BaseType
+class CreateReportTask extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -48,13 +48,13 @@ class CreateReportTask extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'dateTo'
         ],
         'dimensions' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Dimension',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Dimension',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dimensions'
         ],
         'inventoryReferences' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\InventoryReference',
+            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryReferences'
@@ -66,7 +66,7 @@ class CreateReportTask extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'listingIds'
         ],
         'marketplaceId' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Bas:MarketplaceIdEnum',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'marketplaceId'

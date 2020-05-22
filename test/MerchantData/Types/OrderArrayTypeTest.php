@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
+namespace DTS\eBaySDK\Test\MerchantData\Types;
 
-use FulfilioNet\eBaySDK\MerchantData\Types\OrderArrayType;
+use DTS\eBaySDK\MerchantData\Types\OrderArrayType;
 
 class OrderArrayTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class OrderArrayTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\OrderArrayType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\OrderArrayType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
     }
 }

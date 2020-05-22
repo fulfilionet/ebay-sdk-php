@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\ReturnManagement\Services;
+namespace DTS\eBaySDK\ReturnManagement\Services;
 
 /**
  * Base class for the Return Management service.
  */
-class ReturnManagementBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class ReturnManagementBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class ReturnManagementBaseService extends \FulfilioNet\eBaySDK\Services\BaseServ
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\ReturnManagement\Services\ReturnManagementService::API_VERSION
+                'default' => \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService::API_VERSION
             ],
             'authToken' => [
                 'valid' => ['string'],

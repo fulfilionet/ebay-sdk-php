@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $id
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\CaseType $type
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType $type
  */
-class CaseIdType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CaseIdType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

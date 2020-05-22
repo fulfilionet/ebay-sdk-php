@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Order\Types;
+namespace DTS\eBaySDK\Order\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Order\Types\CreditCard $creditCard
+ * @property \DTS\eBaySDK\Order\Types\CreditCard $creditCard
  */
-class UpdatePaymentInformation extends \FulfilioNet\eBaySDK\Types\BaseType
+class UpdatePaymentInformation extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'creditCard' => [
-            'type' => 'FulfilioNet\eBaySDK\Order\Types\CreditCard',
+            'type' => 'DTS\eBaySDK\Order\Types\CreditCard',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creditCard'

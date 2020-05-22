@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationType[] $Recommendation
+ * @property \DTS\eBaySDK\MerchantData\Types\ListingRecommendationType[] $Recommendation
  */
-class ListingRecommendationsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingRecommendationsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Recommendation' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ListingRecommendationType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingRecommendationType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Recommendation'

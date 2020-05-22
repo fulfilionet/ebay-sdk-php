@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Services;
+namespace DTS\eBaySDK\Test\Fulfillment\Services;
 
-use FulfilioNet\eBaySDK\Fulfillment\Services\FulfillmentBaseService;
-use FulfilioNet\eBaySDK\Fulfillment\Services\FulfillmentService;
-use FulfilioNet\eBaySDK\Test\Fulfillment\Mocks\Service;
-use FulfilioNet\eBaySDK\Test\Mocks\HttpRestHandler;
+use DTS\eBaySDK\Fulfillment\Services\FulfillmentBaseService;
+use DTS\eBaySDK\Fulfillment\Services\FulfillmentService;
+use DTS\eBaySDK\Test\Fulfillment\Mocks\Service;
+use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

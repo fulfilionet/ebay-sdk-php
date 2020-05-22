@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType $CallMode
+ * @property \DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType $CallMode
  * @property boolean $IncludeBiddingSummary
  */
-class GetAllBiddersRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
+class GetAllBiddersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

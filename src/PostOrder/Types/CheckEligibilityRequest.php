@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum[] $checkTypes
+ * @property \DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum[] $checkTypes
  * @property string $itemId
- * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
+ * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
  * @property integer $returnQuantity
  * @property string $transactionId
  */
-class CheckEligibilityRequest extends \FulfilioNet\eBaySDK\Types\BaseType
+class CheckEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
- * @property \FulfilioNet\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
+ * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
  * @property string $endDate
- * @property \FulfilioNet\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \DTS\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
+ * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionId
  * @property string $promotionImageUrl
- * @property \FulfilioNet\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class ItemPromotionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class ItemPromotionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'discountRules' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\DiscountRule',
+            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'discountRules'
@@ -49,7 +49,7 @@ class ItemPromotionResponse extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'inventoryCriterion' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\InventoryCriterion',
+            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventoryCriterion'

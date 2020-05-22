@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Fulfillment\Types;
+namespace DTS\eBaySDK\Test\Fulfillment\Types;
 
-use FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestResponse;
+use DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse;
 
 class GetOrdersRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetOrdersRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Types\GetOrdersRestResponse', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\GetOrdersRestResponse', $this->obj);
     }
 
     public function testExtendsOrderSearchPagedCollection()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Types\OrderSearchPagedCollection', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\OrderSearchPagedCollection', $this->obj);
     }
 }

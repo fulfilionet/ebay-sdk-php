@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -17,7 +17,7 @@ namespace FulfilioNet\eBaySDK\MerchantData\Types;
  * @property string $PrintedDate
  * @property string $PrintedTime
  */
-class TicketListingDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TicketListingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

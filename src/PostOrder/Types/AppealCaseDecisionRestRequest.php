@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\PostOrder\Types;
+namespace DTS\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $caseId
  */
-class AppealCaseDecisionRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\AppealRequest
+class AppealCaseDecisionRestRequest extends \DTS\eBaySDK\PostOrder\Types\AppealRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

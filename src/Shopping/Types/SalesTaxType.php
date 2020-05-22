@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Shopping\Types;
+namespace DTS\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property double $SalesTaxPercent
  * @property string $SalesTaxState
  * @property boolean $ShippingIncludedInTax
- * @property \FulfilioNet\eBaySDK\Shopping\Types\AmountType $SalesTaxAmount
+ * @property \DTS\eBaySDK\Shopping\Types\AmountType $SalesTaxAmount
  */
-class SalesTaxType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SalesTaxType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class SalesTaxType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippingIncludedInTax'
         ],
         'SalesTaxAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTaxAmount'

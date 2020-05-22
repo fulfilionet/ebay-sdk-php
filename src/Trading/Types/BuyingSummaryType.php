@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $BiddingCount
  * @property integer $WinningCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalWinningCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost
  * @property integer $WonCount
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $TotalWonCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWonCost
  * @property integer $WonDurationInDays
  * @property integer $BestOfferCount
  */
-class BuyingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class BuyingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'WinningCount'
         ],
         'TotalWinningCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalWinningCost'
@@ -51,7 +51,7 @@ class BuyingSummaryType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'WonCount'
         ],
         'TotalWonCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalWonCost'

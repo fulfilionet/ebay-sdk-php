@@ -1,10 +1,10 @@
 <?php
-namespace FulfilioNet\eBaySDK\Merchandising\Services;
+namespace DTS\eBaySDK\Merchandising\Services;
 
 /**
  * Base class for the Merchandising service.
  */
-class MerchandisingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
+class MerchandisingBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
      * HTTP header constant. The API version your application supports.
@@ -46,7 +46,7 @@ class MerchandisingBaseService extends \FulfilioNet\eBaySDK\Services\BaseService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \FulfilioNet\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION
+                'default' => \DTS\eBaySDK\Merchandising\Services\MerchandisingService::API_VERSION
             ],
             'globalId' => [
                 'valid' => ['string']

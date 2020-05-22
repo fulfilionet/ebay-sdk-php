@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
- * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType $SellingManagerTemplateDetailsArray
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType $SellingManagerProductSpecifics
  */
-class SellingManagerProductType extends \FulfilioNet\eBaySDK\Types\BaseType
+class SellingManagerProductType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'SellingManagerTemplateDetailsArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerTemplateDetailsArray'
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductInventoryStatus'
         ],
         'SellingManagerProductSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductSpecificsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductSpecifics'

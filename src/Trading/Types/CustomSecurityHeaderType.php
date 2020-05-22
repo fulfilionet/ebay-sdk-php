@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $eBayAuthToken
  * @property string $HardExpirationWarning
- * @property \FulfilioNet\eBaySDK\Trading\Types\UserIdPasswordType $Credentials
+ * @property \DTS\eBaySDK\Trading\Types\UserIdPasswordType $Credentials
  * @property string $NotificationSignature
  */
-class CustomSecurityHeaderType extends \FulfilioNet\eBaySDK\Types\BaseType
+class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class CustomSecurityHeaderType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'HardExpirationWarning'
         ],
         'Credentials' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\UserIdPasswordType',
+            'type' => 'DTS\eBaySDK\Trading\Types\UserIdPasswordType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Credentials'

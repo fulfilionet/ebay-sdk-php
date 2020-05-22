@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\ListingDurationDefinitionType[] $ListingDuration
+ * @property \DTS\eBaySDK\Trading\Types\ListingDurationDefinitionType[] $ListingDuration
  * @property integer $Version
  */
-class ListingDurationDefinitionsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ListingDurationDefinitionsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ListingDuration' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ListingDurationDefinitionType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ListingDurationDefinitionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ListingDuration'

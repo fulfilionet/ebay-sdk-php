@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ItemCompatibilityType[] $Compatibility
+ * @property \DTS\eBaySDK\MerchantData\Types\ItemCompatibilityType[] $Compatibility
  * @property boolean $ReplaceAll
  */
-class ItemCompatibilityListType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ItemCompatibilityListType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Compatibility' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ItemCompatibilityType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemCompatibilityType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Compatibility'

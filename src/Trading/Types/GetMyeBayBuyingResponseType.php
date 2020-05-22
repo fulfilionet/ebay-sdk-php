@@ -8,97 +8,97 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property \FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
- * @property \FulfilioNet\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
- * @property \FulfilioNet\eBaySDK\Trading\Types\UserDefinedListType[] $UserDefinedList
+ * @property \DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property \DTS\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
+ * @property \DTS\eBaySDK\Trading\Types\UserDefinedListType[] $UserDefinedList
  */
-class GetMyeBayBuyingResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'BuyingSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\BuyingSummaryType',
+            'type' => 'DTS\eBaySDK\Trading\Types\BuyingSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyingSummary'
         ],
         'WatchList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WatchList'
         ],
         'BidList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidList'
         ],
         'BestOfferList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferList'
         ],
         'WonList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WonList'
         ],
         'LostList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LostList'
         ],
         'FavoriteSearches' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ],
         'FavoriteSellers' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
+            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'
         ],
         'SecondChanceOffer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemType',
+            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SecondChanceOffer'
         ],
         'DeletedFromWonList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromWonList'
         ],
         'DeletedFromLostList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginatedItemArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromLostList'
         ],
         'UserDefinedList' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\UserDefinedListType',
+            'type' => 'DTS\eBaySDK\Trading\Types\UserDefinedListType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'UserDefinedList'

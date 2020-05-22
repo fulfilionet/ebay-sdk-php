@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\DisputeType $Dispute
+ * @property \DTS\eBaySDK\Trading\Types\DisputeType $Dispute
  */
-class GetDisputeResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
+class GetDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Dispute' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DisputeType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Dispute'

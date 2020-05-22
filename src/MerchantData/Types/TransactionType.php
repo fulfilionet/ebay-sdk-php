@@ -8,121 +8,121 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $AmountPaid
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ConvertedAdjustmentAmount
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\UserType $Buyer
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ConvertedAmountPaid
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ConvertedTransactionPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedAdjustmentAmount
+ * @property \DTS\eBaySDK\MerchantData\Types\UserType $Buyer
+ * @property \DTS\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedAmountPaid
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedTransactionPrice
  * @property \DateTime $CreatedDate
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\DepositTypeCodeType $DepositType
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property \DTS\eBaySDK\MerchantData\Enums\DepositTypeCodeType $DepositType
+ * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
  * @property integer $QuantityPurchased
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TransactionStatusType $Status
+ * @property \DTS\eBaySDK\MerchantData\Types\TransactionStatusType $Status
  * @property string $TransactionID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TransactionPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TransactionPrice
  * @property boolean $BestOfferSale
  * @property integer $VATPercent
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PaidStatusCodeType $BuyerPaidStatus
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\PaidStatusCodeType $SellerPaidStatus
+ * @property \DTS\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
+ * @property \DTS\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType $ShippingServiceSelected
+ * @property \DTS\eBaySDK\MerchantData\Enums\PaidStatusCodeType $BuyerPaidStatus
+ * @property \DTS\eBaySDK\MerchantData\Enums\PaidStatusCodeType $SellerPaidStatus
  * @property \DateTime $PaidTime
  * @property \DateTime $ShippedTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $TotalPrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackLeft
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackReceived
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\OrderType $ContainingOrder
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\RefundArrayType $RefundArray
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\SiteCodeType $TransactionSiteID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType $Platform
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalPrice
+ * @property \DTS\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackLeft
+ * @property \DTS\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackReceived
+ * @property \DTS\eBaySDK\MerchantData\Types\OrderType $ContainingOrder
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
+ * @property \DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
+ * @property \DTS\eBaySDK\MerchantData\Types\RefundArrayType $RefundArray
+ * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $TransactionSiteID
+ * @property \DTS\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType $Platform
  * @property string $CartID
  * @property boolean $SellerContactBuyerByEmail
  * @property string $PayPalEmailAddress
  * @property string $PaisaPayID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $BuyerGuaranteePrice
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\VariationType $Variation
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BuyerGuaranteePrice
+ * @property \DTS\eBaySDK\MerchantData\Types\VariationType $Variation
  * @property string $BuyerCheckoutMessage
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\TaxesType $Taxes
+ * @property \DTS\eBaySDK\MerchantData\Types\TaxesType $Taxes
  * @property boolean $BundlePurchase
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ActualHandlingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualHandlingCost
  * @property string $OrderLineItemID
  * @property string $eBayPaymentID
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\SellerDiscountsType $SellerDiscounts
+ * @property \DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType $PaymentHoldDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\SellerDiscountsType $SellerDiscounts
  * @property string $CodiceFiscale
  * @property boolean $IsMultiLegShipping
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property \DateTime $InvoiceSentTime
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
+ * @property \DTS\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
  * @property boolean $IntangibleItem
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PaymentsInformationType $MonetaryDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\AmountType $ShippingConvenienceCharge
+ * @property \DTS\eBaySDK\MerchantData\Types\PaymentsInformationType $MonetaryDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
+ * @property \DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingConvenienceCharge
  * @property string $LogisticsPlanType
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property \DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $InventoryReservationID
  * @property string $ExtendedOrderID
  * @property boolean $eBayPlusTransaction
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\GiftSummaryType $GiftSummary
- * @property \FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType $DigitalDeliverySelected
+ * @property \DTS\eBaySDK\MerchantData\Types\GiftSummaryType $GiftSummary
+ * @property \DTS\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType $DigitalDeliverySelected
  * @property boolean $Gift
  * @property boolean $GuaranteedShipping
  */
-class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
+class TransactionType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AmountPaid' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
         ],
         'AdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
         ],
         'ConvertedAdjustmentAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedAdjustmentAmount'
         ],
         'Buyer' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\UserType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Buyer'
         ],
         'ShippingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShippingDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
         ],
         'ConvertedAmountPaid' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedAmountPaid'
         ],
         'ConvertedTransactionPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedTransactionPrice'
@@ -140,7 +140,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'DepositType'
         ],
         'Item' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ItemType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
@@ -152,7 +152,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'QuantityPurchased'
         ],
         'Status' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TransactionStatusType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Status'
@@ -164,7 +164,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'TransactionID'
         ],
         'TransactionPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionPrice'
@@ -182,19 +182,19 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'VATPercent'
         ],
         'ExternalTransaction' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ExternalTransactionType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ExternalTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'ShippingServiceSelected' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceSelected'
@@ -224,43 +224,43 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ShippedTime'
         ],
         'TotalPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalPrice'
         ],
         'FeedbackLeft' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeedbackInfoType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackLeft'
         ],
         'FeedbackReceived' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\FeedbackInfoType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackReceived'
         ],
         'ContainingOrder' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\OrderType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ContainingOrder'
         ],
         'FinalValueFee' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FinalValueFee'
         ],
         'ListingCheckoutRedirectPreference' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingCheckoutRedirectPreference'
         ],
         'RefundArray' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\RefundArrayType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\RefundArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundArray'
@@ -302,13 +302,13 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'PaisaPayID'
         ],
         'BuyerGuaranteePrice' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteePrice'
         ],
         'Variation' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\VariationType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\VariationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variation'
@@ -320,7 +320,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BuyerCheckoutMessage'
         ],
         'Taxes' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\TaxesType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Taxes'
@@ -332,13 +332,13 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'BundlePurchase'
         ],
         'ActualShippingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualShippingCost'
         ],
         'ActualHandlingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualHandlingCost'
@@ -356,13 +356,13 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'eBayPaymentID'
         ],
         'PaymentHoldDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PaymentHoldDetailType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentHoldDetails'
         ],
         'SellerDiscounts' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\SellerDiscountsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerDiscountsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerDiscounts'
@@ -380,7 +380,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'IsMultiLegShipping'
         ],
         'MultiLegShippingDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MultiLegShippingDetails'
@@ -392,7 +392,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'InvoiceSentTime'
         ],
         'UnpaidItem' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\UnpaidItemType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\UnpaidItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnpaidItem'
@@ -404,25 +404,25 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'IntangibleItem'
         ],
         'MonetaryDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PaymentsInformationType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentsInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MonetaryDetails'
         ],
         'PickupDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PickupDetailsType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PickupDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupDetails'
         ],
         'PickupMethodSelected' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\PickupMethodSelectedType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupMethodSelected'
         ],
         'ShippingConvenienceCharge' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingConvenienceCharge'
@@ -434,7 +434,7 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'LogisticsPlanType'
         ],
         'BuyerPackageEnclosures' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerPackageEnclosures'
@@ -458,13 +458,13 @@ class TransactionType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'eBayPlusTransaction'
         ],
         'GiftSummary' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\GiftSummaryType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\GiftSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GiftSummary'
         ],
         'DigitalDeliverySelected' => [
-            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType',
+            'type' => 'DTS\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DigitalDeliverySelected'

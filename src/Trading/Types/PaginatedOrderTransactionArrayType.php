@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Trading\Types\OrderTransactionArrayType $OrderTransactionArray
- * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\OrderTransactionArrayType $OrderTransactionArray
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class PaginatedOrderTransactionArrayType extends \FulfilioNet\eBaySDK\Types\BaseType
+class PaginatedOrderTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OrderTransactionArray' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\OrderTransactionArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\OrderTransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderTransactionArray'
         ],
         'PaginationResult' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

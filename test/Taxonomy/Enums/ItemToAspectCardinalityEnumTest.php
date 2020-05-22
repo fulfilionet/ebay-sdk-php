@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Test\Taxonomy\Enums;
+namespace DTS\eBaySDK\Test\Taxonomy\Enums;
 
-use FulfilioNet\eBaySDK\Taxonomy\Enums\ItemToAspectCardinalityEnum;
+use DTS\eBaySDK\Taxonomy\Enums\ItemToAspectCardinalityEnum;
 
 class ItemToAspectCardinalityEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemToAspectCardinalityEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Enums\ItemToAspectCardinalityEnum', $this->obj);
+        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Enums\ItemToAspectCardinalityEnum', $this->obj);
     }
 }

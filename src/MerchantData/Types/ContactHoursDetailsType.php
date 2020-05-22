@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\MerchantData\Types;
+namespace DTS\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $TimeZoneID
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\DaysCodeType $Hours1Days
+ * @property \DTS\eBaySDK\MerchantData\Enums\DaysCodeType $Hours1Days
  * @property boolean $Hours1AnyTime
  * @property string $Hours1From
  * @property string $Hours1To
- * @property \FulfilioNet\eBaySDK\MerchantData\Enums\DaysCodeType $Hours2Days
+ * @property \DTS\eBaySDK\MerchantData\Enums\DaysCodeType $Hours2Days
  * @property boolean $Hours2AnyTime
  * @property string $Hours2From
  * @property string $Hours2To
  */
-class ContactHoursDetailsType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
+namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $name
- * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\ProofType $type
+ * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ProofType $type
  * @property \DateTime $uploadDate
  */
-class EBPCaseDocumentInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
+class EBPCaseDocumentInfoType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

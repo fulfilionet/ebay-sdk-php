@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\ReturnManagement\Types;
+namespace DTS\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\ReturnManagement\Enums\TrackingStatusType $deliveryStatus
+ * @property \DTS\eBaySDK\ReturnManagement\Enums\TrackingStatusType $deliveryStatus
  */
-class ProvideTrackingInfoResponse extends \FulfilioNet\eBaySDK\ReturnManagement\Types\BaseResponse
+class ProvideTrackingInfoResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

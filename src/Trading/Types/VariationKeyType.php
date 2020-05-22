@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
-class VariationKeyType extends \FulfilioNet\eBaySDK\Types\BaseType
+class VariationKeyType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VariationKeyType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ItemID'
         ],
         'VariationSpecifics' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\NameValueListArrayType',
+            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\AdReference[] $ads
+ * @property \DTS\eBaySDK\Marketing\Types\AdReference[] $ads
  */
-class AdReferences extends \FulfilioNet\eBaySDK\Types\BaseType
+class AdReferences extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ads' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\AdReference',
+            'type' => 'DTS\eBaySDK\Marketing\Types\AdReference',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ads'

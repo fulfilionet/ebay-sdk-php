@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $BestOfferID
  * @property \DateTime $ExpirationTime
- * @property \FulfilioNet\eBaySDK\Trading\Types\UserType $Buyer
- * @property \FulfilioNet\eBaySDK\Trading\Types\AmountType $Price
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BestOfferStatusCodeType $Status
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Price
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $Status
  * @property integer $Quantity
  * @property string $BuyerMessage
  * @property string $SellerMessage
- * @property \FulfilioNet\eBaySDK\Trading\Enums\BestOfferTypeCodeType $BestOfferCodeType
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType $BestOfferCodeType
  * @property string $CallStatus
  */
-class BestOfferType extends \FulfilioNet\eBaySDK\Types\BaseType
+class BestOfferType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,13 +42,13 @@ class BestOfferType extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'ExpirationTime'
         ],
         'Buyer' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\UserType',
+            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Buyer'
         ],
         'Price' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\AmountType',
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Price'

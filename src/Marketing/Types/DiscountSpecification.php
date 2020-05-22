@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Marketing\Types;
+namespace DTS\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $forEachAmount
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $forEachAmount
  * @property integer $forEachQuantity
- * @property \FulfilioNet\eBaySDK\Marketing\Types\Amount $minAmount
+ * @property \DTS\eBaySDK\Marketing\Types\Amount $minAmount
  * @property integer $minQuantity
  * @property integer $numberOfDiscountedItems
  */
-class DiscountSpecification extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountSpecification extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'forEachAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'forEachAmount'
@@ -37,7 +37,7 @@ class DiscountSpecification extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'forEachQuantity'
         ],
         'minAmount' => [
-            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\Amount',
+            'type' => 'DTS\eBaySDK\Marketing\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'minAmount'

@@ -1,7 +1,7 @@
 <?php
-namespace FulfilioNet\eBaySDK\Test\Mocks;
+namespace DTS\eBaySDK\Test\Mocks;
 
-class Base64BinaryType extends \FulfilioNet\eBaySDK\Types\Base64BinaryType
+class Base64BinaryType extends \DTS\eBaySDK\Types\Base64BinaryType
 {
     private static $propertyTypes = [];
 

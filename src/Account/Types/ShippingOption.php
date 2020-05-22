@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Account\Types;
+namespace DTS\eBaySDK\Account\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Account\Enums\ShippingCostTypeEnum $costType
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $insuranceFee
+ * @property \DTS\eBaySDK\Account\Enums\ShippingCostTypeEnum $costType
+ * @property \DTS\eBaySDK\Account\Types\Amount $insuranceFee
  * @property boolean $insuranceOffered
- * @property \FulfilioNet\eBaySDK\Account\Enums\ShippingOptionTypeEnum $optionType
- * @property \FulfilioNet\eBaySDK\Account\Types\Amount $packageHandlingCost
+ * @property \DTS\eBaySDK\Account\Enums\ShippingOptionTypeEnum $optionType
+ * @property \DTS\eBaySDK\Account\Types\Amount $packageHandlingCost
  * @property string $rateTableId
- * @property \FulfilioNet\eBaySDK\Account\Types\ShippingService[] $shippingServices
+ * @property \DTS\eBaySDK\Account\Types\ShippingService[] $shippingServices
  */
-class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
+class ShippingOption extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,7 +33,7 @@ class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'costType'
         ],
         'insuranceFee' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'insuranceFee'
@@ -51,7 +51,7 @@ class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'optionType'
         ],
         'packageHandlingCost' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\Amount',
+            'type' => 'DTS\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'packageHandlingCost'
@@ -63,7 +63,7 @@ class ShippingOption extends \FulfilioNet\eBaySDK\Types\BaseType
             'elementName' => 'rateTableId'
         ],
         'shippingServices' => [
-            'type' => 'FulfilioNet\eBaySDK\Account\Types\ShippingService',
+            'type' => 'DTS\eBaySDK\Account\Types\ShippingService',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shippingServices'

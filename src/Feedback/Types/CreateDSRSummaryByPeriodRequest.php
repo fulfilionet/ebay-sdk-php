@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Feedback\Types;
+namespace DTS\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Feedback\Types\DateRange $dateRange
+ * @property \DTS\eBaySDK\Feedback\Types\DateRange $dateRange
  * @property string $dateRangeEventType
  */
-class CreateDSRSummaryByPeriodRequest extends \FulfilioNet\eBaySDK\Feedback\Types\BaseServiceRequest
+class CreateDSRSummaryByPeriodRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'dateRange' => [
-            'type' => 'FulfilioNet\eBaySDK\Feedback\Types\DateRange',
+            'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dateRange'

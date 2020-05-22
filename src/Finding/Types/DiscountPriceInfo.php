@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Finding\Types;
+namespace DTS\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \FulfilioNet\eBaySDK\Finding\Types\Amount $originalRetailPrice
- * @property \FulfilioNet\eBaySDK\Finding\Enums\MapExposureEnum $minimumAdvertisedPriceExposure
- * @property \FulfilioNet\eBaySDK\Finding\Enums\PriceTreatmentEnum $pricingTreatment
+ * @property \DTS\eBaySDK\Finding\Types\Amount $originalRetailPrice
+ * @property \DTS\eBaySDK\Finding\Enums\MapExposureEnum $minimumAdvertisedPriceExposure
+ * @property \DTS\eBaySDK\Finding\Enums\PriceTreatmentEnum $pricingTreatment
  * @property boolean $soldOnEbay
  * @property boolean $soldOffEbay
  */
-class DiscountPriceInfo extends \FulfilioNet\eBaySDK\Types\BaseType
+class DiscountPriceInfo extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'originalRetailPrice' => [
-            'type' => 'FulfilioNet\eBaySDK\Finding\Types\Amount',
+            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'originalRetailPrice'

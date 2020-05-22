@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace FulfilioNet\eBaySDK\Trading\Types;
+namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ApplicationURL
- * @property \FulfilioNet\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
+ * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
  * @property string $AlertEmail
- * @property \FulfilioNet\eBaySDK\Trading\Enums\EnableCodeType $AlertEnable
- * @property \FulfilioNet\eBaySDK\Trading\Enums\DeviceTypeCodeType $DeviceType
+ * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $AlertEnable
+ * @property \DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType $DeviceType
  * @property string $PayloadVersion
- * @property \FulfilioNet\eBaySDK\Trading\Types\DeliveryURLDetailType[] $DeliveryURLDetails
+ * @property \DTS\eBaySDK\Trading\Types\DeliveryURLDetailType[] $DeliveryURLDetails
  */
-class ApplicationDeliveryPreferencesType extends \FulfilioNet\eBaySDK\Types\BaseType
+class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -63,7 +63,7 @@ class ApplicationDeliveryPreferencesType extends \FulfilioNet\eBaySDK\Types\Base
             'elementName' => 'PayloadVersion'
         ],
         'DeliveryURLDetails' => [
-            'type' => 'FulfilioNet\eBaySDK\Trading\Types\DeliveryURLDetailType',
+            'type' => 'DTS\eBaySDK\Trading\Types\DeliveryURLDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DeliveryURLDetails'
