@@ -1,6 +1,8 @@
 # EBAY-SDK-PHP
 
 [![Build Status](https://travis-ci.org/fulfilionet/ebay-sdk-php.svg?branch=master)](https://travis-ci.org/fulfilionet/ebay-sdk-php)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)
+[![Latest Stable Version](https://img.shields.io/packagist/v/fulfilionet/ebay-sdk-php.svg?style=flat-square)](https://packagist.org/packages/fulfilionet/ebay-sdk-php)
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/api-documentation) in their PHP code, and build software using services such as [Finding](http://developer.ebay.com/Devzone/finding/Concepts/FindingAPIGuide.html), [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html), [Shopping](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html), etc. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/getting-started/installation.html) and by following the [Basic Usage Guide](http://devbay.net/sdk/guides/getting-started/basic-usage.html).
 
