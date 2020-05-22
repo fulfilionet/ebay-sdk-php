@@ -14,7 +14,7 @@ use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\Psr7;
 
-$owner = 'davidtsadler';
+$owner = 'fulfilionet';
 $repo = 'ebay-sdk-php';
 $token = getenv('OAUTH_TOKEN') or die('An OAUTH_TOKEN environment variable is required');
 isset($argv[1]) or die('Usage php gh-release.php X.Y.Z');

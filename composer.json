@@ -22,7 +22,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
+    "issues": "https://github.com/fulfilionet/ebay-sdk-php/issues"
   },
   "require": {
     "php": ">=7.0",

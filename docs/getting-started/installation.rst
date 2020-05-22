@@ -35,12 +35,12 @@ Installing the SDK with Composer is done as follows:
        require 'vendor/autoload.php';
 
 
-It is highly recommended that you read the Composer documentation at `getcomposer.org <http://getcomposer.org>`_ to fully understand how to install Composer, define dependencies and configure the autoloading.
+It is highly recommended that you read the Composer documentation at `getcomposer.org <http://getcomposer.org>`_ to fully understand how to install Composer, define dependencies and configure the auto loading.
 
 Installing via Phar
 -------------------
 
-Each release of the SDK comes with a `phar <http://php.net/manual/en/book.phar.php>`_ archive. This contains all the classes and dependencies you need to run the SDK. You can download the phar from the `SDK releases <https://github.com/davidtsadler/ebay-sdk-php/releases>`_. Using the phar in your project is as simple as including it in your scripts.
+Each release of the SDK comes with a `phar <http://php.net/manual/en/book.phar.php>`_ archive. This contains all the classes and dependencies you need to run the SDK. You can download the phar from the `SDK releases <https://github.com/fulfilionet/ebay-sdk-php/releases>`_. Using the phar in your project is as simple as including it in your scripts.
 
 .. code-block:: php
 
@@ -49,7 +49,7 @@ Each release of the SDK comes with a `phar <http://php.net/manual/en/book.phar.p
 Installing via Zip
 ------------------
 
-You can download a zip archive from the `SDK releases <https://github.com/davidtsadler/ebay-sdk-php/releases>`_ which contains all the classes and dependencies you need to run the SDK. Unzip the archive into a directory of your choice and include the provided autoloader in your project's code.
+You can download a zip archive from the `SDK releases <https://github.com/fulfilionet/ebay-sdk-php/releases>`_ which contains all the classes and dependencies you need to run the SDK. Unzip the archive into a directory of your choice and include the provided autoloader in your project's code.
 
 .. code-block:: php
 

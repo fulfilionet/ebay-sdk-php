@@ -24,7 +24,7 @@ Examples shown through out the guides will assume that you have used Composer to
 Usage Summary
 -------------
 
-To use the SDK you instaniate a **service** object for the eBay API service you are using. Service objects have methods that correspond to each of the operations that are available in the service's API. Each method accepts a **request** object that contains the parameters to be passed to the operation. Calling a method executes the corresponding operation and returns a **response** object.
+To use the SDK you instantiate a **service** object for the eBay API service you are using. Service objects have methods that correspond to each of the operations that are available in the service's API. Each method accepts a **request** object that contains the parameters to be passed to the operation. Calling a method executes the corresponding operation and returns a **response** object.
 
 Creating a Service
 ------------------
@@ -103,14 +103,14 @@ Service-specific configuration options are deep merged with those provided to th
 Creating a Request
 ------------------
 
-Before sending data to the API you will need to instaniate a **request** object. This example will call the `findItemsByKeywords <http://developer.ebay.com/DevZone/finding/CallRef/findItemsByKeywords.html>`_ operation and so the object will be an instance of the `DTS\\eBaySDK\\Finding\\Types\\FindItemsByKeywordsRequest <https://github.com/davidtsadler/ebay-sdk-php/blob/master/src/Finding/Types/FindItemsByKeywordsRequest.php>`_ class.
+Before sending data to the API you will need to instaniate a **request** object. This example will call the `findItemsByKeywords <http://developer.ebay.com/DevZone/finding/CallRef/findItemsByKeywords.html>`_ operation and so the object will be an instance of the `DTS\\eBaySDK\\Finding\\Types\\FindItemsByKeywordsRequest <https://github.com/fulfilionet/ebay-sdk-php/blob/master/src/Finding/Types/FindItemsByKeywordsRequest.php>`_ class.
 
 .. code-block:: php
 
     // Create the API request object.
     $request = new Types\FindItemsByKeywordsRequest();
 
-Properties of the request object can then be assigned values that will be sent to the API. Note that you may have to create instances of other classes, such as `DTS\\eBaySDK\\Finding\\Types\\PaginationInput <https://github.com/davidtsadler/ebay-sdk-php/blob/master/src/Finding/Types/PaginationInput.php>`_, in order to build up a complete request.
+Properties of the request object can then be assigned values that will be sent to the API. Note that you may have to create instances of other classes, such as `DTS\\eBaySDK\\Finding\\Types\\PaginationInput <https://github.com/fulfilionet/ebay-sdk-php/blob/master/src/Finding/Types/PaginationInput.php>`_, in order to build up a complete request.
 
 .. code-block:: php
 
@@ -162,7 +162,7 @@ You can make a promise complete synchronously by using the `wait` method of the 
 Working with Responses
 ----------------------
 
-The result of calling a service operation is a **response** object that contains the data returned from the API. The SDK uses the raw XML response to assign values to the properties on the response object. The type and contents of the object depend on the service operation that was called. In this example the object will be an instance of the `DTS\\eBaySDK\\Finding\\Types\\FindItemsByKeywordsResponse <https://github.com/davidtsadler/ebay-sdk-php/blob/master/src/Finding/Types/FindItemsByKeywordsResponse.php>`_ class.
+The result of calling a service operation is a **response** object that contains the data returned from the API. The SDK uses the raw XML response to assign values to the properties on the response object. The type and contents of the object depend on the service operation that was called. In this example the object will be an instance of the `DTS\\eBaySDK\\Finding\\Types\\FindItemsByKeywordsResponse <https://github.com/fulfilionet/ebay-sdk-php/blob/master/src/Finding/Types/FindItemsByKeywordsResponse.php>`_ class.
 
 .. code-block:: php
 

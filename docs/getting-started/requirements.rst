@@ -18,7 +18,7 @@ Minimum requirements
 Checking requirements
 ---------------------
 
-Run the `requirements_check.php <https://github.com/davidtsadler/ebay-sdk-php/blob/master/requirements_check.php>`_ file in the SDK to check that your system meets the minimum requirements. It can be run from the command line or a web browser and will report which checks your system passes and fails.
+Run the `requirements_check.php <https://github.com/fulfilionet/ebay-sdk-php/blob/master/requirements_check.php>`_ file in the SDK to check that your system meets the minimum requirements. It can be run from the command line or a web browser and will report which checks your system passes and fails.
 
 It is often helpful to include information about your system when reporting an issue with the SDK. Using the output from the requirements check may help identify the cause of an issue and speed up the resolution.
 
