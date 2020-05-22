@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\Metadata\Services;
+namespace FulfilioNet\eBaySDK\Test\Metadata\Services;
 
-use DTS\eBaySDK\Metadata\Services\MetadataBaseService;
-use DTS\eBaySDK\Metadata\Services\MetadataService;
-use DTS\eBaySDK\Test\Metadata\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use FulfilioNet\eBaySDK\Metadata\Services\MetadataBaseService;
+use FulfilioNet\eBaySDK\Metadata\Services\MetadataService;
+use FulfilioNet\eBaySDK\Test\Metadata\Mocks\Service;
+use FulfilioNet\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

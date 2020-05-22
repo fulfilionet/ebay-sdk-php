@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType;
+use FulfilioNet\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType;
 
 class SellingManagerSoldListingsSortTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerSoldListingsSortTypeCodeTypeTest extends \PHPUnit_Framework_
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType', $this->obj);
     }
 }

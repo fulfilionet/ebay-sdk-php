@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace FulfilioNet\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\OrderStatusCodeType;
+use FulfilioNet\eBaySDK\Trading\Enums\OrderStatusCodeType;
 
 class OrderStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class OrderStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\OrderStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Enums\OrderStatusCodeType', $this->obj);
     }
 }

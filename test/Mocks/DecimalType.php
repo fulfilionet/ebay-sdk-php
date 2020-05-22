@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace FulfilioNet\eBaySDK\Test\Mocks;
 
-class DecimalType extends \DTS\eBaySDK\Types\DecimalType
+class DecimalType extends \FulfilioNet\eBaySDK\Types\DecimalType
 {
     private static $propertyTypes = [];
 

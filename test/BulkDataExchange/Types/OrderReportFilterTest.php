@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace FulfilioNet\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter;
+use FulfilioNet\eBaySDK\BulkDataExchange\Types\OrderReportFilter;
 
 class OrderReportFilterTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class OrderReportFilterTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\OrderReportFilter', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\BulkDataExchange\Types\OrderReportFilter', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

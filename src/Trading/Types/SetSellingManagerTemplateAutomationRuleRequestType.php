@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $SaleTemplateID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListType $AutomatedListingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
+ * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListType $AutomatedListingRule
+ * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
+ * @property \FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
  */
-class SetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetSellingManagerTemplateAutomationRuleRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,19 +30,19 @@ class SetSellingManagerTemplateAutomationRuleRequestType extends \DTS\eBaySDK\Tr
             'elementName' => 'SaleTemplateID'
         ],
         'AutomatedListingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedListingRule'
         ],
         'AutomatedRelistingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedRelistingRule'
         ],
         'AutomatedSecondChanceOfferRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedSecondChanceOfferRule'

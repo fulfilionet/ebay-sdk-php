@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
  * @property integer $bundleID
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
+ * @property \FulfilioNet\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
  */
-class BundleStatusMap extends \DTS\eBaySDK\Types\BaseType
+class BundleStatusMap extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

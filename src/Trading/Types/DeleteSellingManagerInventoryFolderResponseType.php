@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class DeleteSellingManagerInventoryFolderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class DeleteSellingManagerInventoryFolderResponseType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

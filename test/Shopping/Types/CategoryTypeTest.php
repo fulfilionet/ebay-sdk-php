@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\CategoryType;
+use FulfilioNet\eBaySDK\Shopping\Types\CategoryType;
 
 class CategoryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CategoryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\CategoryType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\CategoryType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

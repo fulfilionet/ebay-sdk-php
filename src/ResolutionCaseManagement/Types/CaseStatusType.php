@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace FulfilioNet\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType $INRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType $SNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType $EBPINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType $EBPSNADStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType $UPIStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType $cancelTransactionStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType $returnStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType $PaypalINRStatus
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType $PaypalSNADStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\INRCaseStatusType $INRStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\SNADCaseStatusType $SNADStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\EBPINRCaseStatusType $EBPINRStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType $EBPSNADStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\UPICaseStatusType $UPIStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\CancelTransactionCaseStatusType $cancelTransactionStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\ReturnCaseStatusType $returnStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\PaypalINRCaseStatusType $PaypalINRStatus
+ * @property \FulfilioNet\eBaySDK\ResolutionCaseManagement\Enums\PaypalSNADCaseStatusType $PaypalSNADStatus
  */
-class CaseStatusType extends \DTS\eBaySDK\Types\BaseType
+class CaseStatusType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

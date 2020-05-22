@@ -15,14 +15,14 @@ $sdkFiles = new \RecursiveIteratorIterator(
     new \RecursiveDirectoryIterator(realpath('src'))
 );
 
-$burgomaster->recursiveCopy('src', 'DTS/eBaySDK', ['php'], $sdkFiles);
+$burgomaster->recursiveCopy('src', 'FulfilioNet/eBaySDK', ['php'], $sdkFiles);
 $burgomaster->recursiveCopy('vendor/guzzlehttp/guzzle/src', 'GuzzleHttp');
 $burgomaster->recursiveCopy('vendor/guzzlehttp/psr7/src', 'GuzzleHttp/Psr7');
 $burgomaster->recursiveCopy('vendor/guzzlehttp/promises/src', 'GuzzleHttp/Promise');
 $burgomaster->recursiveCopy('vendor/psr/http-message/src', 'Psr/Http/Message');
 
 $burgomaster->createAutoloader([
-    'DTS/eBaySDK/functions.php',
+    'FulfilioNet/eBaySDK/functions.php',
     'GuzzleHttp/functions.php',
     'GuzzleHttp/Psr7/functions.php',
     'GuzzleHttp/Promise/functions.php',
@@ -33,7 +33,7 @@ $burgomaster->createPhar(
     __DIR__ . "/artifacts/ebay-sdk-php.phar",
     null,
     $autoloaderFilename,
-    'ebay-sdk-php-' . \DTS\eBaySDK\Sdk::VERSION . '.phar'
+    'ebay-sdk-php-' . \FulfilioNet\eBaySDK\Sdk::VERSION . '.phar'
 );
 
 $burgomaster->startSection('test_phar');

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace FulfilioNet\eBaySDK\Test\Mocks;
 
-use DTS\eBaySDK\StatusCodeTrait;
+use FulfilioNet\eBaySDK\StatusCodeTrait;
 
 class StatusCode
 {

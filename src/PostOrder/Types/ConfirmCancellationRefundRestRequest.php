@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $cancelId
  */
-class ConfirmCancellationRefundRestRequest extends \DTS\eBaySDK\PostOrder\Types\ConfirmRefundRequest
+class ConfirmCancellationRefundRestRequest extends \FulfilioNet\eBaySDK\PostOrder\Types\ConfirmRefundRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

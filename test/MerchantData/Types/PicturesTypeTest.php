@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace FulfilioNet\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\PicturesType;
+use FulfilioNet\eBaySDK\MerchantData\Types\PicturesType;
 
 class PicturesTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PicturesTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\PicturesType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Types\PicturesType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

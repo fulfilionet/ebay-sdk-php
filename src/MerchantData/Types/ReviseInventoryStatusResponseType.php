@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace FulfilioNet\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\InventoryStatusType[] $InventoryStatus
- * @property \DTS\eBaySDK\MerchantData\Types\InventoryFeesType[] $Fees
+ * @property \FulfilioNet\eBaySDK\MerchantData\Types\InventoryStatusType[] $InventoryStatus
+ * @property \FulfilioNet\eBaySDK\MerchantData\Types\InventoryFeesType[] $Fees
  */
-class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\MerchantData\Types\AbstractResponseType
+class ReviseInventoryStatusResponseType extends \FulfilioNet\eBaySDK\MerchantData\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'InventoryStatus' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\InventoryStatusType',
+            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\InventoryStatusType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'InventoryStatus'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\InventoryFeesType',
+            'type' => 'FulfilioNet\eBaySDK\MerchantData\Types\InventoryFeesType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Fees'

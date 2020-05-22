@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace FulfilioNet\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetBidderListRequestType;
+use FulfilioNet\eBaySDK\Trading\Types\GetBidderListRequestType;
 
 class GetBidderListRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetBidderListRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetBidderListRequestType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\GetBidderListRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

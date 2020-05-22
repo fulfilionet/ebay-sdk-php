@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $refundAmount
- * @property \DTS\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum $refundFeeType
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\Amount $refundAmount
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\RefundFeeTypeEnum $refundFeeType
  * @property string $restockingFeePercentage
  */
-class ItemizedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class ItemizedRefundDetailType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'refundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundAmount'

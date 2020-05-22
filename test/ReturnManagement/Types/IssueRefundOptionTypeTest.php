@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Types;
+namespace FulfilioNet\eBaySDK\Test\ReturnManagement\Types;
 
-use DTS\eBaySDK\ReturnManagement\Types\IssueRefundOptionType;
+use FulfilioNet\eBaySDK\ReturnManagement\Types\IssueRefundOptionType;
 
 class IssueRefundOptionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class IssueRefundOptionTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\IssueRefundOptionType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Types\IssueRefundOptionType', $this->obj);
     }
 
     public function testExtendsBaseActivityOptionType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ReturnManagement\Types\BaseActivityOptionType', $this->obj);
     }
 }

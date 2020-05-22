@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse;
+use FulfilioNet\eBaySDK\Inventory\Types\GetListingFeesRestResponse;
 
 class GetListingFeesRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetListingFeesRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\GetListingFeesRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\GetListingFeesRestResponse', $this->obj);
     }
 
     public function testExtendsFeesSummaryResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\FeesSummaryResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\FeesSummaryResponse', $this->obj);
     }
 }

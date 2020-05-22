@@ -38,7 +38,7 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
   1. Install the SDK.
 
      ```
-     php composer.phar require dts/ebay-sdk-php
+     php composer.phar require fulfilionet/ebay-sdk-php
      ```
 
   1. Require Composer's autoloader by adding the following line to your code.
@@ -56,8 +56,8 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
 
 require 'vendor/autoload.php';
 
-use \DTS\eBaySDK\Shopping\Services;
-use \DTS\eBaySDK\Shopping\Types;
+use \FulfilioNet\eBaySDK\Shopping\Services;
+use \FulfilioNet\eBaySDK\Shopping\Types;
 
 // Create the service object.
 $service = new Services\ShoppingService();

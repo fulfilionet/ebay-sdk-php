@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace FulfilioNet\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\ExternalProductCodeType;
+use FulfilioNet\eBaySDK\MerchantData\Enums\ExternalProductCodeType;
 
 class ExternalProductCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ExternalProductCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\ExternalProductCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\MerchantData\Enums\ExternalProductCodeType', $this->obj);
     }
 }

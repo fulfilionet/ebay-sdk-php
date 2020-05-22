@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace FulfilioNet\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
  * @property integer[] $bundleID
  */
-class GetBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class GetBundlesRequest extends \FulfilioNet\eBaySDK\RelatedItemsManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

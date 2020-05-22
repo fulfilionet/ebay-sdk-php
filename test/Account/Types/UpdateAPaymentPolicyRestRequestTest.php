@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace FulfilioNet\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest;
+use FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest;
 
 class UpdateAPaymentPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateAPaymentPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\UpdateAPaymentPolicyRestRequest', $this->obj);
     }
 
     public function testExtendsPaymentPolicyRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\PaymentPolicyRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Account\Types\PaymentPolicyRequest', $this->obj);
     }
 }

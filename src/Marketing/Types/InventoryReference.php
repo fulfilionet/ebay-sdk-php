@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \FulfilioNet\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  */
-class InventoryReference extends \DTS\eBaySDK\Types\BaseType
+class InventoryReference extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

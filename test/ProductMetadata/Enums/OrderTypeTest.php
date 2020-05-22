@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Enums;
+namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Enums;
 
-use DTS\eBaySDK\ProductMetadata\Enums\OrderType;
+use FulfilioNet\eBaySDK\ProductMetadata\Enums\OrderType;
 
 class OrderTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class OrderTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Enums\OrderType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Enums\OrderType', $this->obj);
     }
 }

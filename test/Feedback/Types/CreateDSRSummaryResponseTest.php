@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feedback\Types;
+namespace FulfilioNet\eBaySDK\Test\Feedback\Types;
 
-use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse;
+use FulfilioNet\eBaySDK\Feedback\Types\CreateDSRSummaryResponse;
 
 class CreateDSRSummaryResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateDSRSummaryResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Feedback\Types\CreateDSRSummaryResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Feedback\Types\BaseServiceResponse', $this->obj);
     }
 }

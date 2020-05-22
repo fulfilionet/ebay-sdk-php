@@ -1,32 +1,32 @@
 <?php
-namespace DTS\eBaySDK;
+namespace FulfilioNet\eBaySDK;
 
 /**
- * Builds DTS\eBaySDK services based on passed configuration options.
+ * Builds FulfilioNet\eBaySDK services based on passed configuration options.
  *
- * @method \DTS\eBaySDK\Account\Services\AccountService createAccount(array $args = [])
- * @method \DTS\eBaySDK\Analytics\Services\AnalyticsService createAnalytics(array $args = [])
- * @method \DTS\eBaySDK\Browse\Services\BrowseService createBrowse(array $args = [])
- * @method \DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService createBulkDataExchange(array $args = [])
- * @method \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService createBusinessPoliciesManagement(array $args = [])
- * @method \DTS\eBaySDK\Feedback\Services\FeedbackService createFeedback(array $args = [])
- * @method \DTS\eBaySDK\FileTransfer\Services\FileTransferService createFileTransfer(array $args = [])
- * @method \DTS\eBaySDK\Finding\Services\FindingService createFinding(array $args = [])
- * @method \DTS\eBaySDK\Fulfillment\Services\FulfillmentService createFulfillment(array $args = [])
- * @method \DTS\eBaySDK\HalfFinding\Services\HalfFindingService createHalfFinding(array $args = [])
- * @method \DTS\eBaySDK\Inventory\Services\InventoryService createInventory(array $args = [])
- * @method \DTS\eBaySDK\Marketing\Services\MarketingService createMarketing(array $args = [])
- * @method \DTS\eBaySDK\Merchandising\Services\MerchandisingService createMerchandising(array $args = [])
- * @method \DTS\eBaySDK\Metadata\Services\MetadataService createMetadata(array $args = [])
- * @method \DTS\eBaySDK\Order\Services\OrderService createOrder(array $args = [])
- * @method \DTS\eBaySDK\PostOrder\Services\PostOrderService createPostOrder(array $args = [])
- * @method \DTS\eBaySDK\Product\Services\ProductService createProduct(array $args = [])
- * @method \DTS\eBaySDK\ProductMetadata\Services\ProductMetadataService createProductMetadata(array $args = [])
- * @method \DTS\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService createRelatedItemsManagement(array $args = [])
- * @method \DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService createResolutionCaseManagement(array $args = [])
- * @method \DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService createReturnManagement(array $args = [])
- * @method \DTS\eBaySDK\Shopping\Services\ShoppingService createShopping(array $args = [])
- * @method \DTS\eBaySDK\Trading\Services\TradingService createTrading(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Account\Services\AccountService createAccount(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Analytics\Services\AnalyticsService createAnalytics(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Browse\Services\BrowseService createBrowse(array $args = [])
+ * @method \FulfilioNet\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService createBulkDataExchange(array $args = [])
+ * @method \FulfilioNet\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService createBusinessPoliciesManagement(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Feedback\Services\FeedbackService createFeedback(array $args = [])
+ * @method \FulfilioNet\eBaySDK\FileTransfer\Services\FileTransferService createFileTransfer(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Finding\Services\FindingService createFinding(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Fulfillment\Services\FulfillmentService createFulfillment(array $args = [])
+ * @method \FulfilioNet\eBaySDK\HalfFinding\Services\HalfFindingService createHalfFinding(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Inventory\Services\InventoryService createInventory(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Marketing\Services\MarketingService createMarketing(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Merchandising\Services\MerchandisingService createMerchandising(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Metadata\Services\MetadataService createMetadata(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Order\Services\OrderService createOrder(array $args = [])
+ * @method \FulfilioNet\eBaySDK\PostOrder\Services\PostOrderService createPostOrder(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Product\Services\ProductService createProduct(array $args = [])
+ * @method \FulfilioNet\eBaySDK\ProductMetadata\Services\ProductMetadataService createProductMetadata(array $args = [])
+ * @method \FulfilioNet\eBaySDK\RelatedItemsManagement\Services\RelatedItemsManagementService createRelatedItemsManagement(array $args = [])
+ * @method \FulfilioNet\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService createResolutionCaseManagement(array $args = [])
+ * @method \FulfilioNet\eBaySDK\ReturnManagement\Services\ReturnManagementService createReturnManagement(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Shopping\Services\ShoppingService createShopping(array $args = [])
+ * @method \FulfilioNet\eBaySDK\Trading\Services\TradingService createTrading(array $args = [])
  */
 class Sdk
 {
@@ -55,7 +55,7 @@ class Sdk
      * @param string $name The method name.
      * @param array $args Arguments that will be passed to the method.
      *
-     * @return \DTS\eBaySDK\Services\BaseService
+     * @return \FulfilioNet\eBaySDK\Services\BaseService
      * @throws \BadMethodCallException
      */
     public function __call($name, array $args)
@@ -76,7 +76,7 @@ class Sdk
      * @param string $namespace Service namespace (e.g. Finding, Trading).
      * @param array  $config Configuration options for the service.
      *
-     * @return \DTS\eBaySDK\Services\BaseService
+     * @return \FulfilioNet\eBaySDK\Services\BaseService
      **/
     public function createService($namespace, array $config = [])
     {
@@ -88,7 +88,7 @@ class Sdk
 
         $configuration = arrayMergeDeep($configuration, $config);
 
-        $service = "DTS\\eBaySDK\\{$namespace}\\Services\\{$namespace}Service";
+        $service = "FulfilioNet\\eBaySDK\\{$namespace}\\Services\\{$namespace}Service";
 
         return new $service($configuration);
     }

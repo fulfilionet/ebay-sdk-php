@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace FulfilioNet\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\Tag;
+use FulfilioNet\eBaySDK\ProductMetadata\Types\Tag;
 
 class TagTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TagTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\Tag', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\ProductMetadata\Types\Tag', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

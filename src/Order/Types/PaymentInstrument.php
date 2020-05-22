@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace FulfilioNet\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand $brand
- * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \FulfilioNet\eBaySDK\Order\Types\PaymentMethodBrand $brand
+ * @property \FulfilioNet\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */
-class PaymentInstrument extends \DTS\eBaySDK\Types\BaseType
+class PaymentInstrument extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'brand' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
+            'type' => 'FulfilioNet\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'brand'

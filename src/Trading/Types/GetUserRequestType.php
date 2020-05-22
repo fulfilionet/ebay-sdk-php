@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $UserID
  * @property boolean $IncludeFeatureEligibility
  */
-class GetUserRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace FulfilioNet\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\Attribute;
+use FulfilioNet\eBaySDK\Fulfillment\Types\Attribute;
 
 class AttributeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AttributeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Attribute', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Fulfillment\Types\Attribute', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

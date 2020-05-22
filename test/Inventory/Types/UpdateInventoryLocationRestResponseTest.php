@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace FulfilioNet\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse;
+use FulfilioNet\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse;
 
 class UpdateInventoryLocationRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateInventoryLocationRestResponseTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Inventory\Types\UpdateInventoryLocationRestResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

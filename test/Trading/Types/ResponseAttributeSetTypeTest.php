@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace FulfilioNet\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\ResponseAttributeSetType;
+use FulfilioNet\eBaySDK\Trading\Types\ResponseAttributeSetType;
 
 class ResponseAttributeSetTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ResponseAttributeSetTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\ResponseAttributeSetType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\ResponseAttributeSetType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

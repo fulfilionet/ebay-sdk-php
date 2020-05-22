@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Analytics\Types;
+namespace FulfilioNet\eBaySDK\Analytics\Types;
 
 /**
  *
  * @property boolean $applicable
  * @property mixed $value
  */
-class Value extends \DTS\eBaySDK\Types\BaseType
+class Value extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

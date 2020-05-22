@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
  * @property string $labelId
  */
-class VoidLabelRequest extends \DTS\eBaySDK\Types\BaseType
+class VoidLabelRequest extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'

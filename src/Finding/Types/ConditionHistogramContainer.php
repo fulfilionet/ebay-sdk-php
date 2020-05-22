@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace FulfilioNet\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogram[] $conditionHistogram
+ * @property \FulfilioNet\eBaySDK\Finding\Types\ConditionHistogram[] $conditionHistogram
  */
-class ConditionHistogramContainer extends \DTS\eBaySDK\Types\BaseType
+class ConditionHistogramContainer extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'conditionHistogram' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogram',
+            'type' => 'FulfilioNet\eBaySDK\Finding\Types\ConditionHistogram',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'conditionHistogram'

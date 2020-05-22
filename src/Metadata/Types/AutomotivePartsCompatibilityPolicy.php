@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace FulfilioNet\eBaySDK\Metadata\Types;
 
 /**
  *
  * @property string $categoryId
  * @property string $categoryTreeId
- * @property \DTS\eBaySDK\Metadata\Enums\CompatibilityTypeEnum $compatibilityBasedOn
- * @property \DTS\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum[] $compatibleVehicleTypes
+ * @property \FulfilioNet\eBaySDK\Metadata\Enums\CompatibilityTypeEnum $compatibilityBasedOn
+ * @property \FulfilioNet\eBaySDK\Metadata\Enums\CompatibleVehicleTypeEnum[] $compatibleVehicleTypes
  * @property integer $maxNumberOfCompatibleVehicles
  */
-class AutomotivePartsCompatibilityPolicy extends \DTS\eBaySDK\Types\BaseType
+class AutomotivePartsCompatibilityPolicy extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace FulfilioNet\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\CharityAffiliationType;
+use FulfilioNet\eBaySDK\Trading\Types\CharityAffiliationType;
 
 class CharityAffiliationTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CharityAffiliationTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\CharityAffiliationType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Trading\Types\CharityAffiliationType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

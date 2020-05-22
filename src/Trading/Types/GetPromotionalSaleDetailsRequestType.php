@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $PromotionalSaleID
- * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType[] $PromotionalSaleStatus
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType[] $PromotionalSaleStatus
  */
-class GetPromotionalSaleDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetPromotionalSaleDetailsRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

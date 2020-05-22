@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $actionDate
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $actionDate
  * @property string $activityParty
- * @property \DTS\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum $activityType
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\CancelActivityTypeEnum $activityType
  * @property string $cancelStateFrom
  * @property string $cancelStateTo
  * @property string $cancelStatetateTo
  */
-class CancelActivityHistory extends \DTS\eBaySDK\Types\BaseType
+class CancelActivityHistory extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actionDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actionDate'

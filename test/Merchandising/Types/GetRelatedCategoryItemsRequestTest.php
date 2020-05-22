@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Merchandising\Types;
+namespace FulfilioNet\eBaySDK\Test\Merchandising\Types;
 
-use DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest;
+use FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest;
 
 class GetRelatedCategoryItemsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetRelatedCategoryItemsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\GetRelatedCategoryItemsRequest', $this->obj);
     }
 
     public function testExtendsBaseMerchandisingServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Merchandising\Types\BaseMerchandisingServiceRequest', $this->obj);
     }
 }

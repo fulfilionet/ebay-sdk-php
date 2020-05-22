@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse;
+use FulfilioNet\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse;
 
 class GetAllCampaignsRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetAllCampaignsRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\GetAllCampaignsRestResponse', $this->obj);
     }
 
     public function testExtendsCampaignPagedCollection()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\CampaignPagedCollection', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\CampaignPagedCollection', $this->obj);
     }
 }

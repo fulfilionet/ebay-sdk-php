@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Enums;
+namespace FulfilioNet\eBaySDK\MerchantData\Enums;
 
 class PromotionItemPriceTypeCodeType
 {

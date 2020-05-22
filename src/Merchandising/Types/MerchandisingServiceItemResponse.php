@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Merchandising\Types;
+namespace FulfilioNet\eBaySDK\Merchandising\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Merchandising\Types\ItemRecommendations $itemRecommendations
+ * @property \FulfilioNet\eBaySDK\Merchandising\Types\ItemRecommendations $itemRecommendations
  */
-class MerchandisingServiceItemResponse extends \DTS\eBaySDK\Merchandising\Types\BaseMerchandisingServiceResponse
+class MerchandisingServiceItemResponse extends \FulfilioNet\eBaySDK\Merchandising\Types\BaseMerchandisingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemRecommendations' => [
-            'type' => 'DTS\eBaySDK\Merchandising\Types\ItemRecommendations',
+            'type' => 'FulfilioNet\eBaySDK\Merchandising\Types\ItemRecommendations',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemRecommendations'

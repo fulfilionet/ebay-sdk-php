@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest;
+use FulfilioNet\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest;
 
 class FindCampaignByAdReferenceRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindCampaignByAdReferenceRestRequestTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\FindCampaignByAdReferenceRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

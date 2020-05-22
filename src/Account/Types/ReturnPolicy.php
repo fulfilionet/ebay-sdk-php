@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace FulfilioNet\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \FulfilioNet\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \FulfilioNet\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
+ * @property \FulfilioNet\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $returnPeriod
+ * @property \FulfilioNet\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
+ * @property \FulfilioNet\eBaySDK\Account\Types\TimeDuration $returnPeriod
  * @property string $returnPolicyId
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property \FulfilioNet\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
  */
-class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicy extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
@@ -87,7 +87,7 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'returnMethod'
         ],
         'returnPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'FulfilioNet\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPeriod'

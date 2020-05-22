@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $ruleId
  */
-class GetReturnRuleRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetReturnRuleRestRequest extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

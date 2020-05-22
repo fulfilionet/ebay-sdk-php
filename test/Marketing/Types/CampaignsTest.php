@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\Campaigns;
+use FulfilioNet\eBaySDK\Marketing\Types\Campaigns;
 
 class CampaignsTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CampaignsTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\Campaigns', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\Campaigns', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

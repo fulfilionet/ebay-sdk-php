@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace FulfilioNet\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string $jobId
  */
-class AbortJobRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class AbortJobRequest extends \FulfilioNet\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

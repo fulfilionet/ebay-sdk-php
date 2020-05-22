@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Test\Marketing\Types;
 
-use DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse;
+use FulfilioNet\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse;
 
 class BulkCreateAdsByListingIDRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BulkCreateAdsByListingIDRestResponseTest extends \PHPUnit_Framework_TestCa
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\BulkCreateAdsByListingIDRestResponse', $this->obj);
     }
 
     public function testExtendsBulkAdResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Types\BulkAdResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Marketing\Types\BulkAdResponse', $this->obj);
     }
 }

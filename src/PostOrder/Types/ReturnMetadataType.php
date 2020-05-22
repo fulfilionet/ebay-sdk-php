@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $dataType
  * @property boolean $isArray
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum $siteMetadataKey
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnMetadataKeyEnum $siteMetadataKey
  * @property string[] $values
  */
-class ReturnMetadataType extends \DTS\eBaySDK\Types\BaseType
+class ReturnMetadataType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

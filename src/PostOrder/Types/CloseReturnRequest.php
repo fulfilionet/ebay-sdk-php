@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $buyerCloseReason
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
  */
-class CloseReturnRequest extends \DTS\eBaySDK\Types\BaseType
+class CloseReturnRequest extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CloseReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'buyerCloseReason'
         ],
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'

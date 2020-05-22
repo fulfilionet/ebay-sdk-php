@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $namesDetails
- * @property \DTS\eBaySDK\ProductMetadata\Types\VersionDetails $valueDetails
+ * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\VersionDetails $namesDetails
+ * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\VersionDetails $valueDetails
  */
-class GetCompatibilitySearchDataVersionResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchDataVersionResponse extends \FulfilioNet\eBaySDK\ProductMetadata\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'namesDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'namesDetails'
         ],
         'valueDetails' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\VersionDetails',
+            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\VersionDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'valueDetails'

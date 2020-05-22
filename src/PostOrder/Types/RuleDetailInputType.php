@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionInputType $actionDetail
- * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionInputType[] $condition
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleActionInputType $actionDetail
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\RuleConditionInputType[] $condition
  * @property integer $priority
  */
-class RuleDetailInputType extends \DTS\eBaySDK\Types\BaseType
+class RuleDetailInputType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actionDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionInputType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleActionInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actionDetail'
         ],
         'condition' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionInputType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\RuleConditionInputType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'condition'

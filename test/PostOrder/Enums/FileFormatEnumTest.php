@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace FulfilioNet\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\FileFormatEnum;
+use FulfilioNet\eBaySDK\PostOrder\Enums\FileFormatEnum;
 
 class FileFormatEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class FileFormatEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\FileFormatEnum', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\PostOrder\Enums\FileFormatEnum', $this->obj);
     }
 }

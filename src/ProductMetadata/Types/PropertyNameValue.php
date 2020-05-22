@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace FulfilioNet\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \DTS\eBaySDK\ProductMetadata\Types\Value $value
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue[] $childPropertyNameValue
+ * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\Value $value
+ * @property \FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyNameValue[] $childPropertyNameValue
  */
-class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
+class PropertyNameValue extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'propertyName'
         ],
         'value' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Value',
+            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\Value',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'value'
         ],
         'childPropertyNameValue' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
+            'type' => 'FulfilioNet\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'childPropertyNameValue'

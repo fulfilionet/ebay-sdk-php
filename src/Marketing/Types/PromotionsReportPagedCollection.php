@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace FulfilioNet\eBaySDK\Marketing\Types;
 
 /**
  *
@@ -17,10 +17,10 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $next
  * @property integer $offset
  * @property string $prev
- * @property \DTS\eBaySDK\Marketing\Types\PromotionReportDetail[] $promotionReports
+ * @property \FulfilioNet\eBaySDK\Marketing\Types\PromotionReportDetail[] $promotionReports
  * @property integer $total
  */
-class PromotionsReportPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class PromotionsReportPagedCollection extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -57,7 +57,7 @@ class PromotionsReportPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'prev'
         ],
         'promotionReports' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\PromotionReportDetail',
+            'type' => 'FulfilioNet\eBaySDK\Marketing\Types\PromotionReportDetail',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'promotionReports'

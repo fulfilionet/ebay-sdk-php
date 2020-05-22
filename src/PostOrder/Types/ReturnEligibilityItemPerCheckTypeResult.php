@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum $checkType
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityResultType $eligibilityInfo
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\EligibilityCheckTypeEnum $checkType
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResultType $eligibilityInfo
  */
-class ReturnEligibilityItemPerCheckTypeResult extends \DTS\eBaySDK\Types\BaseType
+class ReturnEligibilityItemPerCheckTypeResult extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class ReturnEligibilityItemPerCheckTypeResult extends \DTS\eBaySDK\Types\BaseTyp
             'elementName' => 'checkType'
         ],
         'eligibilityInfo' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityResultType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\EligibilityResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityInfo'

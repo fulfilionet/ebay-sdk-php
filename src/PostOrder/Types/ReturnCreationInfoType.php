@@ -8,36 +8,36 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnItemType $item
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
- * @property \DTS\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\Text $comments
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnItemType $item
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnReasonEnum $reason
+ * @property \FulfilioNet\eBaySDK\PostOrder\Enums\ReturnTypeEnum $type
  */
-class ReturnCreationInfoType extends \DTS\eBaySDK\Types\BaseType
+class ReturnCreationInfoType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
         ],
         'item' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnItemType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'item'

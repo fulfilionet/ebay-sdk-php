@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace FulfilioNet\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $caseId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType[] $eligibilityErrorDetail
- * @property \DTS\eBaySDK\PostOrder\Types\StatusType $eligibilityStatus
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $eligibleStartDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnCreationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $returnDeadline
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType[] $eligibilityErrorDetail
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\StatusType $eligibilityStatus
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $eligibleStartDate
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $returnCreationDate
+ * @property \FulfilioNet\eBaySDK\PostOrder\Types\DateTime $returnDeadline
  * @property string $returnId
  */
-class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
+class EligibilityResultType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,31 +33,31 @@ class EligibilityResultType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'caseId'
         ],
         'eligibilityErrorDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\ReturnEligibilityErrorDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'eligibilityErrorDetail'
         ],
         'eligibilityStatus' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\StatusType',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\StatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityStatus'
         ],
         'eligibleStartDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibleStartDate'
         ],
         'returnCreationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnCreationDate'
         ],
         'returnDeadline' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'FulfilioNet\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnDeadline'

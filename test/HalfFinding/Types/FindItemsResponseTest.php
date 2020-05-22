@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Types;
+namespace FulfilioNet\eBaySDK\Test\HalfFinding\Types;
 
-use DTS\eBaySDK\HalfFinding\Types\FindItemsResponse;
+use FulfilioNet\eBaySDK\HalfFinding\Types\FindItemsResponse;
 
 class FindItemsResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindItemsResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\FindItemsResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Types\FindItemsResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Types\BaseResponse', $this->obj);
     }
 }

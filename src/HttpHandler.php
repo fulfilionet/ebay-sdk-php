@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK;
+namespace FulfilioNet\eBaySDK;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;

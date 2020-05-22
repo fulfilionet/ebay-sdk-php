@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Taxonomy\Types;
+namespace FulfilioNet\eBaySDK\Test\Taxonomy\Types;
 
-use DTS\eBaySDK\Taxonomy\Types\AspectConstraint;
+use FulfilioNet\eBaySDK\Taxonomy\Types\AspectConstraint;
 
 class AspectConstraintTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AspectConstraintTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Taxonomy\Types\AspectConstraint', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Taxonomy\Types\AspectConstraint', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

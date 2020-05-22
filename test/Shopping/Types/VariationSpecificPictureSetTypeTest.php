@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace FulfilioNet\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\VariationSpecificPictureSetType;
+use FulfilioNet\eBaySDK\Shopping\Types\VariationSpecificPictureSetType;
 
 class VariationSpecificPictureSetTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VariationSpecificPictureSetTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\VariationSpecificPictureSetType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Shopping\Types\VariationSpecificPictureSetType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\Types\BaseType', $this->obj);
     }
 }

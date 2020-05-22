@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace FulfilioNet\eBaySDK\Browse\Types;
 
 /**
  *
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Browse\Enums\RefundMethodEnum $refundMethod
+ * @property \FulfilioNet\eBaySDK\Browse\Enums\RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Browse\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Browse\Types\TimeDuration $returnPeriod
+ * @property \FulfilioNet\eBaySDK\Browse\Enums\ReturnMethodEnum $returnMethod
+ * @property \FulfilioNet\eBaySDK\Browse\Types\TimeDuration $returnPeriod
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property \FulfilioNet\eBaySDK\Browse\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
  */
-class ItemReturnTerms extends \DTS\eBaySDK\Types\BaseType
+class ItemReturnTerms extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -58,7 +58,7 @@ class ItemReturnTerms extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'returnMethod'
         ],
         'returnPeriod' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\TimeDuration',
+            'type' => 'FulfilioNet\eBaySDK\Browse\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPeriod'

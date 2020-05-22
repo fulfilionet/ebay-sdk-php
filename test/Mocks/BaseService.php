@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace FulfilioNet\eBaySDK\Test\Mocks;
 
-class BaseService extends \DTS\eBaySDK\Services\BaseService
+class BaseService extends \FulfilioNet\eBaySDK\Services\BaseService
 {
     public function __construct(array $config)
     {

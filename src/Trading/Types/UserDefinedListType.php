@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $Name
  * @property integer $ItemCount
  * @property integer $FavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property \FulfilioNet\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property \FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
  */
-class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
+class UserDefinedListType extends \FulfilioNet\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,19 +44,19 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'FavoriteSellerCount'
         ],
         'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemArray'
         ],
         'FavoriteSearches' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ],
         'FavoriteSellers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'

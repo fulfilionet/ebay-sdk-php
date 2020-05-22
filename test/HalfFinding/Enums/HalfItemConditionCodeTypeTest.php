@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Enums;
+namespace FulfilioNet\eBaySDK\Test\HalfFinding\Enums;
 
-use DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType;
+use FulfilioNet\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType;
 
 class HalfItemConditionCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class HalfItemConditionCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType', $this->obj);
+        $this->assertInstanceOf('\FulfilioNet\eBaySDK\HalfFinding\Enums\HalfItemConditionCodeType', $this->obj);
     }
 }

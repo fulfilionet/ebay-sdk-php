@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace FulfilioNet\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType $DisputeSortType
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType $DisputeFilterType
+ * @property \FulfilioNet\eBaySDK\Trading\Enums\DisputeSortTypeCodeType $DisputeSortType
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \FulfilioNet\eBaySDK\Trading\Types\PaginationType $Pagination
  */
-class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserDisputesRequestType extends \FulfilioNet\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'elementName' => 'ModTimeTo'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'FulfilioNet\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
