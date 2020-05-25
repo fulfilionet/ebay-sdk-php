@@ -53,6 +53,7 @@ check_tag:
 # with the TAG environment variable, replaces the VERSION constant, ensures
 # that the source is still valid after updating, commits the changelog and
 # updated VERSION constant, and prints out a diff of the last commit.
+# chag command uses https://github.com/mtdowling/chag
 tag: check_tag
 	@echo Tagging $(TAG)
 	chag update $(TAG)
