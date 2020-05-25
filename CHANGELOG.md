@@ -4,6 +4,12 @@
 
 ### Features
 
+* Ensure type exists for email when retrieving orders.
+
+## 19.0.0 - 2020-05-25
+
+### Features
+
 * Support Compliance API version v1.1.0
 
 ### Fixes
